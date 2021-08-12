@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>A7新林口 - 家用電器</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y94XE7PY1L');
+</script>	
+	
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand"
+      href="index.html"> A7 新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          	<div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+				<a class="dropdown-item" href="index.html">網站公告</a> 
+				<a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a> 
+				<a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a> 	
+				<a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a> 
+				<a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a> 
+
+			</div>
+        </li>
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a> 			  
+			  <a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a> 
+			  <a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a> 
+			  <a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a> 			  
+			  <a class="dropdown-item" href="A7XLK-25-BusinessService.html">廣告看板</a> 
+			  <a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a> 			  
+		  </div>
+        </li>
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+			  <a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a> 				  
+			  <a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a> 
+		<!--				  
+			  <a class="dropdown-item" href="../A7XLK-34-Snacks.html">點心零食</a> 
+		-->
+		  </div>
+        </li>
+
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          	<div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>	
+			  <a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a> 			  
+		  
+		<!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 			  
+			  <a class="dropdown-item" href="../A7XLK-43-Housing.html">住屋居家</a> 
+		-->
+			  <a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a> 
+			  <a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a> 			  
+		  </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- InstanceBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg4 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">電器用品</h5>
+        <p class="text-white">提供智慧採購 知識庫</p>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+
+  <!-- InstanceBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- InstanceEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- InstanceBeginEditable name="main_content" -->
+  <article>
+	<div  class="container-fluid ">
+		<div class="row">
+			<h1 id="Header1">電器用品採購指南</h1>
+		</div>
+		<div class="row mx-1 ">
+			<div class="col-12 col-sm-4 col-md-3 col-lg-2">
+				<div class="list-group" id="MenuList" role="tablist">
+					<a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">寬頻網路指南</a>
+					<a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">隨選電視盒指南</a>	
+				
+				</div>
+				<br>
+			</div>
+			<div class="col-12 col-sm-8 col-md-9 col-lg-10  border border-secondary rounded">
+				<div class="tab-content">
+
+					<div class="tab-pane active" id="Menu-B1" role="tabpanel">
+						<!-- Menu B1 -->
+						<h3>寬頻網路指南 </h3>
+						<div class="row">
+							<div class="col-md-12 col-lg-6">
+								<img src="fig/XLK-451-Appliance/SST-3101-SmartTVLogo.jpg" class="img-fluid" style="width:200px">
+								<section>
+									<h5>網際網路服務供應商 ISP</h5>
+									 網際網路服務供應商ISP ，大致上具備幾種型態，包含家用光世代網路、社區共享網路、有線電視網路與電信行動網路。
+									目前在A7重劃區社區寬頻網路提供業者包含：
+									<ul>
+										<li> KingNet
+											<a href="https://top1.kingnet.net.tw/">今網寬頻</a> ／ 社區共享網路</li>
+										<li><a href="https://www.cht.com.tw/home/consumer/broadband/hinet/hinet-light">中華電信</a> / Hinet 光世代</li>										
+										<li>JGNet <a href="https://www.jgnet.tw/">宅急網</a> 社區寬頻 / 社區共享網路</li>
+										<li><a href="https://www.kbro.com.tw/K01/">凱擘大寬頻</a>  / 北桃園數位有線電視</li>
+									</ul>
+									如何選擇網路服務供應商：選擇網路服務須考慮，價格與網速外同時需注意連網的品質如速率穩定度，頻寬，延遲程度等。以下整理主要網路上對相關供應商的評論資料，僅供參考！
+									<br><br>並請參考：聯合新聞網 2020/08/25 
+									<a href="https://udn.com/news/story/7086/4808938">光纖寬頻、社區網路、第四台寬頻以及行動網路吃到飽 4種家用網路方案哪一種適合你？</a><br><br>
+									
+									<h5>中華電信 光世代網路</h5>
+									<ul>
+										<li>
+										連線品質: 中華電信是全台灣最大的網際網路服務供應商（ISP），憑藉著一開始就擁有眾多基礎建設的優勢，「穩定」一向是使用者最常反映的評價。
+										</li>
+										<li>
+										網路功能: 若與其他 ISP 服務互相比較，無論是中華電信 ADSL 或光世代，消費者幾乎都不會有任何網路功能上的限制，當線路與設備安裝完成後，民眾可以擁有近乎100%的存取權。基本上申裝 HiNet 光世代網路的消費者，都可以透過網頁操作，自助向 ISP 申請一組固定IP做為進階使用 沒有額外收費。
+										</li>
+										<li>
+										收費價格： 2020/06 牌告費率，需綁約2年, <mark>本區域目前最高只能申請 100M/40M</mark>. 違約金“大約是“到期以前每月150元。如提前一年解約，將有$1,800罰款。
+											<table class="table table-striped table-sm table-responsive" style="width:100%">
+												<tr>
+													<th>申裝速率</th>
+													<th>每月金額</th>
+												</tr>
+												<tr>
+													<td>16M / 3M</td>
+													<td>$662</td>
+												</tr>
+												<tr>
+													<td>35M / 6M</td>
+													<td>$811</td>
+												</tr>
+												<tr>
+													<td>60M / 20M</td>
+													<td>$859</td>
+												</tr>		
+												<tr>
+													<td>100M / 40M</td>
+													<td>$920</td>
+												</tr>
+												<tr>
+													<td>300M / 100M</td>
+													<td>$1,399</td>
+												</tr>
+												<tr>
+													<td>500M / 250M</td>
+													<td>$1,799</td>
+												</tr>	
+												<tr>
+													<td>1G / 600M</td>
+													<td>$2,399</td>
+												</tr>												
+											</table>
+										</li>
+										<li>
+											實際測試：以 60M/ 20M 申請速度下, 在A7某建案實例測試
+											<table class="table table-striped table-sm table-responsive" style="width:100%">
+												<tr>
+													<th>Wifi規格</th>
+													<th>下載速率</th>
+													<th>上傳速率</th>
+												</tr>
+												<tr>
+													<td>Mesh</td>
+													<td>43 Mbps</td>
+													<td>16 Mbps</td>
+												</tr>
+												<tr>
+													<td>D-Link 2.4GHz</td>
+													<td>46 Mbps</td>
+													<td>16 Mbps</td>
+												</tr>
+												<tr>
+													<td>D-Link 5GHz</td>
+													<td>50 Mbps</td>
+													<td>16 Mbps</td>
+												</tr>		
+												
+											</table>
+										</li>											
+									</ul>
+		
+								
+								</section>
+							</div>
+							<div class="col-md-12 col-lg-6">
+								<section>
+								<h5>KingNet 今網寬頻</h5>
+									社區網路：當社區是公寓大廈社區，並且具備管理委員會，就擁有「社區網路」型態的 ISP 服務是最具優勢的選擇。
+									<ul>
+										<li>
+											連線品質：社區網路的營運公司都是「第二類電信業者」，通常沒有自己固網建設，所以除了社區內部網路的佈線跟設備安裝之外，對外連線都必須承租第一類業者，如中華電信、台灣固網等線路。主要硬體投資皆在最後一哩跟頻寬管理設備。社區網路能否擁有良好的連線品質，第一取決於營運業者的頻寬管理能力，<mark>第二則是頻寬是否能保障個別住戶都能分配到標示的頻寬</mark>。
+										</li>
+										<li>
+											網路功能: 由於社區網路是採取共享形式經營，所以當業者為社區接入第一類電信業者的線路後，就會透過 NAT 方式，建立起龐大的「內部網路」，將所有住戶的連線收納管理，這就造成了終端使用者對外網路功能的重重障礙。以社區大樓來說，業者通常會於建築物的電信機房內，安裝商用級路由器配合軟體與 NAT 方式，來管理所有申裝住戶的網路連線。簡而言之，我們可以把社區網路業者想像成一個擁有 NAT 功能的巨大網路IP分享器，每個住戶都是這個分享器的客戶端，用戶既無法於裝置上直接獲取實體IP，內外之間的連線溝通，也都必須先經過業者的 NAT 才行。社區網路通常只會配發給使用者一組內網IP位置，若要與外網連接，皆需要透過業者建置的 NAT。
+											
+										</li>
+										<li>
+											收費價格： 光纖上網，保障個人頻寬 200M
+											<table class="table table-striped table-sm table-responsive" style="width:100%">
+												<tr>
+													<th>方案</th>
+													<th>說明</th>
+													<th>每月平均</th>
+												</tr>
+												<tr>
+													<td>方案 A</td>
+													<td>
+													預繳 6,000元, 使用 14個月
+													</td>
+													<td>$428</td>
+												</tr>
+												<tr>
+													<td>方案 B</td>
+													<td>
+													預繳 8,900元, 使用 24個月
+													</td>
+													<td>$370</td>
+												</tr>
+														
+											</table>	
+											
+										</li>
+										<li>
+											申裝環境：許多社區網路業者通常也不收「電路費」、「裝機費」或「設定費」，因為這些都已經包含在他們為社區大樓佈線的初期投資成本中，理論上透過持續性的月租費就可以得到回收。較新的社區大樓基本上都已經規劃好弱電箱，對於業者來說佈線相當簡單，自然也會少收相關費用當成優惠
+											
+										   	攜約跳槽補償：最高 120 天免費上網，鑑賞期 10 天，不綁約，沒有違約金。
+										</li>
+										<li>
+											實際測試：在A7重劃區某社區公共環境下測試 200Mbps 頻寬網路
+											<table class="table table-striped table-sm table-responsive" style="width:100%">
+												<tr>
+													<th>Wifi規格</th>
+													<th>下載速率</th>
+													<th>上傳速率</th>
+												</tr>
+												<tr>
+													<td>Kingnet-1F_2.4G</td>
+													<td>35 Mbps</td>
+													<td>19 Mbps</td>
+												</tr>
+												<tr>
+													<td>Kingnet-1F_5G</td>
+													<td>110 Mbps</td>
+													<td>20 Mbps</td>
+												</tr>
+												<tr>
+													<td>Kingnet-B1-2_GG</td>
+													<td>6 Mbps</td>
+													<td>13 Mbps</td>
+												</tr>		
+												
+											</table>											
+										
+										</li>
+
+									</ul>
+									
+								<h5>凱擘大寬頻 / 北桃園數位有線電視</h5>
+									由第四台有線電視轉型的網路服務商。因為第四台的服務已經逐漸被淘汰, 因此需要參考 
+										<a href="https://tcwang.github.io/SmartShopping/SST-330-VideoAudio.html">智慧採購 - 影音視頻</a>
+									 相關說明, 採購適當的電視盒才是較佳選擇。
+											<table class="table table-striped table-sm table-responsive" style="width:80%">
+												<tr>
+													<th>申裝速率</th>
+													<th>每月金額</th>
+												</tr>
+												<tr>
+													<td>24M</td>
+													<td>$449</td>
+												</tr>
+												<tr>
+													<td>60M</td>
+													<td>$549</td>
+												</tr>
+												<tr>
+													<td>120M</td>
+													<td>$699</td>
+												</tr>		
+												<tr>
+													<td>200M</td>
+													<td>$749</td>
+												</tr>
+												<tr>
+													<td>500M</td>
+													<td>$899</td>
+												</tr>
+	
+												<tr>
+													<td>1G</td>
+													<td>$999</td>
+												</tr>												
+											</table>									
+																	
+								</section>
+							</div>							
+						</div>
+						<h3>無線路由器指南</h3>
+						<div class="row">
+							<div class="col-md-12 col-lg-6">
+								<h5>選購要點</h5>
+								在挑選無線路由器的機型前，先確認使用的「網路連線速率」以及「房屋構造」。並了解下面特性：<br>
+								
+								<ul>
+									<li>「2.4GHz」與「5GHz」頻段的區別：
+										<ul>
+											<li>2.4GHz 的穿透力高且覆蓋範圍較廣，不容易受到障礙物的影響，因此在長距離傳輸時相對穩定。但有許多裝置如電磁爐、藍牙等都是使用此頻段，如果住家位置離鬧區比較近，多種不同裝置發射出的電波便會干擾無線訊號，導致連線狀況不穩定。</li>
+											<li>5GHz 容易受到障礙物影響且覆蓋區域較小，不過由於使用同樣頻段的裝置不多，而相對不容易受到干擾。加上在範圍內的傳輸速度比2.4GHz 快上許多，如果住家是公寓式建築或平房、坪數不大的話，便相當適合選用5GHz 作為居家的無線網路。</li>
+										</ul>										
+										
+									</li>
+									<li>
+										WiFi 規格 
+										<ul>
+											<li>802.11ac: 目前市面上的無線路由器規格多為「IEEE 802.11ac」，其表示可透過同時連接多條頻寬，達到與有線網路相同的速度，但由於依然有少數裝置不支援此規格，因此多數商品會向下兼容 a、b、g、n 等較早期的規格。而支援這些的機型部分僅有2.4GHz</li>
+											<li>802.11ax: 近期更有最新的11ax 技術規格出現，其可以同時運用2.4GHz 及5GHz 達到超高速傳輸的效果，但目前支援的裝置並不多，因此建議還是待普及後再購買為佳。</li>
+										</ul>
+										
+									</li>
+									<li>多台裝置連線需求，選擇「MU-MIMO」: 「MU-MIMO」指「多輸入」及「多輸出」，即表示可經由複數天線獨立運作讓傳輸作業更加有彈性，因此若裝置支援，便可同時調用多支天線的頻寬提升傳輸速度，或提供頻寬給不同的裝置，進而維持穩定且品質良好的無線訊號。
+									</li>
+									<li>
+									網路硬碟的功能（USB 連接埠）: 有些無線路由器會有 USB連接埠，只要連接隨身碟或外接硬碟就能利用區域網路讀取檔案，讓家中所有裝置分享資料。只是此規格會受到晶片讀取速度的限制，較便宜的款式在下載或讀取資料時便會相對緩慢，這部分就端看使用者的需求了。
+									</li>
+								</ul>
+
+								
+							
+							</div>
+							<div id="app1" class="col-md-12 col-lg-6">
+							<h5>主要無線分享器</h5>
+							  <table class="table table-striped table-sm table-hover" style="width:100%">
+								<thead style="background-color:lightblue">
+								  <tr class="text-left">
+									<th>產品</th>
+									<th>單價</th>
+									<th>速率</th>
+									<th>規格</th>
+								  </tr>
+								</thead>
+								<tbody>
+								  <tr v-for="post in posts">
+									<td>{{ post.Supplier }} - {{post.Product}} </td>
+									<td>{{ post.Price }}</td>
+									<td>{{ post.Speed }}</td>
+									<td>{{ post.Spec }}, {{post.Mimo}}, {{post.Usb}} </td>
+								  </tr>
+								</tbody>
+							  </table>								
+								
+							</div>							
+						</div>					
+					
+						<h3>網路設備匯總</h3>
+						<section>
+							<div class="container-fluid" id="app2">
+								<div class="row">
+									<div class="container-fluid" id="app">
+										<div v-show="false" class="alert alert-info" role="alert">
+
+											<div class="row">
+												<div class="col">
+													<div class="form-group">
+														<select class="form-control" v-model="section"
+															id="exampleFormControlSelect1">
+															<option v-for="section in sections">{{ section }}
+															</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-6">
+													<h5 class="text-center"> 選擇類別 </h5>
+												</div>
+
+											</div>
+										</div>
+										<p id="color-highlight">注意：點擊下面型號連接,進入廠商網站</p>
+										<div class="row" v-for="posts in results">
+											<div class="col-sm-12 col-md-12 col-lg-6 col-xl-4" v-for="post in posts">
+												<div class="card">
+													<div class="card-header">
+														{{ post.Supplier }} - {{post.Product }}
+													</div>
+													<div class="card-body">
+														<p class="card-text">
+															<img v-bind:src="post.Figure" class="img-fluid" style="height:200px">
+
+														</p>
+														<dl>
+															<a v-bind:href="post.Link">
+																{{post.Supplier}} - {{post.Product}} 
+															</a>															
+															<dd>價格：{{post.Price}} </dd>
+															<dd>規格：{{post.Spec}} </dd>
+															<dd>速率：{{post.Speed}} </dd>
+															<dd>多工：{{post.Mimo}} </dd>
+															<dd>接口：{{post.Usb}} </dd>
+														</dl>
+
+														說明：<br>
+														<div v-html="post.Description"></div>
+														
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+
+								</div>
+							</div>								
+						</section>					
+					
+						
+					</div>
+					
+					<div class="tab-pane" id="Menu-B2" role="tabpanel">
+						<!-- Menu B2 -->
+						<h3>電視盒指南 </h3>
+						<div class="row">
+							<div class="col-md-12 col-lg-6">
+								<section>
+									<h5>有線電視 Cable TV</h5>
+									台灣的有線電視常被俗稱為「第四台」，由來是在早期只有無線電視三台（台視、中視、華視），因此有線電視就被稱為「第四台」。《有線廣播電視法》在1993年7月施行後，才在1994年正式開放有線電視系統業者登記立案。在此之後，有線電視頻道如雨後春筍般出現，到目前為止有100多個頻道。<br><br>
+									目前臺灣<a href="https://zh.wikipedia.org/wiki/%E5%8F%B0%E7%81%A3%E6%9C%89%E7%B7%9A%E9%9B%BB%E8%A6%96%E6%A5%AD%E8%80%85%E5%88%97%E8%A1%A8">有線電視系統業者</a>主要有「中嘉」、「凱擘」、「台固媒體」、「台灣寬頻」、「台灣數位光訊」等有線電視集團。<br><br>
+									有線電視的功能簡單，只有廣播形式的電視頻道可以看。除了播放速度慢及畫質不佳外， 還是有許多頻道要「另外」付費，電視內容不夠豐富，跟隨選電視盒相比，已經屬於被淘汰的電視系統。<br><br>
+									國內有線電視收視費一般標準是每月480～600元，一年就要5,760～7,200元上下。<br><br>
+									<h5>電視盒 Set-Top Box, / 隨選電視 Video on Demand, VOD</h5>
+									數位机上盒，是2012年开始兴起的一种电视互联网终端設備，也被称作互联网播放机、媒體播放机、电视盒、網路机顶盒等，亦常被简称作“電視盒”。该设备的操作系统通常基于tvOS或Android或Linux，藉由通过Wifi无线网络或以太网等實體線路与互联网進行连接。在连接互联网之後，可以实现在传统的电视上在线点播、在线电视直播、浏览网页、收看海外電視與电影、甚至是玩游戏。<br><br>
+									電視盒可以隨選視訊 Vido on Demand, VOD 形式播放影音節目。中華電信的 Multimedia on Demand, MOD 亦屬於網路電視系統, 能觀看內建的MOD頻道，另有附加功能（如遊戲、劇院功能）均需分別付費。	
+									<br>									
+								</section>
+							</div>
+							<div class="col-md-12 col-lg-6">
+								<section>
+	
+									<h5>電視盒的版本</h5>
+									純淨版：<br>
+									2019年5月3號開始實施的著作權法「第87條、第93條條文」修正草案通過後，銷售機上盒設備不得『內建、預設』供民眾安裝使用。或『指導、協助』民眾安裝App影視程式。 及明知銷售的機上盒可供民眾連結侵權內容而仍繼續販售，也會觸法。但已購買機上盒的民眾自行下載影視程式觀看並不會觸法。<br><br>
+
+									簡單的說就是業者在販售機上盒時，不得『內建、預設』App影視程式 也就是純淨版，民眾購買後只能自行下載安裝使用，業者也不能『指導、協助』安裝App影視程式，違法的業者一但被查獲，將處以2年以下有期徒刑之刑事責任，或併科最高新臺幣50萬元以下罰金。
+									<br><br>
+									越獄版：
+									所謂的已越獄，並不是破解影視程式中的VIP功能，而指的是VPN(突破網路封鎖)，俗稱翻牆或越獄。在電視盒中可先安裝 越獄或穿梭 程式就能不受所在地區的限制，觀賞其他地區免付費網路影音。
+									<br><br>
+									整體來說，目前買到的純淨越獄版電視盒，需要自行安裝相關軟件可自由欣賞網路上海量影音。或經由翻牆享受其他地區同等級的免費資訊。但所有安裝第三方軟件需要自行安裝，供應商是不能提供任何協助或安裝資訊。但不用擔心，安裝上仍是人人易做，如非營業目的在自家私下觀賞就不會觸法。
+									<br><br>
+									
+									<h5>電視盒的評比</h5>
+									<ul>
+										<li>
+											<a href="https://all-in.tw/experiencevreal/">3C產品Youtuber推薦10款愛用電視盒</a>
+										</li>
+										<li>
+											<a href="https://productmad.com/11176">2020 十大電視盒人氣推薦款</a>
+										</li>
+										<li>
+											<a href="https://www.shopback.com.tw/blog/10-best-vape-mod-box-mods">宅在家必備！</a>2020 數位機上盒推薦，追劇、玩遊戲、看電影一手包辦
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=5MiI4AMTr1c">Youtube: 2020/06/25</a>揭密! 電視盒看第四台 / 各廠牌電視盒如何挑選 / 電視盒入門 / 小米 大通 OVO 雷爵 便當 彩虹奇機 NVIDIA SHIELD / 安博 易播 夢想 普視 TVPAY 歡樂 【TVBOX】
+										</li>
+										<li>
+											<a href="https://www.youtube.com/watch?v=aZ9VW4nNJz0">2019/08/07</a>電視盒要怎麼買？三台主流電視盒大PK！小米盒子、Apple TV、安博盒子
+										</li>
+									</ul>									
+																	
+								</section>
+							</div>							
+						</div>
+						<div class="row">
+							<div class="col-md-12 col-lg-6">
+								<h5>安博盒子 UBOX8 第八代</h5>
+								系統特性：
+								<ul>
+									<li>採用Allwinner H616 6K 多媒體 CPU, 比前一代性能高出百分之三十，功耗降低百分之二十，溫度下降百分之三十。</li>
+									<li>4G 內存DDR3 RAM, +64G 閃存eMMC</li>
+									<li>4K高清HDR 畫質，支持高清 6K 30fps 硬體解碼，採用新一代SmartColor 3.3 畫質引擎。</li>
+									<li>AI 智能語音系統，採用Google 智慧語音</li>
+									<li>採用 最新Android 10.0 系統，搭載智能AI語音</li>
+									<li>全球CDN節點加速，為全球不同用戶搭載不同CDN 節點</li>
+									<li>官網價格：$4,580</li>
+								</ul>
+								參考文件：
+								<ul>
+									<li>
+										<a href="https://www.youtube.com/watch?v=35svCBILTFg">2020/02/22 2020解決安博盒子UBOX的APP未安裝方法</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=sLJrh8K07vs">2019/06/05 安博盒子PROS純淨版如何安裝應用程式</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=SCJIZ_78iu0">2020/08/29 !安博盒子8代UBOX8~功能介紹</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=iCYpf1zBfl8"> 2020/10/11 BOX8 UBlive直播節目表</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=Z1XBn_fYkzo&t=84s"> 2018/03/20 安博UB影視移動版安裝示範</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=C1J0lsgnJyY">2019/01/03 安博盒子UB影視行動版 教學篇 </a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=KcQYRzFixyk&feature=youtu.be">2020年 安博旗艦機種開箱</a>
+									</li>
+								</ul>
+								
+							</div>
+							<div class="col-md-12 col-lg-6">
+								<h5>易播 5MAX 機皇</h5>
+								系統特性：
+								<ul>
+									<li>H6 4核 ARM Cortex-A53 64bit CPU + Mali-T720MP2 GPU</li>
+									<li>4G DDR3 RAM + 64G eMMC Flash</li>
+									<li>最高支援6K 分辨率畫質</li>
+									<li>AI 智能語音 </li>
+									<li>官網價格： $4,380</li>
+								</ul>
+								參考資料：
+								<ul>
+									<li>
+										<a href="https://www.youtube.com/watch?v=_rM2qrFCNc4">開箱！EVBOX 易播盒子 5MAX 業界最強機皇</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=L8N98qdQojU">2021超強機皇。易播盒子 5MAX》開箱</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=TRgPHerYD4k">可免費觀看超多的|多媒體|影音播放器[易播5MAX]</a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=9OsJPNwRwlE">易播純淨版 安裝 app 電視盒 I8平板 設定 新手基礎教學</a>
+									</li>	
+									<li>
+										<a href="https://www.youtube.com/watch?v=0QWEjjIlzXM&t=238s">安博8 對決 易播5PRO 最新旗艦語音 電視盒比較 </a>
+									</li>
+									<li>
+										<a href="https://www.youtube.com/watch?v=7xYPxhw0M84&t=550s">安博PROS 對決 易播PLUS 機皇級 電視盒比較</a>
+									</li>										
+								</ul>
+								
+								
+							</div>						
+						</div>
+
+					</div>					
+
+
+					<div class="tab-pane" id="Menu-B3" role="tabpanel">
+						<!-- Menu B3 -->
+
+
+
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>	  
+	  
+	  
+  </article>
+  <!-- InstanceEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+	<script>
+		const posts = []
+		const SECTIONS_TW = "無線分享器"
+		const SECTIONS_TW2 = "無線分享器"
+
+		new Vue({
+			el: '#app1',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_TW.split(', '),
+				section: '無線分享器'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 40;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-4501-Wifi.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
+
+		new Vue({
+			el: '#app2',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_TW2.split(', '),
+				section: '無線分享器'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 40;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-4501-Wifi.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
+
+	</script>
+  <!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd --></html>

@@ -1,0 +1,142 @@
+﻿[
+        {
+            "No": "101",
+            "Title": "台新銀行",
+            "Figure": "fig/XLK-1401-News/INV-3011-Bank-台新銀行.jpg",
+            "Link": "https://www.taishinbank.com.tw/TSB/personal/",
+            "Category": "銀行網站"
+        },
+        {
+            "No": "102",
+            "Title": "中國信託",
+            "Figure": "fig/XLK-1401-News/INV-3011-Bank-中國信託.jpg",
+            "Link": "https://www.ctbcbank.com/twrbo/zh_tw/index.html",
+            "Category": "銀行網站"
+        },
+        {
+            "No": "103",
+            "Title": "元大投信",
+            "Figure": "fig/XLK-1401-News/INV-3011-Bank-元大投信.jpg",
+            "Link": "https://www.yuantafunds.com/",
+            "Category": "銀行網站"
+        },
+        {
+            "No": "104",
+            "Title": "元大證劵",
+            "Figure": "fig/XLK-1401-News/INV-3011-Bank-元大證劵.jpg",
+            "Link": "https://www.yuanta.com.tw/eyuanta/",
+            "Category": "銀行網站"
+        },
+        {
+            "No": "201",
+            "Title": "鉅亨 Anue Fund",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-鉅亨基金.png",
+            "Link": "https://www.anuefund.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "202",
+            "Title": "理財網 MoneyDJ",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-理財網.jpeg",
+            "Link": "https://www.moneydj.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "203",
+            "Title": "雅虎 Yahoo Finance",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-yahoo.png",
+            "Link": "https://finance.yahoo.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "204",
+            "Title": "台灣股市資訊網 Goodinfo!",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-台灣股市資訊網.jpeg",
+            "Link": "https://goodinfo.tw/StockInfo/index.asp",
+            "Category": "股市分析"
+        },
+        {
+            "No": "211",
+            "Title": "理財寶 Cmoney",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-CMoney.jpeg",
+            "Link": "https://www.cmoney.tw/app/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "205",
+            "Title": "晨星 Morningstar",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-Morningstar.png",
+            "Link": "https://www.morningstar.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "206",
+            "Title": "FINViz.com",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-Finviz.png",
+            "Link": "https://www.fXLK-1401-News/INViz.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "207",
+            "Title": "Dividend.com",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-Dividendcom.png",
+            "Link": "https://www.dividend.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "208",
+            "Title": "Jitta",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-Jitta.png",
+            "Link": "https://www.jitta.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "209",
+            "Title": "ETF.com",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-ETFcom.png",
+            "Link": "https://www.etf.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "210",
+            "Title": "ETFdb.com",
+            "Figure": "fig/XLK-1401-News/INV-3012-Stock-ETFdb.png",
+            "Link": "https://etfdb.com/",
+            "Category": "股市分析"
+        },
+        {
+            "No": "301",
+            "Title": "商業週刊",
+            "Figure": "fig/XLK-1401-News/INV-3013-Magazine-商業週刊.png",
+            "Link": "https://www.businessweekly.com.tw/",
+            "Category": "財經雜誌"
+        },
+        {
+            "No": "302",
+            "Title": "今周刊",
+            "Figure": "fig/XLK-1401-News/INV-3013-Magazine-今周刊.jpeg",
+            "Link": "https://www.businesstoday.com.tw/",
+            "Category": "財經雜誌"
+        },
+        {
+            "No": "303",
+            "Title": "理財周刊",
+            "Figure": "fig/XLK-1401-News/INV-3013-Magazine-理財週刊.jpg",
+            "Link": "https://www.moneyweekly.com.tw/",
+            "Category": "財經雜誌"
+        },
+        {
+            "No": "304",
+            "Title": "中華民國退休基金協會",
+            "Figure": "fig/XLK-1401-News/INV-3013-Magazine-退休基金.png",
+            "Link": "https://www.pension.org.tw/index.php/2018-10-03-15-11-09/2019-02-13-00-01-00",
+            "Category": "財經雜誌"
+        },
+        {
+            "No": "305",
+            "Title": "錢管家- Money錢",
+            "Figure": "fig/XLK-1401-News/INV-3013-Magazine-Money錢.png",
+            "Link": "https://www.moneynet.com.tw/",
+            "Category": "財經雜誌"
+        }
+    ]

@@ -1,0 +1,1261 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>A7新林口 - 社區小吃 點餐</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y94XE7PY1L');
+</script>	
+	
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand"
+      href="index.html"> A7 新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          	<div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+				<a class="dropdown-item" href="index.html">網站公告</a> 
+				<a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a> 
+				<a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a> 	
+				<a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a> 
+				<a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a> 
+
+			</div>
+        </li>
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a> 			  
+			  <a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a> 
+			  <a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a> 
+			  <a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a> 			  
+			  <a class="dropdown-item" href="A7XLK-25-BusinessService.html">廣告看板</a> 
+			  <a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a> 			  
+		  </div>
+        </li>
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+			  <a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a> 				  
+			  <a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a> 
+		<!--				  
+			  <a class="dropdown-item" href="../A7XLK-34-Snacks.html">點心零食</a> 
+		-->
+		  </div>
+        </li>
+
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          	<div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>	
+			  <a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a> 			  
+		  
+		<!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 			  
+			  <a class="dropdown-item" href="../A7XLK-43-Housing.html">住屋居家</a> 
+		-->
+			  <a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a> 
+			  <a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a> 			  
+		  </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- InstanceBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg3 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">社區小吃</h5>
+        <p class="text-white">電子點餐 測試網頁</p>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+
+  <!-- InstanceBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- InstanceEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- InstanceBeginEditable name="main_content" -->
+    <article> 社區商店
+      <div class="container-fluid mt-1">
+        <div class="row">
+          <div class="col-md-3 col-lg-2">
+            <h3>社區商店</h3>
+            <div class="list-group" id="MenuList" role="tablist">
+              <a href="#Menu-B01" class="list-group-item list-group-item-action active" data-toggle="list">芬享美味餐廳</a>
+              <a href="#Menu-B02" class="list-group-item list-group-item-action" data-toggle="list">邦煮-手工便當</a>
+              <a href="#Menu-B03" class="list-group-item list-group-item-action" data-toggle="list">快樂早餐店</a>
+              <a href="#Menu-B04" class="list-group-item list-group-item-action" data-toggle="list">越南小吃</a> 
+              <a href="#Menu-B05" class="list-group-item list-group-item-action" data-toggle="list">番茄村Brunch &amp; Cafe</a>
+              <a href="#Menu-B06" class="list-group-item list-group-item-action" data-toggle="list">劉妹鍋燒意麵</a>
+			</div>			  
+            <br>
+          </div>
+          <div class="col-md-9 col-lg-10">
+            <div class="tab-content">
+     
+
+              <!-- Menu B01 -->
+              <div class="tab-pane active" id="Menu-B01" role="tabpanel">
+                <div class="row ">
+                  <h3>芬享美味餐廳</h3>
+                  <ul style="list-style-type:none">
+                    <li>訂餐專線：03-397-1175, 0987-133158</li>
+                    <li>地址：桃園市龜山區長慶三街20號</li>
+                    <li>營業時間：11:00-14:00, 16:00-20:00, 週日公休</li>
+					<li>下午4點後，海鮮快炒</li>
+					<li>
+					  	菜單：<a href="fig/XLK-321-RestaurantA7/AiCity-955-芬享-01.jpg">快炒菜單</a>, <a href="fig/XLK-321-RestaurantA7/AiCity-955-芬享-02.jpg">飯麵菜單</a>
+					  </li>
+                  </ul>
+                  &nbsp; &nbsp; <a
+                    href="https://www.facebook.com/%E8%8A%AC%E4%BA%AB%E7%BE%8E%E5%91%B3%E9%A4%90%E9%A4%A8-107527327690284/?ref=page_internal">
+                    <img src="fig/AiCity-931-Facebook.png" style="width:30px"> </a>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <div id="app01" class="row">
+                      <table class="table table-striped table-sm table-hover" style="width:100%">
+                        <thead style="background-color:lightblue">
+                          <tr class="text-left">
+                 
+                            <th>餐飲</th>
+                            <th>價格</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr v-for="post in posts">
+
+                            <td>{{ post.Title }}</td>
+                            <td>{{ post.Price }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="col-md-6"> 
+					  
+						<div id="carouselExampleIndicators-03" class="carousel slide img-fluid" data-ride="carousel">
+						  <ol class="carousel-indicators">
+							<li data-target="#carouselExampleIndicators" data-slide-to="21" class="active"></li>
+							<li data-target="#carouselExampleIndicators" data-slide-to="22"></li>
+	
+						  </ol>
+						  <div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="fig/XLK-321-RestaurantA7/AiCity-955-芬享-11.jpg" class="d-block w-100" alt="..."> 海鮮麵
+							</div>
+							<div class="carousel-item">
+								<img src="fig/XLK-321-RestaurantA7/AiCity-955-芬享-12.jpg" class="d-block w-100" alt="..."> 蝦仁炒飯
+							</div>
+
+						  </div>
+						  <a class="carousel-control-prev" href="#carouselExampleIndicators-03" role="button"
+							data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+							  class="sr-only">Previous</span> </a> <a class="carousel-control-next"
+							href="#carouselExampleIndicators-03" role="button" data-slide="next"> <span
+							  class="carousel-control-next-icon" aria-hidden="true"></span> <span
+							  class="sr-only">Next</span> </a>
+						</div>					  
+
+				  </div>
+                </div>				  
+				  
+              </div>
+
+              <!-- Menu B02 -->
+              <div class="tab-pane" id="Menu-B02" role="tabpanel">
+                <div id="app02" class="row mb-1">
+                  <div class="container-fluid mt-3">
+                    <div class="row">
+                      <h3 id="title-1">邦煮-手工便當</h3>
+                      <p class="text-info" style="margin:10px"> 訂餐專線：03-397-0015, 地址：桃園市龜山區長慶三街22號, LINE ID: @623cjsdg,
+                        營業時間：10:30 - 19:30 <a
+                          href="https://www.foodpanda.com.tw/restaurant/l7de/bang-zhu-shou-gong-bian-dang-dian"> <img
+                            src="fig/AiCity-931-FoodPanda.jpg" style="width:30px"> </a> <a
+                          href="https://restaurant-89864.business.site/"> <img src="fig/AiCity-931-google.jpg"
+                            style="width:30px"> </a>
+                      <div class="container-fluid">
+                        <div class="alert alert-info mt-2" role="alert">
+                          <div class="row">
+                            <div class="col-5">
+                              <div class="form-group">
+                                <select class="form-control" v-model='section' id="exampleFormControlSelect1">
+                                  <option v-for="section in sections">{{ section }}</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <h5 class="text-center">選擇 類別</h5>
+                            </div>
+                            <div class="col-4">
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-02">
+                                <i class="fas fa-shopping-cart"></i>購物車 </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row" v-for="posts in results">
+                          <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+                            <div class="card">
+                              <div class="card-header"> <img v-bind:src="post.figure" class="img-fluid"
+                                  style="width:400px"> </div>
+                              <div class="card-body text-center">
+                                <dl>
+                                  <dd>{{post.title}}</dd>
+                                  <dd>NT$ {{post.price}}</dd>
+                                </dl>
+                                <div class="btn-group btn-group-sm">
+                                  <button class="border-primary" v-bind:disabled="post.count === 0"
+                                    v-on:click="post.count--">-</button>
+                                  <span
+                                    class="px-3 border border-primary-top-2 border-primary-bottom-2">{{ post.count }}</span>
+                                  <button class="border-primary" v-on:click="post.count++">+</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Modal-02 -->
+                  <div class="modal fade" id="Modal-02" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel01" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">點餐清單 - 邦煮-手工便當</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+                              aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+
+                          <!-- 購物車匯總資料 -->
+                          <div class="row mt-0">
+                            <table class="mt-0" style="width:100%">
+                              <tr>
+                                <th style="text-align:right;">名稱</th>
+                                <th style="text-align:right;">單價</th>
+                                <th style="text-align:center;">數量</th>
+                                <th style="text-align:right;">金額</th>
+                              </tr>
+                              <div class="row" v-for="posts in results">
+                                <tr v-for="post in posts" v-if="post.count !== 0 ">
+                                  <td style="text-align:right;">{{post.title}} </td>
+                                  <td style="text-align:right;">{{post.price}} </td>
+                                  <td style="text-align:center;">{{post.count}} </td>
+                                  <td style="text-align:right;">{{itemPrice(post.price, post.count) }} </td>
+                                </tr>
+                              </div>
+                            </table>
+                          </div>
+                          <div class="row mt-1">
+                            <div class="col-8"> </div>
+                            <div class="col">
+                              <p style="background-color:yellow"> 總價：{{totalPrice}} </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                          <button type="button" class="btn btn-primary">結帳</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <!-- Menu B03 -->
+              <div class="tab-pane" id="Menu-B03" role="tabpanel">
+                <div class="row">
+                  <div class="col-8">
+                    <h3>快樂早餐店</h3>
+                    <ul style="list-style-type:none">
+                      <li>訂餐專線：03-397-3633</li>
+                      <li>地址：桃園市龜山區長慶三街28號1樓</li>
+                      <li>營業時間：週一~五： 06:00 - 11:00, 週六～日：06:00 - 13:00</li>
+                      <li>線上點餐: 可使用右方QRcode加入LINE點餐。 </li>
+                    </ul>
+                  </div>
+                  <div class="col-4"> <a
+                      href="https://www.facebook.com/%E5%BF%AB%E6%A8%82%E6%97%A9%E9%A4%90-107133910867754/?eid=ARBUdhyrMbcwgHl_nGQP8l4I-i-6DaJsizLZpso9SpG9E4MELVHMFGvSBKmwO_g4-uVLU09ygAZsaEOP">
+                      <img src="fig/AiCity-931-Facebook.png" style="width:30px"> </a> &nbsp; &nbsp;
+                    LINE: <img src="fig/AiCity-943-快樂早餐LINE.jpg" class="img-fluid" style="width:150px"> </div>
+                </div>
+                <div class="row"> 快樂早餐 餐點選項 </div>
+                <div class="row">
+                  <div class="col-md-12 col-lg-8">
+                    <div id="app03" class="row">
+                      <table class="table table-striped table-sm table-hover" style="width:100%">
+                        <thead style="background-color:lightblue">
+                          <tr class="text-left">
+                            <th style="width:15%">類別</th>
+                            <th>餐飲</th>
+                            <th>價格</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr v-for="post in posts">
+                            <td style="width:15%">{{ post.Category }}</td>
+                            <td>{{ post.Title }}</td>
+                            <td>{{ post.Price }}</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-lg-4"> <img src="fig/AiCity-943-快樂早餐-01.jpg" class="img-fluid"
+                      sytle="width:320px"> 漢堡 <img src="fig/AiCity-943-快樂早餐-02.jpg" class="img-fluid"
+                      sytle="width:320px"> 西式燒餅 <img src="fig/AiCity-943-快樂早餐-04.jpg" class="img-fluid"
+                      sytle="width:320px"> </div>
+                </div>
+              </div>
+
+
+              <!-- Menu B04 -->
+              <div class="tab-pane" id="Menu-B04" role="tabpanel">
+                <div id="app04" class="row mb-1">
+                  <div class="container-fluid mt-3">
+                    <div class="row">
+                      <h3>越南小吃</h3>
+                      <div class="row">
+                        <div class="col-md-12 col-lg-4">
+                          <ul style="list-style-type:none">
+                            <li>訂餐專線：0916-538733</li>
+                            <li>地址：桃園市龜山區長慶三街40號</li>
+                            <li>營業時間：06:00 - 21:00, 週日公休</li>
+                            <li> 菜單： <a href="fig/XLK-321-RestaurantA7/AiCity-950-越南小吃菜單.jpg">越南小吃菜單</a> </li>
+                          </ul>
+                        </div>
+                        <div class="col-md-12 col-lg-8"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-越南小吃店面.jpg" class="img-fluid"
+                            style="width:600px"> <br>
+                          <br>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="alert alert-info mt-2" role="alert">
+                          <div class="row">
+                            <div class="col-5">
+                              <div class="form-group">
+                                <select class="form-control" v-model="section" id="exampleFormControlSelect1">
+                                  <option v-for="section in sections">{{ section }}</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <h5 class="text-center">選擇 類別</h5>
+                            </div>
+                            <div class="col-4">
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-04">
+                                <i class="fas fa-shopping-cart"></i>購物車 </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row" v-for="posts in results">
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+                            <div class="card">
+                              <div class="card-header"> <img v-bind:src="post.figure" class="img-fluid"
+                                  style="width:400px"> </div>
+                              <div class="card-body text-center">
+                                <dl>
+                                  <dd>{{post.title}}</dd>
+                                  <dd>NT$ {{post.price}}</dd>
+                                </dl>
+                                <div class="btn-group btn-group-sm">
+                                  <button class="border-primary" v-bind:disabled="post.count === 0"
+                                    v-on:click="post.count--">-</button>
+                                  <span
+                                    class="px-3 border border-primary-top-2 border-primary-bottom-2">{{ post.count }}</span>
+                                  <button class="border-primary" v-on:click="post.count++">+</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Modal-04 -->
+                  <div class="modal fade" id="Modal-04" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel01" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel">點餐清單 - 越南小吃</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+                              aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+
+                          <!-- 購物車匯總資料 -->
+                          <div class="row mt-0">
+                            <table class="mt-0" style="width:100%">
+                              <tr>
+                                <th style="text-align:right;">名稱</th>
+                                <th style="text-align:right;">單價</th>
+                                <th style="text-align:center;">數量</th>
+                                <th style="text-align:right;">金額</th>
+                              </tr>
+                              <div class="row" v-for="posts in results">
+                                <tr v-for="post in posts" v-if="post.count !== 0 ">
+                                  <td style="text-align:right;">{{post.title}} </td>
+                                  <td style="text-align:right;">{{post.price}} </td>
+                                  <td style="text-align:center;">{{post.count}} </td>
+                                  <td style="text-align:right;">{{itemPrice(post.price, post.count) }} </td>
+                                </tr>
+                              </div>
+                            </table>
+                          </div>
+                          <div class="row mt-1">
+                            <div class="col-8"> </div>
+                            <div class="col">
+                              <p style="background-color:yellow"> 總價：{{totalPrice}} </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                          <button type="button" class="btn btn-primary">結帳</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+				
+
+
+              <!-- Menu B05 -->
+              <div class="tab-pane" id="Menu-B05" role="tabpanel">
+                <div class="row ">
+                  <h3>番茄村Brunch &amp; Cafe</h3>
+                </div>
+                <div class="row">
+                  <div class="col-md-12 col-lg-4">
+                    <div class="row">
+                      <ul style="list-style-type:none">
+                        <li>訂餐專線：03-327-9372</li>
+                        <li>地址：桃園市龜山區長慶三街56號</li>
+                        <li>營業時間：週一～週五： 06:00 - 13:00, 週六，日：07:00 - 14:00 週二公休</li>
+                        <li>網站： <a
+                            href="http://www.tomato-co.com.tw/?fbclid=IwAR1XyD4_NllaDJM7_uw3-tvrB-tKriTiDDjZ_Eg8MoCbJCq5AFBiPE-qgfM">
+                            番茄村官網 </a> </li>
+                        <li> Facebook: <a href="https://www.facebook.com/蕃茄村龜山長慶店-104775454946683"> 龜山長慶店 粉絲團 <img
+                              src="fig/AiCity-931-Facebook.png" style="width:30px"> </a> </li>
+                        <li> LINE: <a
+                            href="https://line.me/ti/g2/TbCbJaXxY1xIX6eFo5yCNw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">LINE
+                            奇幻番茄村 <img src="fig/AiCity-931-Line.png" style="width:30px"></a> </li>
+                        <li> <a
+                            href="https://line.me/ti/g2/TbCbJaXxY1xIX6eFo5yCNw?utm_source=invitation&utm_medium=link_copy&utm_campaign=default">
+                            <img src="fig/AiCity-931-LINE番茄村.jpg" class="img-fluid" style="width:150px"> <br>
+                          </a> 加入LINE社群：暱稱 請以樂捷市開頭, 如 樂捷市-Hello. </li>
+                        <li> LINE：@店長ㄚ三三, @副店長ㄚ瑋 </li>
+                        <li>菜單： <a href="fig/AiCity-950-番茄村菜單.jpg">番茄村菜單</a> </li>
+
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-lg-8"> <img src="fig/AiCity-950-番茄村店面.jpg" class="img-fluid"
+                      style="width:600px"> <br>
+                    <br>
+                    備註：
+                    <ul>
+                      <li style="color:red"> 本網站仍在測試中, 尚未與商家連線。僅提供截圖 </li>
+                      <li>1. 請使用此網站點餐, 先由餐點類別中選擇餐點數量</li>
+                      <li>2. 點擊購物車按鈕，確認匯總選項是否正確</li>
+                      <li>3. 依據個人手機, 擷取 購物車中點餐匯總圖到手機, 如 <a href="https://tel3c.tw/blog/post/222512427">截圖說明</a> </li>
+                      <li>4. 使用商家line 群組，上傳上一步驟的截圖。</li>
+                      <li>5. 平日可幫忙送餐到樂捷市或者奇幻莊園大廳, 只要金額滿 200元</li>
+                    </ul>
+                    <br>
+                    <br>
+                  </div>
+                </div>
+                <div class="row">
+                  <div id="app05" class="col-md-12 col-lg-8">
+                    <div class="container-fluid">
+                      <div class="alert alert-info" role="alert">
+                        <div class="row">
+                          <div class="col-6">
+                            <div class="form-group">
+                              <select class="form-control" v-model='section' id="exampleFormControlSelect1">
+                                <option v-for="section in sections">{{ section }}</option>
+                              </select>
+                            </div>
+                          </div>
+                          <div class="col-2">
+                            <h5 class="text-center">類別</h5>
+                          </div>
+                          <div class="col-4">
+                            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-05">
+                              <i class="fas fa-shopping-cart"></i>購物車 </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row" v-for="posts in results">
+                        <table class="table table-striped table-sm table-hover" style="width:100%">
+                          <thead style="background-color:lightblue">
+                            <tr class="text-left">
+                              <th>類別</th>
+                              <th>餐名</th>
+                              <th>價格</th>
+                              <th>數量</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr v-for="post in posts">
+                              <td>{{post.subcategory}} </td>
+                              <td>{{post.title}} </td>
+                              <td>${{post.price}} </td>
+                              <td>
+                                <div class="btn-group btn-group-sm">
+                                  <button class="border-primary" v-bind:disabled="post.count === 0"
+                                    v-on:click="post.count--">-</button>
+                                  <span
+                                    class="px-3 border border-primary-top-2 border-primary-bottom-2">{{ post.count }}</span>
+                                  <button class="border-primary" v-on:click="post.count++">+</button>
+                                </div>
+                              </td>
+                            </tr>
+                          </tbody>
+                        </table>
+                      </div>
+                    </div>
+
+                    <!-- Modal-05 -->
+                    <div class="modal fade" id="Modal-05" tabindex="-1" role="dialog"
+                      aria-labelledby="exampleModalLabel01" aria-hidden="true">
+                      <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                          <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">點餐清單 - 番茄村</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+                                aria-hidden="true">&times;</span> </button>
+                          </div>
+                          <div class="modal-body">
+
+                            <!-- 購物車匯總資料 -->
+                            <div class="row mt-0">
+                              <table class="mt-0" style="width:100%">
+                                <tr>
+                                  <th style="text-align:right;">名稱</th>
+                                  <th style="text-align:right;">單價</th>
+                                  <th style="text-align:center;">數量</th>
+                                  <th style="text-align:right;">金額</th>
+                                </tr>
+                                <div class="row" v-for="posts in results">
+                                  <tr v-for="post in posts" v-if="post.count !== 0 ">
+                                    <td style="text-align:right;">{{post.subcategory}}-{{post.title}} </td>
+                                    <td style="text-align:right;">{{post.price}} </td>
+                                    <td style="text-align:center;">{{post.count}} </td>
+                                    <td style="text-align:right;">{{itemPrice(post.price, post.count) }} </td>
+                                  </tr>
+                                </div>
+                              </table>
+                            </div>
+                            <div class="row mt-1">
+                              <div class="col-8"> </div>
+                              <div class="col">
+                                <p style="background-color:yellow"> 總價：{{totalPrice}} </p>
+                              </div>
+                            </div>
+                            <form>
+                              取餐方式：
+                              <input type="radio" id="one" value="One" v-model="pickup05">
+                              <label for="one">內用</label>
+                              <input type="radio" id="two" value="Two" v-model="pickup05">
+                              <label for="two">外帶</label><br>
+
+                              <input type="radio" id="three" value="Three" v-model="pickup05">
+                              <label for="one">送至奇幻大廳</label>
+                              <input type="radio" id="four" value="Four" v-model="pickup05">
+                              <label for="four">送至樂捷市大廳</label> <br>
+
+
+                              <p>取餐時間: {{ time05 }} 分鐘後. <input v-model="time05" placeholder="分鐘"> </p>
+                              <p>備註: {{ memo05 }}. <input v-model="memo05" placeholder="特別事項"> </p>
+                            </form>
+
+
+
+                          </div>
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                            <button type="button" class="btn btn-primary">結帳</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-12 col-lg-4">
+                    <div id="carouselExampleIndicators-02" class="carousel slide img-fluid" data-ride="carousel">
+                      <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="21" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="22"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="23"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="24"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="25"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="26"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="31"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="32"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="33"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="34"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="35"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="36"></li>						  
+                      </ol>
+                      <div class="carousel-inner">
+                        <div class="carousel-item active"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-21.jpg" class="d-block w-100"
+                            alt="...">紫米漢堡 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-22.jpg" class="d-block w-100"
+                            alt="...">番茄吐司 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-23.jpg" class="d-block w-100"
+                            alt="...">好吃堡 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-24.jpg" class="d-block w-100"
+                            alt="...">樂活堡 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-25.jpeg" class="d-block w-100"
+                            alt="...">吉士潛艇堡 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-26.jpeg" class="d-block w-100"
+                            alt="...">紅藜米堡 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-31.jpeg" class="d-block w-100"
+                            alt="...">豬排丹麥吐司盤餐 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-32.jpeg" class="d-block w-100"
+                            alt="...">樂活堡 鮪魚歐姆蛋 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-33.jpeg" class="d-block w-100"
+                            alt="...">起司白醬培根義大利麵 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-34.jpeg" class="d-block w-100"
+                            alt="...">白醬哈利燉飯 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-35.jpeg" class="d-block w-100"
+                            alt="...">好吃堡-黑胡椒豬排堡/麥香雞堡 </div>
+                        <div class="carousel-item"> <img src="fig/XLK-321-RestaurantA7/AiCity-950-番茄村-36.jpeg" class="d-block w-100"
+                            alt="...">美式咖啡/豆漿 中杯冰 </div>						  
+                      </div>
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators-02" role="button"
+                        data-slide="prev"> <span class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+                          class="sr-only">Previous</span> </a> <a class="carousel-control-next"
+                        href="#carouselExampleIndicators-02" role="button" data-slide="next"> <span
+                          class="carousel-control-next-icon" aria-hidden="true"></span> <span
+                          class="sr-only">Next</span> </a>
+                    </div>
+                  </div>
+                </div>
+				  
+				  
+              </div>
+
+
+
+              <!-- Menu B06 -->
+              <div class="tab-pane" id="Menu-B06" role="tabpanel">
+                <div id="app06" class="row mb-1">
+                  <div class="container-fluid mt-3">
+                    <div class="row">
+                      <h3>劉妹鍋燒意麵</h3>
+                      <div class="row">
+                        <div class="col-md-12 col-lg-5">
+                          <ul style="list-style-type:none">
+                            <li>訂餐專線：03-327-5892</li>
+                            <li>地址：桃園市龜山區長慶三街58號1樓</li>
+                            <li>營業時間：10:00-14:00, 17:00-20:00, 週日公休 </li>
+							<li>Line: 樂捷團購超市 @連&amp;建辰Tico ma</li>
+							<li>
+								<a href="https://www.liu-mei.com.tw/taste.php">官方網站</a>, &nbsp; &nbsp; &nbsp;
+								<a href="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-40.jpg">點餐單</a>。
+							</li>
+							<li>
+							  	外送：週二，週四, 5碗 以上就可外送
+							  </li>
+  
+                          </ul>
+							
+							備註：<span style="color:red"> 本網站尚未與商家連線。僅提供截圖 </span>
+							<ul>
+							  <li>1. 請使用此網站點餐, 先由餐點類別中選擇餐點數量</li>
+							  <li>2. 點擊購物車按鈕，確認匯總選項是否正確</li>
+							  <li>3. 依據個人手機, 擷取 購物車中點餐匯總圖到手機, 如 <a href="https://tel3c.tw/blog/post/222512427">截圖說明</a> </li>
+							  <li>4. 使用商家line 群組，上傳上一步驟的截圖。目前本商家使用樂捷團購超市 @連&amp;建辰Tico ma </li>
+							</ul>							
+                        </div>
+                        <div class="col-md-12 col-lg-7"> 
+							<div id="carouselExampleIndicators-08" class="carousel slide img-fluid" style="width:˙1000px" data-ride="carousel">
+								<ol class="carousel-indicators">
+									<li data-target="#carouselExampleIndicators" data-slide-to="00"
+										class="active"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="41"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="42"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="31"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="32"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="33"></li>
+									<li data-target="#carouselExampleIndicators" data-slide-to="34"></li>									
+								</ol>
+								<div class="carousel-inner">
+									<div class="carousel-item active">
+										<img src="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-00.jpg" class="d-block w-100" alt="..."> 店面
+									</div>
+									<div class="carousel-item">
+										<img src="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-41.jpg" class="d-block w-100" alt="..."> 用餐環境1
+									</div>
+									<div class="carousel-item">
+										<img src="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-42.jpg" class="d-block w-100" alt="..."> 用餐環境2
+									</div>
+									<div class="carousel-item">
+										<img src="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-31.jpg" class="d-block w-100" alt="..."> 沙茶鍋燒 意麵 實品 $70
+									</div>
+									<div class="carousel-item">
+										<img src="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-32.jpg" class="d-block w-100" alt="..."> 海鮮鍋燒 米粉 實品 $85
+									</div>   
+									<div class="carousel-item">
+										<img src="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-33.jpg" class="d-block w-100" alt="..."> 番茄鍋燒 米粉 實品 $85
+									</div>
+									<div class="carousel-item">
+										<img src="fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-34.jpg" class="d-block w-100" alt="..."> 原味鍋燒 東粉 實品 $65
+									</div> 									
+								</div>
+								<a class="carousel-control-prev" href="#carouselExampleIndicators-08" role="button"
+									data-slide="prev">
+									<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+									<span class="sr-only">Previous</span>
+								</a>
+								<a class="carousel-control-next" href="#carouselExampleIndicators-08" role="button"
+									data-slide="next">
+									<span class="carousel-control-next-icon" aria-hidden="true"></span>
+									<span class="sr-only">Next</span>
+								</a>
+							</div>	
+							<br><br>							
+							
+                          <br>
+                        </div>
+                      </div>
+                      <div class="container-fluid">
+                        <div class="alert alert-info mt-2" role="alert">
+                          <div class="row">
+                            <div class="col-5">
+                              <div class="form-group">
+                                <select class="form-control" v-model="section" id="exampleFormControlSelect8">
+                                  <option v-for="section in sections">{{ section }}</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="col-3">
+                              <h5 class="text-center">選擇 類別</h5>
+                            </div>
+                            <div class="col-4">
+                              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#Modal-06">
+                                <i class="fas fa-shopping-cart"></i>購物車 </button>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="row" v-for="posts in results">
+                          <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+                            <div class="card">
+                              <div class="card-header"> <img v-bind:src="post.figure" class="img-fluid"
+                                  style="width:400px"> </div>
+                              <div class="card-body text-center">
+                                <dl>
+                                  <dd>{{post.title}}</dd>
+                                  <dd>NT$ {{post.price}}</dd>
+                                </dl>
+                                <div class="btn-group btn-group-sm">
+                                  <button class="border-primary" v-bind:disabled="post.count === 0"
+                                    v-on:click="post.count--">-</button>
+                                  <span
+                                    class="px-3 border border-primary-top-2 border-primary-bottom-2">{{ post.count }}</span>
+                                  <button class="border-primary" v-on:click="post.count++">+</button>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Modal-08 -->
+                  <div class="modal fade" id="Modal-06" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel01" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="exampleModalLabel-lm">點餐清單 - 劉妹鍋燒意麵</h5>
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+                              aria-hidden="true">&times;</span> </button>
+                        </div>
+                        <div class="modal-body">
+
+                          <!-- 購物車匯總資料 -->
+                          <div class="row mt-0">
+                            <table class="mt-0" style="width:100%">
+                              <tr>
+                                <th style="text-align:right;">名稱</th>
+                                <th style="text-align:right;">單價</th>
+                                <th style="text-align:center;">數量</th>
+                                <th style="text-align:right;">金額</th>
+                              </tr>
+                              <div class="row" v-for="posts in results">
+                                <tr v-for="post in posts" v-if="post.count !== 0 ">
+                                  <td style="text-align:right;">{{post.title}} </td>
+                                  <td style="text-align:right;">{{post.price}} </td>
+                                  <td style="text-align:center;">{{post.count}} </td>
+                                  <td style="text-align:right;">{{itemPrice(post.price, post.count) }} </td>
+                                </tr>
+                              </div>
+                            </table>
+                          </div>
+                          <div class="row mt-1">
+                            <div class="col-8"> </div>
+                            <div class="col">
+                              <p style="background-color:yellow"> 總價：{{totalPrice}} </p>
+                            </div>
+                          </div>
+                            <form>
+                              取餐方式：
+                              <input type="radio" id="one-lm" value="One" v-model="pickup05">
+                              <label for="one">內用</label> &nbsp;&nbsp; 
+                              <span>桌號: {{ time05 }}  <input v-model="time05" placeholder="桌號"> </span>								
+							<br>
+                              <input type="radio" id="two-lm" value="Two" v-model="pickup05">
+                              <label for="two">外帶</label>
+                              <span>備註: {{ memo05 }}. <input v-model="memo05" placeholder="特別事項"> </span>
+                            </form>							
+							
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-dismiss="modal">取消</button>
+                          <button type="button" class="btn btn-primary">結帳</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+								
+
+            <!-- 插入下一項 -->		
+				
+				
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+    </article>
+  <!-- InstanceEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+    <script>
+      // Javascript to enable link to tab
+      var url = document.location.toString();
+      if (url.match('#')) {
+        $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+      }
+
+      // Change hash for page-reload
+      $('.list-group a').on('shown.bs.tab', function (e) {
+        window.location.hash = e.target.hash;
+      })
+    </script>
+    <script>
+      const posts = []
+      const SECTIONS_01 = "芬享美味餐廳"
+      const SECTIONS_02 = "肉類便當, 蓋飯便當, 海鮮便當, 炸肉單點"
+      const SECTIONS_03 = "快樂早餐店"
+      const SECTIONS_04 = "湯麵/粉, 炒麵/飯, 小菜類, 湯飲類"	  
+      const SECTIONS_05 = "漢堡, 吐司, 蛋餅, 悠閒小點, 早午餐, 養生飲品, 台灣水果茶"
+      const SECTIONS_06 = "主餐, 加料, 加味"	  
+
+      new Vue({
+        el: '#app01',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_01.split(', '),
+          section: '芬享美味餐廳'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Store === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-3211-芬享美味餐廳.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        }
+      });	  
+	  
+      new Vue({
+        el: '#app02',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_02.split(', '),
+          section: '肉類便當'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        methods: {
+          itemPrice(price, count) {
+            return price * count;
+          },
+          deleteItem(index) {
+            this.posts.splice(index, 1);
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          },
+
+          totalPrice() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section);
+            let total = 0;
+            for (let post of this.posts) {
+              total += post.price * post.count;
+            }
+            return total;
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-3212-邦煮.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });
+
+
+      new Vue({
+        el: '#app03',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_03.split(', '),
+          section: '快樂早餐店'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Store === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-3213-快樂早餐.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        }
+      });
+
+
+      new Vue({
+        el: '#app04',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_04.split(', '),
+          section: '湯麵/粉'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        methods: {
+          itemPrice(price, count) {
+            return price * count;
+          },
+          deleteItem(index) {
+            this.posts.splice(index, 1);
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          },
+
+          totalPrice() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section);
+            let total = 0;
+            for (let post of this.posts) {
+              total += post.price * post.count;
+            }
+            return total;
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-3214-越南小吃.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });
+
+      new Vue({
+        el: '#app05',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_05.split(', '),
+          section: '漢堡',
+          date05: '',
+          time05: '',
+          memo05: '',
+          pickup05: ''
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        methods: {
+          itemPrice(price, count) {
+            return price * count;
+          },
+          deleteItem(index) {
+            this.posts.splice(index, 1);
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section)
+            let i, j, chunkedArray = [], chunk = 150;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          },
+
+          totalPrice() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section);
+            let total = 0;
+            for (let post of this.posts) {
+              total += post.price * post.count;
+            }
+            return total;
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-3215-番茄村.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });
+
+      new Vue({
+        el: '#app06',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_06.split(', '),
+          section: '主餐'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        methods: {
+          itemPrice(price, count) {
+            return price * count;
+          },
+          deleteItem(index) {
+            this.posts.splice(index, 1);
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          },
+
+          totalPrice() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.category === this.section);
+            let total = 0;
+            for (let post of this.posts) {
+              total += post.price * post.count;
+            }
+            return total;
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-3216-劉妹鍋燒意麵.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });
+
+
+    </script>
+  <!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd --></html>

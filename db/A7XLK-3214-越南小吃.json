@@ -1,0 +1,210 @@
+[
+        {
+            "id": "101",
+            "title": "牛肉河粉 Phở bò",
+            "price": 80,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-101.jpg",
+            "category": "湯麵/粉"
+        },
+        {
+            "id": "102",
+            "title": "豬肉河粉 Phở heo",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-102.jpg",
+            "category": "湯麵/粉"
+        },
+        {
+            "id": "103",
+            "title": "牛肉麵 Mì bò",
+            "price": 80,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-103.jpg",
+            "category": "湯麵/粉"
+        },
+        {
+            "id": "104",
+            "title": "豬肉麵  Mì heo",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-104.jpg",
+            "category": "湯麵/粉"
+        },
+        {
+            "id": "105",
+            "title": "什錦麵 Mì thập cẩm",
+            "price": 80,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-105.jpg",
+            "category": "湯麵/粉"
+        },
+        {
+            "id": "201",
+            "title": "炒麵 Mi xào",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-201.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "202",
+            "title": "炒飯 Cốm xào",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-202.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "203",
+            "title": "蝦仁炒飯 Cốm xao tom",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-203.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "204",
+            "title": "牛肉炒飯 Cơm xào bò",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-204.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "205",
+            "title": "豬肉炒飯 Cơm xào heo",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-205.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "206",
+            "title": "牛肉炒米線 Bún thịt xào bơ",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-206.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "207",
+            "title": "豬肉炒米線 Bún thịt xào heo",
+            "price": 60,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-207.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "208",
+            "title": "蛋炒飯 Cốm xào trứng",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-208.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "209",
+            "title": "滷肉飯 Cốm thit kho",
+            "price": 40,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-209.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "210",
+            "title": "手工水餃 Bánh bao",
+            "price": 10,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-210.jpg",
+            "category": "炒麵/飯"
+        },
+        {
+            "id": "301",
+            "title": "綜合滷味 Phá lấu thập cẩm",
+            "price": 50,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-301.jpg",
+            "category": "小菜類"
+        },
+        {
+            "id": "302",
+            "title": "燙青菜 Rau luộc",
+            "price": 30,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-302.jpg",
+            "category": "小菜類"
+        },
+        {
+            "id": "303",
+            "title": "燙蝦子 Cơm luộc",
+            "price": 200,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-303.jpg",
+            "category": "小菜類"
+        },
+        {
+            "id": "304",
+            "title": "炸雞翅 Cánh gà chiên nước mắn",
+            "price": 150,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-304.jpg",
+            "category": "小菜類"
+        },
+        {
+            "id": "305",
+            "title": "牛肉炒青菜 Bò xào rau",
+            "price": 100,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-305.jpg",
+            "category": "小菜類"
+        },
+        {
+            "id": "306",
+            "title": "青菜炒蒜頭 Rau xào tỏi",
+            "price": 80,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-306.jpg",
+            "category": "小菜類"
+        },
+        {
+            "id": "307",
+            "title": "炸春捲 Nem rán",
+            "price": 10,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-307.jpg",
+            "category": "小菜類"
+        },
+        {
+            "id": "401",
+            "title": "貢丸湯 Canh thịt viên",
+            "price": 30,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-401.jpg",
+            "category": "湯飲類"
+        },
+        {
+            "id": "402",
+            "title": "大骨湯 Canh xương",
+            "price": 50,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-402.jpg",
+            "category": "湯飲類"
+        },
+        {
+            "id": "403",
+            "title": "蛋花湯 Canh trứng",
+            "price": 30,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-403.jpg",
+            "category": "湯飲類"
+        },
+        {
+            "id": "404",
+            "title": "青菜湯 Canh  rau",
+            "price": 30,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-越南小吃-404.jpg",
+            "category": "湯飲類"
+        }
+    ]

@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>A7新林口 - 行車交通</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+ <style>
+    body {
+      font-family: Arial;
+    }
+
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #AAAAFF;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #7D7DFF;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  </style>
+	
+	
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y94XE7PY1L');
+</script>	
+	
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand"
+      href="index.html"> A7 新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          	<div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+				<a class="dropdown-item" href="index.html">網站公告</a> 
+				<a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a> 
+				<a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a> 	
+				<a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a> 
+				<a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a> 
+
+			</div>
+        </li>
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a> 			  
+			  <a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a> 
+			  <a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a> 
+			  <a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a> 			  
+			  <a class="dropdown-item" href="A7XLK-25-BusinessService.html">廣告看板</a> 
+			  <a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a> 			  
+		  </div>
+        </li>
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+			  <a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a> 				  
+			  <a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a> 
+		<!--				  
+			  <a class="dropdown-item" href="../A7XLK-34-Snacks.html">點心零食</a> 
+		-->
+		  </div>
+        </li>
+
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          	<div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>	
+			  <a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a> 			  
+		  
+		<!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 			  
+			  <a class="dropdown-item" href="../A7XLK-43-Housing.html">住屋居家</a> 
+		-->
+			  <a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a> 
+			  <a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a> 			  
+		  </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- InstanceBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg1 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">A7新林口</h5>
+        <p class="text-white">行車與大眾交通資訊</p>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+
+  <!-- InstanceBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- InstanceEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- InstanceBeginEditable name="main_content" -->
+    <article>
+      <div id="app" class="container-fluid mt-1">
+        <div class="row">
+          <div class="col-md-2">
+
+            <div class="list-group" id="MenuList" role="tablist">
+              <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">區域公車</a>
+              <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">桃園捷運</a>
+              <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">台北捷運</a>
+              <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">市區公車</a>
+              <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">台鐵高鐵</a>
+              <a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">出租汽車 / UBike</a>
+              <a href="#Menu-B7" class="list-group-item list-group-item-action" data-toggle="list">未來規劃</a>
+            </div>
+            <br>
+          </div>
+          <div class="col-md-10">
+
+            <div class="tab-content">
+
+              <div class="tab-pane active" id="Menu-B1" role="tabpanel">
+                <!-- Menu B1 -->
+                <div class="row mb-1">
+                  <h3>A7重劃區 區域公車</h3>
+                </div>
+                <div class="row mb-1">
+                  <div class="col-md-6">
+
+                    <h5>微循環公車 202</h5>
+                    <img src="fig/A7XLK-131-Bus202.jpeg" class="img-fluid" Style="width:600px">
+                    <br><br>
+                    班車時刻表, 請點選：(時刻是概估時間需稍作提前以免誤班)
+                    <div class="tab">
+                      <button class="tablinks" onclick="openCity(event, 'OPT11')">林口長庚-&#8250;樂善國小</button>
+                      <button class="tablinks" onclick="openCity(event, 'OPT12')">樂善國小-&#8250;林口長庚</button>
+
+                    </div>
+                    <div id="OPT11" class="tabcontent">
+                      <h5>林口長庚-&#8250;樂善國小</h5>
+                      <p>06:24, 07:44, 09:04, 10:24, 11:44, 13:24, 14:44, 16:04, 17:24, 18:44, 20:44 </p>
+
+
+                    </div>
+
+                    <div id="OPT12" class="tabcontent">
+                      <h5>樂善國小-&#8250;林口長庚</h5>
+                      <p>06:16, 07:36, 08:56, 10:16, 11:36, 13:16, 14:36, 15:56, 17:16, 18:36, 20:16</p>
+
+                    </div>
+					  
+					  <br><br>
+
+                  </div>
+                  <div class="col-md-6">
+					<h5>社區巴士共享</h5>
+					  待推動！
+
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="tab-pane" id="Menu-B2" role="tabpanel">
+                <!-- Menu B2 -->
+                <div class="row">
+                  <h3>桃園捷運 </h3>
+                </div>
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="fig/A7XLK-132-Transportation-05.jpg" class="img-fluid" style="width:700px">
+                  </div>
+
+                  <div class="col-md-6">
+                    <ul>
+                      <li>桃園捷運<a
+                          href="https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/timetable-search.php">官網</a>,&nbsp;
+                        <a href="https://zh.wikipedia.org/zh-tw/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B">Wikipedia</a>，桃園<a
+                          href="https://zh.wikipedia.org/zh-tw/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B%E7%B6%A0%E7%B7%9A">捷運綠線</a>，桃園<a
+                          href="https://zh.wikipedia.org/zh-tw/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B%E6%A3%95%E7%B7%9A">捷運棕線</a>
+                      </li>
+                      <li>A8 長庚醫院站 - A1 台北車站</li>
+                      <ul>
+                        <li>乘車時間：普通車 約30分鐘，直達車 約 22 分鐘</li>
+                        <li>票價： 全票 70 元，優待票 35 元，兒童票 56元</li>
+                        <li>定期票價：1 日票 320元，30 天 2,058元，60天 3,780元，90 天5,292 元，120天 5,880 元</li>
+                      </ul>
+                      <li>A8 長庚醫院站 - A13 第二航廈站</li>
+                      <ul>
+                        <li>乘車時間：普通車 約21分鐘，直達車 約 18 分鐘</li>
+                        <li>票價： 全票 50 元，優待票 25 元，兒童票 40元</li>
+                        <li>定期票價：1 日票 320元，30 天 1,470元，60天 2,700元，90 天3,780 元，120天 4,200 元</li>
+                      </ul>
+                    </ul>
+                    <h4>A8 <a href="https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/A8">長庚醫院站</a></h4>
+                    <div>
+                      <ul>
+                        <li><a href="https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/A8">轉乘公車</a></li>
+                        <li>林口長庚醫院：<a
+                            href="https://www1.cgmh.org.tw/branch/lnk/2016/about.aspx?bid=2&amp;id=31">周邊停車場</a>
+                        </li>
+                      </ul>
+                    </div>
+
+                    <img src="fig/A7XLK-132-Transportation-02.jpg" class="img-fluid">
+                  </div>
+
+                </div>
+                <div class="row">
+                  <div>
+                    <h4>捷運先導公車</h4>
+                    <div>
+                      <ul>
+                        <li>維基百科：<a
+                            href="https://zh.wikipedia.org/wiki/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B%E7%B6%A0%E7%B7%9A%E5%85%88%E5%B0%8E%E5%85%AC%E8%BB%8A">捷運先導公車</a>
+                        </li>
+                        <li>桃園公車：<a href="https://ebus.tycg.gov.tw/NewTaoyuan/Dybus.aspx">動態資訊系統</a></li>
+                        <li>綠線先導公車GR -&nbsp;桃園後站 ↔ 捷運坑口站</li>
+                        <ul>
+                          <li>1.桃園後站 - 2.聖保祿醫院 - 3.建國路口 - 4.統領百貨 - 5.桃園郵局 - 6.永和市場 - 7.中正三民路口 - 8.中正商業大樓 - 9.北埔路口 -
+                            10.中正信光街口 -
+                            11.中正慈文路口 - 12.慈文國中 - 13.中正大興西路口 - 14.福安宮 - 15.中正藝文特區 - 16.行政執行處 - 17.同德十一街口 - 18.莊敬路口 -
+                            19.中正莊二街口 -
+                            20.中正橋 - 21.南竹路口 - 22.南順一街口 - 23.奉化忠孝西路口 - 24.麗寶經典 - 25.光明郵局 - 26.光明國小 - 27.光明國中 - 28.錦興國小 -
+                            29.南崁 -
+                            30.台茂購物中心 - 31.下南崁 - 32.南亞/好市多 - 33.溪州 - 34.台灣松下- 35.徐厝 - 36.三商 - 37.水尾 - 38.八股路口 - 39.下水尾 -
+                            40.果林 -
+                            41.崁下 - 42.捷運坑口站</li>
+                        </ul>
+                        <li>綠線先導公車GR2 -&nbsp;桃園後站 ↔ 八德</li>
+                        <ul>
+                          <li>桃園後站(G07) - 統領百貨公司 - 南華街口 - 三民建國路口 - 三民介壽路口 - 陽明公園站(G06) - 桃園監理站 - 利台 - 力行街口 - 無線電台 - 小大湳
+                            -
+                            忠勇西街站(G05) - 介壽大智路口 - 陸光四村 - 大湳站(G04) - 大湳辦事處 - 瑞祥社區 - 鴻昌社區 - 麻園站(G03) - 梅花社區 - 欣桃社區 - 松柏園 -
+                            瑞豐國小 -
+                            瑞發家園 - 更寮腳 - 聯福巷口 - 興豐路口 - 八德國中 - 八德站(G01)</li>
+                        </ul>
+                        <li>橘線先導公車BR</li>
+                        <li>收費方式</li>
+                        <ul>
+                          <li>GR：兩段票收費, 緩衝區：南竹路口—南崁</li>
+                          <li>GR2：一段票收費</li>
+                        </ul>
+                        <li>每段票費用：</li>
+                        <ul>
+                          <li>全票：新台幣18元</li>
+                          <li>半票：新台幣9元</li>
+                        </ul>
+                        <li>班距</li>
+                        <ul>
+                          <li>首班車:6:00</li>
+                          <li>末班車:22:30</li>
+                          <li>尖峰每20分鐘一班，離峰每30分鐘一班。</li>
+                        </ul>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane" id="Menu-B3" role="tabpanel">
+                <!-- Menu B3 -->
+                <div class="row">
+                  <h5>台北捷運 </h5>
+                  <p>
+                    <a style="margin-left:20px" href="https://tw.piliapp.com/mrt-taiwan/taipei/">台北捷運圖</a> 包含:票價,
+                    早末班車，臨近公車，出口地圖。
+                    <a href="https://mrtexit.com/">捷運出口查詢</a>：輸入地點簡稱, 查詢最近捷運出口。
+
+                  </p>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="fig/A7XLK-132-Transportation-03.jpg" class="img-fluid" style="width:1000px">
+                  </div>
+
+                </div>
+                <div class="row">
+
+                  <h5>台北車站地下街出口</h5>
+                </div>
+                <div class="row ">
+                  <div class="col-lg-12">
+                    <img src="fig/A7XLK-132-Transportation-04.png" class="img-fluid" style="width:1000px">
+
+                  </div>
+                </div>
+                <div class="row">
+                  <h5>台北8橫8縱幹道路廊圖</h5>
+                </div>
+                <div class="row">
+                  <div class="col-lg-12">
+                    <img src="fig/A7XLK-132-Transportation-02.png" class="img-fluid" style="width:1000px">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane" id="Menu-B4" role="tabpanel">
+                <!-- Menu B4 -->
+                <div class="row">
+                  <h3>市區公車 </h3>
+                </div>
+
+                <div id="app" class="row">
+                  <h3>公車資訊</h3>
+                  <a class="mx-4" href="https://ebus.gov.taipei/">大台北公車</a>
+                  <a class="mx-4" href="https://ebus.tycg.gov.tw/NewTaoyuan/Dybus.aspx">桃園公車</a>
+                </div>
+
+                <div class="container-fluid">
+
+                  <div class="alert alert-info mt-2" role="alert">
+                    <div class="row">
+                      <div class="col-8">
+                        <div class="form-group">
+                          <select class="form-control" v-model="section" id="exampleFormControlSelect7">
+                            <option v-for="section in sections">{{ section }}</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <h5 class="text-left"> 選擇站牌 </h5>
+                      </div>
+                    </div>
+
+                  </div>
+                  <div class="row" v-for="posts in results">
+
+                    <table class="table table-striped table-hover table-sm">
+                      <thead>
+                        <tr>
+                          <th>公車</th>
+                          <th>起站</th>
+                          <th>訖站</th>
+                          <th>路線圖</th>
+                          <th>客運公司</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr v-for="post in posts">
+                          <td>{{post.公車}}</td>
+                          <td>{{post.起站}}</td>
+                          <td>{{post.訖站}} </td>
+                          <td>
+                            <a v-bind:href="post.路線圖">路線</a>
+                          </td>
+                          <td>{{post.所屬公司}}</td>
+                        </tr>
+                      </tbody>
+                    </table>
+
+                  </div>
+
+                </div>
+
+
+              </div>
+              <div class="tab-pane" id="Menu-B5" role="tabpanel">
+                <!-- Menu B5 -->
+                <div class="row">
+                  <h3> 台鐵高鐵 </h3>
+                </div>
+
+                <div class="row">
+                  <ul>
+                    <li><a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime">台鐵列車</a>時刻</li>
+                    <li>高鐵列車： <a href="https://www.thsrc.com.tw/tw/timetable/searchresult">時刻查詢</a>， <a
+                        href="https://www.thsrc.com.tw/UploadFiles/TicketFile/5eb3f582-1455-4ca9-8a4a-b1705d7c79af.pdf">高鐵時刻表</a>
+                    </li>
+                  </ul>
+
+                  <div class="row">
+                    <h3 id="title-2">高鐵南下時刻表 </h3> 2019/7/1 起適用
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <img src="fig/A7XLK-133-高鐵南下1.png" class="img-fluid" style="width:1000px">
+                      <img src="fig/A7XLK-133-高鐵南下2.png" class="img-fluid" style="width:1000px">
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+              <div class="tab-pane" id="Menu-B6" role="tabpanel">
+                <!-- Menu B6 -->
+                <div class="row mb-1">
+                  <h3> 出租汽車 / UBike </h3>
+                </div>
+                <div class="row mb-1">
+                  <div class="col-md-6">
+                    <div class="row mb-1">
+                      <h3 id="title-2">Taxi 出租汽車</h3>
+                    </div>
+                    <div class="row mb-1">
+                      <ul>
+                        <li>新北市
+                          <ul>
+                            <li><a href="https://www.mtaxi.com.tw/taxi/tel/">大都會</a>衛星計程車：02-4499178/手機直撥55178</li>
+                            <li><a href="https://www.crowntaxi.com.tw/wp/">皇冠</a>大車隊：02-4128333/手機直撥5510</li>
+                            <li><a href="https://www.taiwantaxi.com.tw/">台灣大</a>車隊：02-40588888/手機直撥55688</li>
+                          </ul>
+                        </li>
+                        <li>桃園市
+                          <ul>
+                            <li><a href="https://www.mtaxi.com.tw/taxi/tel/">大都會</a>衛星車隊：03-4499178/手機直撥55178</li>
+                            <li>合作衛星車隊：03-3557700或3558000</li>
+                            <li>新利達衛星車隊：03-3758888</li>
+                            <li><a href="http://www.dwstaxi.com.tw/">大文山</a>衛星派遣車隊：03-2185666、3501666/手機直撥 55106</li>
+                          </ul>
+                        </li>
+						<li>
+							龜山區
+							<ul>
+								<li>大文山：手機直撥 55106, 0800-501-666, 03-350-1666</li>
+								<li>台灣大：手機/市話 直撥 55688</li>
+								<li>新梅：03-363-0033, 03-375-3322</li>
+							</ul>
+						</li>
+						
+                      </ul>
+						龜山手機叫車：
+						<a href="tel:55106"> <button type="button" class="btn btn-info">大文山</button> </a> &nbsp;
+						<a href="tel:55688"> <button type="button" class="btn btn-info">台灣大</button> </a> &nbsp;
+						<a href="tel:033630033"> <button type="button" class="btn btn-info">新梅</button> </a> 					
+						
+						
+                    </div>
+                    <div class="row">
+                      <h5>租車</h5>
+                    </div>
+                    <div class="row">
+
+                      <ul>
+                        <li>Hello <a href="http://hellocar.weebly.com/">哈囉租車</a>
+                          <ul>
+                            <li>地址：333桃園市龜山區復興二路77號</li>
+                            <li>電話：03-211-5465</li>
+                            <li>營業時間：09:00 - 21:00</li>
+                          </ul>
+                        </li>
+                        <li><a href="http://www.hwayicarrental.com.tw/">華誼租車</a>-林口店
+                          <ul>
+                            <li>地址：333桃園市龜山區文化一路86-27號</li>
+                            <li>電話：03-318-0757</li>
+                            <li>營業時間：09:00 - 21:00</li>
+                          </ul>
+                        </li>
+                      </ul>
+
+                    </div>
+
+                  </div>
+                  <div class="col-md-6">
+                    <div class="row">
+                      <h3>UBike 公共自行車</h3>
+                    </div>
+                    <div class="row">
+
+                      <ul>
+                        <li>桃園公共自行車網：<a href="https://tycg.youbike.com.tw/home">UBike</a></li>
+                        <li>公共自行車24小時客服專線：03-286-8833</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">費率-單次租車：</li>
+                        <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">使用4小時內每30分鐘10元</li>
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">4小時～8小時內每30分鐘20元</li>
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">超過8小時以上每30分鐘40元</li>
+                        </ul>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">費率-會員</li>
+                        <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">使用前30分鐘免費</li>
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">4小時內每30分鐘10元</li>
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">4小時～8小時內每30分鐘20元</li>
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">超過8小時以上每30分鐘40元</li>
+                        </ul>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">付費方式</li>
+                        <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">單次使用：信用卡</li>
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">會員：悠遊卡，一卡通</li>
+                        </ul>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">註冊方式</li>
+                        <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">單次使用：各站點KIOSK申辦</li>
+                          <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">會員：服務中心申辦;<a
+                              href="http://wa.tycg.youbike.com.tw/new_account"
+                              style="color: #468db5; outline: none; text-decoration-line: none;">官方網站申辦</a>，官方APP申辦 (<a
+                              href="https://play.google.com/store/apps/details?id=tw.com.sstc.youbike&amp;hl=zh_TW"
+                              style="color: #468db5; outline: none; text-decoration-line: none;">Google
+                              Play</a>,&nbsp;<a
+                              href="https://apps.apple.com/tw/app/youbike-wei-xiao-dan-che/id639534082"
+                              style="color: #468db5; outline: none; text-decoration-line: none;">Apple
+                              Store</a>)，各站點KIOSK申辦</li>
+                        </ul>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">App 下載：<a
+                            href="https://play.google.com/store/apps/details?id=tw.com.sstc.youbike&amp;hl=zh_TW"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">Google Play</a>,&nbsp;<a
+                            href="https://apps.apple.com/tw/app/youbike-wei-xiao-dan-che/id639534082"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">Apple Store</a></li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">使用說明：<a
+                            href="https://tycg.youbike.com.tw/use/rentway"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">租還方式</a>，<a
+                            href="https://tycg.youbike.com.tw/use/saferide"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">安全騎乘</a></li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">站點地圖：<a
+                            href="https://tycg.youbike.com.tw/station/map"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">站點即時資訊</a></li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">YouBike 保險：<a
+                            href="https://www.youtube.com/watch?v=3yV2D77RVhE"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">YouTube</a>,&nbsp;北北桃YouBike<a
+                            href="https://www.youtube.com/watch?v=tDQwBiN5kHw"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">傷害險</a></li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">Youtube:&nbsp;<a
+                            href="https://www.youtube.com/watch?v=V4_4cXwXnM4"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">騎動桃園</a>，<a
+                            href="https://www.youtube.com/watch?v=Hm8jqSxbnFY"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">租借破千萬</a>，<a
+                            href="https://www.youtube.com/watch?v=-2pjPZ9lrkY&amp;t=230s"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">使用教學</a></li>
+                      </ul>
+
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+
+              <div class="tab-pane" id="Menu-B7" role="tabpanel">
+                <!-- Menu B6 -->
+                <div class="row">
+                  <h3>未來道路規劃</h3>
+                </div>
+				<div class="row">
+					<div class="col-md-6">
+						<h5>國道1號 交流道改善工程</h5>
+						相關資訊
+						<ul>
+							<li>
+								交通部高速公路局 <a href="https://www.freeway.gov.tw/Publish.aspx?cnid=95&p=22539">國道1號林口交流道改善工程</a>, &nbsp;
+								
+								<a href="file/XLK-219-林口建設計畫定稿本(全).pdf">林口建設計畫-定稿本</a>
+							</li>
+							<li>
+								聯合新聞網 2021/08/06 <a href="https://udn.com/news/story/7323/5654995?from=udn-ch1_breaknews-1-cate3-news&fbclid=IwAR0LYk0yPMCqCzX6nVjmWo1xmjyXvMahoves_1gH_jk7jpPycQCCuf6DREg">政院核定國1林口交流道改善工程</a>
+							</li>
+						</ul>
+		
+
+						改善示意圖：<br>
+						<img src="fig/A7XLK-135-林口A交流道改善工程模擬.webp" class="img-fluid" style="width:600px"><br><br>						
+						<img src="fig/A7XLK-135-林口A、B交流道南出南入及北出北入交織改善-規劃示意圖.jpg" class="img-fluid" style="width:600px"><br><br>	
+							
+						
+					
+					</div>
+					<div class="col-md-6">
+						<h5>計畫緣起</h5>
+						國道1號林口交流道位於新北市林口區與桃園市龜山區交界，設有林口A(約41K)及林口B(約43K)二個鑽石型交流道，並以集散道串聯。因周邊大型開發持續增加，人口快速成長，交通量大幅增加，囿於匝道出入口受主線長爬坡、匝道縱坡、地方道路號誌延滯及文化一路跨越橋儲車空間不足等影響，導致車輛回堵主線壅塞嚴重，爰辦理本工程。
+						<br><br>
+						<h5>計畫內容</h5>
+						<ol>
+							<li>新增林口A交流道南出匝道：原林口A南出匝道於外側公有地新增南出左轉高架匝道，跨越文化一路及國1主線後於桃園側各1車道銜接復興街及文化一路內側，並於原南出匝道外側新增1右轉車道。</li>
+							<li>新增林口A交流道北入匝道：匝道起點為八德路與文化一路三角地帶，終點與林口B北入車道匯集後匯入主線。</li>
+							<li>林口A、B交流道南出南入及北出北入交織改善：以箱涵立體化改善，避免車輛交織，並考量北出車流大，增設林口A北出匝道銜接文化三路。</li>
+						</ol>
+						<h5>計畫期程</h5>
+						5年, 2021/7/30日核定，預計2025年完工通車
+						<br><br>
+						規劃示意圖：<br>
+						<img src="fig/A7XLK-135-林口A交流道改善工程-規劃示意圖.jpg" class="img-fluid" style="width:600px"><br><br>						
+					</div>					  
+				  
+				</div>
+				  
+                <div class="row">
+					<div class="col-md-6">
+                  		<h5>A7 區域道路計畫相關資訊</h5>
+						<ul>
+							<li>
+								自由時報 2021/06/04 <a href="https://ec.ltn.com.tw/article/breakingnews/3558405?utm_medium=R&utm_campaign=SHARE&utm_source=FACEBOOK&fbclid=IwAR0AXAzdLKlSWeJkECpwSgm1HxNCjks-0Wxz47Wb9hHf1uWLx1_jsAZrFkA">打通A7合宜宅交通任督二脈</a> 桃園市府估經費10億獲補助
+							</li>
+							<li>
+								A7重劃區重大建設整理 <a href="https://www.mobile01.com/topicdetail.php?f=456&t=6108727">2020/11/29更新</a>
+							</li>
+							<li>
+								牛角坡路 延伸 <a href="https://www.facebook.com/100006734769610/videos/3021829674718162/">Facebook 影片</a>
+							</li>
+							
+						</ul>
+
+						<img src="fig/A7XLK-134-未來規劃-04.jpeg" class="img-fluid" style="width:800px"><br>
+						圖片來源：<a href="https://ec.ltn.com.tw/article/breakingnews/3558405?utm_medium=R&utm_campaign=SHARE&utm_source=FACEBOOK&fbclid=IwAR0AXAzdLKlSWeJkECpwSgm1HxNCjks-0Wxz47Wb9hHf1uWLx1_jsAZrFkA">自由時報 2021/06/04</a>
+						<br><br>
+						
+					</div>
+					<div class="col-md-6">
+						<h5>道路規劃</h5> 自由時報 2021/06/04 報導<br>
+						A7合宜住宅區對外聯外道路文青路塞車情形嚴重，市府規劃下面3案希望能改善當地交通。總計工程及用地經費10.6億元，已獲中央同意補助，目前正在進行用地取得作業，最晚2023年就可動工發包。。<br><br>
+
+						<h5>變一案: 文學路延伸與樂善一路延伸 T字道路計畫</h5>
+						內政部已於2021/05/26 核定補助經費。	主要是打通文學路連接文化一路，紓解文青路車流，全長389米、將拓寬為20米道路；因用地範圍內含牛角坡煙囪、八卦窯等文化資產設施，目前正依文化資產保存法規定辦理審議程序，於文化資產認定前，同步辦理細部設計作業，預計於2023年發包。
+						<br><br>
+						<h5>變二案: 牛角坡路延伸至文化一路 </h5>
+						內政部已於2021/05/26 核定補助經費。全長163米，將拓寬為20米道路，預計2021年8月完成規劃設計，同步辦理用地取得，預計2022年底至2023年初可進行發包。
+						<br><br>						
+						<h5>變三案: 文藝街 延伸計畫</h5>	
+						內政部已核定工程經費2498萬元。全長70米，將開闢為6到15米寬的道路，市府於2021/04/23 召開協議價購會議，正辦理簽約過戶程序，預計2021下半年將先完成用地取得即可發包。將會是進度最快的變更計畫。
+						<br><br>
+						
+						<img src="fig/A7XLK-134-未來規劃-02.jpeg" class="img-fluid" style="width:800px"><br>
+						樟腦寮磚窯廠遺址：目前只剩兩只煙囪，將會保留一只   （圖片來源：
+						<a href="https://www.facebook.com/groups/1951117865015671">Facebook</a>）
+											
+					</div>		
+				  
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+	</div>
+    </article>
+  <!-- InstanceEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+  
+	<script>
+      function openCity(evt, cityName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(cityName).style.display = "block";
+        evt.currentTarget.className += " active";
+      }
+    </script>
+		
+	<script>
+      const posts = []
+      const SECTIONS_TW = "林口長庚醫院, 醫學大樓, 公西站（華亞園區）, 桃園酒廠, 高正鋼鐵"
+
+      new Vue({
+        el: '#app',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_TW.split(', '),
+          section: '林口長庚醫院'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.站名 === this.section)
+            let i, j, chunkedArray = [], chunk = 40;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-1301-Bus.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });
+    </script>
+  <!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd --></html>

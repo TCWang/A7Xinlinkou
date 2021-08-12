@@ -1,0 +1,129 @@
+﻿[
+        {
+            "No": "01",
+            "Category": "功能匯總",
+            "Function": "切碎",
+            "Sample": "洋蔥碎",
+            "Description": "速度4到6<br>\r\n美善品多功能料理機可以讓您在幾秒鐘內切碎洋蔥、堅果、香草、肉類及紅蘿蔔等許多食材。5秒鐘内切碎1000克的馬鈴薯或是4秒鐘內切碎1000克洋蔥。只有在您親身體驗后,才會瞭解美善品能幫你省下很多切菜的時間。",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-01.jpg",
+            "Link": "https://www.youtube.com/watch?v=vORH7HEq-AE"
+        },
+        {
+            "No": "02",
+            "Category": "功能匯總",
+            "Function": "調合",
+            "Sample": "濃湯",
+            "Description": "速度 6到10<br>\r\n製作冰沙, 濃湯或雞尾酒時能將所有食材調合成完美的質地。如需攪拌·應將\r\n速度設定在6或更高:調合的時間越長, 質地會更為滑順。處理熱燙料理時,需\r\n逐漸緩慢增加速度。",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-02.jpg",
+            "Link": "https://www.youtube.com/watch?v=f3EOb9-elEY"
+        },
+        {
+            "No": "03",
+            "Category": "功能匯總",
+            "Function": "混合",
+            "Sample": "醬汁",
+            "Description": "速度3到5<br>\r\n使用美善品多功能料理機混合,只需幾秒鐘就能做出蛋糕麵糊或是醬汁",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-03.jpg",
+            "Link": "https://www.youtube.com/watch?v=eLKuDLatw1I"
+        },
+        {
+            "No": "04",
+            "Category": "功能匯總",
+            "Function": "烹煮",
+            "Sample": "湯品",
+            "Description": "蒸鍋組可用來蒸煮各種食材。您可在主鍋煮湯或燉肉的同時分層蒸煮食物,以保其營養成份,讓料理更加健康.",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-04.jpg",
+            "Link": "https://www.youtube.com/watch?v=OWctOSdZyGY"
+        },
+        {
+            "No": "05",
+            "Category": "功能匯總",
+            "Function": "攪拌",
+            "Sample": "炒菜",
+            "Description": "速度  到1<br>\r\n利用美善品多功能料理機慢速攪拌食材,使食材均勻受熱一您再也不需盯著\r\n瓦斯爐避免焦鍋。",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-05.jpg",
+            "Link": "https://www.youtube.com/watch?v=N0yIXg_j9hM"
+        },
+        {
+            "No": "06",
+            "Category": "功能匯總",
+            "Function": "控制加熱",
+            "Sample": "回溫牛奶",
+            "Description": "37C到95C <br>\r\n位於主鍋底部的溫度感應器可根據您的需要精準控制溫度。對於在製作荷蘭醬、融化巧克力且容易燒焦的料理或是自製優格等需要精準控溫的料理而言,將有效地降低料理入門的難度並提高了成功率．",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-06.jpg",
+            "Link": "https://www.youtube.com/watch?v=8IUB0m03QKU&list=PLRE1DVFrTFKKmvJCBkidbtW70Ii_cNJPs&index=109"
+        },
+        {
+            "No": "07",
+            "Category": "功能匯總",
+            "Function": "蒸煮",
+            "Sample": "珍珠丸",
+            "Description": "美善品多功能料理機”主鍋不僅只能用來攪拌:它還能取代電鍋及燉鍋,將食材加溫、加熱、烹煮或拌炒一美善品多功能料理機皆能利用精準的加熱系統和攪拌功能進行烹煮,以達到完美地效果。",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-07.jpg",
+            "Link": "https://www.youtube.com/watch?v=pjH9eM_2Hko&list=PLdEDT73YhFSih876Te_LriyzQ-5Xdvkbm"
+        },
+        {
+            "No": "08",
+            "Category": "功能匯總",
+            "Function": "研磨",
+            "Sample": "冰糖粉",
+            "Description": "速度9到10<br>\r\n輕而易舉(參見第美善品多功能料理機的強力馬達和高品質攪拌刀組可用來研磨堅果、穀麥、冰糖或起士。",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-08.jpg",
+            "Link": "https://www.youtube.com/watch?v=l64Yny9F2wg"
+        },
+        {
+            "No": "09",
+            "Category": "功能匯總",
+            "Function": "揉麵團",
+            "Sample": "麵包",
+            "Description": "在揉麵模式下將模仿專業麵包師傅的手法,以間歇的順時針一逆時針的方式進行揉麵。只需2分鐘就可以揉好披薩麵欄,更不會弄麟您的雙手。",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-09.jpg"
+        },
+        {
+            "No": "10",
+            "Category": "功能匯總",
+            "Function": "秤重",
+            "Description": "內建的磅秤可以精準地秤量,為您帶來新的體驗。將食材放入主鍋時,美善品\r\n多功能料理會幫您進行秤量,然後依照食譜指示執行後續步驟即可。",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-10.jpg",
+            "Link": "https://www.youtube.com/watch?v=eLKuDLatw1I"
+        },
+        {
+            "No": "11",
+            "Category": "功能匯總",
+            "Function": "攪打",
+            "Sample": "打發鮮奶油",
+            "Description": "使用蝴蝶棒<br>\r\n您可迅速地打發鮮奶油、打够蛋白 或,製作完美的沙巴翁、將蝴蝶棒置於纜拌刀組頂端,並將速度調至2到4之間(遠度最高上限為4)",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-11.jpg",
+            "Link": "https://www.youtube.com/watch?v=p-pLTAA58Ec"
+        },
+        {
+            "No": "12",
+            "Category": "功能匯總",
+            "Function": "乳化",
+            "Sample": "美乃滋",
+            "Description": "速度 4到5<br>\r\n使用美善品多功能料理機的乳化功能來製作醬汁或是沙拉醬將輕而易舉",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-12.jpg",
+            "Link": "https://www.youtube.com/watch?v=VvVHSxN7vfc"
+        },
+        {
+            "No": "13",
+            "Category": "功能匯總",
+            "Function": "發酵",
+            "Sample": "優格",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-13.jpg"
+        },
+        {
+            "No": "14",
+            "Category": "功能匯總",
+            "Function": "慢燉",
+            "Sample": "燉肉",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-14.jpg"
+        },
+        {
+            "No": "15",
+            "Category": "功能匯總",
+            "Function": "低溫烹調",
+            "Sample": "舒肥牛排",
+            "Figure": "fig/XLK-331-Cooking/AiCity-944-Function-15.jpg"
+        }
+    ]

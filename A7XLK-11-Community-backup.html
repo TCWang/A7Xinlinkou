@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en"><!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>A7新林口 - 社區建案</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y94XE7PY1L');
+</script>	
+	
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand"
+      href="index.html"> A7 新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          	<div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+				<a class="dropdown-item" href="index.html">網站公告</a> 
+				<a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a> 
+				<a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a> 	
+				<a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a> 
+				<a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a> 
+
+			</div>
+        </li>
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a> 			  
+			  <a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a> 
+			  <a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a> 
+			  <a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a> 			  
+			  <a class="dropdown-item" href="A7XLK-25-BusinessService.html">廣告看板</a> 
+			  <a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a> 			  
+		  </div>
+        </li>
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+			  <a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a> 				  
+			  <a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a> 
+		<!--				  
+			  <a class="dropdown-item" href="../A7XLK-34-Snacks.html">點心零食</a> 
+		-->
+		  </div>
+        </li>
+
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          	<div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>	
+			  <a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a> 			  
+		  
+		<!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 			  
+			  <a class="dropdown-item" href="../A7XLK-43-Housing.html">住屋居家</a> 
+		-->
+			  <a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a> 
+			  <a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a> 			  
+		  </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- InstanceBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg11 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">A7 重劃區建案</h5>
+        <p class="text-white">捷運線的最低價房屋市場</p>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+
+  <!-- InstanceBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- InstanceEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- InstanceBeginEditable name="main_content" -->
+  <article>
+      <div class="container-fluid">
+        <div class="row ">
+          <h3>A7 新林口 重劃區 - 建案匯總</h3>
+        </div>
+        <div class="row">
+          <div class="col-md-2">
+            <div class="list-group" id="MenuList" role="tablist">
+              <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">建案地圖</a>
+              <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">建案匯總</a>	
+			  <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">購屋市場</a>	
+			  <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">建設願景</a>		
+			  <a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">數據分析</a>					
+            </div>
+            <br>
+          </div>
+          <div class="col-md-10">
+
+            <div class="tab-content">
+				
+              <!-- Menu B1 -->
+              <div class="tab-pane active" id="Menu-B1" role="tabpanel">
+
+				<h3 id="title-2">建案地圖 </h3>	
+				  <div class="row">
+				  	<div class="col-md-6">
+				  A7新林口 重劃區 包含下面五個區塊，分別屬於四個行政里。
+				  <ol>
+				  	<li>樂善國小生活圈 - <a href="https://www.google.com.tw/maps/place/333%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E9%95%B7%E5%BA%9A%E9%87%8C/@25.0580318,121.3823414,16z/data=!3m1!4b1!4m5!3m4!1s0x3442a711c8fda3f7:0x6e365d5cec420aaa!8m2!3d25.0595425!4d121.3863234?hl=zh-TW&authuser=0"> 長庚里</a> </li>
+					<li>樂善科技園區周邊 - <a href="https://www.google.com.tw/maps/place/333%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E6%A8%82%E5%96%84%E9%87%8C/@25.0429556,121.3684625,14z/data=!3m1!4b1!4m5!3m4!1s0x3442a7709116cc9d:0x4ab624a36795a586!8m2!3d25.0444421!4d121.3856088?hl=zh-TW&authuser=0"> 樂善里</a> </li>
+				  	<li>華亞科技園區周邊 - <a href="https://www.google.com.tw/maps/place/333%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E6%96%87%E5%8C%96%E9%87%8C/@25.0492913,121.3755956,15.32z/data=!4m5!3m4!1s0x3442a741372f2ecb:0xf04b3068896854e0!8m2!3d25.0471167!4d121.374175?hl=zh-TW&authuser=0"> 文化里</a></li>
+					<li>中心商業區及文青國中小生活圈 - 樂善里</li>
+					<li>合宜住宅區 - 文青里</li>						  
+				  </ol>
+				  註：點擊上面 各里的超連接就能查Google Map 上面的實際範圍。 民國 107 年將原有的樂善里區分為樂善里及文青里。目前Google 地圖仍是就有的樂善里。已申請Google 更新。
+                	<br><br>						
+					  
+					</div>
+				  	<div class="col-md-6">
+						建案介紹
+						<ul>
+							<li>
+								賞屋説說 2021/07/06: <a href="https://www.youtube.com/watch?v=jY3H_6P4Ngc">A7重劃區 區域分析</a>
+							</li>
+							<li>
+								賞屋説說 2019/04/26: <a href="https://www.youtube.com/watch?v=ZS2PAsWxnz4">A7重劃區未來到底會不會空城？</a>
+							</li>							
+						</ul>
+						建案現況空拍
+						<ul>
+							<li>
+								凡一 2021/07/10: <a href="https://www.youtube.com/watch?app=desktop&v=SDutEkQcXW0&feature=youtu.be&fbclid=IwAR1ZO2nC1Cxr1w7z0dJAGM4lTbYz5i38bbvUZq-TR70DlXYtf6pGYaLwDJE">桃園龜山A7建案</a>
+							</li>
+							<li>
+								空拍強哥 2021/04/20: <a href="https://www.youtube.com/watch?v=P0v_BSwpb-g">A7重劃區空拍</a>
+							</li>							
+						</ul>
+					  
+					</div>				  
+				  </div>
+				  
+				  
+
+				  <div id="app1" class="row mb-1">
+					<p>
+					1. 樂善國小生活圈 <br>
+					<img src="fig/A7XLK-112-House-01.png" class="img-fluid my-1" style="width:1000px"><br>
+					2. 樂善科技園區周邊<br>
+					<img src="fig/A7XLK-112-House-02.png" class="img-fluid my-1" style="width:1000px"><br>	
+					3. 華亞科技園區周邊<br>
+					<img src="fig/A7XLK-112-House-03.png" class="img-fluid my-1" style="width:1000px"><br>
+					4. 中心商業區及文青國中小生活圈<br>
+					<img src="fig/A7XLK-112-House-04.png" class="img-fluid my-1" style="width:1000px"><br>	
+					5. 合宜住宅區<br>
+					<img src="fig/A7XLK-112-House-05.png" class="img-fluid my-1" style="width:1000px"><br>							
+					</p>
+				
+					
+                  <table class="table table-striped table-sm table-hover" style="width:100%">
+                    <thead style="background-color:lightblue">
+                      <tr class="text-left">
+                        <th>建案</th>
+                        <th>單價</th>
+                        <th>交屋時間</th>
+                        <th>投資建設</th>
+						<th>住宅類別</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr v-for="post in posts">
+                        <td>{{post.no}}-{{ post.建案 }}</td>
+                        <td>{{ post.單價 }}</td>
+                        <td>{{ post.交屋時間 }}</td>
+                        <td>{{ post.投資建設 }}</td>
+						<td>{{ post.土地分區 }} </td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+              </div>
+
+
+              <!-- Menu B2 -->				
+              <div class="tab-pane" id="Menu-B2" role="tabpanel">
+
+                <h3> 建案匯總 </h3>
+     
+                <div id="app2" class="container-fluid">
+                  <div class="alert alert-info mt-2" role="alert">
+                    <div v-show="no" class="row">
+                      <div class="col-8">
+                        <div class="form-group">
+                          <select class="form-control" v-model="section" id="exampleFormControlSelect1">
+                            <option v-for="section in sections">{{ section }}</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <h5 class="text-center"> 選擇類別 </h5>
+						  點擊 各建案名稱 進入 591 房屋交易網, 點擊 建案圖片 瀏覽 建案詳細資料。
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row" v-for="posts in results">
+                    <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+                      <div class="card">
+                        <div class="card-header">
+							<a href=" #Menu-B7 "  @click="caseSelected(post)"><img v-bind:src="post.Figure" class="img-fluid"> </a>
+                          
+                        </div>
+                        <div class="card-body">
+                          <dl>
+                            <dd>
+                              <a v-bind:href=" post.Link ">{{post.no}}-{{post.建案}}  </a>：{{post.投資建設}}
+                            </dd>
+                            <dd>
+                              價格：{{post.單價}}, 車位：{{post.車位價格}}
+                            </dd>
+
+                            <dd>
+                              地址: {{post.基地地址}}
+                            </dd>
+                            <dd>
+                              交屋：{{post.交屋時間}}
+                            </dd>
+     						<dd>
+							  FB: <a v-bind:href=" post.FacebookLink ">{{post.FacebookName}} </a>  
+							</dd>  
+
+                          </dl>
+
+                        </div>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+              </div>
+				
+
+              <!-- Menu B3 -->				
+              <div class="tab-pane" id="Menu-B3" role="tabpanel">
+
+                <h3> 購屋市場 </h3>
+				  <div class="row">
+				  	<div class="col-md-6">
+						<h5>房屋買賣網路社群-Facebook</h5>
+						<ul>
+							<li>
+								<a href="https://www.facebook.com/groups/516474909260978/">A7重劃區房屋買賣</a> : 1.2萬成員
+							</li>
+							<li>
+								<a href="https://www.facebook.com/groups/350982962083198/">桃園龜山A7林口重劃區</a> : 1.3萬成員
+							</li>
+						</ul>
+						
+						<h5>A7重劃區房價市場行情</h5>
+						<ul>
+							<li>樂善國小區：屬於第四種住宅區, 周邊鄰近酒廠、包裝廠等舊工業區，區段行情每坪20至25萬元。</li>
+							<li>中華郵政物流專區：是產業專區, 由大型企業主導開發，每坪24至25萬元。</li>
+							<li>文化一路商業區: 中心商業區加上第五種住宅區, 推案最集中，包括一般事務所、店面、聯通道與商場群聚，商業機能未來性最佳，單價來到22至26萬元。</li>
+							<li>雙語文青國中小生活圈：屬於第三種住宅區, 純住宅區段，有學區、自然保護區綠意串聯，等案，開價32至37萬元，環境單純安寧、生活品質最佳。</li>
+							<li>合宜住宅區：包含第五種住宅區及第三種住宅區，開發最早，屋齡約5年左右，屬於戶數眾多的超大型社區，屬於自成一格區塊，單價20萬元左右。</li>
+						</ul>
+					  	<img src="fig/A7XLK-011-A7Area-02.jpg" class="img-fluid mb-2" style="width:600px">	<br>
+						<a href="https://www.mirrormedia.mg/premium/20191204fin005">圖來自：鏡週刊</a>
+						
+						<h5>住戶共同的問題</h5>
+						<ul>
+							<li>好房網 2021/06/17
+								<a href="https://news.housefun.com.tw/news/article/117415300794.html?utm_source=lineat_housefun&utm_medium=message&utm_content=news&utm_campaign=line_maintain_news&fbclid=IwAR0ynyWXPXXW9nBfrGwY4UnC2_UAZkxfAcJzao_dzn_7nxVySUEecZwIaus">大樓公電費用有夠貴！內行網友：原因是此「吃電怪獸」</a>
+							</li>
+							<li>
+								Line Hub 2021/06/15: <a href="https://today.line.me/tw/v2/article/Qo3zqg?utm_source=copyshare&fbclid=IwAR265Lhhze9dl8K4ofhBSmcSCyIKeg3WBJBavRbcAKdR6zVHnVRirrGwhso&liff.referrer=https%3A%2F%2Fl.facebook.com%2F">首購族新房交屋 驗屋攻略</a>
+							</li>
+						</ul>
+						
+					</div>
+				  	<div class="col-md-6">
+						<h5>法令規定</h5>
+						土地使用規定：
+						<table class="table table-sm">
+							<tr>
+								<th>類別</th>
+								<th>建蔽率</th>
+								<th>容積率</th>
+							</tr>
+							<tr>
+								<td>第三種住宅區</td>
+								<td>60%</td>
+								<td>180%</td>
+							</tr>
+							<tr>
+								<td>第四種住宅區</td>
+								<td>60%</td>
+								<td>240%</td>
+							</tr>
+							<tr>
+								<td>第五種住宅區</td>
+								<td>60%</td>
+								<td>300%</td>
+							</tr>
+							<tr>
+								<td>中心商業區</td>
+								<td>70%</td>
+								<td>500%</td>
+							</tr>
+							<tr>
+								<td>第二種產業專用區</td>
+								<td>70%</td>
+								<td>420%</td>
+							</tr>								
+						
+						</table>
+					  備註：
+						1建蔽率：為建築基地之水平投影面積。意思為建築面積占基地面積之比率。 2容積率：為基地內建築物總地板面積與基地面積之比。<br><br>
+						
+						龜山區 行政區域圖<br>
+						<img src="fig/A7XLK-111-CommunityMap-03.jpeg" class="img-fluid" style="width:1000px"><br><br>
+						<img src="fig/A7XLK-111-CommunityMap-04.jpeg" class="img-fluid" style="width:400px"><br><br>						
+						
+					</div>				  
+				  </div>
+              </div>
+				
+				
+
+              <!-- Menu B5 -->				
+              <div class="tab-pane" id="Menu-B5" role="tabpanel">
+
+                <h3> 區域建設願景 </h3>
+				  <div class="row">
+				  	<div class="col-md-6">
+						<h5>樂善科學園區開發</h5>
+						相關新聞來源
+						<ul>
+							<li>
+								ETtoday 2017/01/07: <a href="https://www.ettoday.net/news/20170107/844650.htm">發展「樂善科技園區」</a> 　打造桃園內湖科技園區
+							</li>
+							<li>
+								蘋果新聞網 2019/05/25: <a href="https://tw.appledaily.com/home/20190525/YCH6CGYY53MVTZZZQPOZWRQQZA/">A7重劃區 千億建設開跑 捷運 科技園區 醫療</a> 
+							</li>
+							<li>
+								Yahoo 新聞 2019/04/29: <a href="https://tw.news.yahoo.com/%E9%BE%9C%E5%B1%B1%E5%9C%8B%E6%B0%91%E9%81%8B%E5%8B%95%E4%B8%AD%E5%BF%83%E6%9C%AA%E5%8F%96%E5%BE%97%E5%9C%9F%E5%9C%B0-%E6%A1%83%E8%AD%B0%E5%93%A1%E8%A6%81%E6%B1%82%E6%98%8E%E5%B9%B44%E6%9C%88%E5%A6%82%E6%9C%9F%E5%8B%95%E5%B7%A5-092903401.html">龜山國民運動中心未取得土地 </a>桃議員要求2020年4月如期動工
+							</li>
+							<li>
+								桃園電子報 2020/08/26: <a href="https://tyenews.com/2020/08/78260/">局長掛保證 龜山文青國中小將如期招生</a>
+							</li>
+							<li>
+								聯合新聞網 2021/04/17: <a href="https://udn.com/news/story/7324/5393883">運動中心拖延 議員批淪政治口號</a>
+							</li>
+						</ul>
+						樂善科學園區加上華亞科技園區，產值將達竹科的一半，要打造成桃園版的內湖科技園區，同時「亞洲•矽谷計劃」也會將此處作為重要的實驗場及推動產官學合作方案的基地。產業專區 45公頃，22公頃由禾聯碩標得；另一半的土地由中華郵政公司設置物流中心及行政大樓，中華郵政未來的營運重心將會移至本區。
+						<br><br>						
+						<h5>順達,致茂與禾聯碩廠區</h5>
+						樂善科技園區將是<mark>高效能, 低污染</mark>桃園版內湖科學園區。該區已由順達科技、致茂電子及禾揚國際（禾聯）等3家民間企業標下22.23公頃土地，其中致茂與禾聯碩各35%土地，順達科則取得30%土地。致茂電子預計設立新總部及生產基地，順達科技則做為新總部、研發、生產基地，禾聯碩則設定為電視、節能空調等產品的第2生產據點，3家預計共創造2300個以上的就業機會，年產值將達到1100億元。
+						<br><br>						
+						<h5>郵政物流園區</h5>
+						中華郵政斥資220億元打造「郵政物流園區」，佔地17.14公頃，涵蓋郵政物流中心、北台灣郵件作業中心、郵政資訊中心、郵政訓練中心及工商服務中心等5棟建築物，<span class="text-danger">預計2021年完工?</span>，屆時將有一部分人員先進駐，未來台北、桃園的郵件中心都將進行整併，移至A7，預計未來至少可創造6000個工作機會。
+						<br><br>
+						中華郵政以建置智慧園區為目標，導入多項自動化設備進行郵件處理作業，推動物流共享平台，以及跨境電子商務物流服務，吸引很多廠商關注，還可望成為東亞地區跨境物流示範基地。
+						<br><br>
+						園區將採前店後廠方式開發，工商服務中心面臨40米文桃路，預計引入大型賣場、旅宿、商辦、會議展覽與訓練等，日前已招商，將採代租模式，依廠商需求興建，如招商順利，預計2022年完工。
+						<br><br>
+						園區仿效美國蘋果電腦在加州庫帕提諾新總部Apple Park「與自然共存」生態圈工法，建置寬40米、縱深400米，面積逾4000坪的郵政形象公園，連結近2公頃滯洪池，形成自然生態景觀，提供員工及附近居民的休憩場所。
+						<br><br>
+					  	<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-01.jpg" class="img-fluid mb-2" style="width:800px">	<br>
+						郵政物流園區 圖1<br>
+					  	<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-05.webp" class="img-fluid mb-2" style="width:800px">	<br>
+						郵政物流園區 圖2<br><br>
+						<h5></h5>
+
+						
+					</div>
+				  	<div class="col-md-6">
+						<h5>文教建設規劃</h5>
+						興建大型的<span class="text-danger">坪頂圖書分館?</span>，重建坪頂派出所以及新設高中，為因應人口急遽增加，樂善國小已著手擴校計劃，文青國中小學也正在籌備中：<a href="https://www.facebook.com/%E6%96%87%E9%9D%92%E5%9C%8B%E4%B8%AD%E5%B0%8F%E7%B1%8C%E5%82%99%E8%99%95-305945223529559/">籌備處</a>設在大埔國小辦公室。
+						<br><br>
+						文桃路增設文青國中小學，招收國中、國小各24班，並有7班幼兒園，幼兒園預計<del>2021</del>年學年度招生，國小則預計<del>2022</del>&nbsp;  2023年學年度招生，將著重雙語教學，並設置音樂班。
+						
+						同時與鄰近的體育大學、長庚大學、銘傳大學等大專院校合作，結合教學資源推動生態、資訊教育等機會。
+						<br><br>
+						文青國中小預定地面積約4公頃，校地內有約1公頃的滯洪池，可規劃為學校的生態池，預計興建幼兒園、國小、國中、意象大樓及體育館等5棟校舍，其中幼幼班招收60人、混齡班3班招收90人，國小每年級招收4班，每班29人，國中每年級招收8班，預計招收720人。
+						<br><br>	
+						早期教育局曾研議在體育大學附設實驗高中的可行性，教育局長林正峰2020/08/26強調，坪頂地區增設高中問題談了二十幾年，市府指派的坪頂高中設校籌備處主任（校長）未通過校長遴聘，派任迄今也未認真推動設校，坐領乾薪還有餘力與其前任學校同事訴訟打官司，<span class="text-danger">對設校不抱太多期待</span>。鑑於這幾年更因該地區人口成長快速，為確保並解決該地區學子就讀高中問題，建議市府優先推動大崗國中改制為完全中學。
+						<br><br>
+						
+						<h5>龜山國民運動中心</h5>
+						預計興建龜山<span class="text-danger">國民運動中心?</span> ，原規劃2019年開始進行用地變更。<br><br>
+						2019/04/29 Yahoo 新聞稱：副市長李憲明和體育局長莊佳佳都表示，龜山區國民運動中心已選定於龜山區復興三路華亞園區內的機關用地，目前已著手辦理土地個案變更， <span class="text-danger">原預計2020年4月動工興建，約2027年6月完工</span>。林議員尊重市府的法和規劃，要求市府即將籌編明年度預算時，務必將預算納入並於2020年4月如期動工。
+						<br><br>
+						2021/04/17 聯合新聞網稱：桃園市政府喊出要建設11座國民運動中心、5座體育園區，但牛煦庭議員質疑龜山與八德國民運動中心進度拖延，淪為政治口號。市府體育局指出，龜山國民運動中心新建工程經費約3.3億元，因向教育部體育署申請前瞻基礎建設計畫-充實全民運動環境計畫補助2億元，正由體育署審辦計畫書，<span class="text-danger">經費尚未編列</span>，才無法動工。運動設施科長姜相維也提到，龜山鄰近新北林口，為與林口國民運動中心區隔，因應龜山區新移入人口多，龜山國民運動中心規畫引進6歲以下孩童的體適能課程，迎合年輕家庭的需求。
+						<br><br>
+						<h5>交通規劃</h5>
+						區域大眾交通規劃包含「202 體育大學－工四工業區」路線的雙向微循環公車；及從林口生活圈至南崁生活圈的「708 林口－南崁」路線公車。
+						<br><br>
+						<h5>建設紀錄照片</h5>
+						<div id="carouselExampleIndicators-02" class="carousel slide img-fluid" style="width:90%" data-ride="carousel">
+							<ol class="carousel-indicators">
+								<li data-target="#carouselExampleIndicators" data-slide-to="01" class="active"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="02"></li>
+								<li data-target="#carouselExampleIndicators" data-slide-to="03"></li>	
+								<li data-target="#carouselExampleIndicators" data-slide-to="04"></li>	
+								<li data-target="#carouselExampleIndicators" data-slide-to="05"></li>	
+								<li data-target="#carouselExampleIndicators" data-slide-to="06"></li>	
+								<li data-target="#carouselExampleIndicators" data-slide-to="07"></li>									
+							</ol>
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-11.jpeg" class="d-block w-100" alt="...">  2021/06/17 郵政物流園區建設 圖1 來源： <a href="https://www.facebook.com/groups/a7.home.tw/permalink/4172218156150519/">Facebook</a>
+								</div>
+								<div class="carousel-item">
+									<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-12.jpeg" class="d-block w-100" alt="...">  2021/06/17 郵政物流園區建設 圖2 來源： <a href="https://www.facebook.com/groups/a7.home.tw/permalink/4172218156150519/">Facebook</a>
+								</div>		
+								<div class="carousel-item">
+									<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-13.jpeg" class="d-block w-100" alt="...">  郵政訓練中心
+								</div>		
+								<div class="carousel-item">
+									<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-14.jpeg" class="d-block w-100" alt="...">  訓練中心, 物流中心
+								</div>		
+								<div class="carousel-item">
+									<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-15.jpeg" class="d-block w-100" alt="...">  公園區
+								</div>	
+								<div class="carousel-item">
+									<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-16.jpeg" class="d-block w-100" alt="...">  滯洪池
+								</div>		
+								<div class="carousel-item">
+									<img src="fig/A7XLK-115-Park/A7XLK-1151-PostOffice-17.jpeg" class="d-block w-100" alt="...">  物流中心
+								</div>									
+
+							</div>
+							<a class="carousel-control-prev" href="#carouselExampleIndicators-02" role="button"
+								data-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="sr-only">Previous</span>
+							</a>
+							<a class="carousel-control-next" href="#carouselExampleIndicators-02" role="button"
+								data-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="sr-only">Next</span>
+							</a>
+						</div>							
+						
+					</div>				  
+				  </div>
+              </div>	
+				
+
+              <!-- Menu B6 -->				
+              <div class="tab-pane" id="Menu-B6" role="tabpanel">
+
+                <h3> 大數據分析 </h3>
+				  <div class="row">
+				  	<div class="col-md-6">
+						<h5>各分區新建案數</h5>
+						註：5.合宜住宅區 每坪均價只計算 新建案，不計算原有合宜住宅建案。
+						<br>
+						<img src="fig/A7XLK-114-BigData-08.png" class="img-fluid" style="width:300px">
+						<img src="fig/A7XLK-114-BigData-11.png" class="img-fluid" style="width:300px">						
+					
+						<br>各分區 住家及商店數<br>
+
+						<br>
+						<img src="fig/A7XLK-114-BigData-09.png" class="img-fluid" style="width:300px">
+						<br><br>	
+						
+						<h5>建案類別</h5>						
+						依據都市住宅 分類, A7 重劃區的住宅類別及比例。第四種住宅集中在樂善國小生活圈。僅有少數建案且大多在早期就開發完成。
+						<br>
+						<img src="fig/A7XLK-114-BigData-07.png" class="img-fluid" style="width:300px">
+						<img src="fig/A7XLK-114-BigData-10.png" class="img-fluid" style="width:300px">	
+						<br><br>
+						<h5>汽車停車位 設置比例</h5>
+						各建案 汽車停車位 / 戶數 的分配比例 統計圖 
+						<br>
+						<img src="fig/A7XLK-114-BigData-06.png" class="img-fluid" style="width:300px">
+						<br><br>						
+					</div>					  
+					  
+				  	<div class="col-md-6">
+						<h5>建設公司推案數</h5>
+						<ul>
+							<li>富宇建設(6): 201 富宇上城, 205 富宇敦峰, 307 富宇悅峰, 407 富宇哈佛苑, 502 富宇天匯, 208 富宇致茂</li>
+							<li>鴻築建設(4): 102 鴻築鴻典, 103 鴻築樂捷市, 402 鴻築金捷市, 403 鴻築捷市達</li>
+							<li>遠雄建設(4): 409 遠雄新未來2, 410 遠雄新未來3, 501 遠雄新未來1, 506 遠雄文青</li>
+							<li>竹城建設(3): 401 竹城甲子園, 503 竹城明治, 504 竹城宇治</li>
+							<li>佳晟建設(2): 104 奇幻莊園, 105 樂田田</li>
+							<li>和發建設(2): 101 和發大境, 107 台北國際村</li>
+							<li>和耀建設(2): 203 耀台北, 207 和耀恆美</li>
+							<li>頤昌建設(2): 408 頤昌豐岳, 413 頤昌璞岳</li>
+							<li>鴻承建設(2): 305 根津苑, 310 水悅青青</li>
+						</ul>
+						<h5>預計交屋時程</h5> 依據購房網的預估時間，<span class="text-danger">時程僅當大數據分析參考</span>
+						<ul>
+							<li>已交屋: 103 樂捷市, 104 奇幻莊園, 107 台北國際村, 203 耀台北, 205 富宇敦峰, 304 新潤鉑麗, 305 根津苑, 308 合遠新天地, 402 金捷市, 406 富御捷境, 503 竹城明治, 504 竹城宇治</li>
+							<li>2021 Q3: 105 樂田田, 309 友文化</li>
+							<li>2021 Q4: 106 玉子園, 204 皇普MVP, 303 新潤翡麗, 306 華悅城, 310 水悅青青, 401 竹城甲子園, 405 新A7, 411 和洲金剛, 501 新未來1, 505 櫻花澍</li>
+							<li>2022 Q1: 102 鴻典, 307 富宇悅峰, 408 頤昌豐岳</li>
+							<li>2022 Q2: 207 和耀恆美, 409 新未來2, 412 君邑丘比特, 414 合謙學</li>
+							<li>2022 Q3: 413 頤昌璞岳</li>
+							<li>2022 Q4: 101 和發大境, 206 玄泰V1, 404 詠勝市中欣</li>
+							<li>2023 Q1: 201 富宇上城</li>
+							<li>2023 Q2: 502 富宇天匯</li>
+							<li>2023 Q4: 302 欣時代, 403 鴻築捷市達, 407 富宇哈佛苑, 410 新未來3, 415 大亮時代A7</li>
+							<li>2024 Q2: 202 禾悅花園</li>
+							<li>2028 Q2: 301 允將大作</li>
+						</ul>
+						
+					</div>
+				  	<div class="col-md-6">
+						<h5>建案 住戶數及商店數</h5>
+						 全部新建案將 提供 15,982 個住戶 及 393 個店面。 
+						<br>
+						<img src="fig/A7XLK-114-BigData-01.png" class="img-fluid" style="width:600px">
+						<br><br>
+					</div>
+				  	<div class="col-md-6">
+						<h5>建案 每坪價格 (萬元）</h5> 
+						價格主要依據 591 房屋網的標價，<span class="text-danger">實際價格須依據建商開價為準</span>。整體標價平均值 為每坪 29-31萬元。
+						<br>
+						<img src="fig/A7XLK-114-BigData-02.png" class="img-fluid" style="width:600px">
+						<br><br>
+					</div>
+				  	<div class="col-md-6">
+						<h5>建案 建蔽率及公設比</h5>
+						建蔽率平均值為 46.89%, 公設比平均值為 32.62%
+						<br>
+						<img src="fig/A7XLK-114-BigData-03.png" class="img-fluid" style="width:600px">
+						<br><br>
+					</div>
+				  	<div class="col-md-6">
+						<h5>建案 基地面積 （坪）</h5> 
+						<img src="fig/A7XLK-114-BigData-04.png" class="img-fluid" style="width:600px">
+						<br><br>
+					</div>						  
+				  	<div class="col-md-6">
+						<h5>建案 樓層數</h5>
+						樓層高度以15層為主，最高31層，最低13層。
+						<br>
+						<img src="fig/A7XLK-114-BigData-05.png" class="img-fluid" style="width:600px">
+						<br><br>
+					</div>							  
+					  
+				  </div>
+              </div>	
+				
+				
+              <!-- Menu B7 -->				
+              <div class="tab-pane" id="Menu-B7" role="tabpanel">
+				  <h3>建案詳細資料</h3>
+				  
+				  
+			  </div>
+				<!-- 插入下一項 -->
+				
+
+            </div>
+
+          </div>
+        </div>
+      </div>	  
+	  
+  </article>
+  <!-- InstanceEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+    <script>
+      const posts = []
+      const SECTIONS_01 = "A7XLK"
+      const SECTIONS_02 = "A7XLK"	  
+
+      new Vue({
+        el: '#app1',
+        data: {
+          posts,
+          // results: [],
+          sections: SECTIONS_01.split(', '),
+          section: 'A7XLK'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category1 === this.section)
+            let i, j, chunkedArray = [], chunk = 4;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-1101-House.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        }
+      });
+
+		
+      new Vue({
+        el: '#app2',
+        data: {
+		  case: '',
+          posts,
+          // results: [],
+          sections: SECTIONS_02.split(', '),
+          section: 'A7XLK'
+        },
+        filter: {
+          formatted(value) {
+            return ' 以下是 ${value} 類別的貼文 '
+          }
+        },
+
+        methods: {
+			caseSelected(post) {
+				this.case = post.no;	
+			},
+			
+          itemPrice(price, count) {
+            return price * count;
+          },
+          deleteItem(index) {
+            this.posts.splice(index, 1);
+          }
+        },
+
+        computed: {
+          results() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category1 === this.section)
+            let i, j, chunkedArray = [], chunk = 100;
+            for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+              chunkedArray[j] = posts.slice(i, i + chunk);
+            }
+            return chunkedArray
+          },
+
+          totalPrice() {
+            let posts = this.posts
+              .slice()
+              .filter(post => post.Category === this.section);
+            let total = 0;
+            for (let post of this.posts) {
+              total += post.price * post.count;
+            }
+            return total;
+          }
+        },
+
+        mounted() {
+          axios.get('db/A7XLK-1101-House.json').then((response) => {
+            this.posts = response.data;
+            this.getPostsByCategory(this.section)
+          }).catch(error => { console.log(error); });
+        },
+
+      });		
+
+    </script>
+  <!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd --></html>

@@ -1,0 +1,205 @@
+body {
+    font-family: STKaiti, DFKai-SB, Arial, -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", "Microsoft JhengHei", "Helvetica Neue", sans-serif;
+    /*
+    font-family:
+        STKaiti, DFKai-SB, Arial, // 建議字體 中文：楷體，標楷體 英文：Arial
+        -apple-system, BlinkMacSystemFont,  // 系統預設字體
+        "Segoe UI", "Roboto", "Ubuntu", "Droid Sans", "Microsoft JhengHei", // 指定已知的系統UI字體
+        "Helvetica Neue", sans-serif; //備援字體
+    */
+}
+#app footer {
+}
+article {
+    padding: 0 5px 2px 5px;
+    margin: 0 5px 2px 5px;
+}
+#main_heading {
+    padding: 0 5px 2px 5px;
+}
+footer {
+}
+.form-group {
+    margin: 0px;
+}
+.form-group {
+    margin: 0px;
+}
+#Menu-B4 .row #app4 {
+    margin-left: 1px;
+}
+
+@media (max-width:543px) {
+    h1, h2 {font-size:1.0rem;}
+    h3, h4 {font-size:0.9rem;}
+    h5, h6 {font-size:0.8rem;}
+}
+@media (min-width:544px) {
+    h1, h2 {font-size:1.0rem;}
+    h3, h4 {font-size:0.9rem;}
+    h5, h6 {font-size:0.8rem;}
+}
+@media (min-width:768px) {
+    h1, h2 {font-size:1.2rem;}
+    h3, h4 {font-size:1.0rem;}
+    h5, h6 {font-size:1.0rem;}
+}
+@media (min-width:992px) {
+    h1, h2 {font-size:1.2rem;}
+    h3, h4 {font-size:1.1rem;}
+    h5, h6 {font-size:1.0rem;}
+}
+@media (min-width:1200px) {
+    h1, h2 {font-size:1.2rem;}
+    h3, h4 {font-size:1.1rem;}
+    h5, h6 {font-size:1.0rem;}
+}
+
+.navbar{
+    background-color:#000066 !important;
+}
+.navbar .navbar-toggler {
+    background-color: white !important;
+}
+.navbar .collapse .navbar-nav li a{
+    color:white !important;
+}
+.navbar .collapse .navbar-nav li a:hover{
+    color: #33FFCC !important;
+    background-color:#0066FF;
+}
+.navbar .collapse .navbar-nav li .dropdown-menu .dropdown-item {
+    color:#660033 !important;
+}
+.navbar .collapse .navbar-nav li .dropdown-menu .dropdown-item:hover {
+    color:#CC0033 !important;
+    background-color:#D0D0D0 !important;
+}
+
+.navbar .navbar-brand {
+    color: yellow !important;
+}
+
+.page-footer{
+    background-color: #0066FF !important;
+}
+#main_footer {
+	    background-color:#000066 !important;
+	    color: #FFF;
+}
+#app footer {
+    background-color: #006;
+    color: #000;
+}
+#main_heading {
+    padding: 0 5px 0 5px;
+}
+#app footer p {
+    color: #FFF;
+}
+
+#title-1 {
+    color: #0000CC;
+    font-size:1.4em;
+}
+#title-2 {
+    color: #0000CC;
+    font-size:1.2em;
+}
+h1, h2 {
+    color: #0000CC;
+    font-size:1.2em;
+}
+h3, h4 {
+    color: #0000CC;
+    font-size:1.1em;
+}
+h5 {
+    color:#0000CC;
+    font-size:1.0em;
+}
+div.fixed {
+    position: fixed;
+    top: 40px;
+    left: 100px;
+    color: #000099;
+    background: rgba(255, 255, 255, 0.7)
+}
+.btn-circle{
+    width: 30px;
+    height: 30px;
+    padding: 6px 0px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.42857;
+}
+.jumbotron-bg1 {
+	background-image: url("../fig/A7XLK-001-Banner-01.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg11 {
+	background-image: url("../fig/A7XLK-001-Banner-011.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg2 {
+	background-image: url("../fig/A7XLK-001-Banner-02.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg23 {
+	background-image: url("../fig/A7XLK-001-Banner-023.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg25{
+	background-image: url("../fig/A7XLK-001-Banner-025.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg26{
+	background-image: url("../fig/A7XLK-001-Banner-026.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg3 {
+	background-image: url("../fig/A7XLK-001-Banner-03.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg4 {
+	background-image: url("../fig/A7XLK-001-Banner-04.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg41 {
+	background-image: url("../fig/A7XLK-001-Banner-041.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg44 {
+	background-image: url("../fig/A7XLK-001-Banner-044.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.jumbotron-bg46 {
+	background-image: url("../fig/A7XLK-001-Banner-046.jpg");
+	background-size: cover;
+	background-position: center center;
+	min-height: 300px
+}
+.bg-lighter {
+		background-color: rgba(0,0,0,.4)
+}

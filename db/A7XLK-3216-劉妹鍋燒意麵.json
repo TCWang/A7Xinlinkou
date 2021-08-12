@@ -1,0 +1,348 @@
+[
+        {
+            "id": "101",
+            "title": "原味鍋燒",
+            "price": 65,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-01.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "102",
+            "title": "沙茶鍋燒",
+            "price": 70,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-02.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "103",
+            "title": "泡菜鍋燒",
+            "price": 75,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-03.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "104",
+            "title": "咖哩鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-04.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "105",
+            "title": "蕃茄鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-05.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "106",
+            "title": "牛奶鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-06.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "107",
+            "title": "味噌鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-07.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "109",
+            "title": "海鮮鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-09.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "110",
+            "title": "辛辣鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-10.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "111",
+            "title": "麻辣鍋燒 -大辣",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-11.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "111",
+            "title": "麻辣鍋燒 -中辣",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-11.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "111",
+            "title": "麻辣鍋燒 -小辣",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-11.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "112",
+            "title": "排骨鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-12.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "113",
+            "title": "泰式酸辣鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-13.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "114",
+            "title": "青醬鍋燒",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-14.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "108",
+            "title": "輕疏菇菇鍋燒-鍋邊素",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-08.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "108",
+            "title": "輕疏菇菇鍋燒-全素",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-08.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "115",
+            "title": "藥膳菇菇鍋燒-鍋邊素",
+            "price": 90,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-15.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "115",
+            "title": "藥膳菇菇鍋燒-全素",
+            "price": 90,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-15.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "116",
+            "title": "豪華海鮮鍋燒",
+            "price": 160,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-16.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "117",
+            "title": "咖哩飯 （暫不提供）",
+            "price": 85,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-17.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "118",
+            "title": "海產粥 （暫不提供）",
+            "price": 80,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-18.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "119",
+            "title": "魯肉飯-大 （暫不提供）",
+            "price": 40,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-19.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "120",
+            "title": "魯肉飯-小 （暫不提供）",
+            "price": 30,
+            "count": 0,
+            "figure": "fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-20.jpg",
+            "category": "主餐"
+        },
+        {
+            "id": "121",
+            "title": "蛋-1顆",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "122",
+            "title": "蔬菜-1份",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "123",
+            "title": "火鍋料-1份",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "124",
+            "title": "魚-2塊",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "125",
+            "title": "蝦子-2隻",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "126",
+            "title": "魷魚-2圈",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "127",
+            "title": "麻吉燒-2顆",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "128",
+            "title": "烏龍麵-1份",
+            "price": 15,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "129",
+            "title": "肉片-2片",
+            "price": 15,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "130",
+            "title": "麻辣魚丸-2顆",
+            "price": 15,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "131",
+            "title": "干貝-1顆",
+            "price": 20,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "132",
+            "title": "蟹肉棒-3個",
+            "price": 20,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "133",
+            "title": "鮑魚-1個",
+            "price": 20,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "134",
+            "title": "草蝦-1隻",
+            "price": 25,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "135",
+            "title": "菇菇-1份",
+            "price": 35,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "136",
+            "title": "魯蛋-1顆",
+            "price": 10,
+            "count": 0,
+            "category": "加料"
+        },
+        {
+            "id": "137",
+            "title": "沙茶湯底",
+            "price": 10,
+            "count": 0,
+            "category": "加味"
+        },
+        {
+            "id": "138",
+            "title": "泡菜湯底",
+            "price": 20,
+            "count": 0,
+            "category": "加味"
+        },
+        {
+            "id": "139",
+            "title": "味噌湯底",
+            "price": 20,
+            "count": 0,
+            "category": "加味"
+        },
+        {
+            "id": "140",
+            "title": "辛辣湯底",
+            "price": 20,
+            "count": 0,
+            "category": "加味"
+        },
+        {
+            "id": "141",
+            "title": "麻辣湯底",
+            "price": 20,
+            "count": 0,
+            "category": "加味"
+        },
+        {
+            "id": "142",
+            "title": "其他湯底",
+            "price": 30,
+            "count": 0,
+            "category": "加味"
+        }
+    ]

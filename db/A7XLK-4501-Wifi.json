@@ -1,0 +1,72 @@
+﻿[
+        {
+            "No": "01",
+            "Category": "無線分享器",
+            "Product": "DIR-882",
+            "Supplier": "D-Link",
+            "Price": "$2,780",
+            "Spec": "IEEE 801.11/a/b/g/n/ac",
+            "Speed": "2.532 Mbps",
+            "Mimo": "MU-MIMO",
+            "Usb": "USB2.0 x1, USB3.0 x1",
+            "Figure": "fig/XLK-451-Appliance/SST-3101-Wifi-01.png",
+            "Description": "曾獲得美國《CNET》評選為最佳11ac無線路由器，此款的價值不言可喻。經過特別設計的天線擁有勝過同級商品3倍的穿透力，同時透過 AC SmartBeam 技術辨識連線裝置的位置並集中傳輸訊號，不管空間有多少障礙物都能提供穩定的無線網路。同時整合了2.4GHz及5GHz的無線網路名稱，不需要手動切換就能自動連線到最佳品質的線路，在在增加了使用上的便利性<\r\n\r\n<br><br>\r\n以家用無線路由器來說功能性幾乎無可挑剔，不管是玩遊戲、觀看高畫質影片還是一般無線，都能擁有舒適、快速的體驗，且價格也相當合理。若想要在中價位帶挑選可高速上網的機種，這款商品便是首選。",
+            "Link": "http://www.dlinktw.com.tw/home/product?id=994"
+        },
+        {
+            "No": "02",
+            "Category": "無線分享器",
+            "Product": "AX1800 Wi-Fi 6",
+            "Supplier": "D-Link",
+            "Price": "$2,499",
+            "Spec": "IEEE 801.11/a/b/g/n/ac/ax",
+            "Speed": "1,775 Mbps",
+            "Mimo": "MU-MIMO",
+            "Usb": "USB2.0 x1",
+            "Figure": "fig/XLK-451-Appliance/SST-3101-Wifi-02.jpg",
+            "Description": "以較為親民的價格提供次世代無線網路體驗，雙頻網路提供最高超過1.5Gbps的傳輸速度，同時也優化連接能力，透過 OFDMA 技術將單一頻譜分割成數個單位同時運作，就算連接多個裝置也不容易發生壅塞的狀況。而為了增加連線安全性，特別啟用最新的WPA3安全協定，透過更加複雜的密碼及防止暴力破解的功能，有效避免陌生人擅自連接甚至進行破壞。\r\n\r\n<br><br>\r\n因應目前最新的無線網路規格，這款無線路由器也內建 Wi-Fi 6技術，包括 iPhone11等高階手機只要透過此最新規格，就能享受比5GHz更快速的上網體驗，若想體驗全新技術不妨嘗試吧。",
+            "Link": "http://www.dlinktw.com.tw/home/product?id=5079&hid=18"
+        },
+        {
+            "No": "03",
+            "Category": "無線分享器",
+            "Product": "RT-AX86U",
+            "Supplier": "ASUS華碩",
+            "Price": "$6,990",
+            "Spec": "IEEE 801.11/a/b/g/n/ac/ax",
+            "Speed": "4,804 Mbps",
+            "Mimo": "MU-MIMO",
+            "Usb": "-",
+            "Figure": "fig/XLK-451-Appliance/SST-3101-Wifi-03.jpg",
+            "Description": "由國產知名品牌推出的無線路由器，整體功能性十分強大，包括可透過內建的免費遊戲加速器降低 Ping 值，獲得較良好的遊戲體驗，內附的各種工具軟體能夠建立像是網路硬碟、共享印表機等各式各樣的連線內容，如果手上有支援的其他商品，更可以利用 Ai Mesh 管理無線網路並賦予統一ID，將家中全部連線整合在一起，省去頻繁切換的麻煩。\r\n\r\n<br><br>\r\n內建的 AiProtection Pro 網路安全防護是企業級資安系統，除了可阻擋較常見的網路攻擊以外，還可以在偵測到受感染的裝置時直接進行封鎖，避免擴大到其他電腦上，很適合重視資訊安全的使用者。",
+            "Link": "https://www.asus.com/tw/Networking/RT-AX86U/specifications/"
+        },
+        {
+            "No": "04",
+            "Category": "無線分享器",
+            "Product": "RAX80 Wi-Fi 6",
+            "Supplier": "Netgear",
+            "Price": "$9,790",
+            "Spec": "IEEE 801.11/a/b/g/n/ac",
+            "Speed": "2,533 Mbps",
+            "Mimo": "MU-MIMO",
+            "Usb": "USB3.0 x2",
+            "Figure": "fig/XLK-451-Appliance/SST-3101-Wifi-04.jpg",
+            "Description": "此款在無線路由器中算較高階的款式，Netgear RAX80 夜鷹 AX6000 8串流 WiFi 6智能路由器(分享器)\r\n支援iPhone 11全系列，WiFi 6無線傳輸, \r\n支援三星S10全系列，WiFi 6無線傳輸,\r\n優質5G WiFi 訊號適合坪數:20坪~40坪，支援100台設備連線使用,\r\n\r\n<br><br>\r\n而為了讓所有裝置都能穩定且快速地上網，其內建了 Qos 動態頻寬管理系統，可偵測用戶使用的流量大小並妥善分配比例，在觀看高畫質影片及玩遊戲時便能降低延遲的狀況，享受不卡頓的極速快感。",
+            "Link": "https://www.netgearstore.com.tw/products/rax80"
+        },
+        {
+            "No": "05",
+            "Category": "無線分享器",
+            "Product": "Deco M4 AC1200 Mesh",
+            "Supplier": "TP-Link",
+            "Price": "$1,500",
+            "Spec": "IEEE 801.11/a/b/g/n/ac",
+            "Speed": "867 Mbps",
+            "Mimo": "MU-MIMO",
+            "Usb": "-",
+            "Figure": "fig/XLK-451-Appliance/SST-3101-Wifi-05.jpg",
+            "Description": "Deco提供無縫的全家Wi-Fi覆蓋 — 讓您無須再煩惱訊號死角。\r\n先進的Mesh技術讓每台Deco整合成一個同一無線網路名稱，並讓您在家中移動時達到設備無縫漫遊，再也不用斷線重連網路。\r\nDeco M4兩入組提供約106坪Wi-Fi覆蓋範圍，並能依您的需求擴增Deco來擴大覆蓋範圍。\r\n能與一般的網路供應商(ISP)共同運作，並提供高達1167Mbps穩定而快速的無線連接。<br><br>\r\nDeco可處理大流量網路使用，為高達100個設備提供無延遲的網路連接。\r\n您可為每一位家庭成員建立獨特的個人檔案，限制上網時間及可用網站。\r\n使用Deco App，帶您一步一步設定，輕鬆又方便。\r\n目前有 3入/2入 兩種不同包裝。<br><br>\r\n本項為今網寬頻 可加購產品",
+            "Link": "https://www.tp-link.com/tw/home-networking/deco/deco-m4/"
+        }
+    ]

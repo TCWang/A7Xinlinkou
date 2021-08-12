@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="../css/mycss.css">
+  <!-- TemplateBeginEditable name="doctitle" -->
+  <title>A7新林口 社區網站</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+  <!-- TemplateEndEditable -->
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y94XE7PY1L');
+</script>	
+	
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand"
+      href="../index.html"> A7 新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown"> 
+			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          	<div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+				<a class="dropdown-item" href="../index.html">網站公告</a> 
+				<a class="dropdown-item" href="../A7XLK-11-Community.html">社區建案</a> 
+				<a class="dropdown-item" href="../A7XLK-12-ParkTrail.html">公園步道</a> 	
+				<a class="dropdown-item" href="../A7XLK-13-Transportation.html">行車交通</a> 
+				<a class="dropdown-item" href="../A7XLK-14-InformationQuery.html">網路資訊</a> 
+
+			</div>
+        </li>
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+				 data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="../A7XLK-21-CommunityService.html">社區服務</a> 			  
+			  <a class="dropdown-item" href="../A7XLK-22-PublicService.html">公用事業</a> 
+			  <a class="dropdown-item" href="../A7XLK-23-EnvironmentalProtection.html">環境保護</a> 
+			  <a class="dropdown-item" href="../A7XLK-24-FloodPrevention.html">防汛抗災</a> 			  
+			  <a class="dropdown-item" href="../A7XLK-25-BusinessService.html">廣告看板</a> 
+			  <a class="dropdown-item" href="../A7XLK-26-MedicalService.html">醫療保健</a> 			  
+		  </div>
+        </li>
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="../A7XLK-31-Restaurant.html">餐廳推薦</a>
+			  <a class="dropdown-item" href="../A7XLK-32-RestaurantA7.html">社區小吃</a> 				  
+			  <a class="dropdown-item" href="../A7XLK-33-Cooking.html">廚藝教室</a> 
+		<!--				  
+			  <a class="dropdown-item" href="../A7XLK-34-Snacks.html">點心零食</a> 
+		-->
+		  </div>
+        </li>
+
+
+        <li class="nav-item dropdown"> 
+			  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+            	data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          	<div  class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+			  <a class="dropdown-item" href="../A7XLK-41-OnlineShopping.html">網路郵購</a>	
+			  <a class="dropdown-item" href="../A7XLK-44-DepartmentStore.html">百貨購物</a> 			  
+		  
+		<!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 			  
+			  <a class="dropdown-item" href="../A7XLK-43-Housing.html">住屋居家</a> 
+		-->
+			  <a class="dropdown-item" href="../A7XLK-45-HousholdAppliance.html">家用電器</a> 
+			  <a class="dropdown-item" href="../A7XLK-46-EnvironmentProtection.html">優質生活</a> 			  
+		  </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- TemplateBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">Insert jumbotron title here</h5>
+        <p class="text-white">Insert jumbotron description here</p>
+      </div>
+    </div>
+  </div>
+  <!-- TemplateEndEditable  -->
+
+  <!-- TemplateBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- TemplateEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- TemplateBeginEditable name="main_content" -->
+  <article> Instert content here
+  </article>
+  <!-- TemplateEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- TemplateBeginEditable name="JavaScriptRegion" -->
+  <div>
+    <!-- Vue實例的程式碼 -->
+
+  </div>
+  <!-- TemplateEndEditable -->
+
+</body>
+
+</html>
