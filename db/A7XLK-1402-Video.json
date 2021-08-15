@@ -140,6 +140,20 @@
             "category": "文獻收藏"
         },
         {
+            "no": "072",
+            "title": "劇迷 Gimy",
+            "figure": "fig/XLK-1401-News/XLK-142-劇迷.png",
+            "link": "https://gimy.app/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "073",
+            "title": "中國人線上看",
+            "figure": "fig/XLK-1401-News/XLK-142-中國人線上看.png",
+            "link": "https://chinaq.biz/cn/",
+            "category": "影音珍藏"
+        },
+        {
             "no": "071",
             "title": "美國電視頻道",
             "figure": "fig/XLK-1401-News/AiCity-923-USTVGo.jpeg",
