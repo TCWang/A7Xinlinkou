@@ -42,18 +42,6 @@
             "description": "<p>\r\n  資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://tcwang.github.io/A7Xinlinkou/A7XLK-32-RestaurantA7-A1.html#Menu-B03\">模擬點餐</a> &nbsp;  \r\n\r\n</p>"
         },
         {
-            "no": "104",
-            "title": "越南小吃",
-            "type": "麵食",
-            "address": "桃園市龜山區長慶三街40號1樓",
-            "telphone": "0916-538-733",
-            "hours": "06:00 - 21:00, 週日公休",
-            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3201-RestaurantA7-04.jpg",
-            "category": "長慶三街",
-            "category2": "1.樂善國小生活圈",
-            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://tcwang.github.io/A7Xinlinkou/A7XLK-32-RestaurantA7-A1.html#Menu-B04\">模擬點餐</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://tcwang.github.io/A7Xinlinkou/fig/XLK-321-RestaurantA7/AiCity-950-越南小吃菜單.jpg\">菜單</a> &nbsp; \r\n</p>"
-        },
-        {
             "no": "105",
             "title": "番茄村Brunch & Café",
             "type": "早午餐",
@@ -297,7 +285,7 @@
             "link": "https://www.facebook.com/groups/1951117865015671/posts/4035170603277043",
             "category": "文青路",
             "category2": "5.合宜住宅區",
-            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://almablog.com.tw/blog/post/172302?fbclid=IwAR1Pl7ShDJeMe7m5BngujgTMXJTa0GuJ-Lq8MORepEuNKUwcvMCORzjZGYk\">推薦</a> \r\n</p>",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://almablog.com.tw/blog/post/172302?fbclid=IwAR1Pl7ShDJeMe7m5BngujgTMXJTa0GuJ-Lq8MORepEuNKUwcvMCORzjZGYk\">推薦</a> &nbsp;&nbsp;\r\n\r\n</p>",
             "google": "https://www.google.com.tw/maps/place/%E6%96%87%E9%9D%92%E6%B0%B4%E5%9C%92%E6%B0%B4%E8%B3%87%E6%BA%90%E5%9B%9E%E6%94%B6%E4%B8%AD%E5%BF%83(%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E6%A1%83%E5%9C%92%E6%A9%9F%E5%A0%B4%E6%8D%B7%E9%81%8BA7%E7%AB%99%E5%9C%B0%E5%8D%80%E6%B0%B4%E8%B3%87%E6%BA%90%E5%9B%9E%E6%94%B6%E4%B8%AD%E5%BF%83)/@25.0391847,121.3913251,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a7aff71e4943:0xc6f5d73cb981853f!8m2!3d25.0391847!4d121.3935191?hl=zh-TW&authuser=0"
         }
     ]
