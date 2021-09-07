@@ -560,6 +560,20 @@
         },
         {
             "no": "041",
+            "title": "22:02 火鍋。樂活",
+            "type": "火鍋燒烤",
+            "address": "新北市林口區文化三路一段2號2樓",
+            "telphone": "02-2609-2229",
+            "hours": "11:00 - 15:00, 17:00 - 22:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-樂活.jpeg",
+            "link": "https://www.facebook.com/2202LOHAS/posts/2197829400359251",
+            "category": "林口區",
+            "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"http://tw.openrice.com/info/event/partner-2202lohas/index.html\">定位</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.upmedia.mg/news_info.php?SerialNo=87122\">推薦</a>\r\n</p>",
+            "score": "4.1 ",
+            "google": "https://www.google.com.tw/maps/place/22:02%E7%81%AB%E9%8D%8B%E6%9E%97%E5%8F%A3A9%E5%BA%97/@25.0663398,121.3593625,17z/data=!3m2!4b1!5s0x3442a7292586cf11:0x703479ec14144dc9!4m5!3m4!1s0x3442a6d8f37ed567:0xeb5e73cbf3a1886f!8m2!3d25.0663398!4d121.3615512?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "041",
             "title": "河馬水產",
             "type": "中式料理",
             "address": "桃園市中壢區高鐵北路二段2號",
