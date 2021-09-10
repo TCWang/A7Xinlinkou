@@ -144,6 +144,14 @@
             "Link": "https://www.cwb.gov.tw/V8/C/"
         },
         {
+            "No": "310",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "颱風動向Windy",
+            "Figure": "fig/AiCity-945-WebInformation-310.jpg",
+            "Link": "https://www.windy.com/?24.989,121.318,5"
+        },
+        {
             "No": "306",
             "Category1": "生活資訊",
             "Category": "生活查詢",
