@@ -226,7 +226,7 @@
         {
             "no": "018",
             "title": "Freaks Café & Bistro 癮客餐酒館",
-            "type": "點心冰品",
+            "type": "中式料理",
             "address": "新北市林口區仁愛路二段235-5號",
             "telphone": "02-2600-8928",
             "hours": "週一至週日11:00~15:00 17:00~21:00",
@@ -531,6 +531,20 @@
             "google": "https://www.google.com.tw/maps/place/JAPOLI%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E9%85%92%E9%A4%A8+(%E4%B8%89%E4%BA%95outlet%E5%BA%97)/@25.0709138,121.3615353,17z/data=!4m8!1m2!2m1!1z5p6X5Y-jSmFwb2xpIC3kuInkupXlupc!3m4!1s0x3442a7285fa91bef:0x56171e03ce39229c!8m2!3d25.0707347!4d121.3639607?hl=zh-TW&authuser=0"
         },
         {
+            "no": "043",
+            "title": "eat enjoy意享 - 三井店",
+            "type": "美式餐廳",
+            "address": "新北市林口區文化三路一段390-1號",
+            "telphone": "02-2600-5881",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-意享.jpg",
+            "link": "https://www.facebook.com/eatenjoy2/",
+            "category": "林口區",
+            "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/eatenjoy2/menu/\">菜單</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://kevin6071020.pixnet.net/blog/post/224509473-%E3%80%90%E6%9E%97%E5%8F%A3%E7%BE%8E%E9%A3%9F%E3%80%91eat-enjoy%E6%84%8F%E4%BA%AB%E7%BE%8E%E5%BC%8F%E5%BB%9A%E6%88%BF%EF%BC%8D%E9%81%93%E9%81%93%E9%83%BD%E5%A5%BD\">推薦</a> &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://inline.app/booking/-LACL2z10Bn3FImsV1RO?fbclid=IwAR3QE5fFefOzd_eql-EyO73SGANiiFEEWaykOhkkkAowmbjMFGgkA5k57EA\">定位</a>\r\n</p>",
+            "score": "4.6 ",
+            "google": "https://www.google.com/maps/place/Eat+enjoy%E6%84%8F%E4%BA%AB%E7%BE%8E%E5%BC%8F%E5%BB%9A%E6%88%BF%E6%9E%97%E5%8F%A3%E4%B8%89%E4%BA%95%E5%BA%97+%E5%A4%96%E5%B8%B6%E7%BE%8E%E9%A3%9F+%E5%A4%96%E9%80%81%E7%BE%8E%E9%A3%9F+%E6%9E%97%E5%8F%A3%E4%B8%89%E4%BA%95%E7%BE%8E%E9%A3%9F+%E5%8D%83%E5%B1%A4%E8%9B%8B%E7%B3%95+%E7%BE%8E%E5%BC%8F%E9%A4%90%E5%BB%B3+%E8%81%9A%E9%A4%90+%E5%AF%B5%E7%89%A9%E5%8F%8B%E5%96%84/@25.072552,121.3636991,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a727fb78e64f:0x9abd8dfa7c5596c2!8m2!3d25.0725999!4d121.3658377"
+        },
+        {
             "no": "040",
             "title": "築地樂樂町",
             "type": "日本料理",
@@ -560,7 +574,7 @@
         },
         {
             "no": "041",
-            "title": "22:02 火鍋。樂活",
+            "title": "火鍋。樂活",
             "type": "火鍋燒烤",
             "address": "新北市林口區文化三路一段2號2樓",
             "telphone": "02-2609-2229",
@@ -571,6 +585,20 @@
             "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"http://tw.openrice.com/info/event/partner-2202lohas/index.html\">定位</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.upmedia.mg/news_info.php?SerialNo=87122\">推薦</a>\r\n</p>",
             "score": "4.1 ",
             "google": "https://www.google.com.tw/maps/place/22:02%E7%81%AB%E9%8D%8B%E6%9E%97%E5%8F%A3A9%E5%BA%97/@25.0663398,121.3593625,17z/data=!3m2!4b1!5s0x3442a7292586cf11:0x703479ec14144dc9!4m5!3m4!1s0x3442a6d8f37ed567:0xeb5e73cbf3a1886f!8m2!3d25.0663398!4d121.3615512?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "042",
+            "title": "八方悅鍋物-林口仁愛店",
+            "type": "火鍋燒烤",
+            "address": "新北市林口區仁愛二路77號",
+            "telphone": "02-2609-2369",
+            "hours": "11:30 - 14:00, 17:00 - 22:00 週一公休",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-八方悅.jpg",
+            "link": "https://8funyay.com/",
+            "category": "林口區",
+            "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/%E5%85%AB%E6%96%B9%E6%82%85%E9%8D%8B%E7%89%A9%E6%9E%97%E5%8F%A3%E4%BB%81%E6%84%9B%E5%BA%97-113276467677766/menu/\">菜單</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/%E5%85%AB%E6%96%B9%E6%82%85%E9%8D%8B%E7%89%A9%E6%9E%97%E5%8F%A3%E4%BB%81%E6%84%9B%E5%BA%97-113276467677766/\">臉書</a>\r\n</p>",
+            "score": "4.9 ",
+            "google": "https://www.google.com.tw/maps/place/%E5%85%AB%E6%96%B9%E6%82%85%E9%8D%8B%E7%89%A9%E6%9E%97%E5%8F%A3%E4%BB%81%E6%84%9B%E5%BA%97/@25.0757201,121.366146,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a73657bfbe67:0x346d8a5db5ff186a!8m2!3d25.0757201!4d121.36834?hl=zh-TW&authuser=0"
         },
         {
             "no": "041",
