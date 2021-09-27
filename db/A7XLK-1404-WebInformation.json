@@ -209,6 +209,7 @@
         },
         {
             "No": "401",
+            "Category1": "生活資訊",
             "Category": "生活查詢",
             "Information": "郵遞區號查詢",
             "Figure": "fig/AiCity-945-WebInformation-401.png",
@@ -216,6 +217,7 @@
         },
         {
             "No": "402",
+            "Category1": "生活資訊",
             "Category": "生活查詢",
             "Information": "英文地址翻譯",
             "Figure": "fig/AiCity-945-WebInformation-402.jpg",
@@ -223,6 +225,7 @@
         },
         {
             "No": "403",
+            "Category1": "生活資訊",
             "Category": "生活查詢",
             "Information": "貨幣換算工具",
             "Figure": "fig/AiCity-945-WebInformation-403.jpeg",
@@ -267,6 +270,38 @@
             "Information": "門牌定位服務",
             "Figure": "fig/AiCity-945-WebInformation-408.jpeg",
             "Link": "https://www.tgos.tw/tgos/Web/Address/TGOS_Address.aspx?fbclid=IwAR2Y2QtTuEYl3uACZLVuKsCnHcCj7Y301aApNkc3tJIUZLl7H8956P4gpu0"
+        },
+        {
+            "No": "075",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "影貓電影",
+            "Figure": "fig/XLK-1401-News/XLK-142-MVCAT.png",
+            "Link": "https://www.mvcat.com/"
+        },
+        {
+            "No": "072",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "劇迷 Gimy",
+            "Figure": "fig/XLK-1401-News/XLK-142-劇迷.png",
+            "Link": "https://gimy.app/"
+        },
+        {
+            "No": "073",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "中國人線上看",
+            "Figure": "fig/XLK-1401-News/XLK-142-中國人線上看.png",
+            "Link": "https://chinaq.biz/cn/"
+        },
+        {
+            "No": "071",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "美國電視頻道",
+            "Figure": "fig/XLK-1401-News/AiCity-923-USTVGo.jpeg",
+            "Link": "https://ustvgo.tv/"
         },
         {
             "No": "501",
