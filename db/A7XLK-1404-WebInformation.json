@@ -104,6 +104,30 @@
             "Link": "https://www.mvdis.gov.tw/m3-emv-fee/fee/fuelFee"
         },
         {
+            "No": "312",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "懶盤搜索",
+            "Figure": "fig/XLK-1401-News/XLK-142-lzpan.png",
+            "Link": "https://lzpan.com/"
+        },
+        {
+            "No": "311",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "大數據導航",
+            "Figure": "fig/XLK-1401-News/XLK-142-大數據導航.jpeg",
+            "Link": "http://hao.199it.com/"
+        },
+        {
+            "No": "310",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "果汁排行榜",
+            "Figure": "fig/XLK-1401-News/XLK-142-果汁排行榜.jpeg",
+            "Link": "http://guozhivip.com/rank/"
+        },
+        {
             "No": "301",
             "Category1": "生活資訊",
             "Category": "生活查詢",

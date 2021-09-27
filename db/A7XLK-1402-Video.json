@@ -1,5 +1,26 @@
 ﻿[
         {
+            "no": "079",
+            "title": "Kapwing 影音編輯",
+            "figure": "fig/XLK-1401-News/XLK-142-Kapwing.png",
+            "link": "https://www.kapwing.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "077",
+            "title": "考拉新媒體導航",
+            "figure": "fig/XLK-1401-News/XLK-142-Kaolamedia.jpeg",
+            "link": "https://www.kaolamedia.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "076",
+            "title": "Vjshi 視頻素材",
+            "figure": "fig/XLK-1401-News/XLK-142-VJshi.png",
+            "link": "https://www.vjshi.com/",
+            "category": "藝術圖像"
+        },
+        {
             "no": "038",
             "title": "ArtStation",
             "figure": "fig/XLK-1401-News/AiCity-923-ArtStation.png",
@@ -84,6 +105,20 @@
             "category": "藝術圖像"
         },
         {
+            "no": "079",
+            "title": "極簡簡歷",
+            "figure": "fig/XLK-1401-News/XLK-142-極簡簡歷.png",
+            "link": "https://www.polebrief.com/index",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "078",
+            "title": "書享家",
+            "figure": "fig/XLK-1401-News/XLK-142-書享家.jpeg",
+            "link": "http://shuxiangjia.cn/",
+            "category": "文獻收藏"
+        },
+        {
             "no": "050",
             "title": "中國哲學",
             "figure": "fig/XLK-1401-News/AiCity-923-中國哲學.jpg",
@@ -138,6 +173,13 @@
             "figure": "fig/XLK-1401-News/XLK-142-Jstor.png",
             "link": "https://reurl.cc/nzngG2",
             "category": "文獻收藏"
+        },
+        {
+            "no": "075",
+            "title": "影貓電影",
+            "figure": "fig/XLK-1401-News/XLK-142-MVCAT.png",
+            "link": "https://www.mvcat.com/",
+            "category": "影音珍藏"
         },
         {
             "no": "072",
