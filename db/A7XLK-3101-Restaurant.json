@@ -182,6 +182,48 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "105",
+            "title": "Walk in Café",
+            "type": "點心冰品",
+            "address": "新北市林口區東湖路155號",
+            "telphone": "02-2602-2736",
+            "hours": "08:30 ~ 21:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-WalkinCafe.jpg",
+            "link": "https://www.facebook.com/Walkin1805/",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/Walkin1805/photos/?tab=album&album_id=1801334346625830\">菜單</a> &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://zineblog.com.tw/blog/post/200616\">推薦</a> &nbsp;\r\n</p>",
+            "score": "4.3 ",
+            "google": "https://www.google.com.tw/maps/place/Walk+In+Cafe+(%E6%9D%B1%E6%B9%96%E8%B7%AF%E4%B8%80%E5%BA%97)/@25.076602,121.3754823,15.03z/data=!4m5!3m4!1s0x3442a7825ca84ba9:0x10a7794b5cdf0af7!8m2!3d25.0729537!4d121.3829821?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "106",
+            "title": "御鼎湯原本鍋物",
+            "type": "火鍋燒烤",
+            "address": "新北市林口區仁愛路二段2號",
+            "telphone": "02-2601-0107",
+            "hours": "11:00 ~ 22:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-御鼎湯原本鍋物.jpg",
+            "link": "https://www.facebook.com/%E5%BE%A1%E9%BC%8E%E6%B9%AF-%E5%8E%9F%E6%9C%AC%E9%8D%8B%E7%89%A9-1944563872330819/",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/%E5%BE%A1%E9%BC%8E%E6%B9%AF-%E5%8E%9F%E6%9C%AC%E9%8D%8B%E7%89%A9-1944563872330819/menu/\">菜單</a> &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://bobowin.blog/linkou-hot-pot/\">推薦</a> &nbsp;\r\n</p>",
+            "score": "4.7 ",
+            "google": "https://www.google.com.tw/maps/place/%E5%BE%A1%E9%BC%8E%E6%B9%AF+%E5%8E%9F%E6%9C%AC%E9%8D%8B%E7%89%A9+%E6%9E%97%E5%8F%A3%E4%BB%81%E6%84%9B%E5%BA%97/@25.0766312,121.3489812,13z/data=!4m9!1m2!2m1!1z5paw5YyX5biC5b6h6byO5rmv5Y6f5pys6Y2L54mp!3m5!1s0x3442a748fc9abb59:0x2bdfe620d9af149b!8m2!3d25.0765474!4d121.3858298!15sCh7mlrDljJfluILlvqHpvI7mua_ljp_mnKzpjYvnialaJiIk5pawIOWMl-W4giDlvqEg6byOIOa5r-WOnyDmnKwg6Y2L54mpkgEKcmVzdGF1cmFudA?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "107",
+            "title": "展悅浮島咖啡館",
+            "type": "點心冰品",
+            "address": "新北市林口區文化三路二段455號",
+            "telphone": "02-2602-2705",
+            "hours": "09:00 ~ 20:30 週一公休",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-展悅浮島.jpg",
+            "link": "https://www.facebook.com/SotBistronomy/",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.coredesignstrategy.com/resturantconsultant\">菜單</a> &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://bobowin.blog/linkou-bistronomy/\">推薦</a> &nbsp;\r\n</p>",
+            "score": "4.3 ",
+            "google": "https://www.google.com.tw/maps/place/S%C3%B6t+cafe+Bistronomy+%E6%B5%AE%E5%B3%B6%E5%B1%95%E6%82%85%E5%BA%97/@25.0903959,121.3788836,17z/data=!4m9!1m2!2m1!1z5paw5YyX5biC5bGV5oKF5rWu5bO25ZKW5ZWh6aSo!3m5!1s0x3442a6eb3619c47b:0x47e7cbddc475b699!8m2!3d25.0905085!4d121.3811853!15sCh7mlrDljJfluILlsZXmgoXmta7ls7blkpbllaHppKhaJiIk5pawIOWMl-W4giDlsZUg5oKFIOa1ruWztiDlkpbllaEg6aSokgEKcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VNMGIyUXRSRFJCUlJBQg?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "015",
             "title": "呷冰食堂",
             "type": "點心冰品",
