@@ -182,6 +182,20 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "108",
+            "title": "甜蒔吇舒芙蕾咖啡專賣",
+            "type": "點心冰品",
+            "address": "新北市林口區文化二路一段78號",
+            "telphone": "02-2606-8806",
+            "hours": "一-五｜ 11:30-21:00 , 六日與例假日 ｜ 11:30-21:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-舒芙蕾.jpg",
+            "link": "https://www.facebook.com/souffle.coffee/posts/360088805738952",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/souffle.coffee/photos/pcb.315664340181399/342531914161308\">菜單</a> &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://angelababy.tw/post-522856846/\">推薦</a> &nbsp;\r\n</p>",
+            "score": "4.9 ",
+            "google": "https://www.google.com.tw/maps/place/%E7%94%9C%E8%92%94%E5%90%87%E8%88%92%E8%8A%99%E8%95%BE%E5%92%96%E5%95%A1%E5%B0%88%E8%B3%A3/@25.069282,121.3641541,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a7b6e5b090b9:0x3660f93869cab755!8m2!3d25.069282!4d121.3663481?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "105",
             "title": "Walk in Café",
             "type": "點心冰品",
