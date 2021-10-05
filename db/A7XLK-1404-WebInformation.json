@@ -104,6 +104,54 @@
             "Link": "https://www.mvdis.gov.tw/m3-emv-fee/fee/fuelFee"
         },
         {
+            "No": "313",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "軟體下載 FossHub",
+            "Figure": "fig/AiCity-945-WebInformation-313.jpeg",
+            "Link": "https://www.fosshub.com/"
+        },
+        {
+            "No": "314",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "格式轉換 Aconvert",
+            "Figure": "fig/AiCity-945-WebInformation-314.jpeg",
+            "Link": "https://www.aconvert.com/"
+        },
+        {
+            "No": "315",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "心智圖 GitMind",
+            "Figure": "fig/AiCity-945-WebInformation-315.jpeg",
+            "Link": "https://gitmind.com/tw/"
+        },
+        {
+            "No": "316",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "肌肉訓練 MuscleWiki",
+            "Figure": "fig/AiCity-945-WebInformation-316.jpeg",
+            "Link": "https://musclewiki.com/"
+        },
+        {
+            "No": "317",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "音樂下載 SoundCloud",
+            "Figure": "fig/AiCity-945-WebInformation-317.png",
+            "Link": "https://soundcloud.com/"
+        },
+        {
+            "No": "318",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "瀏覽加速器 SpeedyFox",
+            "Figure": "fig/AiCity-945-WebInformation-318.jpeg",
+            "Link": "https://crystalidea.com/speedyfox"
+        },
+        {
             "No": "312",
             "Category1": "查詢工具",
             "Category": "生活查詢",
