@@ -1258,6 +1258,20 @@
             "google": "https://www.google.com.tw/maps/place/%E9%B3%A5%E5%9C%B0%E6%96%B9%E9%99%9D%E8%A5%BF%E5%B0%8F%E9%A4%A8/@25.0562799,121.3613391,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a7373ca98331:0x22a9e1c8a5f705ac!8m2!3d25.056337!4d121.3634828?hl=zh-TW&authuser=0"
         },
         {
+            "no": "108",
+            "title": "哇草手創湯包",
+            "type": "麵食餐館",
+            "address": "桃園市龜山區復興北路68號",
+            "telphone": "03-328-1119",
+            "hours": "11:00 - 21:00 週二公休",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-哇草手創湯包.png",
+            "link": "https://www.facebook.com/%E5%93%87%E8%8D%89-%E6%89%8B%E5%89%B5%E6%B9%AF%E5%8C%85-106679005058415",
+            "category": "龜山區-復興北路",
+            "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.foodpanda.com.tw/en/restaurant/nsnx/wa-cao-shou-chuang-tang-bao\">菜單</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/100002779066561/videos/pcb.3711669585602307/388272802895151\">推薦</a>\r\n</p>",
+            "score": "4.7 ",
+            "google": "https://www.google.com.tw/maps/place/%E5%93%87%E8%8D%89%E6%89%8B%E5%89%B5%E6%B9%AF%E5%8C%85/@25.0581331,121.3679845,17z/data=!4m5!3m4!1s0x3442a7ecfbdee3bd:0xb8557ebc92d5d538!8m2!3d25.0581331!4d121.3701732?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "080",
             "title": "小木屋鬆餅",
             "type": "點心冰品",
