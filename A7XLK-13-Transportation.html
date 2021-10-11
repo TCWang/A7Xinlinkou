@@ -776,7 +776,7 @@
                     </thead>
                     <tbody>
                       <tr v-for="post in posts">
-                        <td>{{post.公車}}</td>
+                        <td> <a v-bind:href="post.即時資訊-出">{{post.公車}}</a> </td>
                         <td>{{post.起站}}</td>
                         <td>{{post.訖站}} </td>
                         <td>
