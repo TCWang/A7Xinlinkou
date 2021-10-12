@@ -63,19 +63,6 @@
             "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400085800"
         },
         {
-            "No": "029",
-            "站名": "林口長庚醫院",
-            "Color": "green",
-            "公車": "1209",
-            "起站": "公西站",
-            "訖站": "台北捷運北門站",
-            "即時資訊返": "https://www.taiwanbus.tw/DyBus.aspx?Lang=Cht&ID=3362#1209#2",
-            "即時資訊出": "https://www.taiwanbus.tw/DyBus.aspx?Lang=Cht&ID=3362#1209#1",
-            "型態": "縣市公車",
-            "所屬公司": "三重客運",
-            "頭末班": "05:00 - 21:50"
-        },
-        {
             "No": "003",
             "站名": "林口長庚醫院",
             "Color": "red",
@@ -479,6 +466,19 @@
             "所屬公司": "三重客運",
             "頭末班": "05:10 - 21:30",
             "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400096730"
+        },
+        {
+            "No": "029",
+            "站名": "林口長庚醫院",
+            "Color": "green",
+            "公車": "1209",
+            "起站": "公西站",
+            "訖站": "台北捷運北門站",
+            "即時資訊返": "https://ebus.tycg.gov.tw/ebus/driving-map/65331",
+            "即時資訊出": "https://ebus.tycg.gov.tw/ebus/driving-map/65331",
+            "型態": "縣市公車",
+            "所屬公司": "三重客運",
+            "頭末班": "05:00 - 21:50"
         },
         {
             "No": "086",
