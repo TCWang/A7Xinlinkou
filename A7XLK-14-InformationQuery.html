@@ -418,7 +418,7 @@
                 </div>
 
                 <div class="row" v-for="posts in results">
-                  <div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
                     <div class="card">
                       <div class="card-header">
                         <a v-bind:href="post.Link">{{post.TVSeries}}</a>
@@ -427,12 +427,12 @@
                         <a v-bind:href="post.link">
                           <img v-bind:src="post.Figure" class="img-fluid" style="width:180px">
                         </a>
-                        <ul style="list-style-type:none">
-                          <li>年代：{{post.Year}} </li>
-                          <li>主演：{{post.Actor}} </li>
-                          <li>劇集：{{post.Episode}} </li>
-                          <li>人氣：{{post.Score}} </li>
-                        </ul>
+
+                          年代：{{post.Year}} <br>
+                          主演：{{post.Actor}} <br>
+                          劇集：{{post.Episode}} <br>
+                          人氣：{{post.Score}} <br>
+
 
                       </div>
 
