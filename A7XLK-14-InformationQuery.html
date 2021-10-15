@@ -428,7 +428,7 @@
                           <img v-bind:src="post.Figure" class="img-fluid" style="width:180px">
                         </a>
                         <br>
-                          年代：{{post.Year}} <br>
+                          年代：{{post.Year}} - {{post.Country}} <br>
                           主演：{{post.Actor}} <br>
                           劇集：{{post.Episode}} <br>
                           人氣：{{post.Score}} <br>
@@ -496,7 +496,7 @@
     const SECTIONS_04 = "交通資訊"
     const SECTIONS_05 = "生活查詢"
     const SECTIONS_06 = "娛樂資訊"   
-    const SECTIONS_07 = "2021, 2020以前"           
+    const SECTIONS_07 = "今年新戲, 歷史名劇"           
 
     new Vue({
       el: '#app1',
@@ -724,7 +724,7 @@
         posts,
         // results: [],
         sections: SECTIONS_07.split(', '),
-        section: '2021',
+        section: '今年新戲',
       },
       filter: {
         formatted(value) {
