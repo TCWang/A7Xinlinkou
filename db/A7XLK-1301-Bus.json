@@ -822,9 +822,12 @@
             "公車": "760",
             "起站": "林口轉運站",
             "訖站": "林口轉運站",
+            "即時資訊返": "https://ebus.gov.taipei/Route/StopsOfRoute?routeid=0400076000",
+            "即時資訊出": "https://ebus.gov.taipei/Route/StopsOfRoute?routeid=0400076000",
             "型態": "縣市公車",
             "所屬公司": "三重客運",
-            "頭末班": "06:00 - 20:00"
+            "頭末班": "06:00 - 20:00",
+            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400076000"
         },
         {
             "No": "104",
@@ -850,7 +853,7 @@
             "型態": "國道公車",
             "所屬公司": "三重客運",
             "頭末班": "05:30 - 22:30",
-            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400096600"
+            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400096610"
         },
         {
             "No": "106",
@@ -863,7 +866,7 @@
             "型態": "國道公車",
             "所屬公司": "三重客運",
             "頭末班": "05:10 - 21:30",
-            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400096700"
+            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400096710"
         },
         {
             "No": "107",
@@ -876,7 +879,7 @@
             "型態": "國道公車",
             "所屬公司": "大都會",
             "頭末班": "05:40 - 22:40",
-            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400093700"
+            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400093710"
         },
         {
             "No": "108",
@@ -889,6 +892,6 @@
             "型態": "國道公車",
             "所屬公司": "台北客運",
             "頭末班": "05:00 - 22:00",
-            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400092000"
+            "路線圖": "https://ebus.gov.taipei/MapOverview?nid=0400092010"
         }
     ]
