@@ -9,6 +9,7 @@
             "TVSeries": "山河令",
             "Score": "3,164,608 ",
             "Score2": "8.6 ",
+            "Description": "A:01/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-101.jpeg",
             "Link": "https://gimy.app/vod/121877.html"
         },
@@ -22,6 +23,7 @@
             "TVSeries": "城市的邊緣",
             "Score": "52,300 ",
             "Score2": "8.5 ",
+            "Description": "A:02/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-102.jpeg",
             "Link": "https://gimy.app/vod/126777.html"
         },
@@ -35,6 +37,7 @@
             "TVSeries": "我在他鄉挺好的",
             "Score": "489,413 ",
             "Score2": "8.2 ",
+            "Description": "A:03/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-103.jpeg",
             "Link": "https://gimy.app/vod/155492.html"
         },
@@ -48,6 +51,7 @@
             "TVSeries": "御賜小仵作",
             "Score": "4,155,026 ",
             "Score2": "8.1 ",
+            "Description": "A:04/20, C:08/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-031.jpeg",
             "Link": "https://gimy.app/vod/126826.html"
         },
@@ -61,6 +65,7 @@
             "TVSeries": "你好，對方辯友2",
             "Score": "95,136 ",
             "Score2": "7.9 ",
+            "Description": "A:05/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-104.jpeg",
             "Link": "https://gimy.app/vod/119606.html"
         },
@@ -74,6 +79,7 @@
             "TVSeries": "喬家的兒女",
             "Score": "767,044 ",
             "Score2": "7.8 ",
+            "Description": "A:06/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-078.jpeg",
             "Link": "https://gimy.app/vod/157499.html"
         },
@@ -87,6 +93,7 @@
             "TVSeries": "叛逆者",
             "Score": "378,104 ",
             "Score2": "7.8 ",
+            "Description": "A:07/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-063.jpeg",
             "Link": "https://gimy.app/vod/150714.html"
         },
@@ -100,6 +107,7 @@
             "TVSeries": "理想之城",
             "Score": "2,330,511 ",
             "Score2": "7.6 ",
+            "Description": "A:08/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-105.jpeg",
             "Link": "https://gimy.app/vod/157153.html"
         },
@@ -113,21 +121,9 @@
             "TVSeries": "變成你的那一天",
             "Score": "548,641 ",
             "Score2": "7.6 ",
+            "Description": "A:09/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-106.jpeg",
             "Link": "https://gimy.app/vod/151403.html"
-        },
-        {
-            "No": "108",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "24",
-            "Actor": "林鵬 鄭業成 李子峯 王志剛 金楷傑 蔡蝶 魏健隆 霄宇 羅康",
-            "TVSeries": "玫瑰行者",
-            "Score": "134,785 ",
-            "Score2": "7.5 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-108.jpeg",
-            "Link": "https://gimy.app/vod/157115.html"
         },
         {
             "No": "107",
@@ -139,8 +135,51 @@
             "TVSeries": "突如其來的假期",
             "Score": "52,113 ",
             "Score2": "7.5 ",
+            "Description": "A:10/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-107.jpeg",
             "Link": "https://gimy.app/vod/155360.html"
+        },
+        {
+            "No": "108",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "24",
+            "Actor": "林鵬 鄭業成 李子峯 王志剛 金楷傑 蔡蝶 魏健隆 霄宇 羅康",
+            "TVSeries": "玫瑰行者",
+            "Score": "134,785 ",
+            "Score2": "7.5 ",
+            "Description": "A:11/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-108.jpeg",
+            "Link": "https://gimy.app/vod/157115.html"
+        },
+        {
+            "No": "002",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "24",
+            "Actor": "任嘉倫 白鹿 王星越 李宜儒 姚奕辰 周陸啦 蘇夢芸 吳曼思 劉威葳 梁愛琪",
+            "TVSeries": "周生如故",
+            "Score": "2,132,343 ",
+            "Score2": "7.4 ",
+            "Description": "A:12/20, C:02/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-002.jpeg",
+            "Link": "https://gimy.app/vod/157545.html"
+        },
+        {
+            "No": "011",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "40",
+            "Actor": "馬思純 白敬亭 王陽 姜珮瑤 陳昊 張瑤 羅昱焜 郭泱",
+            "TVSeries": "你是我的城池營壘",
+            "Score": "2,454,774 ",
+            "Score2": "7.4 ",
+            "Description": "A:13/20, C:04/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-011.jpeg",
+            "Link": "https://gimy.app/vod/122628.html"
         },
         {
             "No": "109",
@@ -152,6 +191,7 @@
             "TVSeries": "掃黑風暴",
             "Score": "1,278,633 ",
             "Score2": "7.3 ",
+            "Description": "A:14/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-109.jpeg",
             "Link": "https://gimy.app/vod/156984.html"
         },
@@ -165,21 +205,9 @@
             "TVSeries": "理智派生活",
             "Score": "2,043,804 ",
             "Score2": "7.2 ",
+            "Description": "A:15/20, C:09/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-110.jpeg",
             "Link": "https://gimy.app/vod/124388.html"
-        },
-        {
-            "No": "013",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "24",
-            "Actor": " 林彥俊 萬鵬 李嘉豪 牛玉坤 李嘉琪 陳美伊",
-            "TVSeries": "原來我很愛你",
-            "Score": "1,071,359 ",
-            "Score2": "7.1 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-013.jpeg",
-            "Link": "https://gimy.app/vod/156669.html"
         },
         {
             "No": "004",
@@ -191,21 +219,23 @@
             "TVSeries": "司藤",
             "Score": "1,028,428 ",
             "Score2": "7.1 ",
+            "Description": "A:16/20, C:11/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-004.jpeg",
             "Link": "https://gimy.app/vod/122492.html"
         },
         {
-            "No": "010",
+            "No": "013",
             "Country": "中國大陸",
             "Year": "2021",
             "YearB": "今年新戲",
-            "Episode": "32",
-            "Actor": "迪麗熱巴 楊洋 潘粵明 胡可 王彥霖 鄭合惠子 金晨 吳倩 高露 塗松巖",
-            "TVSeries": "你是我的榮耀",
-            "Score": "8,844,170 ",
-            "Score2": "7.0 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-010.jpeg",
-            "Link": "https://gimy.app/vod/155818.html"
+            "Episode": "24",
+            "Actor": " 林彥俊 萬鵬 李嘉豪 牛玉坤 李嘉琪 陳美伊",
+            "TVSeries": "原來我很愛你",
+            "Score": "1,071,359 ",
+            "Score2": "7.1 ",
+            "Description": "A:17/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-013.jpeg",
+            "Link": "https://gimy.app/vod/156669.html"
         },
         {
             "No": "111",
@@ -217,8 +247,23 @@
             "TVSeries": "雲南蟲谷",
             "Score": "785,247 ",
             "Score2": "7.0 ",
+            "Description": "A:18/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-111.jpeg",
             "Link": "https://gimy.app/vod/158230.html"
+        },
+        {
+            "No": "010",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "32",
+            "Actor": "迪麗熱巴 楊洋 潘粵明 胡可 王彥霖 鄭合惠子 金晨 吳倩 高露 塗松巖",
+            "TVSeries": "你是我的榮耀",
+            "Score": "8,844,170 ",
+            "Score2": "7.0 ",
+            "Description": "A:19/20, C:01/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-010.jpeg",
+            "Link": "https://gimy.app/vod/155818.html"
         },
         {
             "No": "112",
@@ -230,8 +275,152 @@
             "TVSeries": "雙鏡",
             "Score": "89,338 ",
             "Score2": "7.0 ",
+            "Description": "A:20/20",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-112.jpeg",
             "Link": "https://gimy.app/vod/157161.html"
+        },
+        {
+            "No": "121",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "24",
+            "Actor": "趙露思 劉特 周峻緯 漆培鑫 李沐宸 劉胤君 張研 賀鵬 宗元圓",
+            "TVSeries": "一不小心撿到愛",
+            "Score": "1,967,351 ",
+            "Description": "C:05/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-121.png",
+            "Link": "https://gimy.app/vod/148938.html"
+        },
+        {
+            "No": "122",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "36",
+            "Actor": "任嘉倫 邢菲 劉芮麟 趙奕歡 駿聲 葛施敏 範湉湉 宣璐 樊治欣",
+            "TVSeries": "烏鴉小姐與蜥蜴先生",
+            "Score": "1,724,953 ",
+            "Description": "C:06/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-122.jpeg",
+            "Link": "https://gimy.app/vod/126501.html"
+        },
+        {
+            "No": "034",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "45",
+            "Actor": "鍾漢良 譚松韻 何泓姍 唐曉天 吳冕 方曉莉 穎兒 劉芸 李晟 斕曦",
+            "TVSeries": "錦心似玉",
+            "Score": "6,002,697 ",
+            "Description": "C:07/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-034.jpeg",
+            "Link": "https://gimy.app/vod/122059.html"
+        },
+        {
+            "No": "069",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "40",
+            "Actor": "黃景瑜 李沁 楊舒 聶子皓 姜嫄 趙荀 傅浤鳴 於躍 費鯉齊 劉曉潔 徐洪浩 ",
+            "TVSeries": "愛上特種兵",
+            "Score": "1,771,888 ",
+            "Description": "C:10/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-069.jpeg",
+            "Link": "https://gimy.app/vod/150167.html"
+        },
+        {
+            "No": "123",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "38",
+            "Actor": "胡一天 李一桐 李明德 許樂驍 王安宇 龐瀚辰 王可如 李現 楊紫",
+            "TVSeries": "我的時代，你的時代",
+            "Score": "1,646,706 ",
+            "Description": "C:12/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-123.jpeg",
+            "Link": "https://gimy.app/vod/120939.html"
+        },
+        {
+            "No": "124",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "-30",
+            "Actor": "陳靖可 嚴智超 郭耘奇 朱丹妮 辛瑞琪 丁嘉文 鍾偉倫",
+            "TVSeries": "原來你是這樣的顧先生",
+            "Score": "1,138,386 ",
+            "Description": "C:13/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-124.jpeg",
+            "Link": "https://gimy.app/vod/124287.html"
+        },
+        {
+            "No": "044",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "-28",
+            "Actor": "邢菲 唐曉天 黃一琳 李川 鄧鬱立 付偉倫 昌隆 楊安琪 野紅梅 洛晨舒",
+            "TVSeries": "我的小確幸",
+            "Score": "1,560,320 ",
+            "Description": "C:14/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-044.jpeg",
+            "Link": "https://gimy.app/vod/119536.html"
+        },
+        {
+            "No": "125",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "36",
+            "Actor": "虞書欣 丁禹兮 楊仕澤 馬吟吟 王汀 葉筱瑋 秦沛 朱泳騰",
+            "TVSeries": "月光變奏曲",
+            "Score": "2,140,583 ",
+            "Description": "C:16/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-125.jpeg",
+            "Link": "https://gimy.app/vod/148939.html"
+        },
+        {
+            "No": "014",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "45",
+            "Actor": "張翰 徐璐 洪堯 王瑞子 王勁松 張晨光 溫崢嶸 麻駿 徐閣 郭子千",
+            "TVSeries": "若你安好便是晴天",
+            "Score": "1,796,008 ",
+            "Description": "C:17/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-014.jpeg",
+            "Link": "https://gimy.app/vod/123245.html"
+        },
+        {
+            "No": "126",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "-28",
+            "Actor": "朱顏曼滋 趙順然 沈雨 張亦馳 夢秦 陳泇文 張哲浩 ",
+            "TVSeries": "暗戀橘生淮南",
+            "Score": "6,319 ",
+            "Description": "C:18/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-126.jpeg",
+            "Link": "https://gimy.app/vod/131503.html"
+        },
+        {
+            "No": "127",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "31",
+            "Actor": "許凱 程瀟 翟瀟聞 姚弛 周翊然 肖凱中 靈超 王若珊 米熱",
+            "TVSeries": "你微笑時很美",
+            "Score": "3,326,331 ",
+            "Description": "C:19/20",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-127.jpeg",
+            "Link": "https://gimy.app/vod/151793.html"
         },
         {
             "No": "030",
@@ -244,18 +433,6 @@
             "Score": "9,760,868 ",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-030.jpeg",
             "Link": "https://gimy.app/vod/124349.html"
-        },
-        {
-            "No": "034",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "45",
-            "Actor": "鍾漢良 譚松韻 何泓姍 唐曉天 吳冕 方曉莉 穎兒 劉芸 李晟 斕曦",
-            "TVSeries": "錦心似玉",
-            "Score": "6,002,697 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-034.jpeg",
-            "Link": "https://gimy.app/vod/122059.html"
         },
         {
             "No": "066",
@@ -294,18 +471,6 @@
             "Link": "https://gimy.app/vod/158142.html"
         },
         {
-            "No": "011",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "40",
-            "Actor": "馬思純 白敬亭 王陽 姜珮瑤 陳昊 張瑤 羅昱焜 郭泱",
-            "TVSeries": "你是我的城池營壘",
-            "Score": "2,454,774 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-011.jpeg",
-            "Link": "https://gimy.app/vod/122628.html"
-        },
-        {
             "No": "008",
             "Country": "中國大陸",
             "Year": "2021",
@@ -316,18 +481,6 @@
             "Score": "2,378,245 ",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-008.jpeg",
             "Link": "https://gimy.app/vod/158615.html"
-        },
-        {
-            "No": "002",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "24",
-            "Actor": "任嘉倫 白鹿 王星越 李宜儒 姚奕辰 周陸啦 蘇夢芸 吳曼思 劉威葳 梁愛琪",
-            "TVSeries": "周生如故",
-            "Score": "2,132,343 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-002.jpeg",
-            "Link": "https://gimy.app/vod/157545.html"
         },
         {
             "No": "007",
@@ -366,30 +519,6 @@
             "Link": "https://gimy.app/vod/157063.html"
         },
         {
-            "No": "014",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "45",
-            "Actor": "張翰 徐璐 洪堯 王瑞子 王勁松 張晨光 溫崢嶸 麻駿 徐閣 郭子千",
-            "TVSeries": "若你安好便是晴天",
-            "Score": "1,796,008 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-014.jpeg",
-            "Link": "https://gimy.app/vod/123245.html"
-        },
-        {
-            "No": "069",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "40",
-            "Actor": "黃景瑜 李沁 楊舒 聶子皓 姜嫄 趙荀 傅浤鳴 於躍 費鯉齊 劉曉潔 徐洪浩 ",
-            "TVSeries": "愛上特種兵",
-            "Score": "1,771,888 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-069.jpeg",
-            "Link": "https://gimy.app/vod/150167.html"
-        },
-        {
             "No": "057",
             "Country": "中國大陸",
             "Year": "2021",
@@ -400,18 +529,6 @@
             "Score": "1,758,290 ",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-057.jpeg",
             "Link": "https://gimy.app/vod/120489.html"
-        },
-        {
-            "No": "044",
-            "Country": "中國大陸",
-            "Year": "2021",
-            "YearB": "今年新戲",
-            "Episode": "-28",
-            "Actor": "邢菲 唐曉天 黃一琳 李川 鄧鬱立 付偉倫 昌隆 楊安琪 野紅梅 洛晨舒",
-            "TVSeries": "我的小確幸",
-            "Score": "1,560,320 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-044.jpeg",
-            "Link": "https://gimy.app/vod/119536.html"
         },
         {
             "No": "012",
