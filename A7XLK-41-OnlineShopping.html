@@ -411,62 +411,62 @@
 
 
 
-					<div id="app5"  class="tab-pane" id="Menu-B5" role="tabpanel">
+					<div  class="tab-pane" id="Menu-B5" role="tabpanel">
 						<!-- Menu B5 -->
 
-							<h3>社區團購</h3>
+						<h3>社區團購</h3>
 
+						<div id="app5" class="container-fluid">
+							<div v-show="no" class="alert alert-info" role="alert">
 
-								<div v-show="no" class="alert alert-info" role="alert">
-
-									<div class="row">
-										<div class="col-8">
-											<div class="form-group">
-												<select class="form-control" v-model="section"
-													id="exampleFormControlSelect1">
-													<option v-for="section in sections">{{ section }}</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-4">
-											<h5 class="text-center"> 選擇類別 </h5>
+								<div class="row">
+									<div class="col-8">
+										<div class="form-group">
+											<select class="form-control" v-model="section"
+												id="exampleFormControlSelect1">
+												<option v-for="section in sections">{{ section }}</option>
+											</select>
 										</div>
 									</div>
+									<div class="col-4">
+										<h5 class="text-center"> 選擇類別 </h5>
+									</div>
 								</div>
+							</div>
 
 
 
-								<div class="row" v-for="posts in results">
-									<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
-										<div class="card">
-											<div class="card-header">
-												<a v-bind:href="post.link">
-													{{ post.title }}
-												</a>
-											</div>
-											<div class="card-body">
-												<p class="card-text">
-												<div class="row">
-													<div class="col-5">
-														<a v-bind:href="post.link"><img v-bind:src="post.figure"
-																class="img-fluid" style="width:400px"></a>
-													</div>
-													<div class="col-7">
-														<dl>
-															<dd>成立日期：{{post.build}}</dd>
-															<dd>交貨點：{{post.address}}</dd>
-															<dd>會員數：{{post.member}} </dd>
-														</dl>
-													</div>
+							<div class="row" v-for="posts in results">
+								<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+									<div class="card">
+										<div class="card-header">
+											<a v-bind:href="post.link">
+												{{ post.title }}
+											</a>
+										</div>
+										<div class="card-body">
+											<p class="card-text">
+											<div class="row">
+												<div class="col-5">
+													<a v-bind:href="post.link"><img v-bind:src="post.figure"
+															class="img-fluid" style="width:400px"></a>
 												</div>
-												<span v-html="post.notice"></span> <br>
-												<span v-html="post.description"></span>
-												</p>
+												<div class="col-7">
+													<dl>
+														<dd>成立日期：{{post.build}}</dd>
+														<dd>交貨點：{{post.address}}</dd>
+														<dd>會員數：{{post.member}} </dd>
+													</dl>
+												</div>
 											</div>
+											<span v-html="post.notice"></span> <br>
+											<span v-html="post.description"></span>
+											</p>
 										</div>
 									</div>
 								</div>
-
+							</div>
+						</div>
 
 					</div>
 
