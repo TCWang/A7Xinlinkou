@@ -102,24 +102,6 @@
             "category": "漢堡"
         },
         {
-            "id": "105 ",
-            "title": "京都壽喜牛起司蛋",
-            "price": 69,
-            "count": 0,
-            "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-105.jpg",
-            "subcategory": "紫米漢堡",
-            "category": "漢堡"
-        },
-        {
-            "id": "106 ",
-            "title": "日式胡麻雞排堡",
-            "price": 49,
-            "count": 0,
-            "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-106.jpg",
-            "subcategory": "紫米漢堡",
-            "category": "漢堡"
-        },
-        {
             "id": "201 ",
             "title": "起司蛋",
             "price": 45,
@@ -225,16 +207,6 @@
             "category": "吐司"
         },
         {
-            "id": "205 ",
-            "suggestion": "*",
-            "title": "日式胡麻雞排蛋",
-            "price": 49,
-            "count": 0,
-            "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-205.jpg",
-            "subcategory": "番茄吐司",
-            "category": "吐司"
-        },
-        {
             "id": "301 ",
             "title": "薄片-奶酥",
             "price": 25,
@@ -301,15 +273,6 @@
             "id": "302 ",
             "title": "厚片-巧克力",
             "price": 30,
-            "count": 0,
-            "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-302.jpg",
-            "subcategory": "果醬番茄吐司",
-            "category": "吐司"
-        },
-        {
-            "id": "303 ",
-            "title": "厚片-爆量梅醬起司",
-            "price": 49,
             "count": 0,
             "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-302.jpg",
             "subcategory": "果醬番茄吐司",
@@ -548,16 +511,6 @@
             "price": 45,
             "count": 0,
             "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-602.jpg",
-            "subcategory": "樂活堡",
-            "category": "漢堡"
-        },
-        {
-            "id": "605 ",
-            "suggestion": "X",
-            "title": "日式梅醬豬排堡",
-            "price": 59,
-            "count": 0,
-            "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-605.jpg",
             "subcategory": "樂活堡",
             "category": "漢堡"
         },
@@ -926,16 +879,6 @@
             "category": "早午餐"
         },
         {
-            "id": "914 ",
-            "suggestion": "*",
-            "title": "京都壽喜牛炒麵",
-            "price": 69,
-            "count": 0,
-            "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-914.jpg",
-            "subcategory": "鐵板義大利麵",
-            "category": "早午餐"
-        },
-        {
             "id": "908 ",
             "title": "原味意麵",
             "price": 65,
@@ -1050,7 +993,7 @@
             "suggestion": "*",
             "title": "拿鐵咖啡: 大-冰",
             "price": 55,
-            "count": "0",
+            "count": 0,
             "figure": "fig/XLK-321-RestaurantA7/AiCity-953-番茄村-922.jpg",
             "subcategory": "皇家咖啡",
             "category": "養生飲品"
