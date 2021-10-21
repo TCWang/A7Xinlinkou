@@ -1,6 +1,6 @@
 ﻿[
         {
-            "no": "201",
+            "no": "203",
             "category": "里長",
             "type": "長庚里",
             "title": "林俊源",
@@ -12,7 +12,7 @@
             "link": "https://www.facebook.com/20160101cg/"
         },
         {
-            "no": "202",
+            "no": "204",
             "category": "里長",
             "type": "樂善里",
             "title": "黃景芳",
@@ -23,7 +23,7 @@
             "link": "https://www.facebook.com/fy1008"
         },
         {
-            "no": "203",
+            "no": "205",
             "category": "里長",
             "type": "文青里",
             "title": "簡僑亨",
@@ -34,7 +34,7 @@
             "link": "https://www.facebook.com/profile.php?id=100012230382740"
         },
         {
-            "no": "204",
+            "no": "206",
             "category": "里長",
             "type": "文化里",
             "title": "黃明助",
@@ -108,5 +108,18 @@
             "figure": "fig/A7XLK-221-黃偉群.jpeg",
             "link": "\r\nhttps://www.facebook.com/weichun2022",
             "description": "意見反饋 <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdK3SoKe_yRD1JUCHI3ggD9yAvlG2P-FQDj_sPXIdhe7sG0XA/viewform\">換您說說話</a>"
+        },
+        {
+            "no": "306",
+            "category": "民意代表",
+            "type": "市議員",
+            "title": "http://m12.maxmac.com.tw/front/bin/ptlist.phtml?Category=100537",
+            "address": "新北市林口區仁愛路二段 123號",
+            "telephone": "02-2603-8989, 02-2601-4834, 0952-588-598",
+            "mail": "f0952588598@gmail.com",
+            "website": "http://m12.maxmac.com.tw/front/bin/ptlist.phtml?Category=100537",
+            "figure": "fig/A7XLK-221-蔡淑君.jpg",
+            "link": "https://www.facebook.com/profile.php?id=100003586138208",
+            "description": "選民服務  <a href=\"http://m12.maxmac.com.tw/front/bin/cglist.phtml?Category=100543\">選民信箱</a>, &nbsp;&nbsp;\r\n林口大小事 <a href=\"http://m12.maxmac.com.tw/front/bin/ptlist.phtml?Category=107185\">淑君報你知</a>"
         }
     ]
