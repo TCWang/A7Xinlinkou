@@ -11,7 +11,7 @@ body {
 #app footer {
 }
 article {
-    padding: 0 0px 1px 0px;
+    padding: 0 0px 0px 0px;
     margin: 0 0px 0px 0px;
 }
 #main_heading {
@@ -25,9 +25,7 @@ footer {
 .form-group {
     margin: 0px;
 }
-#Menu-B4 .row #app4 {
-    margin-left: 1px;
-}
+
 
 @media (max-width:543px) {
     h1, h2 {font-size:1.0rem;}
