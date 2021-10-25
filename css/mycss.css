@@ -201,5 +201,5 @@ div.fixed {
 	min-height: 300px
 }
 .bg-lighter {
-		background-color: rgba(0,0,0,.4)
+		background-color: rgb(0, 0, 0, 0.4)
 }
