@@ -182,6 +182,20 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "109",
+            "title": "陶板屋",
+            "type": "中式料理",
+            "address": "新北市林口區仁愛路二段500號",
+            "telphone": "02-2602-6950",
+            "hours": "11:30 - 14:30, 17:30 - 22:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-陶板屋.jpg",
+            "link": "https://www.tokiya.com.tw/",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.tokiya.com.tw/menu.html\">菜單</a> &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://threeonelee.com/tokiya/\">推薦</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://cct.wowprime.com/cct/cctapp/cctwebreservation.do?&prog=cctweb_reservation&brnd_fid=ZMJYW&stor=108043\">訂餐</a> &nbsp;\r\n</p>",
+            "score": "4.3 ",
+            "google": "https://www.google.com.tw/maps/place/%E9%99%B6%E6%9D%BF%E5%B1%8B+%E6%9E%97%E5%8F%A3%E4%BB%81%E6%84%9B%E5%BA%97/@25.076312,121.3734869,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a7a6d919d43f:0x26211c888256b831!8m2!3d25.0763135!4d121.3756823?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "108",
             "title": "甜蒔吇舒芙蕾咖啡專賣",
             "type": "點心冰品",
