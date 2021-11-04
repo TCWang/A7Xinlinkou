@@ -537,14 +537,14 @@
                 </div>
 
                 <div class="row" v-for="posts in results">
-                  <div class="col-12 col-sm-12 col-md-6 col-lg-4 col-xl-3" v-for="post in posts">
+                  <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4" v-for="post in posts">
                     <div class="card">
                       <div class="card-header">
                         <a v-bind:href="post.Link">{{post.MovieC}}</a>
                       </div>
                       <div class="card-body text-left">
-                        <a v-bind:href="post.link">
-                          <img v-bind:src="post.Figure" class="img-fluid" style="width:300px">
+                        <a v-bind:href="post.Link">
+                          <img v-bind:src="post.Figure" class="img-fluid" style="width:400px">
                         </a>
                         <br>
                           上映：{{post.Date}} <br>
