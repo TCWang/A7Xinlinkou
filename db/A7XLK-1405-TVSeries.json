@@ -492,6 +492,19 @@
             "Link": "https://gimy.app/vod/151793.html"
         },
         {
+            "No": "201",
+            "NoB": "031",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "-17",
+            "Actor": "劉濤 林峯 蘆芳生 柴碧雲 張晨光 譚耀文 恬妞 徐嘉雯 白梓軒 倪虹潔 高宏亮",
+            "TVSeries": "星辰大海 *",
+            "Score": "261,668 ",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-201.jpeg",
+            "Link": "https://gimy.app/vod/162011.html"
+        },
+        {
             "No": "030",
             "NoB": "032",
             "Country": "中國大陸",
@@ -693,7 +706,7 @@
             "YearB": "今年新戲",
             "Episode": "-20",
             "Actor": "林雨申 蔡文靜 鄒廷威 姜妍 ",
-            "TVSeries": "好好生活",
+            "TVSeries": "好好生活 *",
             "Score": "377,267 ",
             "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-060.jpeg",
             "Link": "https://gimy.app/vod/160783.html"
@@ -1293,9 +1306,75 @@
             "YearB": "今年新戲",
             "Episode": "45",
             "Actor": "靳东 闫妮 黄志忠 陈晓 秦岚",
-            "TVSeries": "人民的財產/突圍",
+            "TVSeries": "突圍 *",
+            "Score": "177,237 ",
             "Description": "D:05/05",
             "DescriptionD": "5 ",
-            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-134.jpeg"
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-134.jpeg",
+            "Link": "https://gimy.app/vod/161808.html"
+        },
+        {
+            "No": "135",
+            "NoB": "094",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "-12",
+            "Actor": "段奕宏 郝蕾 祖峯 吳越 邢岷山 白宇帆 米拉 艾麗婭 溫崢嶸 ",
+            "TVSeries": "八角亭謎霧 *",
+            "Score": "51,449 ",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-135.jpeg",
+            "Link": "http://www.gitube.co/vod/161339.html"
+        },
+        {
+            "No": "136",
+            "NoB": "095",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "43",
+            "Actor": "白鹿 王一哲 金晨 鄭湫泓 辣目洋子 赫雷 周陸啦 昌隆 黃馨瑤 黃宥明 張壘",
+            "TVSeries": "玉樓春 *",
+            "Score": "1,393,142 ",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-136.jpeg",
+            "Link": "http://www.gitube.co/vod/155795.html"
+        },
+        {
+            "No": "137",
+            "NoB": "096",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "40",
+            "Actor": "劉濤 杜淳 李念 王媛可 袁文康 王天辰 代旭 隋蘭 ",
+            "TVSeries": "我是真的爱你 *",
+            "Score": "768,229 ",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-137.jpeg",
+            "Link": "https://gimy.app/vod/155491.html"
+        },
+        {
+            "No": "138",
+            "NoB": "097",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "44",
+            "Actor": "張嘉益 沙溢 劉敏濤 陳美伊 姜冠南 宋丹丹 王紫璇 代文雯 ",
+            "TVSeries": "对你的爱很美 *",
+            "Score": "166,812 ",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-138.jpeg",
+            "Link": "https://gimy.app/vod/155126.html"
+        },
+        {
+            "No": "139",
+            "NoB": "098",
+            "Country": "中國大陸",
+            "Year": "2021",
+            "YearB": "今年新戲",
+            "Episode": "-30",
+            "Actor": "藍盈瑩 金晨 啜妮 隋源 王珞丹 韓庚 鄭業成 朱雨辰 楊旭文 王陽 劉凱",
+            "TVSeries": "北轍南轅 *",
+            "Figure": "fig/XLK-142-TVSeries/A7XLK-1405-TVSeries-139.jpeg",
+            "Link": "https://gimytv.com/v_8aQ.html"
         }
     ]
