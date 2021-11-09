@@ -110,7 +110,7 @@
             "description": "意見反饋: <a href=\"https://docs.google.com/forms/d/e/1FAIpQLSdK3SoKe_yRD1JUCHI3ggD9yAvlG2P-FQDj_sPXIdhe7sG0XA/viewform\">換您說說話</a>"
         },
         {
-            "no": "306",
+            "no": "307",
             "category": "民意代表",
             "type": "新北市議員",
             "title": "蔡淑君",
@@ -121,5 +121,17 @@
             "figure": "fig/A7XLK-221-蔡淑君.jpg",
             "link": "https://www.facebook.com/profile.php?id=100003586138208",
             "description": "<a href=\"http://m12.maxmac.com.tw/front/bin/ptlist.phtml?Category=100537\">淑君網站</a> &nbsp; &nbsp;\r\n選民服務:  <a href=\"http://m12.maxmac.com.tw/front/bin/cglist.phtml?Category=100543\">選民信箱</a>, &nbsp;&nbsp;\r\n林口大小事: <a href=\"http://m12.maxmac.com.tw/front/bin/ptlist.phtml?Category=107185\">淑君報你知</a> "
+        },
+        {
+            "no": "308",
+            "category": "民意代表",
+            "type": "新北市議員",
+            "title": "陳明義",
+            "address": "新北市五股區新五路3段228號1樓",
+            "telephone": "02-2293-5006",
+            "mail": "mingyi.service@gmail.com",
+            "website": "https://line.me/ti/p/%40ith6286h?fbclid=IwAR0WDLLQaRLb9YdSqvFNQO9ZKfh3z3ifIqQQZtwiwfxldxOnUSPSsoiI3pw",
+            "figure": "fig/A7XLK-221-陳明義.jpeg",
+            "link": "https://www.facebook.com/imingyi"
         }
     ]
