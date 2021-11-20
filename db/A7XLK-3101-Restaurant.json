@@ -713,6 +713,20 @@
             "google": "https://www.google.com.tw/maps/place/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8/@25.0541816,121.4393032,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a709e5172dcb:0x18cacc65c8e151a!8m2!3d25.0541816!4d121.4414972?hl=zh-TW&authuser=0"
         },
         {
+            "no": "106",
+            "title": "饗叮噹鱸魚湯",
+            "type": "中式料理",
+            "address": "桃園市龜山區復興北路6巷65號",
+            "telphone": "0928-873-101",
+            "hours": "11:00 - 20:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-鱸魚湯-01.jpg",
+            "link": "https://www.033750933.com/",
+            "category": "龜山美食",
+            "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.033750933.com/32654216193375621934.html\">菜單</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/permalink.php?story_fbid=369381218266531&id=108448277693161\">推薦</a>\r\n</p>",
+            "score": "4.8 ",
+            "google": "https://www.google.com.tw/search?q=%E9%BE%9C%E5%B1%B1%E9%B1%B8%E9%AD%9A%E6%B9%AF&sxsrf=AOaemvJa0u7lJKPsiRcVtRvDZjJyqxtl4Q:1637397953224&source=hp&ei=trWYYbLdOJHrmAXbm4PoCA&iflsig=ALs-wAMAAAAAYZjDxqQGKRPaWKt9BL6Rh_jmWRGiCMWB&ved=2ahUKEwie5O3axqb0AhVIrVYBHQC9AKkQvS56BAgKEDw&uact=5&oq=%E9%BE%9C%E5%B1%B1%E9%B1%B8%E9%AD%9A%E6%B9%AF&gs_lcp=Cgdnd3Mtd2l6EAMyBQgAEM0COgcIIxDqAhAnOg0ILhDHARCvARDqAhAnOgQIIxAnOg4ILhCABBCxAxDHARDRAzoICAAQgAQQsQM6DgguEIAEELEDEMcBEKMCOgUILhCABDoFCAAQgAQ6BAgAEEM6CggAELEDEIMBEEM6CwgAEIAEELEDEIMBOggILhCABBCxAzoLCC4QgAQQxwEQrwE6CAgAELEDEIMBOgsILhCABBCxAxCDAToCCCZQuQ5YlUFgqUdoA3AAeACAAWaIAfsIkgEEMTYuMZgBAKABAbABCg&sclient=gws-wiz&tbs=lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=11820264403630838222&lqi=Cg_pvpzlsbHpsbjprZrmua9aFCIS6b6cIOWxsSDpsbjprZog5rmvkgEKcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSNWNHUXRNR2RCUlJBQqoBFwoKL20vMDF6MW0xeBABKgciA-a5ryhF&phdesc=dUIbgtEpGm0&rlst=f#rlfi=hd:;si:11820264403630838222,l,Cg_pvpzlsbHpsbjprZrmua9aFCIS6b6cIOWxsSDpsbjprZog5rmvkgEKcmVzdGF1cmFudJoBJENoZERTVWhOTUc5blMwVkpRMEZuU1VSNWNHUXRNR2RCUlJBQqoBFwoKL20vMDF6MW0xeBABKgciA-a5ryhF,y,dUIbgtEpGm0;mv:[[25.073528099999997,121.4300487],[24.9801288,121.3005194]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9"
+        },
+        {
             "no": "044",
             "title": "海苑日式料理",
             "type": "日本料理",
