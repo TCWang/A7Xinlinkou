@@ -959,6 +959,18 @@
             "directory3": "專賣店"
         },
         {
+            "no": "145",
+            "title": "埜雲旅行社",
+            "address": "新北市林口區麗園一街6巷2號15樓之2",
+            "telphone": "02-77098688",
+            "figure": "fig/XLK-411-Shopping/AiCity-913-埜雲旅行社.jpeg",
+            "link": "https://yytour.com.tw/",
+            "category": "日常生活",
+            "directory1": "2.休閒文化",
+            "directory2": "2.2休閒運動",
+            "directory3": "旅行社"
+        },
+        {
             "no": "055",
             "title": "臺灣彩劵",
             "address": "桃園市龜山區文山街25號",
