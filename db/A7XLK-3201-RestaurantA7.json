@@ -1,5 +1,17 @@
 ﻿[
         {
+            "no": "108",
+            "title": "我是早餐",
+            "type": "早午餐",
+            "address": "桃園市龜山區長慶三街42號",
+            "telphone": "03-327-3593",
+            "hours": "週二～週五: 06:00 - 12:00, 週六，日: 06:00 - 13:00, 週一公休",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3201-RestaurantA7-08.jpg",
+            "category": "長慶三街",
+            "category2": "1.樂善國小生活圈",
+            "description": "<p>\r\n   資訊: \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://tcwang.github.io/A7Xinlinkou/fig/XLK-321-RestaurantA7/AiCity-950-我是早餐菜單.jpg\">菜單</a>\r\n</p>"
+        },
+        {
             "no": "101",
             "title": "芬享美味餐廳",
             "type": "中式小吃",
