@@ -406,6 +406,20 @@
             "google": "https://www.google.com.tw/maps/place/%E8%80%81%E5%8D%A0%E5%85%83%E6%8B%89%E9%BA%B5%E5%A4%A7%E7%8E%8B/@25.081513,121.3864586,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a6f1d73f9ae5:0xe795a35d574410af!8m2!3d25.0815138!4d121.3886236?hl=zh-TW&authuser=0"
         },
         {
+            "no": "110",
+            "title": "一藤燒肉丼飯",
+            "type": "日本料理",
+            "address": "新北市林口區文化北路二段88號",
+            "telphone": "02-2600-9159",
+            "hours": "11:30 - 14:30, 17:30-21:00, 週一公休",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-一藤燒肉丼飯.png",
+            "link": "https://restaurant-1118261.business.site/",
+            "category": "林口區",
+            "description": "<p>\r\n  網路資訊:    <a style=\"button\" class=\"btn btn-info\"  href=\"https://shop.ichefpos.com/store/Xs9G1JvD/ordering\">菜單</a> &nbsp;\r\n <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/hashtag/%E4%B8%80%E8%97%A4%E7%87%92%E8%82%89%E4%B8%BC%E9%A3%AF\">推薦</a>  &nbsp;\r\n</p>",
+            "score": "5.0 ",
+            "google": "https://www.google.ca/maps/place/%E4%B8%80%E8%97%A4%E7%87%92%E8%82%89%E4%B8%BC%E9%A3%AF/@25.0827839,121.3691437,15.07z/data=!4m5!3m4!1s0x3442a793f7cffb7b:0xf4ecb7e0fc4dab0a!8m2!3d25.0827293!4d121.3708801?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "025",
             "title": "想林口 - 空中花園",
             "type": "中式料理",
