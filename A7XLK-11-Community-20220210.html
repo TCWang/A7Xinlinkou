@@ -184,7 +184,7 @@
 									地圖仍是就有的樂善里。已申請Google 更新。
 									<br><br>
 								</div>
-
+								
 								<div class="col-md-6">
 									建案介紹
 									<ul>
@@ -280,7 +280,7 @@
 									<thead style="background-color:lightblue">
 										<tr class="text-left">
 											<th>建案</th>
-											<th>單價-2022/01</th>
+											<th>單價</th>
 											<th>交屋時間</th>
 											<th>投資建設</th>
 											<th>住宅類別</th>
@@ -291,7 +291,7 @@
 										<tr v-for="post in posts">
 											<td><a v-bind:href=" post.Link ">{{post.no}}-{{post.建案}} </a></td>
 
-											<td>{{ post.單價2022 }}</td>
+											<td>{{ post.單價 }}</td>
 											<td>{{ post.交屋時間 }}</td>
 											<td>{{ post.投資建設 }}</td>
 											<td>{{ post.土地分區 }} </td>
@@ -307,7 +307,7 @@
 						<!-- Menu B2 -->
 						<div class="tab-pane" id="Menu-B2" role="tabpanel">
 
-							<h3> 建案匯總 </h3> 房屋單價 標示 2020 &#8594; 2022年的 價格, 部分於2022年以前就完售的建案, 價格就會不變。
+							<h3> 建案匯總 </h3>
 
 							<div id="app2" class="container-fluid">
 								<div v-show="no" class="alert alert-info mt-2" role="alert">
@@ -341,11 +341,9 @@
 														</a>：{{post.投資建設}}
 													</dd>
 													<dd>
-														價格：{{post.單價}} &#8594; {{post.單價2022}}
+														價格：{{post.單價}}, 車位：{{post.車位價格}}
 													</dd>
-													<dd>
-														車位：{{post.車位價格}}
-													</dd>
+
 													<dd>
 														地址: {{post.基地地址}}
 													</dd>
@@ -1026,18 +1024,10 @@
 								</div>
 								<div class="col-md-6">
 									<h5>建案 每坪價格 (萬元）</h5>
-									價格主要依據 591 房屋網 2020年的標價，<span class="text-danger">實際價格須依據建商開價為準</span>。整體標價平均值 為每坪
+									價格主要依據 591 房屋網的標價，<span class="text-danger">實際價格須依據建商開價為準</span>。整體標價平均值 為每坪
 									29-31萬元。
 									<br>
 									<img src="fig/A7XLK-114-BigData-02.png" class="img-fluid" style="width:600px">
-									<br><br>
-								</div>
-								<div class="col-md-6">
-									<h5>2020 與 2022年房屋均價漲幅 </h5>
-									價格主要依據 591 房屋網 每坪最高與最低價的平均作為依據。整體標價 2022/2020 平均漲幅 為 4.47萬元。
-									
-									<br>
-									<img src="fig/A7XLK-114-BigData-14.png" class="img-fluid" style="width:450px">
 									<br><br>
 								</div>
 								<div class="col-md-6">
