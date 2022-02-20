@@ -182,10 +182,24 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "122",
+            "title": "狂一鍋－林口昕境店",
+            "type": "火鍋燒烤",
+            "address": "新北市林口區文化三路一段402巷2號3樓",
+            "telphone": "02-2608-8346",
+            "hours": "11:30 - 15:00, 17:00 - 21:30, 週六 11:00 - 22:00, 週日 11:00 - 21:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-狂一鍋.jpeg",
+            "link": "https://www.facebook.com/twfondueretro",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/twfondueretro/menu/\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.walkerland.com.tw/article/view/318842\">推薦</a>\r\n</p>",
+            "score": "5.0 ",
+            "google": "https://www.google.ca/maps/place/%E7%8B%82%E4%B8%80%E9%8D%8B%EF%BC%8D%E6%9E%97%E5%8F%A3%E6%98%95%E5%A2%83%E5%BA%97/@49.1535212,-123.1354447,14z/data=!4m5!3m4!1s0x3442a78d12f7e6cf:0x27f5b8688b188ede!8m2!3d25.0736495!4d121.3688417?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "121",
             "title": "食之有情",
             "type": "中式料理",
-            "address": "244台灣新北市林口區文化三路一段358-2號",
+            "address": "新北市林口區文化三路一段358-2號",
             "telphone": "02-2609-2911",
             "hours": "11:00 - 22:00",
             "figure": "fig/XLK-311-Restaurant/AiCity-910-食之有情.png",
