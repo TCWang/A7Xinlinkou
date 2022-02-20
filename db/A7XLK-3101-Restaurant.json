@@ -182,6 +182,20 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "123",
+            "title": "超夯の燒肉",
+            "type": "火鍋燒烤",
+            "address": "新北市林口區文化三路一段402巷2號6樓",
+            "telphone": "02-2609-2066",
+            "hours": "17:00 - 01:00, 週六日 11:00 - 01:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-超夯燒肉.jpeg",
+            "link": "https://st-paul.ego.tw/?fbclid=IwAR0e3RuSNMQx3lpBuk4V4bsBCy0F3F4bfWXQsVkqk4iyFU3O5iZDrV06qcg",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"fig/XLK-311-Restaurant/AiCity-910-超夯燒肉菜單.jpeg\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://nash.tw/chaohang/\">推薦</a>\r\n</p>",
+            "score": "4.5 ",
+            "google": "https://www.google.ca/maps/place/%E8%B6%85%E5%A4%AF%E3%81%AE%E7%87%92%E8%82%89-%E6%9E%97%E5%8F%A3%E5%BA%97+%E9%A0%82%E7%B4%9A%E5%92%8C%E7%89%9B%E7%87%92%E8%82%89%E5%90%83%E5%88%B0%E9%A3%BD/@25.0737528,121.3666483,17z/data=!3m2!4b1!5s0x3442a6d8f30e1025:0x367943ec0aa44314!4m5!3m4!1s0x3442a7316d91d851:0x55fd0de8c182b5a3!8m2!3d25.073748!4d121.368837?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "122",
             "title": "狂一鍋－林口昕境店",
             "type": "火鍋燒烤",
