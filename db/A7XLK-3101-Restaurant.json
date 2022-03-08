@@ -182,6 +182,20 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "124",
+            "title": "明水然無菜單鐵板燒",
+            "type": "無菜單料理",
+            "address": "新北市林口區文化三路一段402巷2號3樓",
+            "telphone": "02-2606-8258",
+            "hours": "11:30-15:00, 17:30-21:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-明水然.jpeg",
+            "link": "https://inline.app/booking/-MFnomV1i6SqY_R0HX7j:inline-live-1",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://tw.news.yahoo.com/%E8%B6%85%E9%9B%A3%E8%A8%82%E4%BD%8D%E9%90%B5%E6%9D%BF%E7%87%92-%E6%98%8E%E6%B0%B4%E7%84%B6-%E6%A8%82%E6%90%B6%E9%80%B2%E6%9E%97%E5%8F%A3-141029874.html\">推薦</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.youtube.com/watch?v=6Ed_cUtTWPc\">介紹影片</a>\r\n</p>",
+            "score": "4.3 ",
+            "google": "https://www.google.ca/maps/place/%E6%98%8E%E6%B0%B4%E7%84%B6%E3%83%BB%E6%A8%82-%E6%9E%97%E5%8F%A3%E6%98%95%E5%A2%83%E5%BA%97/@25.0738036,121.3668081,17z/data=!4m5!3m4!1s0x3442a7e5ecb94375:0xf2a1dbb6301faa45!8m2!3d25.0737609!4d121.3690299?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "123",
             "title": "超夯の燒肉",
             "type": "火鍋燒烤",
