@@ -175,6 +175,20 @@
             "category": "文獻收藏"
         },
         {
+            "no": "084",
+            "title": "康健",
+            "figure": "fig/XLK-1401-News/XLK-142-康健.png",
+            "link": "https://www.commonhealth.com.tw/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "083",
+            "title": "眼底城市",
+            "figure": "fig/XLK-1401-News/XLK-142-眼底城市.png",
+            "link": "https://eyesonplace.net/",
+            "category": "影音珍藏"
+        },
+        {
             "no": "082",
             "title": "閱讀前哨戰",
             "figure": "fig/XLK-1401-News/XLK-142-Learning.png",
