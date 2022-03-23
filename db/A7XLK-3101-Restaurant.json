@@ -763,7 +763,7 @@
             "hours": "11:00&nbsp; - 21:30",
             "figure": "fig/XLK-311-Restaurant/AiCity-910-河馬水產-02.jpeg",
             "link": "https://www.facebook.com/homaseafood",
-            "category": "桃園區",
+            "category": "桃園市",
             "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/homaseafood/menu\">菜單</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://yukiblog.tw/read-9420.html\">推薦</a>\r\n</p>",
             "score": "3.9 ",
             "google": "https://www.google.com.tw/maps/place/%E6%B2%B3%E9%A6%AC%E6%B0%B4%E7%94%A2+%E6%B4%BB%E9%AB%94%E6%B5%B7%E9%AE%AE%E8%B6%85%E5%B8%82%E7%81%AB%E9%8D%8B/@25.0313316,121.262474,11z/data=!4m8!1m2!2m1!1z5rKz6aas5rC055Si!3m4!1s0x346821a987af14b1:0x814475f2b675a663!8m2!3d25.0166701!4d121.2190146?hl=zh-TW&authuser=0"
@@ -777,10 +777,24 @@
             "hours": "11:00 - 21:00",
             "figure": "fig/XLK-311-Restaurant/AiCity-910-村民食堂-02.jpeg",
             "link": "http://villager.com.tw/",
-            "category": "桃園區",
+            "category": "桃園市",
             "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"http://villager.com.tw/\">菜單</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://fairylolita.com/villager1078/\">推薦</a> &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://en.eztable.com/restaurant/13963\">定位</a>\r\n</p>",
             "score": "4.3 ",
             "google": "https://www.google.com.tw/maps/place/%E6%9D%91%E6%B0%91%E9%A3%9F%E5%A0%82-%E5%BB%9A%E7%AA%97%E6%B8%AF%E9%BB%9E%26%E9%A3%9F%E5%A4%A7%E9%8D%8B/@25.0141399,121.29754,17z/data=!3m1!4b1!4m5!3m4!1s0x34681fb02ad6fb55:0x3ffcca58471dd908!8m2!3d25.0142155!4d121.2997011?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "044",
+            "title": "青青格麗絲莊園",
+            "type": "中式料理",
+            "address": "桃園市蘆竹區南崁路46號",
+            "telphone": "03-222-8777",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-格麗絲莊園.jpeg",
+            "link": "https://www.grace-wed.com/",
+            "category": "桃園市",
+            "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://inline.app/booking/-MWNE4vnVbmKjEr5qqDz:inline-live-2/-MWNE550mazqX2RwaN53\">預約&amp;菜單</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://carlming.net/23772\">推薦</a>\r\n</p>",
+            "score": "4.8 ",
+            "google": "https://www.google.ca/maps/place/%E9%9D%92%E9%9D%92%E6%A0%BC%E9%BA%97%E7%B5%B2%E8%8E%8A%E5%9C%92/@25.0446029,121.2929711,15.91z/data=!4m5!3m4!1s0x3442a00ea46130dd:0xf3352097e25f706d!8m2!3d25.044866!4d121.296633?hl=zh-TW&authuser=0"
         },
         {
             "no": "043",
