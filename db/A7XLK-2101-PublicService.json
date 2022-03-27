@@ -57,6 +57,24 @@
             "category": "政府機關"
         },
         {
+            "no": "115",
+            "title": "林口高級中學",
+            "address": "新北市林口區仁愛路二段173號",
+            "telephone": "02-2600-9482",
+            "figure": "fig/A7XLK-211-林口高中.png",
+            "link": "https://www.lksh.ntpc.edu.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "116",
+            "title": "壽山高級中學",
+            "address": "桃園市龜山區大同路23號 ",
+            "telephone": "03-350-1778",
+            "figure": "fig/A7XLK-211-壽山高中.jpeg",
+            "link": "http://www.sssh.tyc.edu.tw/bin/home.php",
+            "category": "政府機關"
+        },
+        {
             "no": "107",
             "title": "大崗國民中學",
             "address": "桃園市龜山區文化二路168號",
