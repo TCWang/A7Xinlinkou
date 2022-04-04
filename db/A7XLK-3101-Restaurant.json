@@ -182,6 +182,20 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "126",
+            "title": "藏王極上鍋物",
+            "type": "火鍋燒烤",
+            "address": "新北市林口區文化三路一段402巷2號",
+            "telphone": " 02-2608-7478",
+            "hours": "11:30–15:30, 17:30–22:30, 週六 11:00-23:00, 週日11:00-22:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-藏王極上鍋物.jpeg",
+            "link": "https://www.facebook.com/ZaoShabu1/",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/ZaoShabu1/menu\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://vivawei.tw/zaoshabu/\">推薦</a>\r\n</p>",
+            "score": "4.9 ",
+            "google": "https://www.google.com.tw/search?q=%E8%97%8F%E7%8E%8B%E6%A5%B5%E4%B8%8A%E9%8D%8B%E7%89%A9&sxsrf=APq-WBuT_84kELfWNvV1MJRVsRiQu6xYFg:1649114002448&source=hp&ei=b3tLYvqvGYXA0PEPwO20-AI&iflsig=AHkkrS4AAAAAYkuJf-gODtRkoWLcUzJhRpWf3FqFlel9&oq=%E8%97%8F%E7%8E%8B&gs_lcp=Cgdnd3Mtd2l6EAEYADIFCAAQgAQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgsILhCABBDHARCvATIFCAAQgAQyBQgAEIAEMgUIABCABDILCC4QgAQQxwEQrwE6BwgjEOoCECc6DQguEMcBEK8BEOoCECc6BQguEIAEUMEiWP3xAWDDhwJoBHAAeACAAXCIAaAGkgEDNy4ymAEAoAECoAEBsAEK&sclient=gws-wiz&tbs=lf:1,lf_ui:9&tbm=lcl&rflfq=1&num=10&rldimm=7116132348224642836&lqi=ChLol4_njovmpbXkuIrpjYvnialIyIjNwa6wgIAIWicQABABEAIQAxgAGAEYAhgDIhXol48g546LIOalteS4iiDpjYvniamSARJob3RfcG90X3Jlc3RhdXJhbnQ&phdesc=PcRATLUf8pU&ved=2ahUKEwiFh72yxPv2AhWdDjQIHf7GCsYQvS56BAgHEAE&rlst=f#rlfi=hd:;si:7116132348224642836,l,ChLol4_njovmpbXkuIrpjYvnialIyIjNwa6wgIAIWicQABABEAIQAxgAGAEYAhgDIhXol48g546LIOalteS4iiDpjYvniamSARJob3RfcG90X3Jlc3RhdXJhbnQ,y,PcRATLUf8pU;mv:[[25.120601,121.5498437],[24.957292199999998,121.2068584]];tbs:lrf:!1m4!1u3!2m2!3m1!1e1!1m4!1u2!2m2!2m1!1e1!2m1!1e2!2m1!1e3!3sIAE,lf:1,lf_ui:9"
+        },
+        {
             "no": "125",
             "title": "天鳥拉麵",
             "type": "麵食餐館",
@@ -823,6 +837,20 @@
             "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8%E5%8E%9F%E5%96%9C%E5%B8%82%E5%A4%9A%E9%A4%90%E5%BB%B3-106254614063995/menu\">菜單</a>  </p>",
             "score": "4.1 ",
             "google": "https://www.google.com.tw/maps/place/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8/@25.0541816,121.4393032,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a709e5172dcb:0x18cacc65c8e151a!8m2!3d25.0541816!4d121.4414972?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "127",
+            "title": "孫家將臺式牛排-文青店",
+            "type": "火鍋燒烤",
+            "address": "桃園市龜山區文青路137號1樓四室",
+            "telphone": "03-328-6857",
+            "hours": "11:00-21:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-孫家將.jpeg",
+            "link": "https://www.facebook.com/%E5%AD%AB%E5%AE%B6%E5%B0%87%E8%87%BA%E5%BC%8F%E7%89%9B%E6%8E%92-100634701401295/",
+            "category": "龜山美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.foodpanda.com.tw/en/restaurant/aj7w/sun-jia-jiang-tai-shi-niu-pai-tao-yuan-gui-shan-wen-qing-dian\">外送/菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://zaq0930.pixnet.net/blog/post/362621357-%E3%80%90a7%E9%A3%9F%E8%A8%98%E3%80%91%E5%AD%AB%E5%AE%B6%E5%B0%87%E7%89%9B%E6%8E%92\">推薦</a>\r\n</p>",
+            "score": "4.9 ",
+            "google": "https://www.google.com.tw/search?q=%E5%AD%AB%E5%AE%B6%E5%B0%87%E7%89%9B%E6%8E%92&tbm=lcl&sxsrf=APq-WBsBo11Z-QrwNH1867AfgJFzwaBVMw%3A1649114745598&ei=eX5LYqqcJOP99AP44rnoBg&oq=%E5%AD%AB%E5%AE%B6%E5%B0%87%E7%89%9B%E6%8E%92&gs_l=psy-ab.3...0.0.0.27840.0.0.0.0.0.0.0.0..0.0....0...1c..64.psy-ab..0.0.0....0.J-o0R9UDd1A#rlfi=hd:;si:5841049586421414644,l,Cg_lravlrrblsIfniZvmjpJaGCIS5a2rIOWutiDlsIcg54mb5o6SKgIIApIBFGNob3Bob3VzZV9yZXN0YXVyYW50,y,SdklJsA0LOs;mv:[[25.044223101187008,121.39279001761095],[25.035299701719218,121.3688647131981],null,[25.03976148260657,121.38082736540453],16]"
         },
         {
             "no": "106",
