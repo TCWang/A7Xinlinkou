@@ -853,6 +853,20 @@
             "google": "https://www.google.com.tw/maps/place/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8/@25.0541816,121.4393032,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a709e5172dcb:0x18cacc65c8e151a!8m2!3d25.0541816!4d121.4414972?hl=zh-TW&authuser=0"
         },
         {
+            "no": "129",
+            "title": "老油條家常菜",
+            "type": "中式料理",
+            "address": "桃園市龜山區文化三路551-3號",
+            "telphone": "03-397-8533",
+            "hours": "11:00–14:00, 17:00–21:00 週一公休",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-老油條.jpeg",
+            "link": "https://www.facebook.com/%E8%80%81%E6%B2%B9%E6%A2%9D%E5%AE%B6%E5%B8%B8%E8%8F%9C%E6%9E%97%E5%8F%A3-544339919344688/",
+            "category": "龜山美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/%E8%80%81%E6%B2%B9%E6%A2%9D%E5%AE%B6%E5%B8%B8%E8%8F%9C%E6%9E%97%E5%8F%A3-544339919344688/photos/pcb.1362674430844562/1362672587511413\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://wen4899.pixnet.net/blog/post/218165349\">推薦</a>\r\n</p>",
+            "score": "4.4 ",
+            "google": "https://www.google.ca/maps/place/%E8%80%81%E6%B2%B9%E6%A2%9D%E5%AE%B6%E5%B8%B8%E8%8F%9C/@25.051823,121.3673883,17z/data=!4m5!3m4!1s0x3442a753bac2abb3:0x3d8aa3f5644dfd35!8m2!3d25.0518182!4d121.3695824?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "127",
             "title": "孫家將臺式牛排-文青店",
             "type": "火鍋燒烤",
