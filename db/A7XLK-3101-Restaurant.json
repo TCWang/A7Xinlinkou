@@ -182,6 +182,20 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "128",
+            "title": "東京純豆腐-昕境廣場",
+            "type": "火鍋燒烤",
+            "address": "新北市林口區文化三路一段402巷2號3樓",
+            "telphone": "02-2600-6111",
+            "hours": "11:00–21:30",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-東京純豆腐.jpeg",
+            "link": "https://www.tokyo-sundubu.com.tw/2460/",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.tokyo-sundubu.com.tw/main-menu/\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://msthanks.com/tokyo-sundubu-linkou/\">推薦</a>\r\n</p>",
+            "score": "4.1 ",
+            "google": "https://www.google.ca/maps/place/%E6%9D%B1%E4%BA%AC%E7%B4%94%E8%B1%86%E8%85%90Tokyo+Sundubu+%E6%96%B0%E5%8C%97%E6%9E%97%E5%8F%A3%E6%98%95%E5%A2%83%E5%BA%97/@25.0747927,121.3650847,18.4z/data=!3m1!5s0x3442a6d8f30e1025:0x108e984c25d96f92!4m5!3m4!1s0x3442a7f632a50607:0x7afc3d547649eba0!8m2!3d25.073748!4d121.368837?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "126",
             "title": "藏王極上鍋物",
             "type": "火鍋燒烤",
