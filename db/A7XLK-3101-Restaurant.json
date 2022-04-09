@@ -1620,6 +1620,20 @@
             "google": "https://www.google.com.tw/maps/place/%E7%81%B0%E7%86%8A%E5%A5%BD%E4%B8%BC/@25.0589539,121.3663095,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a73a54b5760b:0xb2c9c35f74cc00de!8m2!3d25.0589539!4d121.3685035?hl=zh-TW&authuser=0"
         },
         {
+            "no": "N34",
+            "title": "Quarter Mile 居酒屋",
+            "type": "居酒屋",
+            "address": "新北市林口區文化一路一段210號",
+            "telphone": "02-2601-7521",
+            "hours": "17:00–02:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-QuarterMile.jpeg",
+            "link": "https://www.facebook.com/quarter.mile.bistro/",
+            "category": "網路推薦2022",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw-en/store/quarter-mile-%E5%B1%85%E9%85%92%E5%B1%8B/fvXKr1sVSq2ElBN6o4Jf7g\">外送/菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://moptt.tw/p/LinKou.M.1608107996.A.247\">推薦</a>\r\n</p>",
+            "score": "4.5 ",
+            "google": "https://www.google.ca/maps/place/QUARTER+MILE%E5%B1%85%E9%85%92%E5%B1%8B/@25.075511,112.4144438,5z/data=!3m1!5s0x3442a6e72e148a3b:0xa9d8962395a2c4e3!4m9!1m2!2m1!1z5Zub5YiG5LmL5LiA5bGF6YWS5bGL!3m5!1s0x3442a70757639ff9:0x9a8dce663e08c85b!8m2!3d25.075511!4d121.3792876!15sChXlm5vliIbkuYvkuIDlsYXphZLlsYtaGyIZ5ZubIOWIhiDkuYsg5LiAIOWxhemFkuWxi5IBG2phcGFuZXNlX2l6YWtheWFfcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOcGVrMXBaMlZSRUFF?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "N01",
             "title": "爭厚厚切牛排",
             "type": "火鍋燒烤",
@@ -2079,19 +2093,5 @@
             "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/%E8%80%81%E6%B2%B9%E6%A2%9D%E5%AE%B6%E5%B8%B8%E8%8F%9C%E6%9E%97%E5%8F%A3-544339919344688/photos/pcb.1362674430844562/1362672587511413\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://wen4899.pixnet.net/blog/post/218165349\">推薦</a>\r\n</p>",
             "score": "4.4 ",
             "google": "https://www.google.ca/maps/place/%E8%80%81%E6%B2%B9%E6%A2%9D%E5%AE%B6%E5%B8%B8%E8%8F%9C/@25.051823,121.3673883,17z/data=!4m5!3m4!1s0x3442a753bac2abb3:0x3d8aa3f5644dfd35!8m2!3d25.0518182!4d121.3695824?hl=zh-TW&authuser=0"
-        },
-        {
-            "no": "N34",
-            "title": "Quarter Mile 居酒屋",
-            "type": "居酒屋",
-            "address": "新北市林口區文化一路一段210號",
-            "telphone": "02-2601-7521",
-            "hours": "17:00–02:00",
-            "figure": "fig/XLK-311-Restaurant/AiCity-910-QuarterMile.jpeg",
-            "link": "https://www.facebook.com/quarter.mile.bistro/",
-            "category": "網路推薦2022",
-            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw-en/store/quarter-mile-%E5%B1%85%E9%85%92%E5%B1%8B/fvXKr1sVSq2ElBN6o4Jf7g\">外送/菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://moptt.tw/p/LinKou.M.1608107996.A.247\">推薦</a>\r\n</p>",
-            "score": "4.5 ",
-            "google": "https://www.google.ca/maps/place/QUARTER+MILE%E5%B1%85%E9%85%92%E5%B1%8B/@25.075511,112.4144438,5z/data=!3m1!5s0x3442a6e72e148a3b:0xa9d8962395a2c4e3!4m9!1m2!2m1!1z5Zub5YiG5LmL5LiA5bGF6YWS5bGL!3m5!1s0x3442a70757639ff9:0x9a8dce663e08c85b!8m2!3d25.075511!4d121.3792876!15sChXlm5vliIbkuYvkuIDlsYXphZLlsYtaGyIZ5ZubIOWIhiDkuYsg5LiAIOWxhemFkuWxi5IBG2phcGFuZXNlX2l6YWtheWFfcmVzdGF1cmFudJoBI0NoWkRTVWhOTUc5blMwVkpRMEZuU1VOcGVrMXBaMlZSRUFF?hl=zh-TW&authuser=0"
         }
     ]
