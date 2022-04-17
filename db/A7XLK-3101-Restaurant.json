@@ -867,6 +867,19 @@
             "google": "https://www.google.com.tw/maps/place/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8/@25.0541816,121.4393032,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a709e5172dcb:0x18cacc65c8e151a!8m2!3d25.0541816!4d121.4414972?hl=zh-TW&authuser=0"
         },
         {
+            "no": "130",
+            "title": "懷舊中卷麵線",
+            "type": "中式料理",
+            "address": "桃園市龜山區文興路46號(華夏飯店後面巷子裡，田倉超市隔壁)",
+            "telphone": "0989-838-605",
+            "hours": "平日11:00—16:00或售完, 週六11:00—14:00或售完, 週日 店休",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-中卷麵線-2.jpeg",
+            "link": "https://www.facebook.com/tastyoldtime/",
+            "category": "龜山美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/tastyoldtime/menu/\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/groups/1951117865015671/permalink/4846381462155949/\">推薦</a>\r\n</p>",
+            "google": "https://www.google.ca/maps/place/333%E5%8F%B0%E7%81%A3%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E6%96%87%E8%88%88%E8%B7%AF46%E8%99%9F/@25.0591601,121.3624723,17.73z/data=!4m5!3m4!1s0x3442a730ee4fc405:0xecf2b45867496620!8m2!3d25.059411!4d121.363671?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "129",
             "title": "老油條家常菜",
             "type": "中式料理",
