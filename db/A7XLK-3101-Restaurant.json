@@ -811,6 +811,20 @@
             "google": "https://www.google.com.tw/maps/place/%E5%85%AB%E6%96%B9%E6%82%85%E9%8D%8B%E7%89%A9%E6%9E%97%E5%8F%A3%E4%BB%81%E6%84%9B%E5%BA%97/@25.0757201,121.366146,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a73657bfbe67:0x346d8a5db5ff186a!8m2!3d25.0757201!4d121.36834?hl=zh-TW&authuser=0"
         },
         {
+            "no": "045",
+            "title": "樂壽司•Raku美式壽司專賣",
+            "type": "日本料理",
+            "address": "338台灣桃園市蘆竹區南上路29-1號",
+            "telphone": "03-222-3007",
+            "hours": "11:00–13:30, 17:00–21:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-Raku.jpeg",
+            "link": "https://www.facebook.com/rukusushi/",
+            "category": "桃園市",
+            "description": "<p>\r\n  網路資訊:  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw/store/%E6%A8%82%E5%A3%BD%E5%8F%B8-%E7%BE%8E%E5%BC%8F%E5%A3%BD%E5%8F%B8%E5%B0%88%E8%B3%A3%E5%BA%97/B-PIC9zKRqSMFEDo3JnRzA?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMiVFNiU5NiU4NyVFNSVCRSVCNyVFNCVCQSU4QyVFOCVCNyVBRjg2JUU1JUI3JUI3NTUlRTglOTklOUYlMjIlMkMlMjJyZWZlcmVuY2UlMjIlM0ElMjJDaElKR2NKZ3loYW5RalFST2d4ellUY25SY3clMjIlMkMlMjJyZWZlcmVuY2VUeXBlJTIyJTNBJTIyZ29vZ2xlX3BsYWNlcyUyMiUyQyUyMmxhdGl0dWRlJTIyJTNBMjUuMDU0NTI2NiUyQyUyMmxvbmdpdHVkZSUyMiUzQTEyMS4zODI1NTQ4JTdE&rpu=5d08d6d9-27d2-4484-9301-0d7a241cf489&utm_campaign=place-action-link&utm_medium=organic&utm_source=google\">外送</a>   &nbsp;\r\n   <a style=\"button\" class=\"btn btn-info\"  href=\"https://mikatogo.com/raku/\">推薦</a>\r\n</p>",
+            "score": "4.1 ",
+            "google": "https://www.google.ca/maps/place/%E6%A8%82%E5%A3%BD%E5%8F%B8%E2%80%A2Raku%E7%BE%8E%E5%BC%8F%E5%A3%BD%E5%8F%B8%E5%B0%88%E8%B3%A3/@25.0832265,121.2014052,11.93z/data=!4m5!3m4!1s0x3442a077c214c99b:0x51dac097134cf95d!8m2!3d25.0477969!4d121.2954742?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "041",
             "title": "河馬水產",
             "type": "中式料理",
