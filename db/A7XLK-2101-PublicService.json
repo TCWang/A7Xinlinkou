@@ -226,6 +226,34 @@
             "category": "公共服務"
         },
         {
+            "no": "216",
+            "title": "龜山文青郵政代辦所",
+            "address": "桃園市龜山區文青路300號",
+            "hours": "10:00-17:00",
+            "figure": "fig/A7XLK-212-郵局代辦所.jpeg",
+            "category": "公共服務"
+        },
+        {
+            "no": "217",
+            "title": "龜山長庚大學郵局",
+            "address": "桃園市龜山區文化一路259號",
+            "telephone": "03-211-8633",
+            "hours": "週一至週五 郵務:08:30-17:00",
+            "figure": "fig/A7XLK-212-郵局.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_post.jsp?prsb_no=012136-1",
+            "category": "公共服務"
+        },
+        {
+            "no": "218",
+            "title": "龜山樂善郵局",
+            "address": "桃園市龜山區復興街5號",
+            "telephone": "03-328-2459",
+            "hours": " 週一至週五 郵務:08:30-17:00",
+            "figure": "fig/A7XLK-212-郵局.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_post.jsp?prsb_no=012117-6",
+            "category": "公共服務"
+        },
+        {
             "no": "208",
             "title": "郵筒-文化一路",
             "address": "桃園市龜山區文化一路53號",
