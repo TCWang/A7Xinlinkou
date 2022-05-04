@@ -1,0 +1,70 @@
+﻿[
+        {
+            "No": "101",
+            "Brand": "BTNX",
+            "Product": " Covid-19 Antigen",
+            "Time": "15分鐘",
+            "Method": "鼻腔快篩",
+            "Guide": "https://www.youtube.com/watch?v=ikEK2EC_okc",
+            "Figure": "fig/XLK-263-Antigen/XLK-2601-Antigen-61.jpeg",
+            "Category": "Antigen"
+        },
+        {
+            "No": "002",
+            "Brand": "亞培",
+            "Product": "家用新冠病毒抗原檢測套組 Panbio COVID-19 Antigen SELF-TEST",
+            "Time": "15分鐘",
+            "Method": "鼻腔快篩",
+            "Performance": "98.10%",
+            "Price": "NT$300/劑",
+            "Guide": "https://www.fda.gov.tw/TC/siteList.aspx?sid=11810",
+            "Figure": "fig/XLK-263-Antigen/XLK-2601-Antigen-02.jpeg",
+            "Category": "Antigen"
+        },
+        {
+            "No": "003",
+            "Brand": "羅氏",
+            "Product": "家用新冠病毒抗原自我檢測套組（鼻腔）SARS-CoV-2 Antigen Self Test",
+            "Time": "15分鐘",
+            "Method": "鼻腔快篩",
+            "Performance": "91.20%",
+            "Price": "NT$2,000 /盒, 共5劑",
+            "Guide": "https://www.fda.gov.tw/tc/siteList.aspx?sid=11747",
+            "Figure": "fig/XLK-263-Antigen/XLK-2601-Antigen-03.jpeg",
+            "Category": "Antigen"
+        },
+        {
+            "No": "004",
+            "Brand": "英斯特",
+            "Product": "家用新冠抗原快篩試劑 InteliSwab COVID-19 Rapid Test",
+            "Time": "30分鐘",
+            "Method": "鼻腔快篩",
+            "Performance": "85.00%",
+            "Price": "NT$1,800",
+            "Guide": "https://www.fda.gov.tw/tc/siteList.aspx?sid=11751",
+            "Figure": "fig/XLK-263-Antigen/XLK-2601-Antigen-04.jpeg",
+            "Category": "Antigen"
+        },
+        {
+            "No": "005",
+            "Brand": "福爾威創",
+            "Product": "家用新型冠狀病毒抗原快速檢驗套組 FORA/VIRUST COVID-19",
+            "Time": "15分鐘",
+            "Method": "鼻腔快篩",
+            "Performance": "94.00%",
+            "Price": "NT$315/劑",
+            "Guide": "https://www.fda.gov.tw/TC/siteList.aspx?sid=11750",
+            "Figure": "fig/XLK-263-Antigen/XLK-2601-Antigen-05.jpeg",
+            "Category": "Antigen"
+        },
+        {
+            "No": "006",
+            "Brand": "韓國 GenBody",
+            "Product": "新冠病毒 Omicron 快速測試套裝",
+            "Time": "15分鐘",
+            "Method": "鼻腔快篩",
+            "Price": "NT$500",
+            "Figure": "fig/XLK-263-Antigen/XLK-2601-Antigen-06.jpeg",
+            "Category": "Antigen"
+        }
+    ]
