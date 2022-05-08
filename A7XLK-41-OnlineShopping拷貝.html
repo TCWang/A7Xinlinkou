@@ -239,21 +239,6 @@
 										</ul>
 									</div>
 									<div class="col-md-6">
-										<h5>防疫 生鮮箱 供應商</h5>
-										<ul>
-											<li>
-												<a href="https://www.superbuy.com.tw/collection_fast.php?main_cate=608">SuperBuy 市集</a> - 自由配蔬果箱
-											</li>
-											<li>
-												<a href="https://www.green-n-safe.com/Foodbox/Intro">Green &amp; Safe</a> - 百寶箱組合
-											</li>
-											<li>
-												<a href="https://www.facebook.com/rshhfreshshop/">人生海海蔬果專車</a> 
-											</li>
-											<li>
-												<a href="https://ohler.cyberbiz.co/?fbclid=IwAR3xBeXlgQ6wYAni8LPKePX2uHLJMvCLZn8X0F5nVt5OmelhU7liX0fgwz0">純淨農產合作社</a> - 在地友善食材
-											</li>
-										</ul>
 
 									</div>
 								</div>
@@ -288,18 +273,16 @@
 											</div>
 											<div class="card-body">
 												<p class="card-text">
-												<div class="row">
-													<div class="col-5">
-														<a v-bind:href="post.link"><img v-bind:src="post.figure"
-																class="img-fluid" style="width:400px"></a>
-													</div>
-													<div class="col-7">
-														<dl>
-															<dd>{{post.address}}</dd>
-															<dd>客服：{{post.telphone}}</dd>
-														</dl>
-													</div>
-												</div>
+													<img v-bind:src="post.figure" class="img-fluid"
+														style="width:3=400px">
+												<dl>
+													<dd>{{post.price}}</dd>
+													<dd>{{post.time}}</dd>
+													<dd>
+														<div v-html="post.description"></div>
+													</dd>
+												</dl>
+
 												</p>
 											</div>
 										</div>
@@ -517,7 +500,7 @@
 	<script>
 		const posts = []
 		const SECTIONS_01 = "防疫採購"
-		const SECTIONS_02 = "桃園市, 台北市"
+		const SECTIONS_02 = "AntiEpidemic"
 		const SECTIONS_03 = "網路購物"
 		const SECTIONS_04 = "精品首飾"
 		const SECTIONS_05 = "社區團購"
@@ -563,7 +546,7 @@
 				posts,
 				// results: [],
 				sections: SECTIONS_02.split(', '),
-				section: '桃園市'
+				section: 'AntiEpidemic'
 			},
 			filter: {
 				formatted(value) {
@@ -585,7 +568,7 @@
 			},
 
 			mounted() {
-				axios.get('db/A7XLK-4107-AntiEpidemic.json').then((response) => {
+				axios.get('db/A7XLK-4105-AntiEpidemic.json').then((response) => {
 					this.posts = response.data;
 					this.getPostsByCategory(this.section)
 				}).catch(error => { console.log(error); });
