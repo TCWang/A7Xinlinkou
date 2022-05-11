@@ -7,7 +7,7 @@
             "hours": "週一到週五 09:30-18:30",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-19.jpeg",
             "link": "https://www.superbuy.com.tw/collection_fast.php?main_cate=608",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "220",
@@ -17,7 +17,7 @@
             "hours": "週一至週五 09:00-18:00",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-20.jpeg",
             "link": "https://www.yooho.com.tw/category.php?id=31",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "221",
@@ -27,7 +27,7 @@
             "hours": "8:30-12:00；13:00-17:30",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-21.jpeg",
             "link": "https://www.healthyfood.com.tw/",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "222",
@@ -36,7 +36,7 @@
             "hours": "週一至週五，9:30-12:00 13:00-18:30",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-22.jpeg",
             "link": "https://www.pickup.com.tw/categories/vegetable",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "223",
@@ -45,7 +45,7 @@
             "hours": "週一至週五 10:00 - 20:00, 週六至週日 12:00 - 18:00",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-23.jpeg",
             "link": "https://p3.groupbuyforms.tw/vt1hh?fbclid=IwAR0E0ai5JAgSWU0plQXexPo5a3Ci7bpbMx98kXBauo2LSwJnqPDy9T4AmuM",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "224",
@@ -55,7 +55,7 @@
             "hours": "週一至週五 09:00-18:00",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-24.jpeg",
             "link": "https://p3.groupbuyforms.tw/vt1hh?fbclid=IwAR0E0ai5JAgSWU0plQXexPo5a3Ci7bpbMx98kXBauo2LSwJnqPDy9T4AmuM",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "225",
@@ -65,7 +65,7 @@
             "hours": "週一至週日 09：00 ~ 21：00",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-25.jpeg",
             "link": "https://www.green-n-safe.com/",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "201",
@@ -75,7 +75,7 @@
             "hours": "週一～五 09:00-12:00, 13:00~18:00 , 週六 10:00-18:00, 不含國定假日",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-01.png",
             "link": "https://greenbox.tw/",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "227",
@@ -85,14 +85,44 @@
             "hours": "11:00 - 20:00",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-27.jpeg",
             "link": "https://www.withheart.com.tw/buy_item",
-            "category": "桃園市"
+            "category": "生鮮食材"
         },
         {
             "no": "228",
             "title": "純淨農產合作社",
-            "telphone": " 0925-704-305",
+            "telphone": "0925-704-305",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-28.jpeg",
             "link": "https://ohler.cyberbiz.co/collections/%E5%8F%B0%E7%81%A3%E5%9C%A8%E5%9C%B0%E8%94%AC%E8%8F%9C%E6%B0%B4%E6%9E%9C",
-            "category": "桃園市"
+            "category": "生鮮食材"
+        },
+        {
+            "no": "301",
+            "title": "雙寶居家保健生活館",
+            "address": "台北市中山區民權東路二段70號",
+            "telphone": "02-2671-2002",
+            "hours": " 週二~週六10:00-19:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-61.jpeg",
+            "link": "https://www.bb-homecare.com/",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "302",
+            "title": "杏一醫療用品",
+            "address": "林口長庚醫院復健大樓 ",
+            "telphone": "03-318-5247",
+            "hours": "08:00-22:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-62.jpeg",
+            "link": "https://www.medfirst.com.tw/",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "303",
+            "title": "蝦皮商城",
+            "address": "桃園市龜山區長慶三街40號1樓",
+            "telphone": "02-6636-6559",
+            "hours": "10:30-22:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-63.jpeg",
+            "link": "https://shopee.tw/traceofwind3",
+            "category": "防疫藥品"
         }
     ]
