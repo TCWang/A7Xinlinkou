@@ -107,12 +107,32 @@
         },
         {
             "no": "302",
-            "title": "杏一醫療用品",
+            "title": "杏一藥局",
             "address": "林口長庚醫院復健大樓 ",
             "telphone": "03-318-5247",
             "hours": "08:00-22:00",
             "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-62.jpeg",
             "link": "https://www.medfirst.com.tw/",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "304",
+            "title": "佑全藥局",
+            "address": "桃園市大有路556號",
+            "telphone": "03-346-0793",
+            "hours": "08:00-22:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-64.jpeg",
+            "link": "http://www.yourchance.com.tw/index.php?lang=cht",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "305",
+            "title": "丁丁藥局",
+            "address": "新北市林口區仁愛路二段128號1F",
+            "telphone": "02-8601-8655",
+            "hours": "09:00-22:55",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-65.jpeg",
+            "link": "https://www.norbelbaby.com.tw/TinTin/",
             "category": "防疫藥品"
         },
         {
