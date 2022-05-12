@@ -1,5 +1,18 @@
 ﻿[
         {
+            "No": "009",
+            "Brand": "福吉美",
+            "Type": "抗原試劑",
+            "Product": "家用新型冠狀病毒唾液抗原快速檢驗套組",
+            "Time": "15分鐘",
+            "Method": "唾液快篩",
+            "Performance": "Ct值小於23、24",
+            "Price": "NT$175/劑",
+            "Guide": "https://www.fda.gov.tw/TC/siteList.aspx?sid=12124",
+            "Figure": "fig/XLK-263-Antigen/XLK-2601-Antigen-71.jpeg",
+            "Category": "Antigen"
+        },
+        {
             "No": "101",
             "Brand": "BTNX",
             "Type": "抗原試劑",
