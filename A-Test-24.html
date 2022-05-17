@@ -215,7 +215,7 @@
                 chart.draw(data, options);
             }
 
-            google.charts.load('current', {packages: ['corechart', 'bar']});
+            google.charts.load('current', { packages: ['corechart', 'bar'] });
             google.charts.setOnLoadCallback(drawChart3);
 
             function drawChart3() {
@@ -231,20 +231,20 @@
 
                 var options = {
                     title: 'Population of Largest U.S. Cities',
-                    chartArea: {width: '50%'},
+                    chartArea: { width: '50%' },
                     hAxis: {
-                    title: 'Total Population',
-                    minValue: 0
+                        title: 'Total Population',
+                        minValue: 0
                     },
                     vAxis: {
-                    title: 'City'
+                        title: 'City'
                     }
                 };
 
                 var chart = new google.visualization.BarChart(document.getElementById('chart_div3'));
 
                 chart.draw(data, options);
-                }
+            }
 
             $(window).resize(function () {
                 drawChart1();

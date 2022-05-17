@@ -894,8 +894,8 @@
 											href="https://www.facebook.com/groups/a7xinlinkou/permalink/323820616389860/">居民票選結果</a>
 									</h5>
 
-									<div id="barchart_values" style="width: 900px; height: 300px;"></div>
-									<br><br>
+									<div id="chart_div3"  class="chart"></div>
+
 									2022/05/14 紀錄
 									<br><br>
 									<h5>行道樹會衍生的問題</h5>
@@ -3057,48 +3057,52 @@
 
 	<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
+	<!-- 
+				["樹種", "得票數", { role: "style" }],
+				["吉野櫻花", 249, 'blue'],
+				["黃金風鈴木", 148, 'blue'],
+				["光臘樹", 23, 'blue'],
+				["落羽松", 22, 'blue'],
+				["台灣欒樹", 16, 'blue']
+	-->
+
 	<script type="text/javascript">
-		google.charts.load("current", {packages:["corechart"]});
-		google.charts.setOnLoadCallback(drawChart);
-		function drawChart() {
-		  var data = google.visualization.arrayToDataTable([
-			["樹種", "得票數", { role: "style" } ],
-			["吉野櫻花", 249, 'blue' ],
-			["黃金風鈴木", 148, 'blue'],
-			["光臘樹", 23, 'blue' ],
-			["落羽松", 22, 'blue' ],
-			["台灣欒樹", 16, 'blue' ]
-		  ]);
-	
-		  var view = new google.visualization.DataView(data);
-		  view.setColumns([0, 1,
-						   { calc: "stringify",
-							 sourceColumn: 1,
-							 type: "string",
-							 role: "annotation" },
-						   2]);
-	
-		  var options = {
-			titleTextStyle: {
-				color: 'blue',    // any HTML string color ('red', '#cc00cc')
-				fontName: '標楷體', // i.e. 'Times New Roman'
-				fontSize: 16, // 12, 18 whatever you want (don't specify px)
-				bold: true,    // true or false
-			},
-			vAxisTextStyle: {
-				color: 'blue', 
-				fontName: '標楷體',
-			},
-			title: " 景觀大道票選結果 2022/05/18",
-			width: 600,
-			height: 300,
-			bar: {groupWidth: "95%"},
-			legend: { position: "none" },
-		  };
-		  var chart = new google.visualization.BarChart(document.getElementById("barchart_values"));
-		  chart.draw(view, options);
-	  }
-	  </script>
+		google.charts.load("current", { packages: ["corechart"] });
+		google.charts.setOnLoadCallback(drawChart3);
+		function drawChart3() {
+			var data = google.visualization.arrayToDataTable([
+				["樹種", "得票數", { role: "style" }],
+				["吉野櫻花", 249, 'blue'],
+				["黃金風鈴木", 148, 'blue'],
+				["光臘樹", 23, 'blue'],
+				["落羽松", 22, 'blue'],
+				["台灣欒樹", 16, 'blue']
+			]);
+
+			var options = {
+				title: '景觀大道 票選 2022/05/18',
+				
+				chartArea: { width: '70%' },
+				hAxis: {
+					title: '得票數',
+					minValue: 0
+				},
+				vAxis: {
+					
+				}
+			};
+
+			var chart = new google.visualization.BarChart(document.getElementById('chart_div3'));
+
+			chart.draw(data, options);
+		}
+
+		$(window).resize(function () {
+			drawChart3();
+		});
+
+
+	</script>
 
 	<!-- InstanceEndEditable -->
 
