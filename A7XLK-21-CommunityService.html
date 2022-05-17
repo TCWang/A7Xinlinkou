@@ -3063,11 +3063,11 @@
 		function drawChart() {
 		  var data = google.visualization.arrayToDataTable([
 			["樹種", "得票數", { role: "style" } ],
-			["吉野櫻花", 249, "#b87333"],
-			["黃金風鈴木", 148, "#b87333"],
-			["光臘樹", 23, "color: #e5e4e2"],
-			["落羽松", 22, "color: #e5e4e2"],
-			["台灣欒樹", 16, "color: #e5e4e2"]
+			["吉野櫻花", 249, 'blue' ],
+			["黃金風鈴木", 148, 'blue'],
+			["光臘樹", 23, 'blue' ],
+			["落羽松", 22, 'blue' ],
+			["台灣欒樹", 16, 'blue' ]
 		  ]);
 	
 		  var view = new google.visualization.DataView(data);
@@ -3086,14 +3086,12 @@
 				bold: true,    // true or false
 			},
 			vAxisTextStyle: {
-				color: 'blue',    // any HTML string color ('red', '#cc00cc')
-				fontName: '標楷體', // i.e. 'Times New Roman'
-				fontSize: 16, // 12, 18 whatever you want (don't specify px)
-				bold: true,    // true or false
+				color: 'blue', 
+				fontName: '標楷體',
 			},
 			title: " 景觀大道票選結果 2022/05/18",
 			width: 600,
-			height: 400,
+			height: 300,
 			bar: {groupWidth: "95%"},
 			legend: { position: "none" },
 		  };
