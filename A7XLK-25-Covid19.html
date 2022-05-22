@@ -148,7 +148,8 @@
             <div id="app2" class="row">
                 <div class="col-md-2">
                     <div class="list-group" id="MenuList" role="tablist">
-                        <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">疫苗注射</a>
+                        <a href="#Menu-B0" class="list-group-item list-group-item-action active" data-toggle="list">每日快訊</a>
+                        <a href="#Menu-B1" class="list-group-item list-group-item-action" data-toggle="list">疫苗注射</a>
                         <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">檢驗試劑</a>
                         <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">防疫門診</a>
                         <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">防疫隔離</a>
@@ -162,8 +163,66 @@
 
                     <div class="tab-content">
 
+                        <!-- Menu B0 -->
+                        <div class="tab-pane active" id="Menu-B0" role="tabpanel">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>每日疫情快訊</h3>
+                                    <h5></h5>
+
+
+                                </div>
+                                <div class="col-md-6">
+                                    <h5></h5>
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <h3>防疫相關網站</h3>
+                                    <ul>
+                                        <li>
+                                            COVID-19全球疫情地圖 <a href="https://covid-19.nchc.org.tw/dt_005-covidTable_taiwan.php">台灣疫情報告</a>
+                                        </li>
+                                        <li>
+                                            衛生福利部 <a href="https://www.cdc.gov.tw/">疾病管制署</a>:  <a href="https://www.cdc.gov.tw/Bulletin/Detail/vki4KwEYb93xVWNmCtEytQ?typeid=9">每日疫情</a>
+                                        </li>
+                                        <li>
+                                            桃園市政府 <a href="https://reurl.cc/OplbYg">防疫資訊站</a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>數位工具</h5>
+                                    <ul>
+                                        <li>
+											健康益友App: <a href="https://www.roc-taiwan.org/uploads/sites/85/2021/06/1100611-%E5%81%A5%E5%BA%B7%E7%9B%8A%E5%8F%8BAPP-2%E6%93%8D%E4%BD%9C%E8%AA%AA%E6%98%8E.pdf">操作說明</a>,  <a href="https://youtu.be/kkAOFct0ERU">教學影片</a>, <a href="https://reurl.cc/Ezjj2a">Android</a>,
+											<a href="https://reurl.cc/4mrryY">iOS</a> - <span style="color:red">確診者回報系統</span> 
+										</li>
+										<li>
+											台灣社交距離App: <a href="https://www.youtube.com/watch?v=R0k_1fPtD8U">教學影片</a>,  <a href="https://play.google.com/store/apps/details?id=tw.gov.cdc.exposurenotifications&hl=zh_TW&gl=US">Android</a>,
+											<a href="https://apps.apple.com/tw/app/%E8%87%BA%E7%81%A3%E7%A4%BE%E4%BA%A4%E8%B7%9D%E9%9B%A2/id1554431836">iOS</a> 
+										</li>
+										<li>
+											健保快易通 App: <a href="https://www.nhi.gov.tw/Content_List.aspx?n=98F22C99E092DC9A&topn=CA428784F9ED78C9">操作說明</a>, <a href="https://play.google.com/store/apps/details?id=com.nhiApp.v1&hl=zh_TW&gl=US">Android</a>,
+											<a href="https://apps.apple.com/tw/app/%E5%85%A8%E6%B0%91%E5%81%A5%E4%BF%9D%E8%A1%8C%E5%8B%95%E5%BF%AB%E6%98%93%E9%80%9A-%E5%81%A5%E5%BA%B7%E5%AD%98%E6%91%BA/id578186283">iOS</a>
+										</li>
+										<li>
+											長庚e指通 App:  <a href="https://play.google.com/store/apps/details?id=tw.org.cgmh.phonereg&hl=en_US&gl=US">Android</a>,
+											<a href="https://apps.apple.com/tw/app/%E9%95%B7%E5%BA%9Ae%E6%8C%87%E9%80%9A%E6%9C%8D%E5%8B%99/id619682038">iOS</a>
+										</li>
+                                        <li>
+											長庚醫院 <a href="https://webapp.cgmh.org.tw/data/news_attch/202106180006-1.pdf">視訊門診操作說明</a>, 安裝視訊會議插件 <a href="https://www.webex.com/downloads.html">Cisco Webex Meeting</a>
+										</li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+
                         <!-- Menu B1 -->
-                        <div class="tab-pane active" id="Menu-B1" role="tabpanel">
+                        <div class="tab-pane" id="Menu-B1" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-6">
                                     <h3>疫苗注射</h3>
@@ -182,32 +241,26 @@
                                         </li>
                                     </ul>
 
-                                    <h5>桃園市 疫苗注射</h5>
+
 
                                 </div>
                                 <div class="col-md-6">
-                                    <h5>疫苗注射資訊</h5>
+                                    <h5>桃園市 疫苗注射</h5>
                                     <ul>
                                         <li>
-                                            Covid-19 防治一網通 <a href="https://antiflu.cdc.gov.tw/booster/Covid19?gclid=Cj0KCQjwm6KUBhC3ARIsACIwxBiQz2U44d9uGqA97zUPPrHIobdlSOxDP24G8JB0LHWxjEpQfV0j1ZUaAoYxEALw_wcB">接種疫苗地圖</a>
+                                            COVID-19防治一網通 <a href="https://antiflu.cdc.gov.tw/booster/Covid19?gclid=Cj0KCQjwvqeUBhCBARIsAOdt45Yq6LCF9Gu_sVpxlI6G_7PXmdOMcQU_-D3DaT6ftcFgWEIoWoExaC8aAgylEALw_wcB#">疫苗接種院所 地圖</a>
                                         </li>
                                         <li>
-                                            桃園市 疫苗接種 <a href="https://covid-19.tycg.gov.tw/home.jsp?id=82&parentpath=0,54&websiteid=202105260001">合約院所查詢</a>
+                                            桃園市政府 <a href="https://covid-19.tycg.gov.tw/page/202106290001.html">合約院所查詢</a>
+                                        </li>
+                                        <li>
+                                            龜山區衛生所 <a href="https://www.guishan-phc.tycg.gov.tw/home.jsp?id=7&parentpath=0,6&mcustomize=multimessage_view.jsp&dataserno=202204300002&aplistdn=ou=hotnews,ou=chinese,ou=ap_root,o=tycg,c=tw&toolsflag=Y">社區疫苗接種站5月場次時間</a>
                                         </li>
                                     </ul>
 
                                 </div>
                             </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <h3>疫苗相關知識</h3>
 
-                                </div>
-                                <div class="col-md-6">
-                                    <h5></h5>
-
-                                </div>
-                            </div>
                         </div>
 
                         <!-- Menu B2 -->
@@ -232,7 +285,7 @@
                                     長幼三合一綠色通道
                                     <ul>
                                         <li>
-                                            地點: 龜山區 <a href="https://www.google.com.tw/maps/place/333%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E7%A7%91%E6%8A%80%E4%B8%89%E8%B7%AF88%E8%99%9F/@25.0519983,121.3738228,18.16z/data=!4m5!3m4!1s0x3442a73fafb773db:0x62e2225a3fbd2783!8m2!3d25.0517491!4d121.3747873?hl=zh-TW&authuser=0">科技三路88號</a> 對面停車場
+                                            華亞科技園區 檢測站 地點: 龜山區 <a href="https://www.google.com.tw/maps/place/333%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E7%A7%91%E6%8A%80%E4%B8%89%E8%B7%AF88%E8%99%9F/@25.0519983,121.3738228,18.16z/data=!4m5!3m4!1s0x3442a73fafb773db:0x62e2225a3fbd2783!8m2!3d25.0517491!4d121.3747873?hl=zh-TW&authuser=0">科技三路88號</a> 對面停車場
                                         </li>
                                         <li>
                                             時間: 每週一至週五的上午9時至中午12時
@@ -244,7 +297,7 @@
                                         <li>採檢結果：手機下載<a href="https://play.google.com/store/apps/details?id=com.nhiApp.v1&hl=zh_TW&gl=US">健保快易通APP</a> 即可隨時查詢 </li>
 
                                     </ul> 
-
+                                    <img src="fig/XLK-251-Covid19/XLK-252-Covid-02.jpg" class="img-fluid" style="width:600px">
                                      <br><br>
 
                                 </div>
@@ -352,21 +405,19 @@
                         <div class="tab-pane" id="Menu-B5" role="tabpanel">
                             <div class="row">
                                 <div class="col-md-6">
-                                    <h3>補償保險</h3>
-                                    <h5>請假 / 補償 / 保險 看板</h5>
-                                    隔離請假規定 <br><br>
+                                    <h3>請假 / 補償 / 保險 </h3>
+                                    <h5>確診者/密切接觸者 隔離請假規定及證明</h5>
+                                    <ul>
+                                        <li>確診者在7天隔離期間，可請普通傷病假並領半薪。</li>
+                                        <li>密切接觸者及照顧無法自理之受隔離家屬者，在3天居家隔離期間可請防疫隔離假，後續4天自主防疫期間，可評估個人或家屬健康狀況再行請假。</li>
+                                        <li>經勞動部公告請假可利用 #健保快易通APP 或 #數位新冠病毒健康證明 之PCR陽性採檢結果作為證明，如雇主仍要求須提供隔離通知書作為證明者，可於最後請假日隔天起算30日內，補提隔離通知書。</li>
+                                        <li>而5/20（五）前尚未收到隔離通知書的市民朋友也不用擔心，在6/19（日）前都可進行補提，中央流行指揮中心也將在5/25（三）「數位新冠病毒健康證明」平台增加「接觸者隔離證明」功能，提供證明書下載！</li>
+                                    </ul>
+                                   
                                     <img src="fig/XLK-251-Covid19/XLK-255-Covid-01.jpeg" class="img-fluid" style="width:600px"> <br>
                                     <img src="fig/XLK-251-Covid19/XLK-255-Covid-02.jpeg" class="img-fluid" style="width:300px"> 
                                     <img src="fig/XLK-251-Covid19/XLK-255-Covid-03.jpeg" class="img-fluid" style="width:300px"> <br><br>
 
-                                </div>
-                                <div class="col-md-6">
-                                    <h5>相關資訊</h5>
-                                    <ul>
-                                        <li>
-                                            桃園事 2022/05/22 
-                                        </li>
-                                    </ul>
                                     <h5>如何獲得確診者居隔通知書</h5>
                                     <ul>
                                         <li>收到簡訊填報「 <a href="https://bbs.cdc.gov.tw/Mb1mtj">COVID-19 確診個案自主回報系統</a> 」，主動回報同住親友密切接觸者資料。 </li>
@@ -379,7 +430,23 @@
                                             備註: 此份表單提交後，若有錯誤需修改，您可再點選報網址修改，僅有 1 次修改機會，且必須於填報 24 小時內執行修改，若超過填報 24 小時時限，系統將自動關閉權限無法再修改，請您於送出資料前謹慎確認手機等資料正確性。 
                                         </li>
                                     </ul>
+                                    <img src="fig/XLK-251-Covid19/XLK-255-Covid-05.jpg" class="img-fluid" style="width:600px"> <br><br>
 
+                                </div>
+                                <div class="col-md-6">
+                                    <h5>數位新冠病毒健康證明</h5>
+                                    <ul>
+                                        <li>中央流行疫情指揮中心今(9)日表示，為因應民眾反應，我國「數位新冠病毒健康證明」系統將增加顯示身分證字號資料之需求，並於今(2022)年5月10日上午8時完成版本更新。</li>
+                                        <li>有關數位新冠病毒健康證明申請，係以電腦或手機直接 <a href="ttps://dvc.mohw.gov.tw">上網辦理</a>，執行三個步驟即可取得：
+                                            <ul>
+                                                <li>確認身分。</li>
+                                                <li>選擇項目：選擇「疫苗接種數位證明」、「檢驗結果數位證明」。</li>
+                                                <li>取得證明：於申請成功畫面點選「下載/列印 數位證明」，若需列印者也可使用「取得超商列印碼」。</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                    <img src="fig/XLK-251-Covid19/XLK-255-Covid-06.jpg" class="img-fluid" style="width:600px"> <br><br>
+                                   
                                 </div>
                             </div>
                         </div>
