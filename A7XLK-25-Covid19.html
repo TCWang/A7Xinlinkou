@@ -318,7 +318,8 @@
                                             style="color:#989898!important;text-decoration:none!important;"
                                             target="_blank">台灣疫情統計</a><br><a href="https://infogram.com"
                                             style="color:#989898!important;text-decoration:none!important;"
-                                            target="_blank" rel="nofollow">Infogram</a></div>
+                                            target="_blank" rel="nofollow">Infogram</a>
+                                    </div>
 
                                 </div>
                             </div>
@@ -1014,6 +1015,224 @@
 
                                 </div>
                             </div>
+
+                            <div class="row">
+
+                                <ul id="myTab" class="nav nav-tabs">
+                                    <li class="nav-item"> <a class="nav-link active" href="#EC01"
+                                            data-toggle="tab">生鮮食材</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="#EC02" data-toggle="tab">行動超市</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#EC03" data-toggle="tab">餐飲外送</a>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="#EC04" data-toggle="tab">防疫藥品</a>
+                                    </li>
+                                </ul>
+                                <div id="myTabContent" class="tab-content">
+                                    <div class="tab-pane active" id="EC01">
+                                        生鮮食材 供應商
+                                        <div v-show="false" class="alert alert-info" role="alert">
+
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <div class="form-group">
+                                                        <select class="form-control" v-model="section"
+                                                            id="exampleFormControlSelect1">
+                                                            <option v-for="section in sections">{{ section }}</option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <h5 class="text-center"> 選擇類別 </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" v-for="posts in results">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4"
+                                                v-for="post in posts">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <a v-bind:href="post.link">
+                                                            {{ post.title }}
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">
+                                                        <div class="row">
+                                                            <div class="col-5">
+                                                                <a v-bind:href="post.link"><img v-bind:src="post.figure"
+                                                                        class="img-fluid" style="width:400px"></a>
+                                                            </div>
+                                                            <div class="col-7">
+                                                                <dl>
+                                                                    <dd>{{post.address}}</dd>
+                                                                    <dd>客服：{{post.telphone}}</dd>
+                                                                </dl>
+                                                            </div>
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+                                    <div  class="tab-pane" id="EC02">
+                                        行動超市 供應商
+                                        <div  v-show="false" class="alert alert-info" role="alert">
+
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <div class="form-group">
+                                                        <select class="form-control" v-model="section"
+                                                            id="exampleFormControlSelect1">
+                                                            <option v-for="section in sections">{{ section }}
+                                                            </option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <h5 class="text-center"> 選擇類別 </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" v-for="posts in results">
+                                            <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3"
+                                                v-for="post in posts">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <a v-bind:href="post.link">
+                                                            {{ post.title }}
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <a v-bind:href="post.link"><img v-bind:src="post.figure"
+                                                                        class="img-fluid" style="width:400px"></a>
+                                                            </div>
+                                                            <div class="col-6">
+          
+                                                            </div>
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+
+                                    <div  class="tab-pane" id="EC03">
+                                        餐飲外送 平台
+                                        <div  v-show="false" class="alert alert-info" role="alert">
+
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <div class="form-group">
+                                                        <select class="form-control" v-model="section"
+                                                            id="exampleFormControlSelect1">
+                                                            <option v-for="section in sections">{{ section }}
+                                                            </option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <h5 class="text-center"> 選擇類別 </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" v-for="posts in results">
+                                            <div class="col-6 col-sm-6 col-md-4 col-lg-4 col-xl-3"
+                                                v-for="post in posts">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <a v-bind:href="post.link">
+                                                            {{ post.title }}
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">
+                                                        <div class="row">
+                                                            <div class="col-6">
+                                                                <a v-bind:href="post.link"><img v-bind:src="post.figure"
+                                                                        class="img-fluid" style="width:400px"></a>
+                                                            </div>
+                                                            <div class="col-6">
+      
+                                                            </div>
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+
+                                    <div  class="tab-pane" id="EC04">
+                                        防疫藥品 供應商
+                                        <div  v-show="false" class="alert alert-info" role="alert">
+
+                                            <div class="row">
+                                                <div class="col-8">
+                                                    <div class="form-group">
+                                                        <select class="form-control" v-model="section"
+                                                            id="exampleFormControlSelect1">
+                                                            <option v-for="section in sections">{{ section }}
+                                                            </option>
+                                                        </select>
+                                                    </div>
+                                                </div>
+                                                <div class="col-4">
+                                                    <h5 class="text-center"> 選擇類別 </h5>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="row" v-for="posts in results">
+                                            <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4"
+                                                v-for="post in posts">
+                                                <div class="card">
+                                                    <div class="card-header">
+                                                        <a v-bind:href="post.link">
+                                                            {{ post.title }}
+                                                        </a>
+                                                    </div>
+                                                    <div class="card-body">
+                                                        <p class="card-text">
+                                                        <div class="row">
+                                                            <div class="col-5">
+                                                                <a v-bind:href="post.link"><img v-bind:src="post.figure"
+                                                                        class="img-fluid" style="width:400px"></a>
+                                                            </div>
+                                                            <div class="col-7">
+                                                                <dl>
+                                                                    <dd>{{post.address}}</dd>
+                                                                    <dd>客服：{{post.telphone}}</dd>
+                                                                </dl>
+                                                            </div>
+                                                        </div>
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br><br>
+                                    </div>
+
+
+                                </div>
+
+                            </div>
+
                         </div>
 
                         <!-- Menu B7 -->
@@ -1023,7 +1242,7 @@
                                     <h3>確診者作業流程</h3>
                                     快篩陽性怎麼辦？ 依據 <a href="https://www.cna.com.tw/news/ahel/202205255004.aspx">中央通訊社
                                         2022/05/25</a>資訊：
-                                        快篩陽性即確診5/26起全民適用 須經醫師診療確認<br>
+                                    快篩陽性即確診5/26起全民適用 須經醫師診療確認<br>
 
                                     <span style="color:red">步驟1. 進行確診通報 作業</span><br>
                                     可以遠距／視訊診療醫師協助評估確認快篩陽性結果，如快篩陽性者及醫師對評估陽性結果達成共識，則由此醫師所屬醫事機構進行通報，並由系統自動研判為確診個案。快篩陽性者或評估醫師，如對於快篩陽性結果未有共識或有疑義，仍可通知衛生局安排PCR採檢。<br><br>
@@ -1101,6 +1320,159 @@
         $('.list-group a').on('shown.bs.tab', function (e) {
             window.location.hash = e.target.hash;
         })
+    </script>
+
+    <script>
+        const posts = []
+        const SECTIONS_01 = "生鮮食材"
+        const SECTIONS_02 = "行動超市"
+        const SECTIONS_03 = "餐飲外送"
+        const SECTIONS_04 = "防疫藥品"
+
+        new Vue({
+            el: '#EC01',
+            data: {
+                posts,
+                // results: [],
+                sections: SECTIONS_01.split(', '),
+                section: '生鮮食材'
+            },
+            filter: {
+                formatted(value) {
+                    return ' 以下是 ${value} 類別的貼文 '
+                }
+            },
+
+            computed: {
+                results() {
+                    let posts = this.posts
+                        .slice()
+                        .filter(post => post.category === this.section)
+                    let i, j, chunkedArray = [], chunk = 20;
+                    for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                        chunkedArray[j] = posts.slice(i, i + chunk);
+                    }
+                    return chunkedArray
+                }
+            },
+
+            mounted() {
+                axios.get('db/A7XLK-2501-Shopping.json').then((response) => {
+                    this.posts = response.data;
+                    this.getPostsByCategory(this.section)
+                }).catch(error => { console.log(error); });
+            },
+        });
+
+        new Vue({
+            el: '#EC02',
+            data: {
+                posts,
+                // results: [],
+                sections: SECTIONS_02.split(', '),
+                section: '行動超市'
+            },
+            filter: {
+                formatted(value) {
+                    return ' 以下是 ${value} 類別的貼文 '
+                }
+            },
+
+            computed: {
+                results() {
+                    let posts = this.posts
+                        .slice()
+                        .filter(post => post.category === this.section)
+                    let i, j, chunkedArray = [], chunk = 20;
+                    for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                        chunkedArray[j] = posts.slice(i, i + chunk);
+                    }
+                    return chunkedArray
+                }
+            },
+
+            mounted() {
+                axios.get('db/A7XLK-2501-Shopping.json').then((response) => {
+                    this.posts = response.data;
+                    this.getPostsByCategory(this.section)
+                }).catch(error => { console.log(error); });
+            },
+        });
+
+        new Vue({
+            el: '#EC03',
+            data: {
+                posts,
+                // results: [],
+                sections: SECTIONS_03.split(', '),
+                section: '餐飲外送'
+            },
+            filter: {
+                formatted(value) {
+                    return ' 以下是 ${value} 類別的貼文 '
+                }
+            },
+
+            computed: {
+                results() {
+                    let posts = this.posts
+                        .slice()
+                        .filter(post => post.category === this.section)
+                    let i, j, chunkedArray = [], chunk = 50;
+                    for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                        chunkedArray[j] = posts.slice(i, i + chunk);
+                    }
+                    return chunkedArray
+                }
+            },
+
+
+            mounted() {
+                axios.get('db/A7XLK-2501-Shopping.json').then((response) => {
+                    this.posts = response.data;
+                    this.getPostsByCategory(this.section)
+                }).catch(error => { console.log(error); });
+            },
+
+        });
+
+        new Vue({
+            el: '#EC04',
+            data: {
+                posts,
+                // results: [],
+                sections: SECTIONS_04.split(', '),
+                section: '防疫藥品'
+            },
+            filter: {
+                formatted(value) {
+                    return ' 以下是 ${value} 類別的貼文 '
+                }
+            },
+
+            computed: {
+                results() {
+                    let posts = this.posts
+                        .slice()
+                        .filter(post => post.category === this.section)
+                    let i, j, chunkedArray = [], chunk = 50;
+                    for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+                        chunkedArray[j] = posts.slice(i, i + chunk);
+                    }
+                    return chunkedArray
+                }
+            },
+
+
+            mounted() {
+                axios.get('db/A7XLK-2501-Shopping.json').then((response) => {
+                    this.posts = response.data;
+                    this.getPostsByCategory(this.section)
+                }).catch(error => { console.log(error); });
+            },
+
+        });
+
     </script>
 
     <!-- Jump to tab  -->
