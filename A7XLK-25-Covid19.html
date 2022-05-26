@@ -306,8 +306,6 @@
                                     六都本土病例分佈 2022/05/26 <br>
                                     <div class="container">
                                         <div id="columnchart_values" ></div>
-
-                                        <!-- style="width: 900px; height: 300px;" -->
                                         <br><br>
                                     </div>
                                     
@@ -1350,12 +1348,12 @@
         function drawChart() {
         var data = google.visualization.arrayToDataTable([
             ["城市", "病例", { role: "style" } ],
-            ["新北市", 519607, "blue"],
-            ["台北市", 236407, "blue"],
-            ["桃園市", 231714, "blue"],
-            ["台中市", 122896, "blue"],
-            ["高雄市", 119013, "blue"],
-            ["台南市", 70808, "blue"]
+            ["新北", 519607, "blue"],
+            ["台北", 236407, "blue"],
+            ["桃園", 231714, "blue"],
+            ["台中", 122896, "blue"],
+            ["高雄", 119013, "blue"],
+            ["台南", 70808, "blue"]
         ]);
 
         var view = new google.visualization.DataView(data);
@@ -1374,8 +1372,8 @@
 					fontSize: 16,
 					bold: false
 				},
-            width: 500,
-            height: 400,
+            width: 400,
+            height: 300,
             bar: {groupWidth: "95%"},
             legend: { position: "none" },
         };
