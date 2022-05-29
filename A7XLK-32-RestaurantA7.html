@@ -147,8 +147,8 @@
         <div class="row">
           <div class="col-md-2">
             <div class="list-group" id="MenuList" role="tablist">
-              <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">1.樂善國小生活圈</a>
-              <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">4.中心商業區</a>	
+              <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">1.樂善國小區</a>
+              <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">3.中心商業區</a>	
               <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">5.合宜住宅區</a>					
             </div>
             <br>
@@ -216,7 +216,7 @@
               <!-- Menu B2 -->				
               <div class="tab-pane" id="Menu-B2" role="tabpanel">
 
-                <h3> 2.樂善科技園區周邊 </h3>
+                <h3> 2.郵政物流區 </h3>
 				  
 				  <div id="app2" class="row">
 
@@ -272,7 +272,7 @@
               <!-- Menu B3 -->				
               <div class="tab-pane" id="Menu-B3" role="tabpanel">
 
-                <h3> 3.華亞科技園區周邊 </h3>
+                <h3> 3.中心商業區 </h3>
 				  
 				  <div id="app3" class="row">
 
@@ -328,7 +328,7 @@
               <!-- Menu B4 -->				
               <div class="tab-pane" id="Menu-B4" role="tabpanel">
 
-                <h3> 4.中心商業區及文青國中小生活圈</h3>
+                <h3> 4.文青國小區</h3>
 				  
 				  <div id="app4" class="row">
 
@@ -489,10 +489,10 @@
   <!-- InstanceBeginEditable name="JavaScriptRegion" -->
     <script>
       const posts = []
-      const SECTIONS_01 = "1.樂善國小生活圈"
-      const SECTIONS_02 = "2.樂善科技園區周邊"
-      const SECTIONS_03 = "3.華亞科技園區周邊"
-      const SECTIONS_04 = "4.中心商業區"
+      const SECTIONS_01 = "1.樂善國小區"
+      const SECTIONS_02 = "2.郵政物流區"
+      const SECTIONS_03 = "3.中心商業區"
+      const SECTIONS_04 = "4.文青國小區"
       const SECTIONS_05 = "5.合宜住宅區"	 
 	  
       new Vue({
@@ -501,7 +501,7 @@
           posts,
           // results: [],
           sections: SECTIONS_01.split(', '),
-          section: '1.樂善國小生活圈'
+          section: '1.樂善國小區'
         },
         filter: {
           formatted(value) {
@@ -538,7 +538,7 @@
           posts,
           // results: [],
           sections: SECTIONS_02.split(', '),
-          section: '2.樂善科技園區周邊'
+          section: '2.郵政物流區'
         },
         filter: {
           formatted(value) {
@@ -575,7 +575,7 @@
           posts,
           // results: [],
           sections: SECTIONS_03.split(', '),
-          section: '3.華亞科技園區周邊'
+          section: '3.中心商業區'
         },
         filter: {
           formatted(value) {
@@ -612,7 +612,7 @@
           posts,
           // results: [],
           sections: SECTIONS_04.split(', '),
-          section: '4.中心商業區'
+          section: '4.文青國小區'
         },
         filter: {
           formatted(value) {
