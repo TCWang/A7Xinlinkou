@@ -326,5 +326,79 @@
             "category2": "3.中心商業區",
             "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw/store/%E6%97%A9%E6%97%A9%E9%BB%9E%E7%82%AD%E7%81%AB%E4%B8%89%E6%98%8E%E6%B2%BB/2uoTMVvsWSO5glewU92HhQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkphZGUlMjBEeW5hc3R5JTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyZjgyZTA1YTItODE2NS0xMGU4LWQ3M2QtNDMwYzIyOWY5MjA4JTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0OS4yODAzOSUyQyUyMmxvbmdpdHVkZSUyMiUzQS0xMjMuMTAxMjglN0Q%3D&utm_campaign=place-action-link&utm_medium=organic&utm_source=google\">外送</a> &nbsp;&nbsp;\r\n <a style=\"button\" class=\"btn btn-info\"  href=\"https://goo.gl/maps/uUppg3sd5zo3sk4EA\">菜單</a> &nbsp; \r\n</p>",
             "google": "https://www.google.com.tw/maps/place/%E6%97%A9%E6%97%A9%E9%BB%9E%E7%82%AD%E7%81%AB%E4%B8%89%E6%98%8E%E6%B2%BB/@25.0465716,121.3821609,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a710757d3045:0xd7e7f36d6f4ee8a3!8m2!3d25.0465716!4d121.3843496?hl=zh-TW"
+        },
+        {
+            "no": "303",
+            "title": "Joyfull 台灣珍有福",
+            "type": "日本連鎖店",
+            "address": "桃園市龜山區文青路137號1樓",
+            "telphone": "03-397-9595",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-03.jpeg",
+            "link": "http://www.joyfull.com.tw/index.php",
+            "category": "文青路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw/store/joyfull-%E9%BE%9C%E5%B1%B1%E6%96%87%E9%9D%92%E5%BA%97/KqxuraEhVbmGUWxJ59Q3eQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkphZGUlMjBEeW5hc3R5JTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyZjgyZTA1YTItODE2NS0xMGU4LWQ3M2QtNDMwYzIyOWY5MjA4JTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0OS4yODAzOSUyQyUyMmxvbmdpdHVkZSUyMiUzQS0xMjMuMTAxMjglN0Q%3D\">Uber Eats</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"http://www.joyfull.com.tw/product.php\">菜單</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/Joyfull%E5%8F%B0%E7%81%A3%E7%8F%8D%E6%9C%89%E7%A6%8F+%E9%BE%9C%E5%B1%B1%E6%96%87%E9%9D%92%E5%BA%97/@25.0404003,121.3845642,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a7699aa9553d:0xe952e516cf83c284!8m2!3d25.0404003!4d121.3867529?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "304",
+            "title": "三商巧福",
+            "type": "麵食館",
+            "address": "桃園市龜山區文青路137號",
+            "telphone": "03-327-9452",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-04.jpeg",
+            "link": "https://www.3375.com.tw/",
+            "category": "文青路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.foodpanda.com.tw/en/restaurant/wves/san-shang-qiao-fu-jia-le-fu-tao-yuan-gui-shan-a7wen-qing-dian-42a5\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://www.3375.com.tw/Menu/FoodMenu\">菜單</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/%E4%B8%89%E5%95%86%E5%B7%A7%E7%A6%8F/@25.0403772,121.3845361,18z/data=!4m5!3m4!1s0x3442a7b4c61abf19:0x9568ebc0d6bad9cf!8m2!3d25.0403772!4d121.386596?hl=zh-TW"
+        },
+        {
+            "no": "305",
+            "title": "Yipin Pasta 義品",
+            "type": "麵食館",
+            "address": "桃園市龜山區文青路137號",
+            "telphone": "03-328-2870",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-05.jpeg",
+            "link": "https://yipinpasta.com.tw/",
+            "category": "文青路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.foodpanda.com.tw/en/restaurant/r4cx/yipin-pasta-yi-pin-jia-le-fu-tao-yuan-gui-shan-a7wen-qing-dian\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://yipinpasta.com.tw/menus/\">菜單</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/Yipin+Pasta+%E7%BE%A9%E5%93%81+%E5%AE%B6%E6%A8%82%E7%A6%8F%E9%BE%9C%E5%B1%B1A7%E6%96%87%E9%9D%92%E5%BA%97/@25.0405787,121.3855057,18z/data=!3m1!4b1!4m5!3m4!1s0x3442a765f994e34f:0x64cc431d298f3874!8m2!3d25.0405787!4d121.3866?hl=zh-TW"
+        },
+        {
+            "no": "306",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-06.jpeg",
+            "category": "文青路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
+        },
+        {
+            "no": "307",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-07.jpeg",
+            "category": "文青路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
+        },
+        {
+            "no": "308",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-08.jpeg",
+            "category": "文青路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
+        },
+        {
+            "no": "309",
+            "hours": "11:00 - 21:30",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-09.jpeg",
+            "category": "文青路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
         }
     ]
