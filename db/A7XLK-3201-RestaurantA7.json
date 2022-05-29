@@ -371,34 +371,16 @@
         },
         {
             "no": "306",
+            "title": "荖子鍋",
+            "type": "火鍋店",
+            "address": "桃園市龜山區文青路137號",
+            "telphone": "03-327-1960",
             "hours": "11:00 - 21:30",
             "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-06.jpeg",
+            "link": "https://laozihotpot.ec52.com/",
             "category": "文青路",
             "category2": "3.中心商業區",
-            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
-        },
-        {
-            "no": "307",
-            "hours": "11:00 - 21:30",
-            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-07.jpeg",
-            "category": "文青路",
-            "category2": "3.中心商業區",
-            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
-        },
-        {
-            "no": "308",
-            "hours": "11:00 - 21:30",
-            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-08.jpeg",
-            "category": "文青路",
-            "category2": "3.中心商業區",
-            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
-        },
-        {
-            "no": "309",
-            "hours": "11:00 - 21:30",
-            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-09.jpeg",
-            "category": "文青路",
-            "category2": "3.中心商業區",
-            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"\">菜單</a> &nbsp;\r\n</p>"
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.foodpanda.com.tw/en/restaurant/qox9/lao-zi-guo-jia-le-fu-gui-shan-a7wen-qing-dian?utm_source=google&utm_medium=organic&utm_campaign=google_reserve_place_order_action\">Foodpanda</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://laozihotpot.ec52.com/food\">菜單</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/%E8%8D%96%E5%AD%90%E9%8D%8B+%E5%AE%B6%E6%A8%82%E7%A6%8F%E9%BE%9C%E5%B1%B1A7%E6%96%87%E9%9D%92%E5%BA%97/@25.0403589,121.3854987,18z/data=!3m1!4b1!4m5!3m4!1s0x3442a7eeffa65687:0xf193de6d03030a5a!8m2!3d25.0403589!4d121.386593?hl=zh-TW"
         }
     ]
