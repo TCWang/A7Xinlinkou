@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/AiCityB-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!-- Bootstrap 4 CSS 的 CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <!-- Fontawesom 的 CDN -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Google Icons CDN  -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <!-- Google Chart CDN -->
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <!-- My CSS file -->
+    <link rel="stylesheet" href="css/mycss.css">
+    <!-- InstanceBeginEditable name="doctitle" -->
+    <title>樂捷市社區 - 社區介紹</title>
+    <meta name="description" content="AiCity Community WebSite 2019">
+    <!-- InstanceEndEditable -->
+
+    <!-- InstanceBeginEditable name="head" -->
+    <!-- InstanceEndEditable -->
+
+
+
+    <!--Load the AJAX API-->
+
+
+
+</head>
+
+<body>
+    <!-- Vue實例的掛載點 -->
+    <div id='app'>
+
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand" href="AiCityB-31-Introduction.html">
+                樂捷市社區網
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-home"></i>社區管理
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">社區介紹</a>
+                            <a class="dropdown-item" href="AiCityB-32-Calendar.html">管理行事曆</a>
+                            <a class="dropdown-item" href="AiCityB-33-Announcement.html">社區公告</a>
+                            <a class="dropdown-item" href="AiCityB-34-Meeting.html">會議紀錄及財務報表</a>
+                            <a class="dropdown-item" href="AiCityB-35-Regulation.html">社區規約</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-info"></i>社區資訊
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="AiCityB-52-Transportation.html">交通資訊</a>
+                            <a class="dropdown-item" href="AiCityB-53-A7New.html">A7重劃區</a>
+                            <a class="dropdown-item" href="AiCityB-54-YellowPage.html">黃頁查詢</a>
+                            <a class="dropdown-item" href="AiCityB-55-County.html">里長服務</a>
+                            <a class="dropdown-item" href="AiCityB-56-Councillor.html">議員服務</a>
+                            <a class="dropdown-item" href="AiCityB-57-City.html">市府資訊</a>
+                            <a class="dropdown-item" href="AiCityB-58-Country.html">政府通告</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="fas fa-shopping-cart"></i>生活資訊
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="AiCityB-71-Commerce.html">社區商店</a>
+                            <a class="dropdown-item" href="AiCityB-72-Restaurant.html">餐廳外賣</a>
+                            <a class="dropdown-item" href="AiCityB-73-Shopping.html">生活採購</a>
+                            <a class="dropdown-item" href="AiCityB-75-Health.html">健康養生</a>
+                            <a class="dropdown-item" href="AiCityB-76-Sport.html">運動休閒</a>
+                            <a class="dropdown-item" href="AiCityB-77-News.html">新聞娛樂</a>
+                            <a class="dropdown-item" href="AiCityB-78-Food.html">食譜教學</a>
+                        </div>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+
+        <!-- Jumbotron-->
+        <!-- InstanceBeginEditable name="JumbotronRegion" -->
+
+        <div class="jumbotron jumbotron-fluid jumbotron-bg2 d-flex align-items-end">
+            <div class="container">
+                <div class="bg-lighter p-1" style="width:300px">
+                    <h4 class="text-white">AiCity 樂捷市</h4>
+                    <p class="lead text-white">A7 重劃區的六星級花園別墅</p>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- InstanceEndEditable -->
+
+        <!-- Web Page Title -->
+        <!-- InstanceBeginEditable name="main_heading" -->
+        <h2 id="main_heading"> </h2>
+        <!-- InstanceEndEditable -->
+
+        <!-- Vue實例的掛載點 -->
+        <!-- InstanceBeginEditable name="main_content" -->
+
+        <div class="row">
+
+
+
+            <div class="col-md-6">
+                <h5> Vue-Chart.js Samples</h5>
+                <template>
+                    <Bar
+                      :chart-options="chartOptions"
+                      :chart-data="chartData"
+                      :chart-id="chartId"
+                      :dataset-id-key="datasetIdKey"
+                      :plugins="plugins"
+                      :css-classes="cssClasses"
+                      :styles="styles"
+                      :width="width"
+                      :height="height"
+                    />
+                  </template>
+
+            </div>
+            <div class="col-md-6">
+
+            </div>
+
+        </div>
+
+
+        <!-- InstanceEndEditable -->
+
+        <footer id="main_footer">
+            <p>
+                樂捷市 Tel: 03-327-2090
+            </p>
+
+        </footer>
+
+        <!-- Vue 的 CDN -->
+        <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+
+        <!-- Bootstrap 4 JavaScript 的 CDN -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+        <!-- Axios 的 CDN -->
+        <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+        <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+        <!-- Vue實例的程式碼 -->
+
+        <script>
+            import { Bar } from 'vue-chartjs'
+            import { Chart as ChartJS, Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale } from 'chart.js'
+            
+            ChartJS.register(Title, Tooltip, Legend, BarElement, CategoryScale, LinearScale)
+            
+            export default {
+              name: 'BarChart',
+              components: { Bar },
+              props: {
+                chartId: {
+                  type: String,
+                  default: 'bar-chart'
+                },
+                datasetIdKey: {
+                  type: String,
+                  default: 'label'
+                },
+                width: {
+                  type: Number,
+                  default: 400
+                },
+                height: {
+                  type: Number,
+                  default: 400
+                },
+                cssClasses: {
+                  default: '',
+                  type: String
+                },
+                styles: {
+                  type: Object,
+                  default: () => {}
+                },
+                plugins: {
+                  type: Object,
+                  default: () => {}
+                }
+              },
+              data() {
+                return {
+                  chartData: {
+                    labels: [ 'January', 'February', 'March' ],
+                    datasets: [ { data: [40, 20, 12] } ]
+                  },
+                  chartOptions: {
+                    responsive: true
+                  }
+                }
+              }
+            }
+            </script>
+
+        <!-- InstanceEndEditable -->
+
+
+    </div>
+
+</body>
+
+<!-- InstanceEnd -->
+
+</html>
