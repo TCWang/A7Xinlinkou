@@ -1708,6 +1708,29 @@
 								<!-- Tab 03 -->
 								<div class="tab-pane" id="Tab-03" role="tabpanel">
 									<h5> A7 建案 已銷售量 佔比 </h5>
+									<table id="app3" class="table table-striped table-sm table-hover" style="width:100%">
+										<thead style="background-color:lightblue">
+											<tr class="text-left">
+												<th>建案</th>
+												<th>交屋</th>
+												<th>開價</th>
+												<th>車位價</th>
+												<th>銷售數</th>
+
+											</tr>
+										</thead>
+										<tbody>
+											<tr v-for="post in posts">
+												<td><a v-bind:href=" post.Link ">{{post.No}}-{{post.建案}} </a></td>
+
+												<td>{{ post.交屋時程}}</td>
+												<td>{{ post.每坪開價2022}}</td>
+												<td>{{ post.車位價格}}</td>
+												<td>{{ post.銷售量}} / {{post.住家戶數}} </td>
+							
+											</tr>
+										</tbody>
+									</table>
 								
 								</div>
 
@@ -1773,6 +1796,7 @@
 		const posts = []
 		const SECTIONS_01 = "A7XLK"
 		const SECTIONS_02 = "A7XLK"
+		const SECTIONS_03 = "A7XLK"
 
 		new Vue({
 			el: '#app1',
@@ -1870,6 +1894,42 @@
 				}).catch(error => { console.log(error); });
 			},
 
+		});
+
+
+		new Vue({
+			el: '#app3',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_03.split(', '),
+				section: 'A7XLK'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category1 === this.section)
+					let i, j, chunkedArray = [], chunk = 4;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-1111-HouseApp3.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			}
 		});
 
 	</script>
