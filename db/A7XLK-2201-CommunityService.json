@@ -106,19 +106,6 @@
             "description": "現任: 龜山區文青里 里長"
         },
         {
-            "no": "332",
-            "category": "民意代表",
-            "type": "市議員參選人",
-            "title": "陳泓維",
-            "party": "民眾黨",
-            "address": "桃園市龜山區中興路",
-            "telephone": "0937-121-555",
-            "mail": "chwlag@gmail.com",
-            "figure": "fig/A7XLK-221-陳泓維.jpeg",
-            "link": "https://www.facebook.com/LAG555",
-            "description": "現任: 立委賴香伶桃園辦公室 主任"
-        },
-        {
             "no": "341",
             "category": "民意代表",
             "type": "市議員&參選人",
@@ -130,6 +117,19 @@
             "figure": "fig/A7XLK-221-牛煦庭.jpeg",
             "link": "https://www.facebook.com/18NIUstart/",
             "description": "空污反應管道: <a href=\"https://docs.google.com/forms/d/e/1FAIpQLScCA0u53XJRjzfBpjv9Bz4JrYH7D6v5wTtPwyVG_Jni0LK7zA/viewform?fbclid=IwAR3zGTtgLnLm8Hb_T45jnBz9iP_FPes2r1h-Z4-JTZeEkMPWiKw-L1OIwhQ\">空污報馬仔</a> <br>\r\n向市民報告 <a href=\"https://issuu.com/niuhsuting/docs/220325_\">環保議員 除公害</a>"
+        },
+        {
+            "no": "342",
+            "category": "民意代表",
+            "type": "市議員參選人",
+            "title": "陳泓維",
+            "party": "無黨籍",
+            "address": "桃園市龜山區中興路",
+            "telephone": "0937-121-555",
+            "mail": "chwlag@gmail.com",
+            "figure": "fig/A7XLK-221-陳泓維.jpeg",
+            "link": "https://www.facebook.com/LAG555",
+            "description": "現任: 立委賴香伶桃園辦公室 主任"
         },
         {
             "no": "401",
