@@ -1720,8 +1720,12 @@
 											<button class="btn btn-outline-info"><a href="https://www.leju.com.tw/region_price/%E6%A1%83%E5%9C%92%E5%B8%82/11173?area=H333&filter_price=1&house_age=all">中心商業區</a> </button>
 											<button class="btn btn-outline-info"><a href="https://www.leju.com.tw/region_price/%E6%A1%83%E5%9C%92%E5%B8%82/11174?area=H333&filter_price=1&house_age=all">文青國小區</a> </button>
 											<button class="btn btn-outline-info"><a href="https://www.leju.com.tw/region_price/%E6%A1%83%E5%9C%92%E5%B8%82/11177?area=H333&filter_price=1&house_age=all">體育大學區</a> </button>
+									<br><br>
+									<h5> 區域房價趨勢 </h5>
+									<div id="chart_div1" class="chart"></div>
+									<br> 2022* 統計至4月份
 
-
+									<br><br>
 								</div>
 
 								
@@ -1963,6 +1967,54 @@
 		});
 
 	</script>
+<!-- Google Chart -->
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script type="text/javascript">
+	google.load("visualization", "1", { packages: ["corechart"] });
+	google.setOnLoadCallback(drawChart1);
+	function drawChart1() {
+		var data = google.visualization.arrayToDataTable([
+			['年度', '樂善國小', '郵政物流', '中心商業', '文青國小', '體育大學'],
+			['2018', 23.73, 0.00, 23.68, 21.96, 30.06],
+			['2019', 22.67, 26.25, 24.16, 27.75, 24.75],
+			['2020', 22.45, 25.38, 25.79, 27.24, 27.16],
+			['2021', 26.51, 29.41, 28.29, 28.59, 26.37],
+			['2022*', 33.09, 37.51, 34.16, 32.16,  30.54]
+		]);
+
+		var options = {
+			title: '歷年平均單價',
+			titleTextStyle: {
+					color: "black",
+					fontName: "標楷體",
+					fontSize: 16,
+					bold: false
+				},
+			legendTextStyle: {
+				color: "black",
+				fontName: "標楷體",
+
+				bold: false
+			},
+			legend: {position: "top"},
+			chartArea: { width: '80%' },
+			hAxis: { title: 'Year', titleTextStyle: { color: 'black' } }
+		};
+
+		var chart = new google.visualization.ColumnChart(document.getElementById('chart_div1'));
+		chart.draw(data, options);
+	}
+
+	
+
+	$(window).resize(function () {
+		drawChart1();
+
+	});
+
+	// Reminder: you need to put https://www.google.com/jsapi in the head of your document or as an external resource on codepen //
+</script>
+
 	<!-- InstanceEndEditable -->
 
 </body>

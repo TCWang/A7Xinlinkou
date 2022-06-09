@@ -182,6 +182,20 @@
             "google": "https://www.google.com.tw/maps/place/NINI+%E5%B0%BC%E5%B0%BC%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%A4%90%E5%BB%B3+%E5%8F%B0%E8%8C%82%E5%BA%97/@25.0536587,121.2857316,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a0747e05af3d:0x2d2ec81ab5b15032!8m2!3d25.0536587!4d121.2879256?hl=zh-TW&authuser=0"
         },
         {
+            "no": "130",
+            "title": "築樂複合式餐廳",
+            "type": "中式料理",
+            "address": "新北市林口區忠孝路314號",
+            "telphone": "02-2600-2776",
+            "hours": "11:00 - 22:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-築樂.png",
+            "link": "https://www.facebook.com/%E7%AF%89%E6%A8%82%E8%A4%87%E5%90%88%E5%BC%8F%E9%A4%90%E5%BB%B3-%E4%B8%AD%E5%BC%8F-%E6%97%A5%E5%BC%8F-%E6%B8%AF%E9%BB%9E-105227102178951",
+            "category": "林口美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.instagram.com/jhule314/?fbclid=IwAR2FlCKNkVkVf1T6g9EN1-ynOhe7AL2ar0e1skuu4sONl6zYLUlsSmTPVAQ\">Instagram</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.youtube.com/watch?v=TAVUXkIDgs0\">推薦</a>\r\n</p>",
+            "score": "4.7 ",
+            "google": "https://www.google.com.tw/maps/place/%E7%AF%89%E6%A8%82%E8%A4%87%E5%90%88%E5%BC%8F%E9%A4%90%E5%BB%B3+%E8%87%BA%E8%8F%9C%2F%E6%97%A5%E5%BC%8F%2F%E6%B8%AF%E5%BC%8F/@25.0729245,121.3648333,16z/data=!4m12!1m6!3m5!1s0x3442a738f00f0077:0x16bb633bd1a291fd!2z56-J5qiC6KSH5ZCI5byP6aSQ5buzIOiHuuiPnC_ml6XlvI8v5riv5byP!8m2!3d25.0729245!4d121.3676521!3m4!1s0x3442a738f00f0077:0x16bb633bd1a291fd!8m2!3d25.0729245!4d121.3676521?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "129",
             "title": "Quarter Mile 居酒屋",
             "type": "居酒屋",
