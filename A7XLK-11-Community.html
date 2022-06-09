@@ -1763,7 +1763,7 @@
 
 											</tr>
 										</thead>
-										<tbody>
+										<tbody v-for="posts in results">
 											<tr v-for="post in posts">
 												<td><a v-bind:href=" post.Link ">{{post.No}}-{{post.建案}} </a></td>
 
@@ -1835,7 +1835,7 @@
 		const posts = []
 		const SECTIONS_01 = "A7XLK"
 		const SECTIONS_02 = "A7XLK"
-		const SECTIONS_03 = "未交屋, 已交屋"
+		const SECTIONS_03 = "未交屋"
 
 		new Vue({
 			el: '#app1',
@@ -1955,7 +1955,7 @@
 					let posts = this.posts
 						.slice()
 						.filter(post => post.Category2 === this.section)
-					let i, j, chunkedArray = [], chunk = 4;
+					let i, j, chunkedArray = [], chunk = 100;
 					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
 						chunkedArray[j] = posts.slice(i, i + chunk);
 					}
