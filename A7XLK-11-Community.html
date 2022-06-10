@@ -1721,10 +1721,13 @@
 											<button class="btn btn-outline-info"><a href="https://www.leju.com.tw/region_price/%E6%A1%83%E5%9C%92%E5%B8%82/11174?area=H333&filter_price=1&house_age=all">文青國小區</a> </button>
 											<button class="btn btn-outline-info"><a href="https://www.leju.com.tw/region_price/%E6%A1%83%E5%9C%92%E5%B8%82/11177?area=H333&filter_price=1&house_age=all">體育大學區</a> </button>
 									<br><br>
-									<h5> 區域房價趨勢 </h5>
+									<h5> A7重劃區區域房價趨勢 </h5>
 									<div id="chart_div1" class="chart"></div>
-									<br> 2022* 統計至4月份
 
+									<br><br>
+									<h5> 機捷沿線 區域房價趨勢 </h5>
+									<div id="chart_div2" class="chart"></div>
+									<br> 2022* 統計至4月份
 									<br><br>
 								</div>
 
@@ -1983,7 +1986,7 @@
 		]);
 
 		var options = {
-			title: '歷年平均單價',
+			title: 'A7重劃區 歷年平均單價',
 			titleTextStyle: {
 					color: "black",
 					fontName: "標楷體",
@@ -2005,11 +2008,45 @@
 		chart.draw(data, options);
 	}
 
-	
+	google.load("visualization", "1", { packages: ["corechart"] });
+	google.setOnLoadCallback(drawChart2);
+	function drawChart2() {
+		var data = google.visualization.arrayToDataTable([
+			['年度', 'A4新莊', 'A5泰山', 'A7中心商業', 'A18高鐵', 'A21環北'],
+			['2018', 44.64, 28.78, 23.68, 29.75, 20.39],
+			['2019', 44.16, 30.37, 24.16, 29.59, 22.45],
+			['2020', 46.16, 32.67, 25.79, 32.58, 24.81],
+			['2021', 49.34, 37.06, 28.29, 40.36, 29.18],
+			['2022*', 56.46, 46.25, 34.16, 44.24, 31.66]
+		]);
+
+		var options = {
+			title: '機捷沿線 歷年平均單價',
+			titleTextStyle: {
+					color: "black",
+					fontName: "標楷體",
+					fontSize: 16,
+					bold: false
+				},
+			legendTextStyle: {
+				color: "black",
+				fontName: "標楷體",
+
+				bold: false
+			},
+			legend: {position: "top"},
+			chartArea: { width: '80%' },
+			hAxis: { title: 'Year', titleTextStyle: { color: 'black' } }
+		};
+
+		var chart = new google.visualization.ColumnChart(document.getElementById('chart_div2'));
+		chart.draw(data, options);
+	}
+
 
 	$(window).resize(function () {
 		drawChart1();
-
+		drawChart2();
 	});
 
 	// Reminder: you need to put https://www.google.com/jsapi in the head of your document or as an external resource on codepen //
