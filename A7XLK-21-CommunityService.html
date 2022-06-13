@@ -176,7 +176,7 @@
 							<h3>提案改善 </h3>
 
 
-							<div id="app1" class="container-fluid">
+							<div id="app1" >
 
 								<div class="alert alert-info" role="alert">
 									<div class="row">
@@ -198,13 +198,13 @@
 
 
 								<div class="row" v-for="posts in results">
-									<div v-for="post in posts">
+									<div class="col-12" v-for="post in posts">
 
 										提案改善內容
 
 										<table class="table table-sm table-responsive">
 											<tr>
-												<td class="text-center" style="width:10%">日期</td>
+												<td class="text-center">日期</td>
 												<td>{{post.Date}}</td>
 											</tr>
 											<tr>
