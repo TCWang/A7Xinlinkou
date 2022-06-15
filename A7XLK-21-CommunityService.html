@@ -1684,6 +1684,70 @@
 
 						<!-- Menu B4 -->
 						<div class="tab-pane" id="Menu-B4" role="tabpanel">
+
+							<div class="row">
+								<div class="col-12">
+									<h5>2022 市長選情 資訊</h5>
+									<ul>
+										<li>
+											自由時報 2022/06/14 <a href="https://news.ltn.com.tw/news/politics/breakingnews/3960025">桃園市長民調曝光！</a>  鄭文燦林智堅聯手效果佳 險勝對手張善政
+										</li>
+									</ul>
+									<img src="fig/A7XLK-225-選情-01.jpeg" class="img-fluid" style="width:600px">
+									<br><br>
+									<h5>2022 市長候選人 資訊</h5>
+									點擊 頭像 進入維基百科, 點擊人名 進入臉書
+									<div id="app5" class="container-fluid">
+										<div v-show="false"  class="alert alert-info mt-2" role="alert">
+											<div class="row">
+												<div class="col-8">
+													<div class="form-group">
+														<select class="form-control" v-model="section"
+															id="exampleFormControlSelect3">
+															<option v-for="section in sections">{{ section }}</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-4">
+													<h5 class="text-center"> 選擇類別 </h5>
+												</div>
+											</div>
+										</div>
+										<div class="row" v-for="posts in results">
+											<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" v-for="post in posts">
+												<div class="card">
+													<div class="card-header">
+														
+														<a v-bind:href=" post.link ">{{post.title}} </a>
+													</div>
+													<div class="card-body">
+														<div class="row">
+															<div class="col-4">
+																<a v-bind:href=" post.wiki ">
+																	<img v-bind:src="post.figure" class="img-fluid" style="width:150px">
+																</a>
+																
+															</div>
+															<div class="col-8">
+																<dl>
+																	<dd>
+																		政黨: {{post.party }}
+																	</dd>
+						
+																	<dd>
+																		<div v-html="post.description"></div>
+																	</dd>
+																</dl>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+										<br><br>
+									</div>
+								</div>
+							</div>
 							<h3>桃園市府交流</h3>
 							<div class="row">
 								<div class="col-md-6">
@@ -3381,6 +3445,7 @@
 		const SECTIONS_02 = "里長"
 		const SECTIONS_03 = "民意代表"
 		const SECTIONS_04 = "隨時交屋"
+		const SECTIONS_05 = "市長候選"
 
 		new Vue({
 			el: '#app1',
@@ -3521,6 +3586,40 @@
 					this.getPostsByCategory(this.section)
 				}).catch(error => { console.log(error); });
 			}
+		});
+
+		new Vue({
+			el: '#app5',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_05.split(', '),
+				section: '市長候選'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.category === this.section)
+					let i, j, chunkedArray = [], chunk = 50;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+			mounted() {
+				axios.get('db/A7XLK-2205-Election.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
 		});
 
 	</script>
