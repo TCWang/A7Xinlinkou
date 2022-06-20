@@ -155,6 +155,7 @@
 						<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">動物醫院</a>
 						<a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">室內運動</a>
 						<a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">TRX運動</a>
+						<a href="#Menu-B7" class="list-group-item list-group-item-action" data-toggle="list">養生村</a>
 					</div>
 					<br>
 				</div>
@@ -829,14 +830,6 @@
 							</div>
 
 
-
-
-
-
-
-
-
-
 						</div>
 
 						<div class="tab-pane" id="Menu-B6" role="tabpanel">
@@ -1002,6 +995,51 @@
 
 						</div>
 
+
+						<div class="tab-pane" id="Menu-B7" role="tabpanel">
+							<!-- Menu B7 -->
+
+							<div class="row">
+								<div id="app7" class="col-md-12">
+									<h3>養生村</h3>
+
+										<div class="row" v-for="posts in results">
+											<div class="col-sm-12 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+												<div class="card">
+													<div class="card-header">
+														<a v-bind:href="post.URL">
+															{{ post.Title }}
+														</a>
+													</div>
+													<div class="card-body">
+														<p class="card-text">
+														<dl>
+															<dd>保證金：{{post.Bail}}</dd>
+															<dd>月租金：{{post.Rent}}</dd>
+															<dd>伙食費：{{post.Meal}}</dd>
+															<dd>水電費：{{post.Electricity }} </dd>
+															<dd>坪數: {{post.Size}} </dd>
+															<dd>基地：{{post.Base }} </dd>
+															<dd>戶數：{{post.Units}} </dd>
+															<dd>入住條件: {{post.Requirement}} </dd>
+														</dl>
+														<img v-bind:src="post.Figure" class="img-fluid">
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+
+									
+								</div>
+
+							</div>
+
+						</div>						
+
+
+						<!--  Insert next-->
+
 					</div>
 
 				</div>
@@ -1066,6 +1104,7 @@
 		const posts = []
 		const SECTIONS_TW = "內科/小兒科, 牙科, 眼科, 耳鼻喉科, 醫美, 藥局"
 		const SECTIONS_06 = "動物醫院"
+		const SECTIONS_07 = "養生村"
 		const SECTIONS_01 = "Antigen"
 
 		new Vue({
@@ -1177,6 +1216,43 @@
 			},
 
 		});			
+
+		new Vue({
+			el: '#app7',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_07.split(', '),
+				section: '養生村'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 40;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-2604-HealthVillage.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});			
+
 	</script>
 	<!-- InstanceEndEditable -->
 
