@@ -300,6 +300,19 @@
             "google": "https://www.google.com.tw/maps/place/%E6%96%87%E9%9D%92%E6%B0%B4%E5%9C%92%E6%B0%B4%E8%B3%87%E6%BA%90%E5%9B%9E%E6%94%B6%E4%B8%AD%E5%BF%83(%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80%E6%A1%83%E5%9C%92%E6%A9%9F%E5%A0%B4%E6%8D%B7%E9%81%8BA7%E7%AB%99%E5%9C%B0%E5%8D%80%E6%B0%B4%E8%B3%87%E6%BA%90%E5%9B%9E%E6%94%B6%E4%B8%AD%E5%BF%83)/@25.0391847,121.3913251,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a7aff71e4943:0xc6f5d73cb981853f!8m2!3d25.0391847!4d121.3935191?hl=zh-TW&authuser=0"
         },
         {
+            "no": "307",
+            "title": "16號快餐",
+            "type": "中餐廳",
+            "address": "桃園市龜山區華亞三路39巷16號",
+            "telphone": "03-397-0686",
+            "hours": "10:30 - 20:00, 週六日公休",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-07.png",
+            "category": "華亞三路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/groups/1951117865015671/permalink/4876627412464687/\">推薦</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://www.google.com.tw/maps/place/16%E8%99%9F%E5%BF%AB%E9%A4%90%E5%BA%97/@25.0490638,121.3815389,3a,75y/data=!3m8!1e2!3m6!1sAF1QipOipP95f3Xai-H4HAbqUXnKlcPNnGHQiCee4JE!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOipP95f3Xai-H4HAbqUXnKlcPNnGHQiCee4JE%3Dw203-h152-k-no!7i4032!8i3024!4m5!3m4!1s0x3442a708f4e389cf:0xaa1a565c408caa4f!8m2!3d25.0490638!4d121.3815389?hl=zh-TW&authuser=0#\">菜單</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/16%E8%99%9F%E5%BF%AB%E9%A4%90%E5%BA%97/@25.0490638,121.3793653,17z/data=!4m12!1m6!3m5!1s0x3442a708f4e389cf:0xaa1a565c408caa4f!2zMTbomZ_lv6vppJDlupc!8m2!3d25.0490638!4d121.3815389!3m4!1s0x3442a708f4e389cf:0xaa1a565c408caa4f!8m2!3d25.0490638!4d121.3815389?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "301",
             "title": "馬祖奶茶",
             "type": "飲料店",
