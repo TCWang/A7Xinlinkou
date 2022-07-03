@@ -1385,6 +1385,72 @@
 
 						<!-- Menu B2 -->
 						<div class="tab-pane" id="Menu-B2" role="tabpanel">
+							<div class="row">
+								<div class="col-12">
+									<h3>里長及里長候選人 </h3>
+
+									點擊 姓名連接臉書。
+									<div id="app2" class="container-fluid">
+										<div v-show="no" class="alert alert-info mt-2" role="alert">
+											<div class="row">
+												<div class="col-8">
+													<div class="form-group">
+														<select class="form-control" v-model="section"
+															id="exampleFormControlSelect2">
+															<option v-for="section in sections">{{ section }}</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-4">
+													<h5 class="text-center"> 選擇類別 </h5>
+												</div>
+											</div>
+										</div>
+										<div class="row" v-for="posts in results">
+											<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" v-for="post in posts">
+												<div class="card">
+													<div class="card-header">{{post.type}} - <a
+															v-bind:href=" post.link ">{{post.title}} </a>
+													</div>
+													<div class="card-body">
+														<div class="row">
+															<div class="col-4">
+																<img v-bind:src="post.figure" class="img-fluid"
+																	style="width:150px">
+															</div>
+															<div class="col-8">
+																<dl>
+																	<dd>
+																		服務處: {{post.address}}
+																	</dd>
+																	<dd>
+																		電話: {{post.telephone}}
+																	</dd>
+																	<dd>
+																		<a :href="post.line">LINE</a> : {{post.line}}
+																	</dd>
+																	<dd>
+																		eMail: {{post.mail}}
+																	</dd>
+																	<dd>
+																		<a v-bind:href="post.website">網站</a>
+																	</dd>
+																	<dd>
+																		<p v-html="post.description"></p>
+																	</dd>
+
+																</dl>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+		
+									<br><br>
+								</div>
+							</div>
 
 							<div class="row">
 
@@ -1440,55 +1506,6 @@
 										style="width:600px">
 									<br><br>
 
-								</div>
-							</div>
-							<h3>里長交流 </h3>
-
-							<div id="app2" class="container-fluid">
-								<div v-show="no" class="alert alert-info mt-2" role="alert">
-									<div class="row">
-										<div class="col-8">
-											<div class="form-group">
-												<select class="form-control" v-model="section"
-													id="exampleFormControlSelect2">
-													<option v-for="section in sections">{{ section }}</option>
-												</select>
-											</div>
-										</div>
-										<div class="col-4">
-											<h5 class="text-center"> 選擇類別 </h5>
-										</div>
-									</div>
-								</div>
-								<div class="row" v-for="posts in results">
-									<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" v-for="post in posts">
-										<div class="card">
-											<div class="card-header">{{post.type}}里長 - <a
-													v-bind:href=" post.link ">{{post.title}} </a>
-											</div>
-											<div class="card-body">
-												<div class="row">
-													<div class="col-4">
-														<img v-bind:src="post.figure" class="img-fluid"
-															style="width:150px">
-													</div>
-													<div class="col-8">
-														<dl>
-															<dd>
-																服務處: {{post.address}}
-															</dd>
-															<dd>
-																電話: {{post.telephone}}
-															</dd>
-															<dd>
-																<a v-bind:href="post.website">網站</a>
-															</dd>
-														</dl>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
 								</div>
 							</div>
 
