@@ -909,6 +909,20 @@
             "google": "https://www.google.com.tw/maps/place/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8/@25.0541816,121.4393032,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a709e5172dcb:0x18cacc65c8e151a!8m2!3d25.0541816!4d121.4414972?hl=zh-TW&authuser=0"
         },
         {
+            "no": "135",
+            "title": "巴適經典麻辣鍋",
+            "type": "火鍋燒烤",
+            "address": "桃園市龜山區文化三路318號",
+            "telphone": "03-328-0084",
+            "hours": "11:00 - 22:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-巴適經.jpeg",
+            "link": "https://www.basihc.com/",
+            "category": "龜山美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.basihc.com/menu.html\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://hamibobo.tw/basihotpot1/\">推薦</a>\r\n</p>",
+            "score": "4.7 ",
+            "google": "https://www.google.com.tw/maps/place/%E5%B7%B4%E9%81%A9%E7%B6%93%E5%85%B8%E9%BA%BB%E8%BE%A3%E9%8D%8B%E6%9E%97%E5%8F%A3%E5%BA%97/@25.0568318,121.3593083,15.48z/data=!4m5!3m4!1s0x3442a7d790f0f7f5:0x2878f3f9fffa67ea!8m2!3d25.0555926!4d121.3653398?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "134",
             "title": "知鳥咖啡",
             "type": "咖啡簡餐",
