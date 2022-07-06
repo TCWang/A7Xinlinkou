@@ -1,5 +1,18 @@
 ﻿[
         {
+            "no": "110",
+            "title": "新井茶",
+            "type": "飲料店",
+            "address": "桃園市龜山區長慶三街50號",
+            "telphone": "0923-791-234",
+            "hours": "10:00 - 21:00",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3201-RestaurantA7-10.jpeg",
+            "category": "長慶三街",
+            "category2": "1.樂善國小區",
+            "description": "<p>\r\n   資訊: \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"fig/XLK-321-RestaurantA7/A7XLK-3201-RestaurantA7-10 新井茶.jpeg\">菜單</a>,\r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw/store/%E6%96%B0%E4%BA%95%E8%8C%B6-%E9%BE%9C%E5%B1%B1%E9%95%B7%E6%85%B6%E5%BA%97/r4RkIP-bX0yyYwC6zyUpfQ?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkphZGUlMjBEeW5hc3R5JTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyZjgyZTA1YTItODE2NS0xMGU4LWQ3M2QtNDMwYzIyOWY5MjA4JTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0OS4yODAzOSUyQyUyMmxvbmdpdHVkZSUyMiUzQS0xMjMuMTAxMjglN0Q%3D&utm_campaign=place-action-link&utm_medium=organic&utm_source=google\">Uber Eats</a>\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/%E6%96%B0%E4%BA%95%E8%8C%B6-%E9%BE%9C%E5%B1%B1%E9%95%B7%E6%85%B6%E5%BA%97/@25.0551903,121.3817299,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a7957e81ea8d:0xe8c57f8ae1daa721!8m2!3d25.0551903!4d121.3839239?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "108",
             "title": "我是早餐",
             "type": "早午餐",
@@ -81,6 +94,19 @@
             "category2": "1.樂善國小區",
             "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://tcwang.github.io/A7Xinlinkou/A7XLK-32-RestaurantA7-A1.html#Menu-B06\">模擬點餐</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://tcwang.github.io/A7Xinlinkou/fig/XLK-321-RestaurantA7/AiCity-952-劉妹鍋燒意麵-40.jpg\">菜單</a> \r\n</p>",
             "google": "https://www.google.com.tw/maps/place/%E5%8A%89%E5%A6%B9%E9%8D%8B%E7%87%92%E6%84%8F%E9%BA%B5-%E6%A1%83%E5%9C%92%E6%9E%97%E5%8F%A3%E5%BA%97/@25.0548468,121.3827894,19.1z/data=!4m5!3m4!1s0x3442a7b02079176f:0x78906ae51c7f6abc!8m2!3d25.0553573!4d121.3840157?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "109",
+            "title": "咕咕雞早午餐店",
+            "type": "早午餐",
+            "address": "桃園市龜山區長慶二街115號",
+            "telphone": "03-327-9319",
+            "hours": "06:00 - 13:00",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3201-RestaurantA7-09.jpeg",
+            "category": "長慶二街",
+            "category2": "1.樂善國小區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.google.com.tw/maps/place/%E5%92%95%E5%92%95%E9%9B%9E%E6%97%A9%E5%8D%88%E9%A4%90%E5%BA%97/@25.0543625,121.3836796,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipNqN0k7OKTziTXsVTouQLKotUTmV6dwBWbV9_Zw!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipNqN0k7OKTziTXsVTouQLKotUTmV6dwBWbV9_Zw%3Dw224-h298-k-no!7i3024!8i4032!4m7!3m6!1s0x3442a71710785bb7:0xb8f25ff0936c61c0!8m2!3d25.0543625!4d121.3836796!14m1!1BCgIYIQ?hl=zh-TW&authuser=0\">菜單</a> &nbsp; \r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/%E5%92%95%E5%92%95%E9%9B%9E%E6%97%A9%E5%8D%88%E9%A4%90%E5%BA%97/@25.0543625,121.3814856,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a71710785bb7:0xb8f25ff0936c61c0!8m2!3d25.0543625!4d121.3836796?hl=zh-TW&authuser=0"
         },
         {
             "no": "107",
@@ -194,18 +220,6 @@
             "google": "https://www.google.com.tw/maps/place/%E5%A2%A8%E7%88%BE%E6%BC%A2%E5%A0%A1A7%E6%96%87%E9%9D%92%E5%BA%97/@25.0397336,121.3881727,18z/data=!3m1!4b1!4m5!3m4!1s0x3442a7f26e2b9741:0x4880b3d6b8353d46!8m2!3d25.0397336!4d121.3892697?hl=zh-TW&authuser=0"
         },
         {
-            "no": "508",
-            "title": "麵餓心膳",
-            "type": "義式料理",
-            "address": "桃園市龜山區文青路230號桃園區",
-            "hours": "暫停營業",
-            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3205-RestaurantA7-08.jpg",
-            "link": "https://www.facebook.com/homerunpasta/",
-            "category": "文青路",
-            "category2": "5.合宜住宅區",
-            "google": "https://www.google.com.tw/maps/place/%E9%BA%B5%E9%A4%93%E5%BF%83%E8%86%B3italiana%E7%BE%A9%E5%BC%8F%E6%96%99%E7%90%86/@25.0399443,121.3879522,18z/data=!3m1!4b1!4m5!3m4!1s0x3442a771fefa1693:0x3751e2ae6c6a4c1b!8m2!3d25.0399443!4d121.3890492?hl=zh-TW&authuser=0"
-        },
-        {
             "no": "509",
             "title": "鼎記小籠包",
             "type": "麵食館",
@@ -262,18 +276,6 @@
             "google": "https://www.google.com.tw/maps/place/%E5%8E%9F%E9%87%8E%E6%8B%89%E9%BA%B5/@25.040339,121.3866985,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a76e1dbf4755:0xe9cd15c466784d94!8m2!3d25.040339!4d121.3882286?hl=zh-TW&authuser=0"
         },
         {
-            "no": "513",
-            "title": "永川鑫台越河粉",
-            "type": "越南小吃",
-            "address": "桃園市龜山區文青路161號",
-            "telphone": "0928-223-959",
-            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3205-RestaurantA7-13.jpg",
-            "category": "文青路",
-            "category2": "5.合宜住宅區",
-            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://tcwang.github.io/A7Xinlinkou/fig/XLK-321-RestaurantA7/A7XLK-3205-RestaurantA7-13-菜單.jpg\">菜單</a> &nbsp; \r\n\r\n</p>",
-            "google": "https://www.google.com.tw/maps/place/%E6%B0%B8%E5%B7%9D%E9%91%AB%E5%8F%B0%E8%B6%8A%E5%B0%8F%E5%90%83/@25.0402635,121.3856894,17z/data=!4m8!1m2!2m1!1z5rC45bed6ZGrIEE35paH6Z2S5bqX!3m4!1s0x3442a76e174b7663:0x539707a537779d4e!8m2!3d25.0402964!4d121.3876816?hl=zh-TW&authuser=0"
-        },
-        {
             "no": "514",
             "title": "合浦刀切麵食工坊",
             "type": "麵食館",
@@ -311,6 +313,46 @@
             "category2": "3.中心商業區",
             "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/groups/1951117865015671/permalink/4876627412464687/\">推薦</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://www.google.com.tw/maps/place/16%E8%99%9F%E5%BF%AB%E9%A4%90%E5%BA%97/@25.0490638,121.3815389,3a,75y/data=!3m8!1e2!3m6!1sAF1QipOipP95f3Xai-H4HAbqUXnKlcPNnGHQiCee4JE!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOipP95f3Xai-H4HAbqUXnKlcPNnGHQiCee4JE%3Dw203-h152-k-no!7i4032!8i3024!4m5!3m4!1s0x3442a708f4e389cf:0xaa1a565c408caa4f!8m2!3d25.0490638!4d121.3815389?hl=zh-TW&authuser=0#\">菜單</a> &nbsp;\r\n</p>",
             "google": "https://www.google.com.tw/maps/place/16%E8%99%9F%E5%BF%AB%E9%A4%90%E5%BA%97/@25.0490638,121.3793653,17z/data=!4m12!1m6!3m5!1s0x3442a708f4e389cf:0xaa1a565c408caa4f!2zMTbomZ_lv6vppJDlupc!8m2!3d25.0490638!4d121.3815389!3m4!1s0x3442a708f4e389cf:0xaa1a565c408caa4f!8m2!3d25.0490638!4d121.3815389?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "310",
+            "title": "金壹湯滷味",
+            "type": "中餐廳",
+            "address": "桃園市龜山區華亞三路39巷16號1樓",
+            "telphone": "0908-886-885",
+            "hours": "15:00 - 22:00",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-10.jpeg",
+            "category": "華亞三路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw/store/%E9%87%91%E5%A3%B9%E6%B9%AF-%E9%8D%8B%E7%87%92%E9%BA%B5/Mer5Ln6WUWyxbu8_OFtm0Q?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkphZGUlMjBEeW5hc3R5JTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyZjgyZTA1YTItODE2NS0xMGU4LWQ3M2QtNDMwYzIyOWY5MjA4JTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0OS4yODAzOSUyQyUyMmxvbmdpdHVkZSUyMiUzQS0xMjMuMTAxMjglN0Q%3D&utm_campaign=place-action-link&utm_medium=organic&utm_source=google\">Uber Eats</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/%E9%87%91%E5%A3%B9%E6%B9%AF%E6%BB%B7%E5%91%B3/@25.048914,121.3819749,19.22z/data=!4m5!3m4!1s0x3442a7c8b50d2039:0xec7fd2faf7dfe798!8m2!3d25.0490978!4d121.3813163?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "309",
+            "title": "愛呷甜甜",
+            "type": "飲料店",
+            "address": "桃園市龜山區華亞三路39巷26號",
+            "telphone": "0971-667-360",
+            "hours": "11:00 - 20:00",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-09.jpeg",
+            "link": "https://www.facebook.com/%E6%84%9B%E5%91%B7%E7%94%9C%E7%94%9C-100272542698094/",
+            "category": "華亞三路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/%E6%84%9B%E5%91%B7%E7%94%9C%E7%94%9C-100272542698094/menu/\">菜單</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/%E6%84%9B%E5%91%B7%E7%94%9C%E7%94%9C/@25.048889,121.3824569,19.22z/data=!4m5!3m4!1s0x3442a7ed1dea1c7f:0x18ec42ce9cb28129!8m2!3d25.0488842!4d121.3817747?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "308",
+            "title": "松悅廚房",
+            "type": "早午餐",
+            "address": "桃園市龜山區華亞三路39巷28號",
+            "telphone": "0965-120-989",
+            "hours": "06:00 - 13:30, 17:00 - 21:00",
+            "figure": "fig/XLK-321-RestaurantA7/A7XLK-3203-A7Restaurant-08.jpeg",
+            "category": "華亞三路",
+            "category2": "3.中心商業區",
+            "description": "<p>\r\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.ubereats.com/tw/store/%E6%9D%BE%E6%82%85%E5%BB%9A%E6%88%BF-%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5/g0_Ct5jyWleitUjB-Hq5aw?diningMode=DELIVERY&pl=JTdCJTIyYWRkcmVzcyUyMiUzQSUyMkphZGUlMjBEeW5hc3R5JTIyJTJDJTIycmVmZXJlbmNlJTIyJTNBJTIyZjgyZTA1YTItODE2NS0xMGU4LWQ3M2QtNDMwYzIyOWY5MjA4JTIyJTJDJTIycmVmZXJlbmNlVHlwZSUyMiUzQSUyMnViZXJfcGxhY2VzJTIyJTJDJTIybGF0aXR1ZGUlMjIlM0E0OS4yODAzOSUyQyUyMmxvbmdpdHVkZSUyMiUzQS0xMjMuMTAxMjglN0Q%3D\">Uber Eats</a> &nbsp; \r\n<a style=\"button\" class=\"btn btn-info\"  href=\"https://www.google.com.tw/maps/place/%E6%9D%BE%E6%82%85%E5%BB%9A%E6%88%BF%E3%83%BB%E6%97%A9%E5%8D%88%E9%A4%90%E3%83%BB%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%E3%83%BB%E7%87%89%E9%A3%AF/@25.0486219,121.3823326,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipN7HDjrR0xJaTEW_pmIgqTfsKny5jlCuNwQHzFZ!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN7HDjrR0xJaTEW_pmIgqTfsKny5jlCuNwQHzFZ%3Dw237-h298-k-no!7i1440!8i1807!4m16!1m8!3m7!1s0x3442a79e5ab72d47:0x662579310e50e0fb!2z5p2-5oKF5bua5oi_44O75pep5Y2I6aSQ44O7576p5aSn5Yip6bq144O754eJ6aOv!8m2!3d25.0486219!4d121.3823326!14m1!1BCgIYIQ!3m6!1s0x3442a79e5ab72d47:0x662579310e50e0fb!8m2!3d25.0486219!4d121.3823326!14m1!1BCgIYIQ?hl=zh-TW&authuser=0\">菜單</a> &nbsp;\r\n</p>",
+            "google": "https://www.google.com.tw/maps/place/%E6%9D%BE%E6%82%85%E5%BB%9A%E6%88%BF%E3%83%BB%E6%97%A9%E5%8D%88%E9%A4%90%E3%83%BB%E7%BE%A9%E5%A4%A7%E5%88%A9%E9%BA%B5%E3%83%BB%E7%87%89%E9%A3%AF/@25.0486267,121.3801386,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a79e5ab72d47:0x662579310e50e0fb!8m2!3d25.0486219!4d121.3823326?hl=zh-TW&authuser=0"
         },
         {
             "no": "301",
