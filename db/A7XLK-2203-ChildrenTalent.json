@@ -1,0 +1,79 @@
+[
+ {
+  "title": "悠揚八度音樂中心",
+  "no": 101,
+  "address": "桃園市龜山區長慶三街30號一樓",
+  "telephone": "0937-081-121",
+  "hours": "週ㄧ~週五:14:30 - 19:30, 週六10:30 - 18:30 週日公休",
+  "figure": "fig\/XLK-223-Talent\/AiCity-2203-Talent-101.jpeg",
+  "link": "https:\/\/m.facebook.com\/profile.php?id=100063945619389",
+  "Type": "音樂",
+  "category": "兒童才藝"
+ },
+ {
+  "title": "有形有色專業畫室",
+  "no": 102,
+  "address": "桃園市龜山區長慶三街60號一樓",
+  "telephone": "0922-867-602",
+  "hours": "09:00 - 21:00",
+  "figure": "fig\/XLK-223-Talent\/AiCity-2203-Talent-102.jpeg",
+  "link": "https:\/\/www.facebook.com\/liahoteacher\/",
+  "Type": "繪畫",
+  "category": "兒童才藝"
+ },
+ {
+  "title": "格林威治英語短期補習班",
+  "no": 103,
+  "address": "桃園市龜山區長慶三街36號一樓",
+  "telephone": "03-397-2622",
+  "hours": null,
+  "figure": "fig\/XLK-223-Talent\/AiCity-2203-Talent-103.jpeg",
+  "link": null,
+  "Type": "英語",
+  "category": "兒童才藝"
+ },
+ {
+  "title": "紐洛琳英語學院",
+  "no": 104,
+  "address": "桃園市龜山區樂學路339巷1號",
+  "telephone": "03-327-1791",
+  "hours": "週一～週五: 12:30 - 20:30",
+  "figure": "fig\/XLK-223-Talent\/AiCity-2203-Talent-104.jpeg",
+  "link": "https:\/\/www.facebook.com\/profile.php?id=100063890837473",
+  "Type": "英語",
+  "category": "兒童才藝"
+ },
+ {
+  "title": "達特舒運動教室",
+  "no": 201,
+  "address": "桃園市龜山區長慶三街46號",
+  "telephone": "0954-075-058",
+  "hours": "09:00 - 22:00",
+  "figure": "fig\/XLK-223-Talent\/AiCity-2203-Talent-201.png",
+  "link": "https:\/\/www.facebook.com\/Dr.SungSport\/",
+  "Type": "運動",
+  "category": "休閒運動"
+ },
+ {
+  "title": "A7 Fitness & Space運動課程",
+  "no": 202,
+  "address": "桃園市龜山區文學路256號",
+  "telephone": null,
+  "hours": "24hr",
+  "figure": "fig\/XLK-223-Talent\/AiCity-2203-Talent-202.png",
+  "link": "https:\/\/www.facebook.com\/A7workout",
+  "Type": "運動",
+  "category": "休閒運動"
+ },
+ {
+  "title": "小倉鼠健身坊",
+  "no": 203,
+  "address": "333桃園市龜山區文青路213號2F",
+  "telephone": null,
+  "hours": null,
+  "figure": "fig\/XLK-223-Talent\/AiCity-2203-Talent-203.jpeg",
+  "link": "https:\/\/line.me\/R\/ti\/p\/@377ijnzz",
+  "Type": "運動",
+  "category": "休閒運動"
+ }
+]

@@ -141,6 +141,7 @@
             <div class="list-group" id="MenuList" role="tablist">
               <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">機關學校</a>
               <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">公共服務</a>
+              <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">育才運動</a>
 			        <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">學校看板</a>					
             </div>
             <br>
@@ -268,13 +269,13 @@
               <!-- Menu B3 -->				
               <div class="tab-pane" id="Menu-B3" role="tabpanel">
 
-                <h3> 銀行證劵 </h3>
+                <h3> 運動育才 </h3>
 				<p>
-					銀行與證劵公司  
+					休閒運動及兒童才藝
 				</p>
                 <div id="app3" class="container-fluid">
                   <div class="alert alert-info mt-2" role="alert">
-                    <div v-show="no" class="row">
+                    <div class="row">
                       <div class="col-8">
                         <div class="form-group">
                           <select class="form-control" v-model="section" id="exampleFormControlSelect3">
@@ -433,7 +434,7 @@
       const posts = []
       const SECTIONS_01 = "政府機關"
       const SECTIONS_02 = "公共服務"
-      const SECTIONS_03 = "銀行證劵"	 	  
+      const SECTIONS_03 = "兒童才藝, 休閒運動"	 	  
 
       new Vue({
         el: '#app1',
@@ -512,7 +513,7 @@
           posts,
           // results: [],
           sections: SECTIONS_03.split(', '),
-          section: '銀行證劵'
+          section: '兒童才藝'
         },
         filter: {
           formatted(value) {
@@ -534,7 +535,7 @@
         },
 
         mounted() {
-          axios.get('db/A7XLK-2101-PublicService.json').then((response) => {
+          axios.get('db/A7XLK-2203-ChildrenTalent.json').then((response) => {
             this.posts = response.data;
             this.getPostsByCategory(this.section)
           }).catch(error => { console.log(error); });
