@@ -909,6 +909,19 @@
             "google": "https://www.google.com.tw/maps/place/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8/@25.0541816,121.4393032,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a709e5172dcb:0x18cacc65c8e151a!8m2!3d25.0541816!4d121.4414972?hl=zh-TW&authuser=0"
         },
         {
+            "no": "136",
+            "title": "麵屋ZURU 麵",
+            "type": "麵食館",
+            "address": "桃園市龜山區文昌一街47巷15號",
+            "hours": "11:30 - 14:00, 17:00 - 21:00, 週日公休",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-麵屋.png",
+            "link": "https://www.facebook.com/%E9%BA%B5%E5%B1%8BZuru-%E9%BA%B5%E3%82%84-%E3%82%BA%E3%83%AB-111523631398342/?ref=page_internal",
+            "category": "龜山美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.google.com.tw/maps/place/%E9%BA%B5%E5%B1%8BZURU+%2F+%E9%BA%B5%E3%82%84+%E3%82%BA%E3%83%AB/@25.0586239,121.3691514,3a,75y,90t/data=!3m8!1e2!3m6!1sAF1QipMxp0CtYszU6huvZ6hlkgH7mGP49B13OU6jEgMP!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipMxp0CtYszU6huvZ6hlkgH7mGP49B13OU6jEgMP%3Dw203-h270-k-no!7i1620!8i2160!4m14!1m6!3m5!1s0x3442a71250e1e3e5:0xbb8369dcda4de7ba!2z6bq15bGLWlVSVSAvIOm6teOChCDjgrrjg6s!8m2!3d25.0586887!4d121.3692666!3m6!1s0x3442a71250e1e3e5:0xbb8369dcda4de7ba!8m2!3d25.0586887!4d121.3692666!14m1!1BCgIYIQ?hl=zh-TW&authuser=0\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://vocus.cc/article/62cb0f00fd89780001781613\">推薦</a>\r\n</p>",
+            "score": "4.6 ",
+            "google": "https://www.google.com.tw/maps/place/%E9%BA%B5%E5%B1%8BZURU+%2F+%E9%BA%B5%E3%82%84+%E3%82%BA%E3%83%AB/@25.0588131,121.3678101,18.35z/data=!4m5!3m4!1s0x3442a71250e1e3e5:0xbb8369dcda4de7ba!8m2!3d25.0586887!4d121.3692666?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "135",
             "title": "巴適經典麻辣鍋",
             "type": "火鍋燒烤",
