@@ -165,6 +165,21 @@
   "google": "https:\/\/www.google.com.tw\/maps\/place\/%E5%B0%8F%E6%A3%AE%E9%A3%9F%E8%88%96\/@25.0508867,121.3839031,17z\/data=!3m1!4b1!4m5!3m4!1s0x3442a7ccfb2d1e9d:0x9bdae7aa5dda84f2!8m2!3d25.0508867!4d121.3860918?hl=zh-TW&authuser=0"
  },
  {
+  "title": "立亞海南雞飯",
+  "no": "312",
+  "type": "中式小吃",
+  "address": "333桃園市龜山區文化一路216號",
+  "telphone": "0955-685-221",
+  "hours": "11:00 - 19:00 假日公休",
+  "LineID": null,
+  "figure": "fig\/XLK-321-RestaurantA7\/A7XLK-3203-A7Restaurant-12.jpeg",
+  "link": "https:\/\/alltwcompany.com\/nd-B-91585880-%E7%AB%8B%E4%BA%9E%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF.html",
+  "category": "文化一路",
+  "category2": "3.中心商業區",
+  "description": "<p>\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https:\/\/www.facebook.com\/groups\/1951117865015671\/permalink\/5100440710083355\/\">推薦<\/a> &nbsp; \n<a style=\"button\" class=\"btn btn-info\"  href=\"https:\/\/www.google.com.tw\/maps\/place\/%E7%AB%8B%E4%BA%9E%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF\/@25.048235,121.3848359,3a,107.8y,90t\/data=!3m8!1e2!3m6!1sAF1QipN_hloMTokJCmL9o2SNnWsx2ZiT37JjeMY4F79I!2e10!3e12!6shttps:%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipN_hloMTokJCmL9o2SNnWsx2ZiT37JjeMY4F79I%3Dw488-h298-k-no!7i543!8i331!4m11!1m2!2m1!1z56uL5Lqe5rW35Y2X6Zue6aOv!3m7!1s0x3442a7570c96388d:0x87b0b0bd4d622a80!8m2!3d25.048235!4d121.3848359!14m1!1BCgIgARICGAI!15sChLnq4vkup7mtbfljZfpm57po69aGCIW56uLIOS6niDmtbfljZcg6ZueIOmjr5IBCnJlc3RhdXJhbnQ?hl=zh-TW&authuser=0\">菜單<\/a> &nbsp;\n<\/p>",
+  "google": "https:\/\/www.google.com.tw\/maps\/place\/%E7%AB%8B%E4%BA%9E%E6%B5%B7%E5%8D%97%E9%9B%9E%E9%A3%AF\/@25.048235,121.3826472,17z\/data=!3m1!4b1!4m5!3m4!1s0x3442a7570c96388d:0x87b0b0bd4d622a80!8m2!3d25.048235!4d121.3848359?hl=zh-TW&authuser=0"
+ },
+ {
   "title": "三商巧福",
   "no": "304",
   "type": "麵食館",
