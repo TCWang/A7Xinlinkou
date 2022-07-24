@@ -36,6 +36,11 @@ body {
     h5, h6 {font-size:1.0rem;}
 }
 
+#exampleFormControlSelect1 {
+
+    color:#000099;
+}
+
 .navbar{
     background-color:#000066 !important;
 }
