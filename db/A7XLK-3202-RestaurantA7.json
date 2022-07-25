@@ -15,6 +15,21 @@
   "google": "https:\/\/www.google.com.tw\/maps\/place\/%E4%BE%BF%E7%95%B6%E8%A3%BD%E9%80%A0%E6%89%80\/@25.0543673,121.3814909,17z\/data=!3m1!4b1!4m5!3m4!1s0x3442a707df663089:0x67f11136d812d17d!8m2!3d25.0543625!4d121.3836796?hl=zh-TW&authuser=0"
  },
  {
+  "title": "茗記便當",
+  "no": "112",
+  "type": "中式便當",
+  "address": "桃園市龜山區長庚里長慶二街75號1樓",
+  "telphone": "0926-654-728",
+  "hours": "週一～週五: 09:00 - 19:00, 週日公休",
+  "LineID": null,
+  "figure": "fig\/XLK-321-RestaurantA7\/A7XLK-3201-RestaurantA7-12.jpeg",
+  "link": null,
+  "category": "長慶二街",
+  "category2": "1.樂善國小區",
+  "description": "<p>\n   資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https:\/\/tcwang.github.io\/A7Xinlinkou\/fig\/XLK-321-RestaurantA7\/A7XLK-3201-RestaurantA7-12B.jpeg\">菜單<\/a>, &nbsp;\nLine ID - 0926654728\n<\/p>",
+  "google": null
+ },
+ {
   "title": "咕咕雞早午餐店",
   "no": "109",
   "type": "早午餐",
