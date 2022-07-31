@@ -909,6 +909,34 @@
             "google": "https://www.google.com.tw/maps/place/%E5%9C%93%E6%98%8E%E5%9C%92%E8%8A%B1%E5%9C%92%E6%B5%B7%E9%AE%AE%E6%9C%83%E9%A4%A8/@25.0541816,121.4393032,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a709e5172dcb:0x18cacc65c8e151a!8m2!3d25.0541816!4d121.4414972?hl=zh-TW&authuser=0"
         },
         {
+            "no": "144",
+            "title": "客美多咖啡",
+            "type": "咖啡店",
+            "address": "桃園市龜山區復興一路236號",
+            "telphone": "03-328-2980",
+            "hours": "08:00 - 20:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-客美多.jpeg",
+            "link": "https://komeda.com.tw/",
+            "category": "龜山美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://komeda.com.tw/menu\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.youtube.com/watch?v=69TtSctzcBo\">推薦</a>\r\n</p>",
+            "score": "4.4 ",
+            "google": "https://www.google.com.tw/maps/place/%E5%AE%A2%E7%BE%8E%E5%A4%9A%E5%92%96%E5%95%A1+Komeda%E2%80%98s+Coffee+-+%E6%9E%97%E5%8F%A3%E9%95%B7%E5%BA%9A%E5%BA%97/@25.0572659,121.3627444,17z/data=!3m1!4b1!4m5!3m4!1s0x3442a72afcf81d11:0x80faf1cfe599ba3b!8m2!3d25.0572648!4d121.3649393?hl=zh-TW&authuser=0"
+        },
+        {
+            "no": "143",
+            "title": "豬對有燒烤吃到飽",
+            "type": "燒烤店",
+            "address": "桃園市龜山區文化二路33之1號",
+            "telphone": "03-397-5767",
+            "hours": "週一～週五: 11:00 - 15:00, 17:00 - 22:00, 週六日: 11:00 - 22:00",
+            "figure": "fig/XLK-311-Restaurant/AiCity-910-豬隊有.webp",
+            "link": "https://www.facebook.com/pigfriendLinco/?ref=page_internal",
+            "category": "龜山美食",
+            "description": "<p>\r\n   網路資訊: <a style=\"button\" class=\"btn btn-info\"  href=\"https://www.facebook.com/pigfriendLinco/menu/\">菜單</a> &nbsp;\r\n  <a style=\"button\" class=\"btn btn-info\"  href=\"https://shinylu0920.pixnet.net/blog/post/337802381?fbclid=IwAR1fDlpe-lf42RwavpSVcxMCZJ7MLsaAbzuFpFvc3KMBxq2qcb71yjIVIFE\">推薦</a>\r\n</p>",
+            "score": "4.5 ",
+            "google": "https://www.google.com.tw/maps/place/%E8%B1%AC%E5%B0%8D%E6%9C%89%E7%87%92%E7%83%A4%E5%90%83%E5%88%B0%E9%A3%BD+%E6%9E%97%E5%8F%A3%E6%96%87%E5%8C%96%E5%BA%97/@25.0573643,121.3646916,17z/data=!4m5!3m4!1s0x3442a7bb6b778aaf:0xbda3de9d60485dc5!8m2!3d25.0573595!4d121.3668856?hl=zh-TW&authuser=0"
+        },
+        {
             "no": "142",
             "title": "毫米咖啡",
             "type": "咖啡店",
