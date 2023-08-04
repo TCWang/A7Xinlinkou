@@ -1,0 +1,727 @@
+[
+ {
+  "Title": "大吟釀醬油",
+  "No": "501",
+  "Brand": "萬家香",
+  "Size": "300ml",
+  "Price": 32,
+  "Description": "絕不使用化學醬油, \n180天長時間釀造, \n不添加防腐劑",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-01.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "非基改薄鹽醬油",
+  "No": "502",
+  "Brand": "屏大",
+  "Size": "710ml",
+  "Price": 279,
+  "Description": "合格的非基因改造黃豆, \n未添加任何鉀鹽、焦糖色素, \n用傳統的日本濃口醬油之釀造方",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-02.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "滷味醬香組 - 厚黑金醬油*3",
+  "No": "503",
+  "Brand": "黑豆桑",
+  "Size": "550ml",
+  "Price": 2133,
+  "Description": "非基因改造黃豆, \n符合CNS423，甲級醬油, \n通過HACCP認證",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-03.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "零添加純釀醬油",
+  "No": "504",
+  "Brand": "萬家香",
+  "Size": "450ml",
+  "Price": 95,
+  "Description": "100%純釀造, \n配方單純零添加, \n純正醬油原始風味",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-04.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "釀造醬油",
+  "No": "505",
+  "Brand": "四季",
+  "Size": "1600ml",
+  "Price": 109,
+  "Description": "非基因改造大豆原料釀造, \n不添加防腐劑及色素, \n適合各式料理產品",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-05.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "甘醇醬油",
+  "No": "506",
+  "Brand": "龜甲萬",
+  "Size": "1600ml",
+  "Price": 125,
+  "Description": "三百多年的純釀智慧, \n不過甜不過鹹, \n龜甲萬經典美味",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-06.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "金美滿無添加糖釀造醬油",
+  "No": "507",
+  "Brand": "豆油伯醬油",
+  "Size": "680ml",
+  "Price": 450,
+  "Description": "醬油黃金比例口感更甘醇,\n高品質、純釀造，原汁原味, \n無添加人工色素、防腐劑",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-07.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "無添加原味醬油",
+  "No": "508",
+  "Brand": "金蘭食品",
+  "Size": "500ml",
+  "Price": 129,
+  "Description": "僅用非基改黃豆、小麥、食鹽、水, \n無添加糖、酒精、任何添加物, \n真正的健康、安心與純粹",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-08.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "全豆純釀造醬油",
+  "No": "509",
+  "Brand": "義美",
+  "Size": "520ml",
+  "Price": 169,
+  "Description": "食品級「非基因改造全粒黃豆」,\n無添加防腐劑、焦糖色素、甜味劑, \n適合炒、沾、淋、拌的料理。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-09.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "純釀醬油",
+  "No": "510",
+  "Brand": "黑龍",
+  "Size": "500g",
+  "Price": 89,
+  "Description": "由黃豆與小麥經過180天純釀, \n適合煎、煮、炒、滷、沾、拌",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3505-Life7-10.webp",
+  "Category": "醬"
+ },
+ {
+  "Title": "特級冷壓橄欖油",
+  "No": "301",
+  "Brand": "Olitalia",
+  "Size": "250ml, 500ml, 750ml, 1000ml",
+  "Price": 405,
+  "Description": "原料: 橄欖,\n萃取方式: 冷壓,\n適合調理方式: 涼拌, 低溫料理",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-01.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "100%烏麻油",
+  "No": "302",
+  "Brand": "義美生機",
+  "Size": "250ml",
+  "Price": 175,
+  "Description": "原料: 黑芝麻,\n萃取方式: 物理壓榨,\n適合調理方式: 煎、煮、炒、涼拌",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-02.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "特級冷壓橄欖油",
+  "No": "303",
+  "Brand": "西班牙 Fragata",
+  "Size": "250ml",
+  "Price": 139,
+  "Description": "原料: 橄欖,\n萃取方式: 冷壓,\n適合調理方式: 涼拌, 低溫料理",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-03.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "葡萄籽油",
+  "No": "304",
+  "Brand": "Olitalia",
+  "Size": "500ml",
+  "Price": 199,
+  "Description": "原料: 葡萄仔,\n萃取方式: ,\n適合調理方式: 煎、煮、炒、炸",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-04.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "葵花油",
+  "No": "305",
+  "Brand": "Basso",
+  "Size": "500ml",
+  "Price": 130,
+  "Description": "原料: 葵花籽,\n萃取方式: ,\n適合調理方式: 煎、煮、炒、炸、涼拌",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-05.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "經典青春素葵花油",
+  "No": "306",
+  "Brand": "得意的一天",
+  "Size": "2000ml",
+  "Price": 179,
+  "Description": "原料: 葵花籽,\n萃取方式: 物理壓榨,\n適合調理方式: 煎、煮、炒、炸",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-06.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "第一道初榨 苦茶油",
+  "No": "307",
+  "Brand": "連淨",
+  "Size": "500ml",
+  "Price": 1380,
+  "Description": "原料:苦茶籽,\n萃取方式: 物理壓榨,\n適合調理方式: 煎、煮、炒、炸、涼拌",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-07.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "冷壓初榨亞麻仁油",
+  "No": "308",
+  "Brand": "Gut&Gerne",
+  "Size": "250ml",
+  "Price": 237,
+  "Description": "原料: 亞麻仁籽,\n萃取方式: 冷壓,\n適合調理方式: 涼拌",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-08.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "花生油",
+  "No": "309",
+  "Brand": "油籽學堂",
+  "Size": "200ml",
+  "Price": 200,
+  "Description": "原料: 花生,\n萃取方式: 冷壓,\n適合調理方式: 涼拌, 拌炒",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-09.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "特級冷壓椰子油",
+  "No": "310",
+  "Brand": "三多",
+  "Size": "500ml",
+  "Price": 290,
+  "Description": "原料:耶子,\n萃取方式: 低溫冷壓,\n適合調理方式: 煎、煮、炒、炸、烘培、涼拌",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3503-Life7-10.jpeg",
+  "Category": "油"
+ },
+ {
+  "Title": "減鈉含碘鹽",
+  "No": "401",
+  "Brand": "台鹽",
+  "Size": "300g",
+  "Price": 63,
+  "Description": "降低約50%鈉之攝取量，以鉀取代部份鈉，幫助鉀鈉平衡，適合需求減鈉又飲食口味清淡者選用",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-01.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "美味含碘鹽",
+  "No": "404",
+  "Brand": "台鹽",
+  "Size": "300g",
+  "Price": 63,
+  "Description": "降低30%鈉之攝取量，以鉀取代部份鈉，幫助鉀鈉平衡，同時添加鎂可增加礦物質之攝取。料理鹹度適中，適合需求減鈉同時兼顧美味口感者選用",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-04.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "健康含碘海鹽",
+  "No": "411",
+  "Brand": "台鹽",
+  "Size": "300g",
+  "Price": 63,
+  "Description": "添加海水濃縮礦物質液，可保留食材原味，增添味覺層次並提升料理口感。適合偏好品嚐料理原味者選用",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-11.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "氟碘鹽",
+  "No": "412",
+  "Brand": "台鹽",
+  "Size": "300g",
+  "Price": 63,
+  "Description": "氟鹽可用於料理時添加，氟透過飲食攝取，經由人體轉換傳送至牙齒與唾液中，在牙齒表面形成保護。在烹調時添加適量的氟鹽，有助於幫助牙齒健康，適合重視口腔保健者選用",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-12.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "日曬海鹽",
+  "No": "402",
+  "Brand": "統一生機",
+  "Size": "450g",
+  "Price": 55,
+  "Description": "環保日曬法製鹽，保留微量元素, \n不添加抗結塊劑及不人工添加碘, \n美味不死鹹，食物更美味\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-02.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "盒裝家庭用鹽",
+  "No": "403",
+  "Brand": "日本鹽",
+  "Size": "800g",
+  "Price": 89,
+  "Description": "日本原裝進口, \n暢銷盒裝家庭用鹽,\n廚房料理的好幫手\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-03.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "喜馬拉雅手採玫瑰鹽",
+  "No": "405",
+  "Brand": "台鹽",
+  "Size": "450g",
+  "Price": 138,
+  "Description": "100%純手工採收玫瑰岩鹽, \n含多種礦物元素，提升食材風味, \n適合煎炒、燒烤及肉類料理\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-05.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "紐西蘭日曬天然海鹽",
+  "No": "406",
+  "Brand": "天廚",
+  "Size": "300g",
+  "Price": 65,
+  "Description": "紐西蘭BIO-GRO認證,\n傳統天然日曬法製成,\n純淨天然、健康無負擔\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-06.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "日曬海鹽 量販包",
+  "No": "407",
+  "Brand": "統一生機",
+  "Size": "2kg",
+  "Price": 168,
+  "Description": "環保日曬法製鹽，保留微量元素,\n不添加抗結塊劑及不人工添加碘,\n美味不死鹹，食物更美味\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-07.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "高級岩鹽",
+  "No": "408",
+  "Brand": "Ajlyo",
+  "Size": "600g",
+  "Price": 33,
+  "Description": "產地: 泰國",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-08.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "澳洲日曬天然海鹽",
+  "No": "409",
+  "Brand": "台鹽",
+  "Size": "1kg",
+  "Price": 59,
+  "Description": "適合鹽焗、醃漬,\n增強料理風味,\n天然\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-09.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "有機鹽麴增量版",
+  "No": "410",
+  "Brand": "菇王",
+  "Size": "250gx2",
+  "Price": 514,
+  "Description": "最純粹的味覺饗宴, 有機蓬萊米作為原料, \n低鈉含量減輕了負擔\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3504-Life7-10.webp",
+  "Category": "鹽"
+ },
+ {
+  "Title": "台灣本產純釀陳年米醋",
+  "No": "601",
+  "Brand": "Pekoe",
+  "Size": "520ml",
+  "Price": 229,
+  "Description": "這款陳年純米醋是 PEKOE 與釀醋世家攜手合作的產品，以台灣的稻米遵循古法用陶甕封存，黏土製成的陶甕耐酸性侵蝕，還有天然毛細孔可加速米醋的醇化過程，在甕中歷經六年的時間發酵而成。<br><br>\n\n在這段時間內的米醋越陳越香，最後會慢慢轉變成清澈的深琥珀色，打開就能聞到交織著米香與果香的豐富氣息。口感上更是溫潤柔和，絕對會推翻您對米醋酸嗆的刻板印象，不嗜酸的孩子也能輕鬆接受。無論是作為沾醬、涼拌或入菜調味都非常美味，值得各位品嘗看看。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-01.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "天然純釀糙米醋 ／酸度4.2%",
+  "No": "602",
+  "Brand": "陳稼莊",
+  "Size": "600ml",
+  "Price": 250,
+  "Description": "與市面上其他米醋不太一樣，此商品是以100%「糙米」釀造而成，而糙米醋營養價值較糯米醋更高，加上產量較少，因此顯得相對珍貴。<br><br>\n\n陳稼莊天然糙米醋是結合傳統釀造法與現代技術的結晶，選用優質糙米靜置發酵，在過程中不添加任何會破壞風味的原料，以保留最純淨的味道，淡雅而不刺激，並帶有醇厚的香氣。除了用於料理外，加水稀釋10倍後亦可直接飲用，讓您適量補充所需的營養素。\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-02.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "五印醋 五賢米醋／酸度4.5%",
+  "No": "603",
+  "Brand": "高記",
+  "Size": "520ml",
+  "Price": 64,
+  "Description": "是什麼樣的魅力，讓鼎泰豐、度小月擔仔麵、高記與眾多著名飲食業者都選用這款米醋？五印醋在清朝光緒年間創立，至今仍使用醋缸釀造的古法，輔以科學新觀念進行生產。<br><br>\n\n醋缸經過「養缸」的過程，缸體吸收1～2年米醋精華後，再釀造的米醋擁有工業量產米醋無法比擬的風味，原料歷經蒸、煮、發酵等多個程序後，要花費10個月才能釀出一批醋，投注大量時間與心力維護品質，是五印醋得以傳承百年的關鍵，在價格上也相當親民，相信老饕們絕對不會失望！",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-03.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "純米醋／酸度4.5%",
+  "No": "604",
+  "Brand": "台酒",
+  "Size": "300ml",
+  "Price": 60,
+  "Description": "台灣菸酒公司不只賣菸酒，現在已經轉型民營化，生產各式各樣的平價好用的料理用品，相信有不少讀者也是愛用者。由於醋是由酒精所製造而來的產物，而身為昔日台灣酒業的龍頭，其推出的米醋品質也相當值得期待。這款米醋沒有廉價人工米醋的刺鼻醋酸味，醋香經過釀造自然形成，酸味溫潤，能為料理增添畫龍點睛的香氣，是家庭主婦／夫們便宜又好用的料理幫手！",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-04.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "純米醋金封／酸度4.5%",
+  "No": "605",
+  "Brand": "味滋康",
+  "Size": "500ml",
+  "Price": 155,
+  "Description": "身處於一個基因改良作物發展的年代，消費者如何購買安全性足夠、能讓人信賴的產品亦是一大學問。有時候過於便宜的穀物醋，不禁讓人懷疑製造過程與原料的來源，但太高貴的產品卻又會增加荷包負擔，而這款純米醋便在價格與品質間取得了相當好的平衡。<br><br>\n \n他們只使用日本國產米作為釀造原料，成分單純、香氣醇厚，十分富有特色，很適合喜愛製作壽司、日式醃漬小菜等日本料理的您選購。\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-05.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "純米醋",
+  "No": "606",
+  "Brand": "OTAFUKU 多福",
+  "Size": "500ml",
+  "Price": 105,
+  "Description": "日本廣島賀茂台地被群山包圍，空氣清新，純淨的地下水流出，在未受汙染的環境下種植出品質優良的上等米，是生產米醋非常理想的地點。此米醋便取自於這塊土地的恩惠，運用良好的水質與米釀造出純正的日式米醋，口感香醇，濃厚的日系風味躍然於舌尖。以日本原裝進口品來說，價格也算親民實惠，除了醃漬物以外，用於煮湯、拌麵也很適合。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-06.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "糯米醋",
+  "No": "607",
+  "Brand": "KOKUMORI 穀盛",
+  "Size": "600ml",
+  "Price": 49,
+  "Description": "穀盛是台灣釀造食品的專家，擁有六十多年的發酵技術，秉持「天然健康、忠於原味」的堅持，推出許多讓人稱讚的商品，糯米醋正是其中之一。只使用糯米跟水，歷經蒸煮、糖化、發酵、熟成、殺菌等步驟後釀造而成，保留了日式傳統米醋獨特的醇厚酸味與香氣，定價上也相當合理。唯一的小小缺點，就是鋪貨通路沒有其他大廠牌來得廣，有興趣的朋友不妨直接透過網路選購。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-07.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "有機米醋／酸度4.8%",
+  "No": "608",
+  "Brand": "味榮",
+  "Size": "150ml",
+  "Price": 60,
+  "Description": "光從外觀包裝來看，這款像國外進口產品般的米醋，其實從裡到外都是百分之百台灣血統，也是台灣市面上少見以有機原料釀造的米醋。使用100%台灣有機米，將其放在手工陶缸中釀造，過程中無摻入防腐劑、味精與人造冰醋酸等添加物，能確保食品的天然美味。雖然嚴選原料與製程成本不免反映在價格上，但做為小小伴手禮，贈送給熱愛料理的國外友人也是個不錯的選擇。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-08.png",
+  "Category": "醋"
+ },
+ {
+  "Title": "陳年醋",
+  "No": "609",
+  "Brand": "工研",
+  "Size": "600ml",
+  "Price": 55,
+  "Description": "陳年醋以糯米與麥芽抽取物為原料，將釀造時間拉長，因此醋的顏色會比一般米醋更深，在味道上也更勝一籌。與非陳年米醋相比，其醋酸味不那麼明顯，取而代之的是更為溫和醇厚的滋味。不過，由於這款陳年醋並非完全使用天然食材，而是使用麥芽抽取物並添加鹽調味，不是傳統的釀法釀造，不適合用來調製果醋飲品，料理中提味時也別忘了控制額外的鹽分。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-09.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "糯米醋／酸度4.5%",
+  "No": "610",
+  "Brand": "萬家香",
+  "Size": "3,750ml",
+  "Price": 114,
+  "Description": "如果家中有大量米醋需求的話，這款容量高達3750ml的商品就非常適合您。此商品以100%特級糯米釀造，在過程中會產生微量的酒精，使米醋香氣更醇厚。加上4.5%的酸度比白醋更足夠，很適合用來調製水果醋等飲品。雖然屬於添加酒精的速成釀造醋，重視風味的老饕可能不會滿足，但其高CP值仍受到許多家庭或餐飲通路的愛用。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3506-Life7-10.jpeg",
+  "Category": "醋"
+ },
+ {
+  "Title": "品鮮米",
+  "No": "201",
+  "Brand": "三好米",
+  "Size": "12kg",
+  "Price": 469,
+  "Description": "台灣正宗蓬萊米生產製造,\n適合各式米飯料理,\n好新鮮、好口感、好安心\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-01.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "台東關山好米",
+  "No": "202",
+  "Brand": "樂米穀場",
+  "Size": "9kg",
+  "Price": 549,
+  "Description": "台灣最純淨自然的稻米產品,\n專業的農業團隊契約栽種,\n米粒外觀透明，碩大且飽滿\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-02.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "台東關山好米",
+  "No": "203",
+  "Brand": "三好米",
+  "Size": "9kg",
+  "Price": 519,
+  "Description": "真正來自台灣東部的好米,\n食米中之極品,\n純淨自然無添加物\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-03.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "富貴吉祥",
+  "No": "204",
+  "Brand": "中興米",
+  "Size": "2kgx8",
+  "Price": 749,
+  "Description": "平安是基本的生活追求,\n一等最高品質,\n米飯比較具黏性\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-04.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "台東關山鎮農會良質米",
+  "No": "205",
+  "Brand": "樂米穀場",
+  "Size": "2.5kg",
+  "Price": 199,
+  "Description": "米粒飽滿，晶瑩剔透,\n米飯口感香甜好吃,\n高食味值，口感香甜滑順。\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-05.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "池上鮮米",
+  "No": "206",
+  "Brand": "池上多力米",
+  "Size": "2.5kg",
+  "Price": 239,
+  "Description": "符合國家標準CNS一等,\n池上鄉公所認證標章\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-06.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "台東關山鎮農會稻香鮮米",
+  "No": "207",
+  "Brand": "樂米穀場",
+  "Size": "2.5kg",
+  "Price": 199,
+  "Description": "米粒飽滿，晶瑩剔透,\n米飯口感香甜好吃,\n高食味值，口感香甜滑順。\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-07.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "花蓮富里初雪美姬米",
+  "No": "208",
+  "Brand": "樂米穀場",
+  "Size": "1.5kgx6",
+  "Price": 899,
+  "Description": "日本牛奶皇后改良獨特風味品種,\n日式料理指定採用,\niTQi國際風味評鑑二星獎章\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-08.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "履歷鷺巡一等白米",
+  "No": "209",
+  "Brand": "天生好米",
+  "Size": "2.2kgx2",
+  "Price": 398,
+  "Description": "ISO 22000食品安全認證,\n花蓮富里稻米產銷耕作集團\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-09.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "花蓮富里契作生態米",
+  "No": "210",
+  "Brand": "樂米穀場",
+  "Size": "6kgx2",
+  "Price": 699,
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-10.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "台東皇家精米",
+  "No": "211",
+  "Brand": "皇家穀堡",
+  "Size": "1.5kgx6",
+  "Price": 594,
+  "Description": "天然山泉水孕育的美味,\n十大經典好美味,\n自然美味直送台灣好米\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3502-Life7-11.webp",
+  "Category": "米"
+ },
+ {
+  "Title": "手工水餃5包組",
+  "No": "101",
+  "Brand": "東門興記",
+  "Size": "650g\/包 x 5",
+  "Price": 987,
+  "Description": "高麗菜\/白菜韭黃\/韭菜 <br>\n新鮮上等前腿肉、新鮮蔬菜,\n完美比例調配，水餃皮Ｑ彈有勁,\n不含防腐劑、香料、化學成分",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-01.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "海陸干貝5盒",
+  "No": "102",
+  "Brand": "果貿吳媽家水餃",
+  "Size": "120顆",
+  "Price": 1550,
+  "Description": "頂級干貝\/高麗菜蝦\/韭菜蝦\/高麗菜肉\/韭菜肉 <br>\n頂級Q彈肥美干貝~超澎派!\n銷售冠軍3種鮮蝦~任意配！\n老饕必嚐爆汁鮮肉~明星款！",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-02.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "東北手工捏花水餃",
+  "No": "103",
+  "Brand": "蔥阿伯",
+  "Size": "6包 x 50顆",
+  "Price": 680,
+  "Description": "高麗菜\/韭菜\/玉米<br>\n嚴選採用新鮮鮮肉、高麗菜\n水餃皮薄餡多好滋味\n東北哈爾濱濃濃口味",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-03.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "手工豬肉水餃",
+  "No": "104",
+  "Brand": "朱記餡餅粥",
+  "Size": "700g\/包",
+  "Price": 288,
+  "Description": "高麗菜豬肉\/韭菜豬肉\/玉米豬肉<br>\n完美比例，滿餡爆汁\n嚴選用料，絕對美味!\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-04.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "手工水餃",
+  "No": "105",
+  "Brand": "灣仔碼頭",
+  "Size": "40顆\/包",
+  "Price": 209,
+  "Description": "高麗菜\/韭菜\/玉米<br>\n皮薄—Q彈薄透，久煮不破\n餡大—特選台灣優質食材，新鮮飽\n汁多—使用整塊前腿豬肉，肉質清",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-05.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "一口豬肉水餃",
+  "No": "106",
+  "Brand": "禎祥食品",
+  "Size": "100顆\/包",
+  "Price": 130,
+  "Description": "高麗菜<br>\n由營養專家為您精心調配\n新鮮美味、皮Q餡飽滿\n水餃不油不膩清爽鮮甜",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-06.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "鮮肉水餃",
+  "No": "107",
+  "Brand": "簡家",
+  "Size": "650g\/包",
+  "Price": 180,
+  "Description": "高麗菜\/綠韭菜\/白韭黃<br>\n特選台灣豬肉製作\n拉麵外皮口感加分\n手工製作，品質保證",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-07.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "義美手工豬肉高麗菜水餃",
+  "No": "108",
+  "Brand": "IMEI 義美",
+  "Size": "1,440g\/包",
+  "Price": 195,
+  "Description": "高麗菜<br>\n不加防腐劑、不加味精美味又安心\n麵皮手工帶勁、內餡飽滿多汁!\n經典口味-不沾醬也很對味!",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-08.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "鮮美口爆熟水餃",
+  "No": "109",
+  "Brand": "CHIMEI 奇美",
+  "Size": "800g\/包",
+  "Price": 629,
+  "Description": "高麗菜\/韭菜\/白菜韭黃<br>\n美味的食材入餡\n完整呈現鮮美滋味\n享受大口嚼感的澎拜",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-09.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "頂級蝦餃水餃",
+  "No": "110",
+  "Brand": "點點心",
+  "Size": "20入\/袋",
+  "Price": 1020,
+  "Description": "鮮蝦<br>\n滑嫩韭菜提味，多層次口感\n清淡的鮮味，尾韻點點濃郁\n經典港式餃皮，薄又Q彈有勁",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3501-Life7-10.webp",
+  "Category": "餃"
+ },
+ {
+  "Title": "極品凍頂烏龍茶",
+  "No": "701",
+  "Brand": "T世家",
+  "Size": "300g",
+  "Price": 319,
+  "Description": "產於南投，生長在海拔600公尺的山坡地 ．主要以烏龍品種製成，為半發酵茶 ．傳統發酵程度約30%再經烘焙而成 ．為輕微炭焙香的凍頂茶表徵 ．水色呈橙黃，耐泡、味醇是其特色 ．帶明顯焙火韻味，是相當注重香味的茶葉",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-01.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "阿里山茶",
+  "No": "702",
+  "Brand": "T世家",
+  "Size": "150g",
+  "Price": 319,
+  "Description": "阿里山的茶區位於嘉義縣阿里山風景區一帶，位於海拔1,000~1,500公尺的山區茶園，因為高山氣候冷涼，早晚雲霧籠罩，平均日照短，茶菁經嚴格篩選，並以獨特、嚴謹的烘焙技術製作，所製成之茶葉，色澤翠綠鮮活，滋味甘醇、滑軟、厚重富活性，茶湯蜜綠金黃耐沖泡。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-02.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "高山烏龍茶",
+  "No": "703",
+  "Brand": "天仁",
+  "Price": 240,
+  "Description": "屬輕發酵烏龍茶，產於台灣高山地帶，結合了山川靈氣與大地精華，經過專業製造技術，捲球形緊實的葉片散發出淡雅清香，沖泡後書展開來，茶湯金黃，入口生津。由於高山氣候冷涼，早晚雲霧籠罩，平均日照短，致茶樹芽葉所含兒茶素類等苦澀成分降低，滋味甘醇，滑軟，厚重帶活性，芽葉柔軟，具有色澤翠綠鮮活，香氣淡雅，耐沖泡等特色。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-03.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "台灣茗禮阿里山高山茶",
+  "No": "704",
+  "Brand": "天仁",
+  "Price": 360,
+  "Description": "以山泉水灌溉出的阿里山茶，茶湯金黃蜜綠，\n香氣悠揚帶著花香，甘甜醇厚中有高山清靈的韻味，\n是台灣最具名氣的高山烏龍茶。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-04.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "台灣靈芽凍頂烏龍茶",
+  "No": "705",
+  "Brand": "天仁",
+  "Size": "300g",
+  "Price": 800,
+  "Description": "屬輕發酵烏龍茶，產於台灣知名的南投凍頂茶區而得名,\n結合了山川靈氣和大地精華，經過專業製造技術,\n捲球形緊實的葉片散發出淡雅的清香，\n沖泡後舒展開來，茶湯透徹，入口生津、唇齒留香。\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-05.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "杉林溪茶",
+  "No": "706",
+  "Brand": "天仁",
+  "Size": "225g",
+  "Price": 1250,
+  "Description": "杉林溪茶區特有肥嫩芽葉.風味獨特 晶瑩黃潤的茶湯泛著一圈翠綠.香氣優雅.喉韻軟滑清甜",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-06.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "高海拔烏龍茶",
+  "No": "707",
+  "Brand": "台灣100％好茶",
+  "Size": "500g",
+  "Price": 999,
+  "Description": "台灣茶人手採高海拔烏龍春茶味甘韻濃\n富貴花香、優雅鮮花香\n阿里山太和海拔1300公尺\n冷涼氣候讓茶葉青翠有勁富活性\n冷香、尾韻都很棒唷!!!\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-07.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "鐵觀音鋁箔包 ",
+  "No": "708",
+  "Brand": "天仁",
+  "Size": 187.5,
+  "Price": 100,
+  "Description": "為馳中外已久的傳統中國名茶，屬半醱酵茶，產於台北木柵山區，因品種而得名；茶湯褐色豔麗，帶著天然熟葉香味，風味絕佳，飲後令您喉韻甘潤，心曠神怡。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-08.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "高山烏龍茶",
+  "No": "709",
+  "Brand": "天仁",
+  "Price": 160,
+  "Description": "專業製茶師傅嚴格評選,\n精心焙製、茶湯清澈、\n香氣悠揚、喉韻甘醇。\n",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-09.jpeg",
+  "Category": "茶"
+ },
+ {
+  "Title": "東方美人茶小巧罐",
+  "No": "710",
+  "Brand": "天仁",
+  "Price": 180,
+  "Description": "東方美人茶具有獨特的蜜糖香氣，\n因茶葉外型漂亮、湯色橙紅艷麗，\n具有獨特的熟果香，宛如貴婦般的婀娜多姿，\n固有「東方美人」之稱。",
+  "Figure": "fig\/XLK-352-Life7\/A7XLK-3507-Life7-10.jpeg",
+  "Category": "茶"
+ }
+]

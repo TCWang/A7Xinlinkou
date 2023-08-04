@@ -1,0 +1,182 @@
+﻿[
+        {
+            "no": "219",
+            "title": "SuperBuy 市集",
+            "address": "台北市敦化南路二段46號4F-1",
+            "telphone": "02-2706-9229",
+            "hours": "週一到週五 09:30-18:30",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-19.jpeg",
+            "link": "https://www.superbuy.com.tw/collection_fast.php?main_cate=608",
+            "category": "防疫採購"
+        },
+        {
+            "no": "220",
+            "title": "悠活農村",
+            "address": "台北市松山區南京東路五段202號14樓之4",
+            "telphone": "02-2748-0366",
+            "hours": "週一至週五 09:00-18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-20.jpeg",
+            "link": "https://www.yooho.com.tw/category.php?id=31",
+            "category": "防疫採購"
+        },
+        {
+            "no": "221",
+            "title": "棉花田 購物網",
+            "address": "台北市大安區信義路四段236號",
+            "telphone": "0800-238-888",
+            "hours": "8:30-12:00；13:00-17:30",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-21.jpeg",
+            "link": "https://www.healthyfood.com.tw/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "222",
+            "title": "鮮拾",
+            "telphone": "02-7737-1995",
+            "hours": "週一至週五，9:30-12:00 13:00-18:30",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-22.jpeg",
+            "link": "https://www.pickup.com.tw/categories/vegetable",
+            "category": "防疫採購"
+        },
+        {
+            "no": "201",
+            "title": "無毒農",
+            "address": "台北市大安區復興南路一段205號8樓",
+            "telphone": "02-2771-2900",
+            "hours": "週一～五 09:00-12:00, 13:00~18:00 , 週六 10:00-18:00, 不含國定假日",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-01.png",
+            "link": "https://greenbox.tw/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "202",
+            "title": "foodpanda—生鮮",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-02.png",
+            "link": "https://www.foodpanda.com.tw/contents/fruits-vegetables-delivery-taiwan",
+            "category": "防疫採購"
+        },
+        {
+            "no": "203",
+            "title": "台灣好農",
+            "address": "service@wonderfulfood.com.tw",
+            "telphone": "02-8780-3000",
+            "hours": "週一至週五 09:00~18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-03.jpeg",
+            "link": "https://www.wonderfulfood.com.tw/Client/index.aspx",
+            "category": "防疫採購"
+        },
+        {
+            "no": "204",
+            "title": "愛上新鮮i3Fresh",
+            "address": "i3fresh@i3fresh.tw",
+            "telphone": "02-2321-0311",
+            "hours": "週一～五:09:00-12:00, 13:00~18:00 , 週六:10:00-18:00, 不含國定假日",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-04.png",
+            "link": "https://i3fresh.tw/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "205",
+            "title": "iCeFresh 愛食鮮",
+            "address": "icefresh2019@gmail.com",
+            "telphone": "04-837-0909",
+            "hours": "週一至週五 10:00~19:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-05.jpeg",
+            "link": "https://www.icefresh.tw/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "206",
+            "title": "PCHome線上購物-生鮮",
+            "address": "台北市大安區敦化南路二段105號15樓",
+            "telphone": "02-2326-1460",
+            "hours": "24 小時",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-06.png",
+            "link": "https://24h.pchome.com.tw/region/DBCP",
+            "category": "防疫採購"
+        },
+        {
+            "no": "207",
+            "title": "安永鮮物",
+            "address": "台北市內湖區堤頂大道二段483號",
+            "telphone": "0800-538-835",
+            "hours": "週一至週五 08:30~18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-07.jpeg",
+            "link": "https://www.anyongfresh.com/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "208",
+            "title": "台畜線上購物",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-08.jpeg",
+            "link": "https://shop.tham.com.tw/categories/cooked-food",
+            "category": "防疫採購"
+        },
+        {
+            "no": "209",
+            "title": "UberEat-生鮮",
+            "hours": "24 小時",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-09.jpeg",
+            "link": "https://www.ubereats.com/tw/near-me/grocery",
+            "category": "防疫採購"
+        },
+        {
+            "no": "210",
+            "title": "美福食集",
+            "address": "台北市內湖區民善街128號",
+            "telphone": "0905-660-038",
+            "hours": "週一至週五 09:00~18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-10.jpeg",
+            "link": "https://www.mayfullfinefoods.com/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "211",
+            "title": "天和鮮物",
+            "address": "台北市中正區北平東路30號1樓 ",
+            "telphone": "02-2351-6268",
+            "hours": "週一~週五 10:00-21:00, 週六、週日 9:30-21:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-11.jpeg",
+            "link": "https://shop.thofood.com/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "212",
+            "title": "福壽百貨店-生鮮",
+            "address": "\r\n臺中市台中市沙鹿區沙田路45號",
+            "telphone": "04-2636-2111",
+            "hours": "週一至週五 08:00~17:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-12.png",
+            "link": "https://shop.fwusow.com.tw/page/FreshMarket?lang=zh-TW",
+            "category": "防疫採購"
+        },
+        {
+            "no": "213",
+            "title": "奧丁丁市集",
+            "address": "support@owlting.com",
+            "telphone": "02-7727-6533",
+            "hours": "週一至週五 10:00~18:30",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-13.jpeg",
+            "link": "https://www.owlting.com/market/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "214",
+            "title": "湯瑪士肉鋪",
+            "address": "臺北市 文山區 羅斯福路五段176巷17號1樓",
+            "telphone": "02-2932-3807 ",
+            "hours": "週一至週日08:00~18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-14.jpeg",
+            "link": "https://www.thomasmeat.com.tw/",
+            "category": "防疫採購"
+        },
+        {
+            "no": "218",
+            "title": "家樂福線上購物網-生鮮",
+            "telphone": "0800-036-888",
+            "hours": "24 小時",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-18.jpeg",
+            "link": "https://online.carrefour.com.tw/tw/",
+            "category": "防疫採購"
+        }
+    ]

@@ -1,0 +1,135 @@
+﻿[
+        {
+            "No": "001",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "蝦仁肉絲蛋炒飯",
+            "Price": "100"
+        },
+        {
+            "No": "002",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "古早味鹹冬瓜肉飯",
+            "Price": "80"
+        },
+        {
+            "No": "003",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "牛腩飯",
+            "Price": "100"
+        },
+        {
+            "No": "004",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "炸雞腿飯",
+            "Price": "100"
+        },
+        {
+            "No": "005",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "鹹水鴨肉飯",
+            "Price": "80"
+        },
+        {
+            "No": "006",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "滷豬腳飯",
+            "Price": "80"
+        },
+        {
+            "No": "007",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "炸排骨飯",
+            "Price": "80"
+        },
+        {
+            "No": "008",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "肉絲炒麵，飯，米粉",
+            "Price": "80"
+        },
+        {
+            "No": "009",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "焢肉飯",
+            "Price": "80"
+        },
+        {
+            "No": "010",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "鴨肉冬粉",
+            "Price": "80"
+        },
+        {
+            "No": "011",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "海鮮麵",
+            "Price": "100"
+        },
+        {
+            "No": "012",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "海鮮粥",
+            "Price": "100"
+        },
+        {
+            "No": "013",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "新鮮鱸魚粥",
+            "Price": "120"
+        },
+        {
+            "No": "014",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "牛肉炒麵",
+            "Price": "80"
+        },
+        {
+            "No": "015",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "牛肉炒飯",
+            "Price": "80"
+        },
+        {
+            "No": "016",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "羊肉炒麵",
+            "Price": "80"
+        },
+        {
+            "No": "017",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "羊肉炒飯",
+            "Price": "80"
+        },
+        {
+            "No": "018",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "蝦仁炒飯",
+            "Price": "100"
+        },
+        {
+            "No": "019",
+            "Store": "芬享美味餐廳",
+            "Category": "飯類",
+            "Title": "海鮮炒麵",
+            "Price": "100"
+        }
+    ]

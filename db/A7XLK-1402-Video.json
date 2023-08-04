@@ -1,0 +1,401 @@
+﻿[
+        {
+            "no": "079",
+            "title": "Kapwing 影音編輯",
+            "figure": "fig/XLK-1401-News/XLK-142-Kapwing.png",
+            "link": "https://www.kapwing.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "077",
+            "title": "考拉新媒體導航",
+            "figure": "fig/XLK-1401-News/XLK-142-Kaolamedia.jpeg",
+            "link": "https://www.kaolamedia.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "076",
+            "title": "Vjshi 視頻素材",
+            "figure": "fig/XLK-1401-News/XLK-142-VJshi.png",
+            "link": "https://www.vjshi.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "038",
+            "title": "ArtStation",
+            "figure": "fig/XLK-1401-News/AiCity-923-ArtStation.png",
+            "link": "https://www.artstation.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "039",
+            "title": "Behance",
+            "figure": "fig/XLK-1401-News/AiCity-923-Behance.png",
+            "link": "https://www.behance.net/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "040",
+            "title": "Deviantart",
+            "figure": "fig/XLK-1401-News/AiCity-923-Deviantart.png",
+            "link": "https://www.deviantart.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "041",
+            "title": "Dirbbble",
+            "figure": "fig/XLK-1401-News/AiCity-923-Dirbbble.png",
+            "link": "https://dribbble.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "042",
+            "title": "CGSociety",
+            "figure": "fig/XLK-1401-News/AiCity-923-CGSociety.jpeg",
+            "link": "https://cgsociety.org/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "043",
+            "title": "ZbrushCentral",
+            "figure": "fig/XLK-1401-News/AiCity-923-ZBrush.jpg",
+            "link": "https://www.zbrushcentral.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "044",
+            "title": "Pexels",
+            "figure": "fig/XLK-1401-News/AiCity-923-Pexels.png",
+            "link": "https://www.pexels.com/zh-cn/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "045",
+            "title": "Pixabay",
+            "figure": "fig/XLK-1401-News/AiCity-923-Pixabay.png",
+            "link": "https://pixabay.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "046",
+            "title": "Unsplash",
+            "figure": "fig/XLK-1401-News/AiCity-923-Unsplash.jpg",
+            "link": "https://unsplash.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "047",
+            "title": "Pinterest",
+            "figure": "fig/XLK-1401-News/AiCity-923-Pinterest.jpg",
+            "link": "https://www.pinterest.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "048",
+            "title": "著色簿",
+            "figure": "fig/XLK-1401-News/XLK-142-SuperColor.png",
+            "link": "http://www.supercoloring.com/zh-hant",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "049",
+            "title": "Google Art & Culture",
+            "figure": "fig/XLK-1401-News/XLK-142-GoogleArt.png",
+            "link": "https://artsandculture.google.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "079",
+            "title": "大學的脊梁",
+            "figure": "fig/XLK-1401-News/XLK-142-大學的脊梁.jpeg",
+            "link": "file/XLK-245-大學的脊梁.pdf",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "079",
+            "title": "極簡簡歷",
+            "figure": "fig/XLK-1401-News/XLK-142-極簡簡歷.png",
+            "link": "https://www.polebrief.com/index",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "078",
+            "title": "書享家",
+            "figure": "fig/XLK-1401-News/XLK-142-書享家.jpeg",
+            "link": "http://shuxiangjia.cn/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "050",
+            "title": "中國哲學",
+            "figure": "fig/XLK-1401-News/AiCity-923-中國哲學.jpg",
+            "link": "https://ctext.org/zh",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "051",
+            "title": "漢典",
+            "figure": "fig/XLK-1401-News/AiCity-923-漢典.jpeg",
+            "link": "https://www.zdic.net/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "052",
+            "title": "SCI-HUB",
+            "figure": "fig/XLK-1401-News/AiCity-923-SCI-HUB.jpg",
+            "link": "https://sci-hub.tw/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "053",
+            "title": "愛思想",
+            "figure": "fig/XLK-1401-News/AiCity-923-愛思想.png",
+            "link": "http://www.aisixiang.com/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "054",
+            "title": "紐約公共圖書",
+            "figure": "fig/XLK-1401-News/XLK-142-紐約圖書館.JPG",
+            "link": " https://reurl.cc/lV06jv",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "055",
+            "title": "Verso Books",
+            "figure": "fig/XLK-1401-News/XLK-142-Verso.jpeg",
+            "link": " https://reurl.cc/qdmeAD",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "056",
+            "title": "Haymarket Books",
+            "figure": "fig/XLK-1401-News/XLK-142-KaymarketBooks.png",
+            "link": "https://reurl.cc/E72dln",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "057",
+            "title": "論文數據庫",
+            "figure": "fig/XLK-1401-News/XLK-142-Jstor.png",
+            "link": "https://reurl.cc/nzngG2",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "089",
+            "title": "300本世界名著有声书",
+            "figure": "fig/XLK-1401-News/XLK-142-有聲書.jpeg",
+            "link": "https://mp.weixin.qq.com/s/N5dBrdC_zvPEZYrxvCliaQ",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "088",
+            "title": "日治時代",
+            "figure": "fig/XLK-1401-News/XLK-142-日治時代.webp",
+            "link": "https://www.youtube.com/results?search_query=%E7%8F%8D%E8%B2%B4%E5%8F%A4%E6%97%A9%EF%BC%88%E6%97%A5%E6%B2%BB%E6%99%82%E6%9C%9F%EF%BC%89%E5%8F%B0%E7%81%A3%E9%8C%84%E5%BD%B1",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "087",
+            "title": "365老友志",
+            "figure": "fig/XLK-1401-News/XLK-142-老友志.png",
+            "link": "https://mp.weixin.qq.com/s/XBrneSZv7J6Mzo0q0Qx7OA",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "086",
+            "title": "懷舊點唱機",
+            "figure": "fig/XLK-1401-News/XLK-142-Nostalgia.png",
+            "link": "http://thenostalgiamachine.com",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "085",
+            "title": "跟着书本去旅行",
+            "figure": "fig/XLK-1401-News/XLK-142-跟着书本去旅行.png",
+            "link": "https://mp.weixin.qq.com/s/fS-9xUqU_VVTuk4ApFnshA",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "084",
+            "title": "康健",
+            "figure": "fig/XLK-1401-News/XLK-142-康健.png",
+            "link": "https://www.commonhealth.com.tw/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "083",
+            "title": "眼底城市",
+            "figure": "fig/XLK-1401-News/XLK-142-眼底城市.png",
+            "link": "https://eyesonplace.net/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "082",
+            "title": "閱讀前哨戰",
+            "figure": "fig/XLK-1401-News/XLK-142-Learning.png",
+            "link": "https://readingoutpost.com/podcast/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "081",
+            "title": "PressPlay Academy, PPA",
+            "figure": "fig/XLK-1401-News/XLK-142-PPA.png",
+            "link": "https://www.pressplay.cc/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "080",
+            "title": "50+Fifty Plus",
+            "figure": "fig/XLK-1401-News/XLK-142-fiftyplus.png",
+            "link": "https://www.fiftyplus.com.tw/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "079",
+            "title": "職場攻略",
+            "figure": "fig/XLK-1401-News/XLK-142-職場攻略.png",
+            "link": "http://www.mydesign-cases.com/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "078",
+            "title": "勵志正能量",
+            "figure": "fig/XLK-1401-News/XLK-142-勵志正能量.png",
+            "link": "http://ananfree.com/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "077",
+            "title": "唐诗三百首微电影合集",
+            "figure": "fig/XLK-1401-News/XLK-142-唐詩三百首.png",
+            "link": "https://mp.weixin.qq.com/s/aOBtIf7LiZSv2705GhYBJg",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "076",
+            "title": "一万本有声书",
+            "figure": "fig/XLK-1401-News/XLK-142-一万本有声书.jpg",
+            "link": "https://mp.weixin.qq.com/s/eS-iCMvTGITMq_y55HwXuQ",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "075",
+            "title": "Radio Garden",
+            "figure": "fig/XLK-1401-News/XLK-142-RadioGarden.png",
+            "link": "http://radio.garden/visit/taipei/EJ081eH6",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "074",
+            "title": "劉校長開講",
+            "figure": "fig/XLK-1401-News/XLK-142-劉校長.png",
+            "link": "https://www.chunglaungliu.com/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "058",
+            "title": "故宮典藏",
+            "figure": "fig/XLK-1401-News/AiCity-923-故宮典藏.jpg",
+            "link": "https://theme.npm.edu.tw/selection/index.aspx",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "059",
+            "title": "民歌40",
+            "figure": "fig/XLK-1401-News/AiCity-923-民歌40.jpg",
+            "link": "https://www.youtube.com/playlist?list=PLDgLLnSBXR_PQ5a11TuH3l4zrJ8g0PqrN&app=desktop",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "060",
+            "title": "野性臺灣",
+            "figure": "fig/XLK-1401-News/AiCity-923-野性台灣.jpeg",
+            "link": "https://www.youtube.com/watch?v=UiUet362iDI&feature=youtu.be",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "061",
+            "title": "美麗台灣新視界",
+            "figure": "fig/XLK-1401-News/AiCity-923-美麗台灣新視界.jpg",
+            "link": "http://www.twbest1.com/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "062",
+            "title": "美麗中國",
+            "figure": "fig/XLK-1401-News/AiCity-923-美麗中國.jpeg",
+            "link": "https://mp.weixin.qq.com/s/XJ8RjmC3tOt87t9wj2krfQ",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "063",
+            "title": "熱狗遊戲",
+            "figure": "fig/XLK-1401-News/AiCity-923-RegoGame.jpg",
+            "link": "http://www.regogame.com/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "064",
+            "title": "亞馬遜全球聽",
+            "figure": "fig/XLK-1401-News/XLK-142-AmazonAudio.png",
+            "link": "https://stories.audible.com/discovery",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "065",
+            "title": "網路導覽",
+            "figure": "fig/XLK-1401-News/XLK-142-導覽.svg",
+            "link": "https://artsandculture.google.com/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "066",
+            "title": "NASA",
+            "figure": "fig/XLK-1401-News/XLK-142-Nasa.png",
+            "link": "https://www.nasa.gov/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "072",
+            "title": "紀錄片500部",
+            "figure": "fig/XLK-1401-News/XLK-142-紀錄片500部.jpeg",
+            "link": "https://mp.weixin.qq.com/s/d-7oy3gdhH8yN6vApjThuQ",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "067",
+            "title": "紀錄片",
+            "figure": "fig/XLK-1401-News/XLK-142-紀錄片.jpeg",
+            "link": "https://reurl.cc/lV061d",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "068",
+            "title": "底特律交響樂",
+            "figure": "fig/XLK-1401-News/XLK-142-底特律交響樂.jpeg",
+            "link": "https://livefromorchestrahall.vhx.tv/browse",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "069",
+            "title": "Collectif Jeune Cinema",
+            "figure": "fig/XLK-1401-News/XLK-142-Vimeo.png",
+            "link": "https://reurl.cc/X6ennE",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "070",
+            "title": "台灣點歌王",
+            "figure": "fig/XLK-1401-News/XLK-142-台灣點歌王.png",
+            "link": "https://song.corp.com.tw/company.aspx?company=%E9%9F%B3%E5%9C%93",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "071",
+            "title": "2020東京奧運",
+            "figure": "fig/XLK-1401-News/XLK-142-Tokyo.jpg",
+            "link": "https://www.mirrormedia.mg/story/amp/20210721edi038/",
+            "category": "影音珍藏"
+        }
+    ]

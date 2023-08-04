@@ -1,0 +1,222 @@
+[
+ {
+  "title": "德馨診所",
+  "no": "001",
+  "category": "內科\/小兒科",
+  "address": "桃園市龜山區復興三路3之2號",
+  "telphone": "03-318-1458",
+  "hours": "週1-5: 08:30 - 12:00, 14:30 - 18:00, 18:30 - 21:30, 週六 08:30 - 1200, 14:30 - 18:00, 週日 08:30 - 12:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-德馨診所.png",
+  "link": "https:\/\/www.facebook.com\/pages\/category\/Family-Doctor\/%E5%BE%B7%E9%A6%A8%E8%A8%BA%E6%89%80-1579450168942794\/"
+ },
+ {
+  "title": "采奕診所",
+  "no": "002",
+  "category": "內科\/小兒科",
+  "address": "桃園市龜山區文學路253號",
+  "telphone": "03-318-0899",
+  "hours": "08:30 - 12:00, 15:00 - 17:30, 18:00 - 21:30, 週日公休",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-采奕診所.jpeg",
+  "link": "https:\/\/www.facebook.com\/%E9%87%87%E5%A5%95%E8%A8%BA%E6%89%80-%E8%AA%A0%E6%84%8F%E8%97%A5%E5%B1%80-658079980887313\/"
+ },
+ {
+  "title": "無尾熊診所",
+  "no": "003",
+  "category": "內科\/小兒科",
+  "address": "桃園市龜山區文學路259號",
+  "telphone": "03-327-8068",
+  "hours": "週日~週五 08:30 - 12:00, 15:00-  18:00, 18:30 - 21:30, 週六 08:30 - 12:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-無尾熊診所.jpeg",
+  "link": "https:\/\/www.facebook.com\/A7Koala\/posts\/343423379483243\/"
+ },
+ {
+  "title": "陽光內科診所",
+  "no": "004",
+  "category": "內科\/小兒科",
+  "address": "新北市林口區仁愛路二段117號",
+  "telphone": "02-8601-9716",
+  "hours": "週一～四 08:30 - 12:00, 14:30 - 18:00, 18:30 - 21:30, 週五 08:30 - 12:00, 14:30 - 18:00, 週六 08:30 - 12:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-陽光內科.jpeg",
+  "link": "https:\/\/www.facebook.com\/GI26016068\/about?mt_nav=1&paipv=0&eav=AfazNUdscUgWhpNq31K-yd9j2olvmRs_A3KX7YQSXyTYmxUyqrpR3SriKVDDLS8BoUM"
+ },
+ {
+  "title": "安允中醫牙醫聯合診所",
+  "no": "005",
+  "category": "牙科",
+  "address": "桃園市龜山區文化二路38-10號",
+  "telphone": "03-327-3810",
+  "hours": "09:30 - 12:00, 14:30 - 21:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-安允牙醫診所.jpg",
+  "link": "http:\/\/iwin.tcm.tw\/"
+ },
+ {
+  "title": "蒲公英牙醫診所",
+  "no": "006",
+  "category": "牙科",
+  "address": "桃園市龜山區復興北路32號",
+  "telphone": "03-397-0132",
+  "hours": "09:30 - 12:30, 14:30 - 17:30, 18:30 - 21:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-蒲公英牙醫診所.jpg",
+  "link": "https:\/\/www.facebook.com\/dental0132"
+ },
+ {
+  "title": "耀耀親子眼科診所 角膜塑型專科",
+  "no": "007",
+  "category": "眼科",
+  "address": "新北市林口區仁愛路二段269號",
+  "telphone": "02-2606-9207",
+  "hours": "15:00 - 18:00, 18:30 - 21:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-耀耀親子眼科.jpg",
+  "link": "https:\/\/www.yeoweyeclinic.com\/"
+ },
+ {
+  "title": "宏觀聯合眼科診所",
+  "no": "008",
+  "category": "眼科",
+  "address": "新北市林口區文化三路一段35號",
+  "telphone": "02-2608-0198",
+  "hours": "08:30 - 12:30, 13:30 - 17:00, 18:00 - 21:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-宏觀眼科診所.jpg",
+  "link": "http:\/\/www.foresighteyecenter.com.tw\/"
+ },
+ {
+  "title": "全英眼科",
+  "no": "009",
+  "category": "眼科",
+  "address": "新北市林口區中山路196號",
+  "telphone": "02-2601-0365",
+  "hours": "08:30 - 12:00, 14:00 - 16:30, 18:30 - 20:30, 週六 08:30 - 11:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-Eyeplus.jpeg",
+  "link": "https:\/\/eyeplus.com.tw\/"
+ },
+ {
+  "title": "佳眼科",
+  "no": "010",
+  "category": "眼科",
+  "address": "新北市林口區竹林路69號",
+  "telphone": "02-2601-9512",
+  "hours": "週一～三 09:00 - 12:00, 17:00 - 20:30, 週四～六 09:00 - 12:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-佳眼科.jpeg",
+  "link": "https:\/\/www.best-ophthalmology.com\/item\/08048\/c025590.html"
+ },
+ {
+  "title": "微笑親子耳鼻喉科診所",
+  "no": "011",
+  "category": "耳鼻喉科",
+  "address": "桃園市龜山區文化二路51號",
+  "telphone": "03-318-0022",
+  "hours": "08:00 - 12:00, 14:30 - 21:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-微笑親子耳鼻喉科診所.jpeg",
+  "link": "https:\/\/www.mainpi.com\/query?i=549"
+ },
+ {
+  "title": "麗林耳鼻喉科診所",
+  "no": "012",
+  "category": "耳鼻喉科",
+  "address": "新北市林口區忠孝路379號1樓",
+  "telphone": "02-2608-2795",
+  "hours": "08:30 - 12:00, 15:00 - 18:00, 18:30 - 21:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-麗林耳鼻喉科診所.jpg",
+  "link": "https:\/\/zi.media\/@AI-health-helper\/post\/U-6wQTP"
+ },
+ {
+  "title": "順風美醫診所(林口旗艦館)",
+  "no": "013",
+  "category": "醫美",
+  "address": "桃園市龜山區復興一路146巷1號3樓",
+  "telphone": "03-255-0550",
+  "hours": "00:00 - 21:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-順風美醫.jpeg",
+  "link": "https:\/\/www.sfclinic.com.tw\/"
+ },
+ {
+  "title": "林口欣悅醫美診所",
+  "no": "014",
+  "category": "醫美",
+  "address": "新北市林口區文化三路一段467號",
+  "telphone": "02-2608-2332",
+  "hours": "12:30 - 20:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-欣悅醫美.jpeg",
+  "link": "https:\/\/www.facebook.com\/sinyue168\/"
+ },
+ {
+  "title": "左外野健保藥局",
+  "no": "015",
+  "category": "藥局",
+  "address": "桃園市龜山區文光街6號",
+  "telphone": "03-327-1503, 0918-076-615",
+  "hours": "09:00 - 22:00",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-左外野健保藥局.jpeg",
+  "link": "https:\/\/www.facebook.com\/%E5%B7%A6%E5%A4%96%E9%87%8E%E8%97%A5%E5%B1%80-114189630218930\/"
+ },
+ {
+  "title": "沃德牙醫診所",
+  "no": "016",
+  "category": "牙科",
+  "address": "新北市林口區忠孝路381\/377號",
+  "telphone": "02-2608-6699",
+  "hours": "09:00-12:00, 14:00-18:00, 18:30-21:00 週日公休",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-沃德牙醫診所.png",
+  "link": "https:\/\/www.facebook.com\/world381\/"
+ },
+ {
+  "title": "萊德美學牙醫診所",
+  "no": "017",
+  "category": "牙科",
+  "address": "新北市林口區文化二路一段283號",
+  "telphone": "0800-885283",
+  "hours": "週一至週五 09:30-21:30, 週六 09:30-17:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-萊德美學牙醫.jpg",
+  "link": "https:\/\/rdc.tw\/"
+ },
+ {
+  "title": "勤美牙醫診所",
+  "no": "018",
+  "category": "牙科",
+  "address": "新北市林口區文化二路一段138號1樓",
+  "telphone": "02-2608-7228",
+  "hours": "09:30–12:30, 14:00–21:00 週日公休",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-勤美牙醫診所.png",
+  "link": "https:\/\/chinmeidental.com\/"
+ },
+ {
+  "title": "禾欣牙醫診所",
+  "no": "019",
+  "category": "牙科",
+  "address": "桃園市桃園區桃園市龜山區復興一路108巷1號",
+  "telphone": "03-327-7895",
+  "hours": "09:30 - 21:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-禾欣牙醫診所.png",
+  "link": "https:\/\/www.facebook.com\/%E7%A6%BE%E6%AC%A3%E7%89%99%E9%86%AB-207500059279374\/"
+ },
+ {
+  "title": "睿凡牙醫診所",
+  "no": "020",
+  "category": "牙科",
+  "address": "桃園市龜山區文化三路315號",
+  "telphone": "03-327-7722",
+  "hours": "09:30–12:00, 14:00–20:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-睿凡牙醫.jpg",
+  "link": "https:\/\/www.revivingdc.com.tw\/"
+ },
+ {
+  "title": "林漢邦",
+  "no": "021",
+  "category": "外科",
+  "address": "新北市林口區仁愛路二段60號",
+  "telphone": "02-2603-0056",
+  "hours": "08:30 - 12:00, 14:30 - 18:00, 18:30 - 21:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-林漢邦.jpeg",
+  "link": "http:\/\/linhanpang.1655.com.tw\/map.php"
+ },
+ {
+  "title": "陽光皮膚科診所",
+  "no": "022",
+  "category": "皮膚科",
+  "address": "新北市林口區仁愛路二段113號",
+  "telphone": "02-8601-9716",
+  "hours": "週一～五 09:00 - 12:00, 14:30 - 17:30, 18:30 - 21:30, 週六 09:00 - 12:00, 14:30 - 17:30",
+  "figure": "fig\/XLK-261-Health\/AiCity-921-陽光皮膚科.jpeg",
+  "link": "https:\/\/www.facebook.com\/profile.php?id=100057180231907"
+ }
+]

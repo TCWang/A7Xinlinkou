@@ -1,0 +1,27 @@
+[
+ {
+  "Item": "MyTuner Radio",
+  "Category": "手機軟件",
+  "No": "103",
+  "Figure": "fig\/XLK-149-Phone\/A7XLK-1491-Apple-03.webp",
+  "Description": "台灣 音樂，新聞廣播電台",
+  "LinkApple": "https:\/\/apps.apple.com\/tw\/app\/mytuner-radio%E5%8F%B0%E7%81%A3-%E9%9F%B3%E6%A8%82-%E6%96%B0%E8%81%9E%E5%BB%A3%E6%92%AD%E9%9B%BB%E5%8F%B0\/id520502858"
+ },
+ {
+  "Item": "KTVla 點歌快手",
+  "Category": "手機軟件",
+  "No": "102",
+  "Figure": "fig\/XLK-149-Phone\/A7XLK-1491-Apple-02.webp",
+  "Description": "查詢各大KTV歌曲曲號",
+  "LinkApple": "https:\/\/apps.apple.com\/tw\/app\/ktvla-%E9%BB%9E%E6%AD%8C%E5%BF%AB%E6%89%8B\/id891989824"
+ },
+ {
+  "Item": "Shazam 音樂神搜",
+  "Category": "手機軟件",
+  "No": "101",
+  "Figure": "fig\/XLK-149-Phone\/A7XLK-1491-Apple-01.webp",
+  "Description": "能在數秒內迅速辨識任何歌曲。你可在此盡情探索、搜尋藝人、歌詞、影片與歌單，而且完全免費。截至目前為止，",
+  "Times": "  ",
+  "LinkApple": "https:\/\/apps.apple.com\/tw\/app\/shazam-%E9%9F%B3%E6%A8%82%E7%A5%9E%E6%90%9C\/id284993459"
+ }
+]

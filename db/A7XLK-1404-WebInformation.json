@@ -1,0 +1,578 @@
+﻿[
+        {
+            "No": "101",
+            "Category1": "行車資訊",
+            "Category": "交通資訊",
+            "Information": "每週油價查詢",
+            "Figure": "fig/AiCity-945-WebInformation-101.png",
+            "Link": "https://m.gas.goodlife.tw/gas"
+        },
+        {
+            "No": "102",
+            "Category1": "行車資訊",
+            "Category": "交通資訊",
+            "Information": "國道即時路況",
+            "Figure": "fig/AiCity-945-WebInformation-102.png",
+            "Link": "https://1968.freeway.gov.tw/n_speed"
+        },
+        {
+            "No": "103",
+            "Category1": "行車資訊",
+            "Category": "交通資訊",
+            "Information": "加油位址資訊",
+            "Figure": "fig/AiCity-945-WebInformation-103.jpg",
+            "Link": "https://www.google.com/maps/d/edit?mid=1KjxHpFnLbtTVEeJhan-_xLJSaLTb1tKw&usp=sharing"
+        },
+        {
+            "No": "104",
+            "Category1": "行車資訊",
+            "Category": "交通資訊",
+            "Information": "全國道路救援",
+            "Figure": "fig/AiCity-945-WebInformation-104.jpg",
+            "Link": "https://towingnet.com.tw/"
+        },
+        {
+            "No": "201",
+            "Category1": "大眾交通",
+            "Category": "交通資訊",
+            "Information": "台鐵時刻查詢",
+            "Figure": "fig/AiCity-945-WebInformation-201.jpeg",
+            "Link": "https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime"
+        },
+        {
+            "No": "202",
+            "Category1": "大眾交通",
+            "Category": "交通資訊",
+            "Information": "高鐵時刻查詢",
+            "Figure": "fig/AiCity-945-WebInformation-202.jpeg",
+            "Link": "https://www.thsrc.com.tw/ArticleContent/a3b630bb-1066-4352-a1ef-58c7b4e8ef7c"
+        },
+        {
+            "No": "203",
+            "Category1": "大眾交通",
+            "Category": "交通資訊",
+            "Information": "台北捷運資訊",
+            "Figure": "fig/AiCity-945-WebInformation-203.jpeg",
+            "Link": "https://m.metro.taipei/"
+        },
+        {
+            "No": "204",
+            "Category1": "大眾交通",
+            "Category": "交通資訊",
+            "Information": "桃園捷運資訊",
+            "Figure": "fig/AiCity-945-WebInformation-204.png",
+            "Link": "https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/timetable-search.php"
+        },
+        {
+            "No": "205",
+            "Category1": "大眾交通",
+            "Category": "交通資訊",
+            "Information": "大台北公車動態",
+            "Figure": "fig/AiCity-945-WebInformation-205.png",
+            "Link": "https://ebus.gov.taipei/"
+        },
+        {
+            "No": "206",
+            "Category1": "大眾交通",
+            "Category": "交通資訊",
+            "Information": "桃園公車動態",
+            "Figure": "fig/AiCity-945-WebInformation-206.png",
+            "Link": "https://ebus.tycg.gov.tw/NewTaoyuan/Dybus.aspx"
+        },
+        {
+            "No": "207",
+            "Category1": "大眾交通",
+            "Category": "交通資訊",
+            "Information": "YouBike站點",
+            "Figure": "fig/AiCity-945-WebInformation-207.png",
+            "Link": "https://tycg.youbike.com.tw/station/map?_id=5cb7e421083e7b42664b87e2"
+        },
+        {
+            "No": "601",
+            "Category1": "政府繳費",
+            "Category": "交通資訊",
+            "Information": "路邊停車繳費",
+            "Figure": "fig/AiCity-945-WebInformation-601.png",
+            "Link": "https://epark.tycg.gov.tw/public/"
+        },
+        {
+            "No": "602",
+            "Category1": "政府繳費",
+            "Category": "交通資訊",
+            "Information": "汽機車燃料費",
+            "Figure": "fig/AiCity-945-WebInformation-602.jpg",
+            "Link": "https://www.mvdis.gov.tw/m3-emv-fee/fee/fuelFee"
+        },
+        {
+            "No": "328",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "AI工具導覽",
+            "Figure": "fig/AiCity-945-WebInformation-328.webp",
+            "Link": "https://aitoolmall.com/zh/?_selection=image#pll_switcher"
+        },
+        {
+            "No": "327",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "台灣雲市集",
+            "Figure": "fig/AiCity-945-WebInformation-327.png",
+            "Link": "https://www.tcloud.gov.tw/"
+        },
+        {
+            "No": "326",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "台灣點歌王-金嗓點歌 原聲原影",
+            "Figure": "fig/AiCity-945-WebInformation-326.jpeg",
+            "Link": "https://song.corp.com.tw/index.aspx"
+        },
+        {
+            "No": "325",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "Open Taipei 2022",
+            "Figure": "fig/AiCity-945-WebInformation-325.png",
+            "Link": "https://www.opentaipei.org/"
+        },
+        {
+            "No": "324",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "點子生活",
+            "Figure": "fig/AiCity-945-WebInformation-324.png",
+            "Link": "https://www.saydigi.com/"
+        },
+        {
+            "No": "323",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "選舉黃頁",
+            "Figure": "fig/AiCity-945-WebInformation-323.png",
+            "Link": "https://elections.olc.tw/"
+        },
+        {
+            "No": "322",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "臺灣選舉資料庫",
+            "Figure": "fig/AiCity-945-WebInformation-322.png",
+            "Link": "https://votetw.com/data/"
+        },
+        {
+            "No": "321",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "水庫即時水情",
+            "Figure": "fig/AiCity-945-WebInformation-321.png",
+            "Link": "https://water.taiwanstat.com/"
+        },
+        {
+            "No": "320",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "國字查詢",
+            "Figure": "fig/AiCity-945-WebInformation-320.jpeg",
+            "Link": "https://stroke-order.learningweb.moe.edu.tw/home.do"
+        },
+        {
+            "No": "319",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "避難所查詢",
+            "Figure": "fig/AiCity-945-WebInformation-319.jpeg",
+            "Link": "https://adr.npa.gov.tw/?fbclid=IwAR2XJsSni0LCsxyHicV78yYT1x7Wurg7iq11YDBF68tshCLKciOOzYuLCbY"
+        },
+        {
+            "No": "313",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "軟體下載 FossHub",
+            "Figure": "fig/AiCity-945-WebInformation-313.jpeg",
+            "Link": "https://www.fosshub.com/"
+        },
+        {
+            "No": "314",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "格式轉換 Aconvert",
+            "Figure": "fig/AiCity-945-WebInformation-314.jpeg",
+            "Link": "https://www.aconvert.com/"
+        },
+        {
+            "No": "315",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "心智圖 GitMind",
+            "Figure": "fig/AiCity-945-WebInformation-315.jpeg",
+            "Link": "https://gitmind.com/tw/"
+        },
+        {
+            "No": "316",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "肌肉訓練 MuscleWiki",
+            "Figure": "fig/AiCity-945-WebInformation-316.jpeg",
+            "Link": "https://musclewiki.com/"
+        },
+        {
+            "No": "317",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "音樂下載 SoundCloud",
+            "Figure": "fig/AiCity-945-WebInformation-317.png",
+            "Link": "https://soundcloud.com/"
+        },
+        {
+            "No": "318",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "瀏覽加速器 SpeedyFox",
+            "Figure": "fig/AiCity-945-WebInformation-318.jpeg",
+            "Link": "https://crystalidea.com/speedyfox"
+        },
+        {
+            "No": "312",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "懶盤搜索",
+            "Figure": "fig/XLK-1401-News/XLK-142-lzpan.png",
+            "Link": "https://lzpan.com/"
+        },
+        {
+            "No": "311",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "大數據導航",
+            "Figure": "fig/XLK-1401-News/XLK-142-大數據導航.png",
+            "Link": "http://hao.199it.com/"
+        },
+        {
+            "No": "310",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "果汁排行榜",
+            "Figure": "fig/XLK-1401-News/XLK-142-果汁排行榜.jpeg",
+            "Link": "http://guozhivip.com/rank/"
+        },
+        {
+            "No": "301",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "樂透彩劵開獎",
+            "Figure": "fig/AiCity-945-WebInformation-301.png",
+            "Link": "http://lotto2.arclink.com.tw/649/"
+        },
+        {
+            "No": "302",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "當日股市查詢",
+            "Figure": "fig/AiCity-945-WebInformation-302.jpeg",
+            "Link": "https://tw.stock.yahoo.com/"
+        },
+        {
+            "No": "303",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "統一發票兌獎",
+            "Figure": "fig/AiCity-945-WebInformation-303.png",
+            "Link": "https://www.etax.nat.gov.tw/etw-main/web/ETW183W1/"
+        },
+        {
+            "No": "304",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "在地即時影像",
+            "Figure": "fig/AiCity-945-WebInformation-304.jpg",
+            "Link": "https://tw.live/"
+        },
+        {
+            "No": "305",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "天氣資訊查詢",
+            "Figure": "fig/AiCity-945-WebInformation-305.jpeg",
+            "Link": "https://www.cwb.gov.tw/V8/C/"
+        },
+        {
+            "No": "310",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "颱風動向Windy",
+            "Figure": "fig/AiCity-945-WebInformation-310.jpg",
+            "Link": "https://www.windy.com/?24.989,121.318,5"
+        },
+        {
+            "No": "306",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "地籍資訊查詢",
+            "Figure": "fig/AiCity-945-WebInformation-306.jpg",
+            "Link": "https://easymap.land.moi.gov.tw/P02/Index"
+        },
+        {
+            "No": "307",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "房屋實價查詢",
+            "Figure": "fig/AiCity-945-WebInformation-307.png",
+            "Link": "https://market.591.com.tw/?refid=4&gclid=Cj0KCQiAw_H-BRD-ARIsALQE_2NR1hr1mPPAfoyWGVaAIM_FL5036x8H5Fq_33pSGv66m97xxieLO_caAvlxEALw_wcB"
+        },
+        {
+            "No": "308",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "當季菜價查詢",
+            "Figure": "fig/AiCity-945-WebInformation-308.jpg",
+            "Link": "https://www.twfood.cc/vege?page=2"
+        },
+        {
+            "No": "309",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "空氣品質監測",
+            "Figure": "fig/AiCity-945-WebInformation-309.png",
+            "Link": "https://airtw.epa.gov.tw/CHT/EnvMonitoring/Local/LocalMonitoring.aspx?Type=EPB"
+        },
+        {
+            "No": "401",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "郵遞區號查詢",
+            "Figure": "fig/AiCity-945-WebInformation-401.png",
+            "Link": "https://www.post.gov.tw/post/internet/SearchZone/index.jsp?ID=130107"
+        },
+        {
+            "No": "402",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "英文地址翻譯",
+            "Figure": "fig/AiCity-945-WebInformation-402.jpg",
+            "Link": "https://www.post.gov.tw/post/internet/Postal/index.jsp?ID=207"
+        },
+        {
+            "No": "403",
+            "Category1": "生活資訊",
+            "Category": "生活查詢",
+            "Information": "貨幣換算工具",
+            "Figure": "fig/AiCity-945-WebInformation-403.jpeg",
+            "Link": "https://tw.exchange-rates.org/converter"
+        },
+        {
+            "No": "404",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "網速即時查詢",
+            "Figure": "fig/AiCity-945-WebInformation-404.png",
+            "Link": "https://fast.com/zh/tw/#"
+        },
+        {
+            "No": "405",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "勞保給付試算",
+            "Figure": "fig/AiCity-945-WebInformation-405.jpg",
+            "Link": "https://www.bli.gov.tw/0014162.html"
+        },
+        {
+            "No": "406",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "單位換算查詢",
+            "Figure": "fig/AiCity-945-WebInformation-406.png",
+            "Link": "https://toolbxs.com/zh-TW/converter/unit"
+        },
+        {
+            "No": "407",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "DesignEvo",
+            "Figure": "fig/AiCity-945-WebInformation-407.png",
+            "Link": "https://www.designevo.com/tw/logo-maker/\" title=\"免費線上logo製作軟體"
+        },
+        {
+            "No": "408",
+            "Category1": "查詢工具",
+            "Category": "生活查詢",
+            "Information": "門牌定位服務",
+            "Figure": "fig/AiCity-945-WebInformation-408.jpeg",
+            "Link": "https://www.tgos.tw/tgos/Web/Address/TGOS_Address.aspx?fbclid=IwAR2Y2QtTuEYl3uACZLVuKsCnHcCj7Y301aApNkc3tJIUZLl7H8956P4gpu0"
+        },
+        {
+            "No": "076",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "泥巴影院",
+            "Figure": "fig/XLK-1401-News/XLK-142-泥巴.png",
+            "Link": "https://www.nbys.tv/index.html"
+        },
+        {
+            "No": "075",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "影貓電影",
+            "Figure": "fig/XLK-1401-News/XLK-142-MVCAT.png",
+            "Link": "https://www.mvcat.com/"
+        },
+        {
+            "No": "072",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "劇迷 Gimy",
+            "Figure": "fig/XLK-1401-News/XLK-142-劇迷.png",
+            "Link": "https://gimy.app/"
+        },
+        {
+            "No": "510",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "獨播庫",
+            "Figure": "fig/AiCity-945-WebInformation-510.png",
+            "Link": "https://www.duboku.tv/"
+        },
+        {
+            "No": "511",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "大劇獨播",
+            "Figure": "fig/AiCity-945-WebInformation-511.jpeg",
+            "Link": "https://bigdramas.com/"
+        },
+        {
+            "No": "512",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "WeTV 付費",
+            "Figure": "fig/AiCity-945-WebInformation-512.jpeg",
+            "Link": "https://wetv.vip/"
+        },
+        {
+            "No": "513",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "DramasQ",
+            "Figure": "fig/AiCity-945-WebInformation-513.jpeg",
+            "Link": "https://dramasq.com/cn/"
+        },
+        {
+            "No": "514",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "愛奇藝 付費",
+            "Figure": "fig/AiCity-945-WebInformation-514.jpeg",
+            "Link": "https://www.iq.com/"
+        },
+        {
+            "No": "515",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "芒果TV 付費",
+            "Figure": "fig/AiCity-945-WebInformation-515.jpeg",
+            "Link": "https://w.mgtv.com/"
+        },
+        {
+            "No": "516",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "影视之家",
+            "Figure": "fig/AiCity-945-WebInformation-516.jpeg",
+            "Link": "https://www.743718.com/"
+        },
+        {
+            "No": "517",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "騰訊視頻 付費",
+            "Figure": "fig/AiCity-945-WebInformation-517.png",
+            "Link": "https://v.qq.com/"
+        },
+        {
+            "No": "073",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "中國人線上看",
+            "Figure": "fig/XLK-1401-News/XLK-142-中國人線上看.png",
+            "Link": "https://chinaq.biz/cn/"
+        },
+        {
+            "No": "071",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "美國電視頻道",
+            "Figure": "fig/XLK-1401-News/AiCity-923-USTVGo.jpeg",
+            "Link": "https://ustvgo.tv/"
+        },
+        {
+            "No": "501",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "上映電影查詢",
+            "Figure": "fig/AiCity-945-WebInformation-501.jpg",
+            "Link": "https://movies.yahoo.com.tw/showtimes"
+        },
+        {
+            "No": "502",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "連續劇熱播表",
+            "Figure": "fig/AiCity-945-WebInformation-502.jpeg",
+            "Link": "https://kan.sogou.com/top/dianshiju/"
+        },
+        {
+            "No": "503",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "附近景點快搜",
+            "Figure": "fig/AiCity-945-WebInformation-503.jpeg",
+            "Link": "https://www.taiwan.net.tw/m1.aspx?sNo=0000064"
+        },
+        {
+            "No": "504",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "主題旅遊資訊",
+            "Figure": "fig/AiCity-945-WebInformation-504.jpg",
+            "Link": "https://www.taiwan.net.tw/m1.aspx?sNo=0000108"
+        },
+        {
+            "No": "505",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "藝文活動資訊",
+            "Figure": "fig/AiCity-945-WebInformation-505.jpg",
+            "Link": "https://event.moc.gov.tw/mp.asp?mp=1"
+        },
+        {
+            "No": "506",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "地區節慶活動",
+            "Figure": "fig/AiCity-945-WebInformation-506.jpg",
+            "Link": "https://www.taiwan.net.tw/m1.aspx?sNo=0000104"
+        },
+        {
+            "No": "507",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "智慧導遊-桃園",
+            "Figure": "fig/AiCity-945-WebInformation-507.jpg",
+            "Link": "https://tcwang.github.io/TravelGuide-Taoyuan/index.html"
+        },
+        {
+            "No": "508",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "智慧導遊-花東",
+            "Figure": "fig/AiCity-945-WebInformation-508.jpg",
+            "Link": "https://tcwang.github.io/TravelGuide-EastCoast/index.html"
+        },
+        {
+            "No": "509",
+            "Category1": "娛樂資訊",
+            "Category": "娛樂資訊",
+            "Information": "智慧導遊-離島",
+            "Figure": "fig/AiCity-945-WebInformation-509.jpg",
+            "Link": "https://tcwang.github.io/TravelGuide-Islands/Index.html"
+        }
+    ]

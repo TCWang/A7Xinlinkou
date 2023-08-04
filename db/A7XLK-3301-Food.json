@@ -1,0 +1,93 @@
+﻿[
+        {
+            "no": "001",
+            "title": "大廚網",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-大廚網.png",
+            "link": "https://www.dachu.co/",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "002",
+            "title": "楊桃美食網",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-楊桃美食網.jpg",
+            "link": "https://www.ytower.com.tw/recipe/",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "003",
+            "title": "愛料理",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-愛料理.jpg",
+            "link": "https://icook.tw/",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "004",
+            "title": "心食譜",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-心食譜.jpg",
+            "link": "https://www.xinshipu.com/",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "005",
+            "title": "美食天下",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-美食天下.jpeg",
+            "link": "https://home.meishichina.com/recipe.html",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "006",
+            "title": "蔬食地圖",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-蔬食地圖.jpeg",
+            "link": "https://vegemap.merit-times.com/mastersingle_list?id=186",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "007",
+            "title": "禪居食堂",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-禪居食堂.jpeg",
+            "link": "https://www.youtube.com/playlist?list=PL9y6-iHwS1nVW-nU3GwVGbAlGaXgtniFt",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "008",
+            "title": "美食台",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-美食台.jpg",
+            "link": "https://mp.weixin.qq.com/s/nhzdkwTvKJ8b_iM83Rn-mg?",
+            "category": "食譜匯總"
+        },
+        {
+            "no": "101",
+            "title": "阿基師",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-阿基師.jpg",
+            "link": "https://www.youtube.com/results?search_query=%E9%98%BF%E5%9F%BA%E5%B8%88%E9%A3%9F%E8%B0%B1&sp=eAE%253D",
+            "category": "主廚教學"
+        },
+        {
+            "no": "102",
+            "title": "吳秉承",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-吳秉承.jpg",
+            "link": "https://www.youtube.com/results?search_query=%E5%90%B3%E7%A7%89%E6%89%BF%E9%A3%9F%E8%AD%9C",
+            "category": "主廚教學"
+        },
+        {
+            "no": "103",
+            "title": "詹姆士",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-詹姆士.jpeg",
+            "link": "https://www.youtube.com/results?search_query=%E8%A9%B9%E5%A7%86%E5%A3%AB+%E9%A3%9F%E8%AD%9C",
+            "category": "主廚教學"
+        },
+        {
+            "no": "104",
+            "title": "傅培梅",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-傅培梅.jpg",
+            "link": "https://www.touchttv.com/touchttv/play.aspx?id=1042",
+            "category": "主廚教學"
+        },
+        {
+            "no": "105",
+            "title": "阿見",
+            "figure": "fig/XLK-331-Cooking/AiCity-922-阿見.jpg",
+            "link": "https://www.youtube.com/channel/UC1SaDcKftNgCW-I34K462yQ/featured",
+            "category": "主廚教學"
+        }
+    ]

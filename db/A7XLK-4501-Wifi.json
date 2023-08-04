@@ -1,0 +1,110 @@
+[
+ {
+  "Product": "WiFi 6 入門款 路由器 Archer AX10 \/AX1500 ",
+  "No": 21,
+  "Category": "無線分享器",
+  "Supplier": "TP-Link",
+  "Price": 1399,
+  "Spec": "IEEE 802.11ax\/ac\/n\/a 5 GHz; \nIEEE 802.11n\/b\/g 2.4 GHz",
+  "Speed": "5 GHz: 1201 Mbps (802.11ax);\n2.4 GHz: 300 Mbps (802.11n)",
+  "Usb": "1× Gigabit WAN 埠; \n4× Gigabit LAN 埠",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-21.jpeg",
+  "Link": "https:\/\/www.tp-link.com\/tw\/home-networking\/wifi-router\/archer-ax10\/"
+ },
+ {
+  "Product": "雙頻WiFi 6 路由器 Archer AX23 \/AX1800",
+  "No": 22,
+  "Category": "無線分享器",
+  "Supplier": "TP-Link",
+  "Price": 1599,
+  "Spec": "IEEE 802.11ax\/ac\/n\/a 5 GHz; \nIEEE 802.11n\/b\/g 2.4 GHz",
+  "Speed": "5 GHz: 1201 Mbps (802.11ax);\n2.4 GHz: 547 Mbps (802.11ax)",
+  "Usb": "1× Gigabit WAN 埠; \n4× Gigabit LAN 埠",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-21.jpeg",
+  "Link": "https:\/\/www.tp-link.com\/tw\/home-networking\/wifi-router\/archer-ax23\/#specifications"
+ },
+ {
+  "Product": "WiFi6 Router 無線雙頻路由器 AX1800 ",
+  "No": 23,
+  "Category": "無線分享器",
+  "Supplier": "D-Link",
+  "Price": 1599,
+  "Spec": "2.4GHz - IEEE 802.11b\/g\/n\/ax\n5GHz - IEEE 802.11a\/n\/ac\/ax",
+  "Speed": "2.4GHz頻段 : 802.11n模式下，最高傳輸速率300Mbps。802.11ax模式下，最高傳輸速率574Mbps。\n\n5GHz頻段 : 802.11ac模式下，最高傳輸速率867Mbps。802.11ax模式下，最高傳輸速率1201Mbps。",
+  "Usb": "1× Gigabit WAN 埠; \n4× Gigabit LAN 埠",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-23.png",
+  "Link": "https:\/\/www.dlinktw.com.tw\/home\/product?id=5079"
+ },
+ {
+  "Product": "EAGLE PRO AI\n雙頻路由器 R32 AX3200 ",
+  "No": 24,
+  "Category": "無線分享器",
+  "Supplier": "D-Link",
+  "Price": 2399,
+  "Spec": "2.4GHz - IEEE 802.11b\/g\/n\/ax\n5GHz - IEEE 802.11a\/n\/ac\/ax",
+  "Speed": "2.4GHz頻段 : 802.11n模式下，最高傳輸速率800Mbps。\n\n5GHz頻段 :802.11ax模式下，最高傳輸速率2400Mbps。",
+  "Usb": "1× Gigabit WAN 埠; \n4× Gigabit LAN 埠",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-24.png",
+  "Link": "https:\/\/www.dlinktw.com.tw\/home\/product?id=10114&hid=18"
+ },
+ {
+  "Product": "8 埠 2.5-Gigabit 交換器 Desktop Switch TL-SG108-M2",
+  "No": 25,
+  "Category": "無線分享器",
+  "Supplier": "TP-Link",
+  "Price": 4599,
+  "Spec": "IEEE 802.3, 802.3u, 802.3ab, 802.3x, 802.1p, 802.3bz",
+  "Speed": "8 埠 2.5G Multi-Gigabit 桌上型交換器",
+  "Usb": "8 x 100Mbps\/1Gbps\/2.5Gbp  網路連接埠(RJ45)\n自動協商, 自動-MDI\/MDIX",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-25.jpeg",
+  "Link": "https:\/\/www.tp-link.com\/tw\/home-networking\/soho-switch\/tl-sg108-m2\/"
+ },
+ {
+  "Product": "5 埠 10\/100\/1000Mbps交換器 Desktop Switch TL-SG105 V6",
+  "No": 26,
+  "Category": "無線分享器",
+  "Supplier": "TP-Link",
+  "Price": 469,
+  "Spec": "IEEE 802.3i\/802.3u\/ 802.3ab\/802.3x, IEEE 802.1p",
+  "Speed": "10\/100\/1000Mbps 自動協商 RJ45 連接埠，",
+  "Usb": "5 x 10\/100\/1000Mbps  網路連接埠(RJ45)\n自動協商, 自動MDI\/MDIX",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-26.jpeg",
+  "Link": "https:\/\/www.tp-link.com\/tw\/home-networking\/soho-switch\/tl-sg105\/"
+ },
+ {
+  "Product": "EEE節能 10\/100\/1000Mbps\n桌上型網路交換器 DGS-108",
+  "No": 27,
+  "Category": "無線分享器",
+  "Supplier": "D-Link",
+  "Price": 959,
+  "Spec": "IEEE 802.3 10BASE-T, 802.3u 100BASE-TX, 802.3ab 1000BASE-T; \nIEEE802.3 Nway Auto-negotiation規範,可自動偵測傳輸速率;\nIEEE802.3x流量控制功能\n",
+  "Speed": "提供乙太網路連接埠資料封包過濾\/流通率每秒為14,880個封包, 高速乙太網路連接埠之資料封包過濾\/流通率每秒為148,800個封包, 超高速乙太網路連接埠之資料封包過濾\/流通率每秒為1,488,000個封包",
+  "Usb": "8個10\/100\/1000Mbps RJ-45自動偵測交換埠",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-27.png",
+  "Link": "https:\/\/www.dlinktw.com.tw\/business\/product?id=907&hid=1"
+ },
+ {
+  "Product": "5埠 10\/100\/1000Mbps\n桌上型網路交換器 DGS-105",
+  "No": 28,
+  "Category": "無線分享器",
+  "Supplier": "D-Link",
+  "Price": 469,
+  "Spec": "IEEE 802.3 10BASE-T, 802.3u 100BASE-TX, 802.3ab 1000BASE-T; \nIEEE802.3 Nway Auto-negotiation規範,可自動偵測傳輸速率; \nIEEE802.3x流量控制功能\n\n",
+  "Speed": "提供乙太網路連接埠資料封包過濾\/流通率每秒為14,880個封包, 高速乙太網路連接埠之資料封包過濾\/流通率每秒為148,800個封包, 超高速乙太網路連接埠之資料封包過濾\/流通率每秒為1,488,000個封包",
+  "Usb": "具備5個10\/100\/1000Mbps RJ-45自動偵測交換埠",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-28.png",
+  "Link": "https:\/\/www.dlinktw.com.tw\/business\/product?id=905&hid=1"
+ },
+ {
+  "Product": "千兆单模单纤光纤收发器 TL-FC311A-40",
+  "No": 29,
+  "Category": "無線分享器",
+  "Supplier": "TP-Link",
+  "Price": 781,
+  "Spec": "IEEE 802.3、IEEE 802.3u、IEEE 802.3ab、IEEE 802.3z、IEEE 802.3x",
+  "Speed": "网线：超五类或以上UTP和STP\n光纤：9\/125um单模光纤",
+  "Usb": "1个1.25Gbps SC光纤接口\n1个100Mbps\/1000Mbps自适应RJ45口",
+  "Figure": "fig\/XLK-451-Appliance\/SST-3101-Wifi-29.jpeg",
+  "Link": "https:\/\/www.tp-link.com.cn\/product_1010.html?source=list"
+ }
+]

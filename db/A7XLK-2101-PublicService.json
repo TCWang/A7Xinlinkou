@@ -1,0 +1,572 @@
+﻿[
+        {
+            "no": "123",
+            "title": "桃園圖書館總館",
+            "address": "桃園市桃園區南平路303號",
+            "hours": "週二-週六 08:30 - 21:00, 週日-週一 08:30 - 17:00",
+            "figure": "fig/A7XLK-211-桃園圖書館.png",
+            "link": "https://lifetree.typl.gov.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "101",
+            "title": "財政部北區國稅局",
+            "address": "桃園市桃園區三元街156號",
+            "telephone": "03-339-6789",
+            "hours": "星期一至星期五 8:30-12:30, 13:00-17:00",
+            "figure": "fig/A7XLK-211-財政部.png",
+            "link": "https://www.ntbna.gov.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "102",
+            "title": "龜山區公所",
+            "address": "桃園市龜山區中山街 26 號",
+            "telephone": "03-320-3711 ~ 6",
+            "hours": "星期一至星期五 8:00-12:00, 13:00-17:00",
+            "figure": "fig/A7XLK-211-區公所.jpeg",
+            "link": "https://www.guishan.tycg.gov.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "103",
+            "title": "龜山戶政事務所",
+            "address": "桃園市龜山區自強南路99號",
+            "telephone": "03-320-1922",
+            "hours": "星期一至星期五 7:00-17:00, 週六09:00-12:00",
+            "figure": "fig/A7XLK-211-戶政事務所.png",
+            "link": "https://www.guishan-hro.tycg.gov.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "118",
+            "title": "龜山地政事務所",
+            "address": "桃園市龜山區自強南路105號",
+            "telephone": "03-359-6480",
+            "hours": "星期一至星期五 08:00 - 17:00",
+            "figure": "fig/A7XLK-211-地政事務所.png",
+            "link": "https://www.guishan-land.tycg.gov.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "124",
+            "title": "龜山大華親子館",
+            "address": "桃園市龜山區文化七路118巷7號2樓",
+            "telephone": "03-327-0237",
+            "hours": "09:00 - 12:00, 14:00 - 17:00 週一公休",
+            "figure": "fig/A7XLK-211-大華親子館.jpeg",
+            "link": "https://babycare.tycg.gov.tw/#/home",
+            "category": "政府機關"
+        },
+        {
+            "no": "119",
+            "title": "龜山區親子館",
+            "address": "桃園市龜山區自強南路97號99號戶政事務所旁的入口2F",
+            "telephone": "03-359-5251",
+            "hours": "每週二至週日 08:30 - 17:00 ",
+            "figure": "fig/A7XLK-211-龜山親子館.jpeg",
+            "link": "https://www.facebook.com/guishan2021/",
+            "category": "政府機關"
+        },
+        {
+            "no": "120",
+            "title": "龜山區衛生所",
+            "address": "桃園市龜山區自強南路103號",
+            "telephone": "03-329-9645",
+            "hours": "周一至周五08:00–12:00, 13:00–17:00",
+            "figure": "fig/A7XLK-211-衛生所.png",
+            "link": "https://www.guishan-phc.tycg.gov.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "121",
+            "title": "警察局龜山分局",
+            "address": "桃園市龜山區自強南路123號",
+            "telephone": "03-329-2701",
+            "hours": "24小時",
+            "figure": "fig/A7XLK-211-警察局.jpeg",
+            "link": "https://www.typd.gov.tw/guishan/",
+            "category": "政府機關"
+        },
+        {
+            "no": "122",
+            "title": "大坪頂便民工作站",
+            "address": "桃園市龜山區文化二路95號二樓 桃園市龜山區農會公西辦事處二樓",
+            "telephone": "03-397-0110",
+            "hours": "每週二、四 09:00 - 12:00",
+            "figure": "fig/A7XLK-211-大坪頂工作站.png",
+            "link": "https://www.guishan-hro.tycg.gov.tw/home.jsp?id=167&parentpath=0,10",
+            "category": "政府機關"
+        },
+        {
+            "no": "104",
+            "title": "桃園市環境清潔稽查大隊",
+            "address": "桃園市龜山區中山街26號",
+            "telephone": "03-350-3877",
+            "figure": "fig/A7XLK-211-環境清潔大隊.gif",
+            "link": "https://www.tyemid.gov.tw/Convenience/Details/3",
+            "category": "政府機關"
+        },
+        {
+            "no": "105",
+            "title": "桃園市政信箱",
+            "address": "桃園市桃園區縣府路一號 ",
+            "telephone": "03-332-2101",
+            "figure": "fig/A7XLK-211-市政信箱.png",
+            "link": "https://taotalk.tycg.gov.tw/main/PageCtrl?p=p_1",
+            "category": "政府機關"
+        },
+        {
+            "no": "106",
+            "title": "桃園市政府警察局龜山分局大埔派出所",
+            "address": "桃園市龜山區文德二路80號",
+            "telephone": "03-318-6447",
+            "figure": "fig/A7XLK-211-警察局.png",
+            "link": "https://www.typd.gov.tw/#gsc.tab=0",
+            "category": "政府機關"
+        },
+        {
+            "no": "115",
+            "title": "林口高級中學",
+            "address": "新北市林口區仁愛路二段173號",
+            "telephone": "02-2600-9482",
+            "figure": "fig/A7XLK-211-林口高中.png",
+            "link": "https://www.lksh.ntpc.edu.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "116",
+            "title": "壽山高級中學",
+            "address": "桃園市龜山區大同路23號 ",
+            "telephone": "03-350-1778",
+            "figure": "fig/A7XLK-211-壽山高中.jpeg",
+            "link": "http://www.sssh.tyc.edu.tw/bin/home.php",
+            "category": "政府機關"
+        },
+        {
+            "no": "107",
+            "title": "大崗國民中學",
+            "address": "桃園市龜山區文化二路168號",
+            "telephone": "03-328-0888",
+            "figure": "fig/A7XLK-211-大崗國中.jpeg",
+            "link": "http://www.dgjh.tyc.edu.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "108",
+            "title": "林口國民中學",
+            "address": "新北市林口區民治路25號",
+            "telephone": "02-2601-1014",
+            "figure": "fig/A7XLK-211-林口國中.jpeg",
+            "link": "https://www.lkjh.ntpc.edu.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "109",
+            "title": "樂善國民小學",
+            "address": "桃園市龜山區樂安街71號",
+            "telephone": "03-3281002",
+            "figure": "fig/A7XLK-211-樂善國小.jpg",
+            "link": "http://www2.leses.tyc.edu.tw/school/web/index.php",
+            "category": "政府機關"
+        },
+        {
+            "no": "110",
+            "title": "長庚國民小學",
+            "address": "桃園市龜山區長庚里425號",
+            "telephone": "03-318-2643",
+            "figure": "fig/A7XLK-211-長庚國小.jpeg",
+            "link": "http://www.cgps.tyc.edu.tw/index1.htm",
+            "category": "政府機關"
+        },
+        {
+            "no": "111",
+            "title": "文欣國民小學",
+            "address": "桃園市龜山區文昌五街95號",
+            "telephone": "03-397-4893",
+            "figure": "fig/A7XLK-211-文欣國小.jpeg",
+            "link": "http://www.weses.tyc.edu.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "112",
+            "title": "文華國民小學",
+            "address": "桃園市龜山區文化七路116號",
+            "telephone": "03-327-1146",
+            "figure": "fig/A7XLK-211-文華國小.jpg",
+            "link": "http://sun.sshes.tyc.edu.tw/xoops/index.php?color=blue#k",
+            "category": "政府機關"
+        },
+        {
+            "no": "113",
+            "title": "文德非營利幼兒園",
+            "address": "桃園市龜山區文德二路88號",
+            "telephone": "03-397-9511, 397-9146",
+            "figure": "fig/A7XLK-211-文德幼兒園.jpg",
+            "link": "https://www.safe.org.tw/about/family/kindergarten/14",
+            "category": "政府機關"
+        },
+        {
+            "no": "114",
+            "title": "大崗國小附設幼兒園",
+            "address": "桃園市龜山區大崗村12鄰55號",
+            "telephone": "03-397-2886",
+            "figure": "fig/A7XLK-211-大崗附設幼兒園.jpeg",
+            "link": "http://www.dges.tyc.edu.tw/",
+            "category": "政府機關"
+        },
+        {
+            "no": "117",
+            "title": "樂善國小附設幼兒園",
+            "address": "桃園市龜山區樂善里11鄰樂安街71號",
+            "telephone": "03-328-1002#910",
+            "figure": "fig/A7XLK-211-樂善國小.jpg",
+            "link": "http://www4.leses.tyc.edu.tw/happy/preschool/",
+            "category": "政府機關"
+        },
+        {
+            "no": "201",
+            "title": "桃欣天然氣股份有限公司",
+            "address": "桃園市桃園區法治路10號",
+            "telephone": " 03-335-2191 轉 500",
+            "hours": "8:30 - 17:00",
+            "figure": "fig/A7XLK-212-桃欣天然氣.png",
+            "link": "http://www.shintaogas.com.tw/Home/home/default.aspx",
+            "category": "公共服務"
+        },
+        {
+            "no": "202",
+            "title": "台灣自來水公司第二區管理處龜山服務所",
+            "address": "桃園市龜山區光峰路2號",
+            "telephone": "03-329-4999",
+            "hours": "8:00 - 17:00",
+            "figure": "fig/A7XLK-212-自來水公司.png",
+            "link": "https://www2.water.gov.tw/ch2/00index/home.asp",
+            "category": "公共服務"
+        },
+        {
+            "no": "203",
+            "title": "台灣電力公司林口服務所",
+            "address": "桃園市龜山區文化一路51號",
+            "telephone": "03-211-1911",
+            "hours": "8:00 - 17:00",
+            "figure": "fig/A7XLK-212-電力公司.png",
+            "link": "https://branch.taipower.com.tw/Content/Messagess/contents.aspx?&SiteID=564766277367364243&MmmID=564766315067672172&MSID=616164715712543701",
+            "category": "公共服務"
+        },
+        {
+            "no": "204",
+            "title": "特麗自助洗車",
+            "address": "桃園市龜山區文化一路44號",
+            "telephone": "080-088-2717",
+            "hours": "24 H",
+            "figure": "fig/A7XLK-212-特麗.jpg",
+            "link": "http://www.supershine.com.tw/",
+            "category": "公共服務"
+        },
+        {
+            "no": "205",
+            "title": "Smile 速邁樂",
+            "address": "桃園市龜山區文化一路86之5號",
+            "telephone": "03-327-3008",
+            "hours": "24 H",
+            "figure": "fig/A7XLK-212-速邁樂.jpeg",
+            "link": "http://www.mech-smile.com.tw/",
+            "category": "公共服務"
+        },
+        {
+            "no": "206",
+            "title": "台灣中油文一加油站(加盟)",
+            "address": "桃園市龜山區文化一路73號",
+            "telephone": "03-328-2115",
+            "hours": "07:00 - 22:00",
+            "figure": "fig/A7XLK-212-中油.jpg",
+            "link": "https://www.cpc.com.tw/#",
+            "category": "公共服務"
+        },
+        {
+            "no": "207",
+            "title": "龜山文化郵局",
+            "address": "桃園市龜山區文昌一街102號",
+            "telephone": "03-328-2617",
+            "hours": "郵務 08:30 - 17:30，儲匯 08:30 - 17:00",
+            "figure": "fig/A7XLK-212-郵局.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_post.jsp?prsb_no=012125-3",
+            "category": "公共服務"
+        },
+        {
+            "no": "216",
+            "title": "龜山文青郵政代辦所",
+            "address": "桃園市龜山區文青路300號",
+            "hours": "10:00-17:00",
+            "figure": "fig/A7XLK-212-郵局代辦所.jpeg",
+            "category": "公共服務"
+        },
+        {
+            "no": "217",
+            "title": "龜山長庚大學郵局",
+            "address": "桃園市龜山區文化一路259號",
+            "telephone": "03-211-8633",
+            "hours": "週一至週五 郵務:08:30-17:00",
+            "figure": "fig/A7XLK-212-郵局.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_post.jsp?prsb_no=012136-1",
+            "category": "公共服務"
+        },
+        {
+            "no": "218",
+            "title": "龜山樂善郵局",
+            "address": "桃園市龜山區復興街5號",
+            "telephone": "03-328-2459",
+            "hours": " 週一至週五 郵務:08:30-17:00",
+            "figure": "fig/A7XLK-212-郵局.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_post.jsp?prsb_no=012117-6",
+            "category": "公共服務"
+        },
+        {
+            "no": "219",
+            "title": "郵筒-長庚里里民活動中心",
+            "address": "\r\n桃園市龜山區長庚醫護新村80號B1",
+            "hours": "平日, 限時",
+            "figure": "fig/A7XLK-212-Mail3.jpeg",
+            "category": "公共服務"
+        },
+        {
+            "no": "208",
+            "title": "郵筒-文化一路",
+            "address": "桃園市龜山區文化一路53號",
+            "telephone": "03-318-5741",
+            "hours": "平日 09:00",
+            "figure": "fig/A7XLK-212-Mail1.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_map_box.jsp?id=1859",
+            "category": "公共服務"
+        },
+        {
+            "no": "209",
+            "title": "郵筒-文德路",
+            "address": "桃園市龜山區文德路25號",
+            "telephone": "03-318-5741",
+            "hours": "平日 10:00",
+            "figure": "fig/A7XLK-212-Mail2.png",
+            "link": "https://www.post.gov.tw/post/internet/I_location/index_map_box.jsp?id=10977",
+            "category": "公共服務"
+        },
+        {
+            "no": "210",
+            "title": "中華電信龜山長庚服務中心",
+            "address": "桃園市龜山區復興一路310號",
+            "telephone": "080-008-0123",
+            "hours": "11:00 - 20:30",
+            "figure": "fig/A7XLK-212-中華電信.jpeg",
+            "link": "https://www.cht.com.tw/home/cht/about-cht/business-group/store-locator",
+            "category": "公共服務"
+        },
+        {
+            "no": "211",
+            "title": "遠傳林口長庚直營門市",
+            "address": "桃園市龜山區復興一路128號",
+            "telephone": "03-211-4010",
+            "hours": "12:00 - 21:30",
+            "figure": "fig/A7XLK-212-遠傳.jpeg",
+            "link": "https://www.fetnet.net/content/cbu/tw/index.html",
+            "category": "公共服務"
+        },
+        {
+            "no": "212",
+            "title": "台灣之星 龜山文化服務中心",
+            "address": "桃園市龜山區文化二路65號",
+            "telephone": "0968-744-248",
+            "hours": "12:30 - 21:00",
+            "figure": "fig/A7XLK-212-台灣之星.png",
+            "link": "https://www.tstartel.com/CWS/",
+            "category": "公共服務"
+        },
+        {
+            "no": "213",
+            "title": "凱擘大寬頻 / 北桃園數位有線電視",
+            "address": "桃園市桃園區大興西路二段65號5樓",
+            "telephone": "03-250-7794, 03-261-8968, 03-301-7131",
+            "hours": "09:00 - 18:00",
+            "figure": "fig/A7XLK-212-凱擘.jpeg",
+            "link": "https://ntyc.kbro.com.tw/K09/cm-promo-more-2_3_0_603_160.html",
+            "category": "公共服務"
+        },
+        {
+            "no": "214",
+            "title": "JGNet 宅急網",
+            "address": "桃園市桃園區中正路1221號2樓",
+            "telephone": "03-355-7460",
+            "hours": "週一~週六 10:00 - 20:00, 週日 10:00 - 18:00",
+            "figure": "fig/A7XLK-212-宅急網.png",
+            "link": "https://www.jgnet.tw/",
+            "category": "公共服務"
+        },
+        {
+            "no": "215",
+            "title": "Kingnet 今網寬頻",
+            "telephone": "03-412-8166",
+            "hours": "週一至週五​ 09：00~24：00, 例假日 09：00~22：00",
+            "figure": "fig/A7XLK-212-今網寬頻.png",
+            "link": "https://top1.kingnet.net.tw/",
+            "category": "公共服務"
+        },
+        {
+            "no": "301",
+            "title": "台新銀行 新莊副都心分行",
+            "address": "新北市新莊區中原路150號",
+            "telephone": "02-8521-1388 #100",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-台新.jpeg",
+            "link": "https://www.taishinbank.com.tw/TSB/personal/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "302",
+            "title": "兆豐銀行桃興分行",
+            "address": "桃園市桃園區復興路180號",
+            "telephone": "03-332-7126",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-兆豐銀行.jpg",
+            "link": "https://www.megabank.com.tw/personal",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "303",
+            "title": "中國信託商業銀行林口分行",
+            "address": "桃園縣龜山鄉復興一路233號 ",
+            "telephone": "03-396-2777",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-中國信託.jpg",
+            "link": "https://www.ctbcbank.com/twrbo/zh_tw/dep_index.html",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "304",
+            "title": "元大商業銀行林口分行  ",
+            "address": "桃園縣龜山鄉文化三路118號 ",
+            "telephone": "03-328-8999",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-元大.jpeg",
+            "link": "https://www.yuantabank.com.tw/bank/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "305",
+            "title": "元大證劵長庚分公司",
+            "address": "桃園市龜山區文化二路38之6號二樓",
+            "telephone": "03-397-8787",
+            "hours": " 08:30 - 16:00",
+            "figure": "fig/A7XLK-213-元大證劵.jpg",
+            "link": "https://www.yuanta.com.tw/eyuanta/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "306",
+            "title": "遠東國際商業銀行林口分行 ",
+            "address": "桃園縣龜山鄉復興一路227號 ",
+            "telephone": "03-397-3888",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-遠東銀行.jpg",
+            "link": "https://www.feib.com.tw/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "307",
+            "title": "渣打國際商業銀行公西分行 ",
+            "address": "桃園市龜山區復興一路237號",
+            "telephone": "03-397-2288",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-渣打銀行.jpeg",
+            "link": "https://service.standardchartered.com.tw/ssl/campaign/credit-cards/signature-card.asp",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "308",
+            "title": "玉山銀行 林口分行",
+            "address": "桃園市龜山區復興一路230號",
+            "telephone": "03-396-1313",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-玉山銀行.png",
+            "link": "https://www.esunbank.com.tw/bank/personal",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "309",
+            "title": "國泰世華銀行林口分行",
+            "address": "桃園市龜山區文化三路319號",
+            "telephone": "03-327-1689",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-國泰世華.jpg",
+            "link": "https://www.cathaybk.com.tw/cathaybk/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "310",
+            "title": "陽信銀行林口分行",
+            "address": "桃園市龜山區文化三路331號1~2樓",
+            "telephone": "03-327-3559",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-陽信銀行.jpg",
+            "link": "https://www.sunnybank.com.tw/net/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "311",
+            "title": "臺灣銀行林口分行",
+            "address": "桃園市龜山區復興一路368號",
+            "telephone": "03-327-7299",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-台灣銀行.jpg",
+            "link": "https://www.bot.com.tw/Pages/default.aspx",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "312",
+            "title": "第一銀行林口分行",
+            "address": "桃園市龜山區文化二路76號",
+            "telephone": "03-318-6611",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-第一銀行.png",
+            "link": "https://www.firstbank.com.tw/sites/fbweb/Home",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "313",
+            "title": "合作金庫銀行 林口分行",
+            "address": "桃園市龜山區文化二路49號",
+            "telephone": "03-318-3880",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-合作金庫.png",
+            "link": "https://www.tcb-bank.com.tw/Pages/index.aspx",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "314",
+            "title": "華南銀行林口分行",
+            "address": "桃園市龜山區復興一路300號",
+            "telephone": "03-318-3456",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-華南銀行.png",
+            "link": "https://www.hncb.com.tw/wps/portal/HNCB/",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "315",
+            "title": "彰化銀行東林口分行",
+            "address": "桃園市龜山區復興一路235號",
+            "telephone": "03-397-5555",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-彰化銀行.jpg",
+            "link": "https://www.bankchb.com/frontend/index.html",
+            "category": "銀行證劵"
+        },
+        {
+            "no": "316",
+            "title": "台灣土地銀行林口分行",
+            "address": "桃園市龜山區文化二路109號",
+            "telephone": "03-318-2128",
+            "hours": "09:00 - 15:30",
+            "figure": "fig/A7XLK-213-土地銀行.jpg",
+            "link": "https://www.landbank.com.tw/",
+            "category": "銀行證劵"
+        }
+    ]

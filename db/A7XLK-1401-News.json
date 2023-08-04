@@ -1,0 +1,464 @@
+﻿[
+        {
+            "no": "065",
+            "title": "桃園人ㄟ新聞網",
+            "figure": "fig/XLK-1401-News/AiCity-919-桃園.png",
+            "link": "https://twainews.com/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "064",
+            "title": "北健活力頻道",
+            "figure": "fig/XLK-1401-News/AiCity-919-北健活力.jpeg",
+            "link": "https://www.youtube.com/channel/UCkKsINE1ygFO5tKr_vrUetA",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "063",
+            "title": "菱傳媒",
+            "figure": "fig/XLK-1401-News/AiCity-919-菱傳媒.jpeg",
+            "link": "https://rwnews.tw/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "000",
+            "title": "中天新聞",
+            "figure": "fig/XLK-1401-News/AiCity-923-中天新聞.jpg",
+            "link": "https://www.youtube.com/channel/UC5l1Yto5oOIgRXlI4p4VKbw",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "001",
+            "title": "UDN-聯合新聞網",
+            "figure": "fig/XLK-1401-News/AiCity-919-聯合新聞網.jpg",
+            "link": "https://udn.com/news/breaknews/1",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "002",
+            "title": "ChinaTimes-中時電子報",
+            "figure": "fig/XLK-1401-News/AiCity-919-中時電子報.png",
+            "link": "https://www.chinatimes.com/realtimenews/?page=3&chdtv",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "003",
+            "title": "EBC-東森新聞",
+            "figure": "fig/XLK-1401-News/AiCity-919-東森新聞.jpg",
+            "link": "https://news.ebc.net.tw/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "004",
+            "title": "TVBS-新聞網",
+            "figure": "fig/XLK-1401-News/AiCity-919-TVBS.png",
+            "link": "https://news.tvbs.com.tw/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "005",
+            "title": "Yahoo-奇摩新聞",
+            "figure": "fig/XLK-1401-News/AiCity-919-Yahoo.jpg",
+            "link": "https://tw.news.yahoo.com/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "006",
+            "title": "Apple-頻果日報",
+            "figure": "fig/XLK-1401-News/AiCity-919-Apple.png",
+            "link": "https://tw.appledaily.com/home/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "007",
+            "title": "LTN-自由時報",
+            "figure": "fig/XLK-1401-News/AiCity-919-自由時報.png",
+            "link": "https://www.ltn.com.tw/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "008",
+            "title": "SETN 三立新聞",
+            "figure": "fig/XLK-1401-News/AiCity-919-三立新聞.jpeg",
+            "link": "https://www.setn.com/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "009",
+            "title": "NowNews-今日新聞",
+            "figure": "fig/XLK-1401-News/AiCity-919-今日新聞.png",
+            "link": "https://www.nownews.com/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "010",
+            "title": "TheStormMedia-風傳媒",
+            "figure": "fig/XLK-1401-News/AiCity-919-風傳媒.jpg",
+            "link": "https://www.storm.mg/articles",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "011",
+            "title": "ETtoday-新聞雲",
+            "figure": "fig/XLK-1401-News/AiCity-919-ETtoday.png",
+            "link": "https://www.ettoday.net/news/focus/%E7%84%A6%E9%BB%9E%E6%96%B0%E8%81%9E/",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "012",
+            "title": "CCTV-央視網新聞",
+            "figure": "fig/XLK-1401-News/AiCity-919-CCTV.jpeg",
+            "link": "http://news.cctv.com/china/",
+            "category": "大陸新聞"
+        },
+        {
+            "no": "013",
+            "title": "WorldJournal-世界日報",
+            "figure": "fig/XLK-1401-News/AiCity-919-世界日報.jpeg",
+            "link": "https://www.worldjournal.com/category/%E8%A6%81%E8%81%9E/",
+            "category": "大陸新聞"
+        },
+        {
+            "no": "014",
+            "title": "SingTao-星島日報",
+            "figure": "fig/XLK-1401-News/AiCity-919-星島日報.jpeg",
+            "link": "https://std.stheadline.com/realtime/%E5%8D%B3%E6%99%82",
+            "category": "大陸新聞"
+        },
+        {
+            "no": "015",
+            "title": "MingPao-明報新聞網",
+            "figure": "fig/XLK-1401-News/AiCity-919-明報.png",
+            "link": "https://news.mingpao.com/pns/%E6%98%8E%E5%A0%B1%E6%96%B0%E8%81%9E%E7%B6%B2/main",
+            "category": "大陸新聞"
+        },
+        {
+            "no": "016",
+            "title": "今日頭條",
+            "figure": "fig/XLK-1401-News/AiCity-919-今日頭條.png",
+            "link": "https://www.toutiao.com/",
+            "category": "大陸新聞"
+        },
+        {
+            "no": "017",
+            "title": "CNA-國際通訊社",
+            "figure": "fig/XLK-1401-News/AiCity-919-中央通訊社.png",
+            "link": "https://www.cna.com.tw/list/aopl.aspx",
+            "category": "國際新聞"
+        },
+        {
+            "no": "018",
+            "title": "BBC-英國新聞網",
+            "figure": "fig/XLK-1401-News/AiCity-919-BBC.png",
+            "link": "https://www.bbc.com/zhongwen/trad/world",
+            "category": "國際新聞"
+        },
+        {
+            "no": "019",
+            "title": "CNN",
+            "figure": "fig/XLK-1401-News/AiCity-919-CNN.jpg",
+            "link": "https://edition.cnn.com/",
+            "category": "國際新聞"
+        },
+        {
+            "no": "020",
+            "title": "DW-德國新聞網",
+            "figure": "fig/XLK-1401-News/AiCity-919-DW.png",
+            "link": "https://www.dw.com/zh/%E5%9C%A8%E7%BA%BF%E6%8A%A5%E5%AF%BC/s-9058",
+            "category": "國際新聞"
+        },
+        {
+            "no": "021",
+            "title": "Aljazeera-半島電視",
+            "figure": "fig/XLK-1401-News/AiCity-919-半島電視.jpg",
+            "link": "https://www.aljazeera.com/",
+            "category": "國際新聞"
+        },
+        {
+            "no": "022",
+            "title": "RT-俄羅斯新聞",
+            "figure": "fig/XLK-1401-News/AiCity-919-RT.png",
+            "link": "https://www.rt.com/news/",
+            "category": "國際新聞"
+        },
+        {
+            "no": "023",
+            "title": "France24-法國新聞網",
+            "figure": "fig/XLK-1401-News/AiCity-919-France24.png",
+            "link": "https://www.france24.com/fr/",
+            "category": "國際新聞"
+        },
+        {
+            "no": "024",
+            "title": "天下雜誌",
+            "figure": "fig/XLK-1401-News/AiCity-919-天下雜誌.jpg",
+            "link": "https://www.cw.com.tw/today",
+            "category": "雜誌-新聞時事"
+        },
+        {
+            "no": "025",
+            "title": "遠見雜誌",
+            "figure": "fig/XLK-1401-News/AiCity-919-遠見雜誌.jpg",
+            "link": "https://www.gvm.com.tw/",
+            "category": "雜誌-新聞時事"
+        },
+        {
+            "no": "026",
+            "title": "鏡週刊",
+            "figure": "fig/XLK-1401-News/AiCity-919-鏡週刊.jpeg",
+            "link": "https://www.mirrormedia.mg/",
+            "category": "雜誌-新聞時事"
+        },
+        {
+            "no": "027",
+            "title": "新新聞",
+            "figure": "fig/XLK-1401-News/AiCity-919-新新聞.png",
+            "link": "https://www.storm.mg/category/87726",
+            "category": "雜誌-新聞時事"
+        },
+        {
+            "no": "028",
+            "title": "商業週刊",
+            "figure": "fig/XLK-1401-News/AiCity-919-商業週刊.jpg",
+            "link": "https://www.businessweekly.com.tw/",
+            "category": "雜誌-財經股市"
+        },
+        {
+            "no": "029",
+            "title": "今周刊",
+            "figure": "fig/XLK-1401-News/AiCity-919-今周刊.jpeg",
+            "link": "https://www.businesstoday.com.tw/",
+            "category": "雜誌-財經股市"
+        },
+        {
+            "no": "030",
+            "title": "理財周刊",
+            "figure": "fig/XLK-1401-News/AiCity-919-理財週刊.jpg",
+            "link": "https://www.moneyweekly.com.tw/",
+            "category": "雜誌-財經股市"
+        },
+        {
+            "no": "305",
+            "title": "錢管家- Money錢",
+            "figure": "fig/XLK-1401-News/INV-3013-Magazine-Money錢.png",
+            "link": "https://www.moneynet.com.tw/",
+            "category": "雜誌-財經股市"
+        },
+        {
+            "no": "031",
+            "title": "數位時代",
+            "figure": "fig/XLK-1401-News/AiCity-919-數位時代.png",
+            "link": "https://www.bnext.com.tw/",
+            "category": "雜誌-科技健康"
+        },
+        {
+            "no": "032",
+            "title": "康健雜誌",
+            "figure": "fig/XLK-1401-News/AiCity-919-康健雜誌.jpg",
+            "link": "https://www.commonhealth.com.tw/",
+            "category": "雜誌-科技健康"
+        },
+        {
+            "no": "033",
+            "title": "桃園市圖書館",
+            "figure": "fig/XLK-1401-News/AiCity-919-桃園市圖書館.jpeg",
+            "link": "#",
+            "category": "雜誌-電子書庫"
+        },
+        {
+            "no": "034",
+            "title": "Kono Magazine",
+            "figure": "fig/XLK-1401-News/AiCity-919-kono.png",
+            "link": "https://www.thekono.com/",
+            "category": "雜誌-電子書庫"
+        },
+        {
+            "no": "035",
+            "title": "Zinio",
+            "figure": "fig/XLK-1401-News/AiCity-919-Zinio.jpg",
+            "link": "https://www.zinio.com/tw-zh",
+            "category": "雜誌-電子書庫"
+        },
+        {
+            "no": "036",
+            "title": "Pubu 飽讀電子書",
+            "figure": "fig/XLK-1401-News/AiCity-919-Pubu.jpg",
+            "link": "https://www.pubu.com.tw/bookbuffet",
+            "category": "雜誌-電子書庫"
+        },
+        {
+            "no": "037",
+            "title": "台灣雲端書庫",
+            "figure": "fig/XLK-1401-News/AiCity-919-台灣雲端書庫.jpeg",
+            "link": "https://www.ebookservice.tw/",
+            "category": "雜誌-電子書庫"
+        },
+        {
+            "no": "038",
+            "title": "ArtStation",
+            "figure": "fig/XLK-1401-News/AiCity-923-ArtStation.png",
+            "link": "https://www.artstation.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "039",
+            "title": "Behance",
+            "figure": "fig/XLK-1401-News/AiCity-923-Behance.png",
+            "link": "https://www.behance.net/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "040",
+            "title": "Deviantart",
+            "figure": "fig/XLK-1401-News/AiCity-923-Deviantart.png",
+            "link": "https://www.deviantart.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "041",
+            "title": "Dirbbble",
+            "figure": "fig/XLK-1401-News/AiCity-923-Dirbbble.png",
+            "link": "https://dribbble.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "042",
+            "title": "CGSociety",
+            "figure": "fig/XLK-1401-News/AiCity-923-CGSociety.jpeg",
+            "link": "https://cgsociety.org/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "043",
+            "title": "ZbrushCentral",
+            "figure": "fig/XLK-1401-News/AiCity-923-ZBrush.jpg",
+            "link": "https://www.zbrushcentral.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "044",
+            "title": "Pexels",
+            "figure": "fig/XLK-1401-News/AiCity-923-Pexels.png",
+            "link": "https://www.pexels.com/zh-cn/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "045",
+            "title": "Pixabay",
+            "figure": "fig/XLK-1401-News/AiCity-923-Pixabay.png",
+            "link": "https://pixabay.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "046",
+            "title": "Unsplash",
+            "figure": "fig/XLK-1401-News/AiCity-923-Unsplash.jpg",
+            "link": "https://unsplash.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "047",
+            "title": "Pinterest",
+            "figure": "fig/XLK-1401-News/AiCity-923-Pinterest.jpg",
+            "link": "https://www.pinterest.com/",
+            "category": "藝術圖像"
+        },
+        {
+            "no": "048",
+            "title": "中國哲學",
+            "figure": "fig/XLK-1401-News/AiCity-923-中國哲學.jpg",
+            "link": "https://ctext.org/zh",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "049",
+            "title": "漢典",
+            "figure": "fig/XLK-1401-News/AiCity-923-漢典.jpeg",
+            "link": "https://www.zdic.net/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "050",
+            "title": "SCI-HUB",
+            "figure": "fig/XLK-1401-News/AiCity-923-SCI-HUB.jpg",
+            "link": "https://sci-hub.tw/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "051",
+            "title": "愛思想",
+            "figure": "fig/XLK-1401-News/AiCity-923-愛思想.png",
+            "link": "http://www.aisixiang.com/",
+            "category": "文獻收藏"
+        },
+        {
+            "no": "052",
+            "title": "故宮典藏",
+            "figure": "fig/XLK-1401-News/AiCity-923-故宮典藏.jpg",
+            "link": "https://theme.npm.edu.tw/selection/index.aspx",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "053",
+            "title": "民歌40",
+            "figure": "fig/XLK-1401-News/AiCity-923-民歌40.jpg",
+            "link": "https://www.youtube.com/playlist?list=PLDgLLnSBXR_PQ5a11TuH3l4zrJ8g0PqrN&app=desktop",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "054",
+            "title": "野性臺灣",
+            "figure": "fig/XLK-1401-News/AiCity-923-野性台灣.jpeg",
+            "link": "https://www.youtube.com/watch?v=UiUet362iDI&feature=youtu.be",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "056",
+            "title": "台視新聞",
+            "figure": "fig/XLK-1401-News/AiCity-923-台視新聞.jpg",
+            "link": "https://www.youtube.com/user/ttvnewsview",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "057",
+            "title": "中視新聞",
+            "figure": "fig/XLK-1401-News/AiCity-923-中視新聞.jpg",
+            "link": "https://www.youtube.com/user/chinatvnews",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "058",
+            "title": "華視新聞",
+            "figure": "fig/XLK-1401-News/AiCity-923-華視新聞.jpeg",
+            "link": "https://www.youtube.com/user/TBSCTS",
+            "category": "台灣新聞"
+        },
+        {
+            "no": "059",
+            "title": "先探i投資",
+            "figure": "fig/XLK-1401-News/AiCity-919-先探.jpeg",
+            "link": "http://weekly.invest.com.tw/",
+            "category": "雜誌-財經股市"
+        },
+        {
+            "no": "060",
+            "title": "財訊雜誌",
+            "figure": "fig/XLK-1401-News/AiCity-919-財訊.jpeg",
+            "link": "https://www.wealth.com.tw/",
+            "category": "雜誌-財經股市"
+        },
+        {
+            "no": "061",
+            "title": "熱狗遊戲",
+            "figure": "fig/XLK-1401-News/AiCity-923-RegoGame.jpg",
+            "link": "http://www.regogame.com/",
+            "category": "影音珍藏"
+        },
+        {
+            "no": "062",
+            "title": "2020東京奧運",
+            "figure": "fig/XLK-1401-News/XLK-142-2020東京奧運.jpg",
+            "link": "https://www.mirrormedia.mg/story/amp/20210721edi038/",
+            "category": "影音珍藏"
+        }
+    ]

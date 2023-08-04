@@ -1,0 +1,148 @@
+﻿[
+        {
+            "no": "219",
+            "title": "SuperBuy 市集",
+            "address": "台北市敦化南路二段46號4F-1",
+            "telphone": "02-2706-9229",
+            "hours": "週一到週五 09:30-18:30",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-19.jpeg",
+            "link": "https://www.superbuy.com.tw/collection_fast.php?main_cate=608",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "220",
+            "title": "悠活農村",
+            "address": "台北市松山區南京東路五段202號14樓之4",
+            "telphone": "02-2748-0366",
+            "hours": "週一至週五 09:00-18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-20.jpeg",
+            "link": "https://www.yooho.com.tw/category.php?id=31",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "221",
+            "title": "棉花田 購物網",
+            "address": "台北市大安區信義路四段236號",
+            "telphone": "0800-238-888",
+            "hours": "8:30-12:00；13:00-17:30",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-21.jpeg",
+            "link": "https://www.healthyfood.com.tw/",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "222",
+            "title": "鮮拾",
+            "telphone": "02-7737-1995",
+            "hours": "週一至週五，9:30-12:00 13:00-18:30",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-22.jpeg",
+            "link": "https://www.pickup.com.tw/categories/vegetable",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "223",
+            "title": "\r\n人生海海蔬果專車",
+            "telphone": "https://lin.ee/YzB8SWm",
+            "hours": "週一至週五 10:00 - 20:00, 週六至週日 12:00 - 18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-23.jpeg",
+            "link": "https://p3.groupbuyforms.tw/vt1hh?fbclid=IwAR0E0ai5JAgSWU0plQXexPo5a3Ci7bpbMx98kXBauo2LSwJnqPDy9T4AmuM",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "224",
+            "title": "胡同ＸMorii森",
+            "address": "新北市新店區中正路四維巷8弄2號3樓 ",
+            "telphone": "02-2218-9868",
+            "hours": "週一至週五 09:00-18:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-24.jpeg",
+            "link": "https://p3.groupbuyforms.tw/vt1hh?fbclid=IwAR0E0ai5JAgSWU0plQXexPo5a3Ci7bpbMx98kXBauo2LSwJnqPDy9T4AmuM",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "225",
+            "title": "Green&Safe: 百寶箱組合",
+            "address": "台北市大安區羅斯福路三段297號",
+            "telphone": "02-2362-1527",
+            "hours": "週一至週日 09：00 ~ 21：00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-25.jpeg",
+            "link": "https://www.green-n-safe.com/",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "201",
+            "title": "無毒農",
+            "address": "台北市大安區復興南路一段205號8樓",
+            "telphone": "02-2771-2900",
+            "hours": "週一～五 09:00-12:00, 13:00~18:00 , 週六 10:00-18:00, 不含國定假日",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-01.png",
+            "link": "https://greenbox.tw/",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "227",
+            "title": "有心肉舖子",
+            "address": "台北市信義區松高路11號3F",
+            "telphone": "02-8789-3388 #3314",
+            "hours": "11:00 - 20:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-27.jpeg",
+            "link": "https://www.withheart.com.tw/buy_item",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "228",
+            "title": "純淨農產合作社",
+            "telphone": "0925-704-305",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-28.jpeg",
+            "link": "https://ohler.cyberbiz.co/collections/%E5%8F%B0%E7%81%A3%E5%9C%A8%E5%9C%B0%E8%94%AC%E8%8F%9C%E6%B0%B4%E6%9E%9C",
+            "category": "生鮮食材"
+        },
+        {
+            "no": "301",
+            "title": "雙寶居家保健生活館",
+            "address": "台北市中山區民權東路二段70號",
+            "telphone": "02-2671-2002",
+            "hours": " 週二~週六10:00-19:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-61.jpeg",
+            "link": "https://www.bb-homecare.com/",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "302",
+            "title": "杏一藥局",
+            "address": "林口長庚醫院復健大樓 ",
+            "telphone": "03-318-5247",
+            "hours": "08:00-22:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-62.jpeg",
+            "link": "https://www.medfirst.com.tw/",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "304",
+            "title": "佑全藥局",
+            "address": "桃園市大有路556號",
+            "telphone": "03-346-0793",
+            "hours": "08:00-22:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-64.jpeg",
+            "link": "http://www.yourchance.com.tw/index.php?lang=cht",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "305",
+            "title": "丁丁藥局",
+            "address": "新北市林口區仁愛路二段128號1F",
+            "telphone": "02-8601-8655",
+            "hours": "09:00-22:55",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-65.jpeg",
+            "link": "https://www.norbelbaby.com.tw/TinTin/",
+            "category": "防疫藥品"
+        },
+        {
+            "no": "303",
+            "title": "蝦皮商城",
+            "address": "桃園市龜山區長慶三街40號1樓",
+            "telphone": "02-6636-6559",
+            "hours": "10:30-22:00",
+            "figure": "fig/XLK-412-Epidemic/XLK-412-Epidemic-63.jpeg",
+            "link": "https://shopee.tw/traceofwind3",
+            "category": "防疫藥品"
+        }
+    ]

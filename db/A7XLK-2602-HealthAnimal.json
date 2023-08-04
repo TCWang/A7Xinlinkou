@@ -1,0 +1,52 @@
+﻿[
+        {
+            "no": "001",
+            "title": "日祥動物醫院",
+            "address": "244新北市林口區中正路380號",
+            "telphone": "02-2601-1780",
+            "hours": "09:00 - 12:00, 14:00 - 17:30, 18:30 - 21:00 週日公休",
+            "figure": "fig/XLK-261-Health/AiCity-949-日祥.jpeg",
+            "link": "https://www.facebook.com/%E6%97%A5%E7%A5%A5%E5%8B%95%E7%89%A9%E9%86%AB%E9%99%A2-201574763200836/",
+            "category": "動物醫院"
+        },
+        {
+            "no": "002",
+            "title": "台大健弘動物醫院",
+            "address": "244新北市林口區民族路6號",
+            "telphone": "02-2600-3851",
+            "hours": "14:00 - 21:30, 週日公休",
+            "figure": "fig/XLK-261-Health/AiCity-949-台大健弘.jpeg",
+            "link": "https://www.facebook.com/cherishandhealth/",
+            "category": "動物醫院"
+        },
+        {
+            "no": "003",
+            "title": "懷恩動物醫院",
+            "address": "244新北市林口區中山路235號",
+            "telphone": "02-8601-8432",
+            "hours": "09:00 - 12:00, 14:00 - 18:00, 18:30 - 20:30 週日公休",
+            "figure": "fig/XLK-261-Health/AiCity-949-懷恩.jpeg",
+            "link": "https://www.facebook.com/petcare88",
+            "category": "動物醫院"
+        },
+        {
+            "no": "004",
+            "title": "欣欣動物醫院",
+            "address": "247新北市蘆洲區中山一路160號",
+            "telphone": "02-2282-5058",
+            "hours": "09:00 - 21:00",
+            "figure": "fig/XLK-261-Health/AiCity-949-欣欣動物醫院.png",
+            "link": "https://www.shinshin.com.tw/",
+            "category": "動物醫院"
+        },
+        {
+            "no": "005",
+            "title": "藍世界動物醫院",
+            "address": "333桃園市龜山區忠義路二段519號",
+            "telphone": "03-211-5167",
+            "hours": "11:00 - 21:00 週日公休",
+            "figure": "fig/XLK-261-Health/AiCity-949-藍世界.jpeg",
+            "link": "https://www.blueworldpet.com/?fbclid=IwAR0e_VWoBKFHnzUdf17bdqcp78-bWuasA9tdsuMk5ywpJgXRMvU_cPAcJ-0",
+            "category": "動物醫院"
+        }
+    ]
