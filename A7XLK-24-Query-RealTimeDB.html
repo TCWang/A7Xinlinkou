@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   -->
+  <!--  Bootstrap 5 CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>A7新林口 - 異味事件調查</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y94XE7PY1L');
+  </script>
+
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand" href="index.html"> A7
+      新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">網站公告</a>
+            <a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a>
+            <a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a>
+            <a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a>
+            <a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-briefcase"></i>交流 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-51-BulletinBoard.html">A7公告欄</a>
+						<a class="dropdown-item" href="A7XLK-52-VillageRepresentative.html">里長交流</a>
+						<a class="dropdown-item" href="A7XLK-53-CouncileMember.html">議員交流</a>
+						<a class="dropdown-item" href="A7XLK-54-MayorTaoyuan.html">市府交流-桃園</a>
+						<a class="dropdown-item" href="A7XLK-55-MayorNewTaipei.html">市府交流-新北</a>
+						<a class="dropdown-item" href="A7XLK-56-Community.html">社區交流</a>
+					</div>
+				</li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a>
+            <a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a>
+            <a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a>
+            <a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a>
+            <a class="dropdown-item" href="A7XLK-25-Covid19.html">新冠肺炎</a>
+            <a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+            <a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a>
+            <a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a>
+            <a class="dropdown-item" href="A7XLK-34-Ordering.html">全省美食</a>
+            <a class="dropdown-item" href="A7XLK-35-HealthyFood.html">飲食健康</a>
+          </div>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>
+            <a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a>
+
+            <!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 
+		-->
+            <a class="dropdown-item" href="A7XLK-43-Housing.html">住屋居家</a>
+
+            <a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a>
+            <a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- InstanceBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg23 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">異味事件調查</h5>
+        <p class="text-white">建立異味事件大數據分析</p>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+
+  <!-- InstanceBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- InstanceEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- InstanceBeginEditable name="main_content" -->
+  <article id="app1">
+    <div class="container-fluid mt-4">
+      <div class="row">
+        <div class="col-md-4">
+          <form>
+            <div class="form-group row">
+              <label for="inputName" class="col-3 input-group-prepend">提報者</label>
+              <input type="text" class="col-9 form-control-plaintext" id="inputName" v-model="newNote.name"
+                placeholder="請輸入提報者">
+            </div>
+
+            <fieldset class="form-group row">
+              <label for="inputWho" class="col-sm-3 input-group-prepend">你是？</label>
+              <div class="col-sm-6">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputWho1" value="社區住戶"
+                    v-model="newNote.who">
+                  <label class="form-check-label" for="gridRadios1">
+                    A7重劃區社區住戶
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputWho2" value="公司員工"
+                    v-model="newNote.who">
+                  <label class="form-check-label" for="gridRadios2">
+                    華亞園區公司員工
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputWho3" value="其他人員"
+                    v-model="newNote.who">
+                  <label class="form-check-label" for="gridRadios3">
+                    其他人員
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <div class="row justify-content-center">
+                  <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                      data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      住戶請選擇
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#" v-for="community in communitys"
+                        @click="communitySelected(community)">
+                        {{ community.name }}</a>
+                    </div>
+                  </div>
+                </div>
+                {{ selectedRegion }} - {{ selectedCommunity }}
+
+              </div>
+            </fieldset>
+
+
+
+            <div class="form-group row">
+              <label for="inputPlace" class="col-sm-3 input-group-prepend">發生地點</label>
+              <input type="text" class="col-sm-9 form-control-plaintext" id="inputPlace" v-model="newNote.place"
+                placeholder="請輸入發生地點">
+            </div>
+
+            <div class="input-group">
+              <label for="inputDate" class="col-sm-3 input-group-prepend">發生日期</label>
+              <input type="date" class="form-control" v-model="newNote.datetime" placeholder="請輸入發生日期"
+                aria-label="inputDate" aria-describedby="basic-addon1">
+            </div>
+            <!--
+						<div class="input-group">
+							<label for="inputTime" class="col-sm-3 input-group-prepend">發生時間</label>	
+							<input type="time" class="form-control" v-model="newNote.time" placeholder="請輸入發生時間" aria-label="inputTime"
+								aria-describedby="basic-addon1">
+						</div>	
+						-->
+
+            <div class="form-group row">
+              <label for="inputFrequency" class="col-sm-3 input-group-prepend">發生頻率</label>
+              <input type="text" class="col-sm-9 form-control-plaintext" id="inputFrequency" v-model="newNote.frequency"
+                placeholder="請輸入異味發生的頻率">
+            </div>
+
+            <div class="form-group row">
+              <label for="inputDescription" class="col-sm-3 input-group-prepend">異味描述</label>
+              <input type="text" class="col-sm-9 form-control-plaintext" id="inputDescription"
+                v-model="newNote.description" placeholder="對異味的描述">
+            </div>
+
+            <fieldset class="form-group row">
+              <label for="inputStrength" class="col-sm-3 input-group-prepend">異味強度</label>
+              <div class="col-sm-9">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputStrength1" value="S1"
+                    v-model="newNote.strength">
+                  <label class="form-check-label" for="gridRadios1">
+                    1. 勉強可感知的臭氣
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputStrength2" value="S2"
+                    v-model="newNote.strength">
+                  <label class="form-check-label" for="gridRadios2">
+                    2. 能認知的弱臭氣
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputStrength3" value="S3"
+                    v-model="newNote.strength">
+                  <label class="form-check-label" for="gridRadios3">
+                    3. 容易感知的臭氣
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputStrength4" value="S4"
+                    v-model="newNote.strength">
+                  <label class="form-check-label" for="gridRadios3">
+                    4. 強臭氣
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="gridRadios" id="inputStrength5" value="S5"
+                    v-model="newNote.strength">
+                  <label class="form-check-label" for="gridRadios3">
+                    5. 強烈臭氣
+                  </label>
+                </div>
+              </div>
+            </fieldset>
+
+
+            <div class="form-group row">
+              <label class="col-12" for="inputSuggestion">其他說明或建議事項</label>
+              <textarea class="form-control" id="inputSuggestion" v-model="newNote.suggestion" rows="3"></textarea>
+            </div>
+            <br>
+            <button class="btn btn-primary" @click="addNote">送出</button>
+
+          </form>
+
+        </div>
+        <div class="col-md-8">
+          <h3 class="text-center">提報清單匯總</h3>
+          <table class="table table-striped">
+            <thead>
+              <tr class="text-left">
+                <th>提報人</th>
+                <th>類別</th>
+                <th>社區</th>
+                <th>地點</th>
+                <th>日期</th>
+                <th>發生頻率</th>
+                <th>異味描述</th>
+                <th>強度</th>
+                <th>其他說明</th>
+                <th>操作</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr v-for="note of notes" :key="note['.key']">
+                <td>{{ note.name }}</td>
+                <td>{{ note.who }} </td>
+                <td>{{ note.community }} </td>
+                <td>{{ note.place }}</td>
+                <td>{{ note.datetime }} </td>
+                <td>{{ note.frequency }} </td>
+                <td>{{ note.description }} </td>
+                <td>{{ note.strength }} </td>
+                <td>{{ note.suggestion }} </td>
+                <td class="text-center">
+                  <button type="button" class="btn btn-danger btn-sm btn-circle"
+                    v-on:click="deleteNote(note['.key'])">X</button>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+
+  </article>
+  <!-- InstanceEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios@0.9.1/dist/axios.min.js"></script>
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+  <div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+
+    <!-- 引入 vue fire 的 CDN -->
+    <script src="https://unpkg.com/vuefire/dist/vuefire.js"></script>
+    <!-- 引入 moment 的 CDN -->
+    <script src="https://unpkg.com/moment"></script>
+    <!-- Vue實例的程式碼 -->
+    <script src="https://www.gstatic.com/firebasejs/5.6.0/firebase.js"></script>
+
+
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAamSJLYYO1GbL5cAdbT3JoT82goAM5I3E",
+        authDomain: "odorpollution.firebaseapp.com",
+        projectId: "odorpollution",
+        storageBucket: "odorpollution.appspot.com",
+        messagingSenderId: "1066328514162",
+        appId: "1:1066328514162:web:dabaa5d3a31d96534a2ceb",
+        measurementId: "G-66MQYGXS34"
+      };
+      // Initialize Firebase
+
+      let app = firebase.initializeApp(config)
+      let db = app.database()
+
+
+      <!-- FireStore End -->
+
+
+      new Vue({
+        el: '#app1',
+
+        data: {
+          selectedRegion: '',
+          selectedCommunity: '',
+          communitys: [
+            {
+              id: '103',
+              name: '樂捷市',
+              region: '長庚里'
+            },
+            {
+              id: '104',
+              name: '奇幻莊園',
+              region: '長庚里'
+            },
+            {
+              id: '304',
+              name: '新潤鉑麗',
+              region: '文化里'
+            },
+            {
+              id: '305',
+              name: '根津苑',
+              region: '文化里'
+            },
+            {
+              id: '308',
+              name: '合遠新天地',
+              region: '文化里'
+            },
+            {
+              id: '205',
+              name: '富宇敦峰',
+              region: '樂善里'
+            },
+            {
+              id: '203',
+              name: '耀台北',
+              region: '樂善里'
+            },
+            {
+              id: '402',
+              name: '金捷市',
+              region: '樂善里'
+            },
+            {
+              id: '406',
+              name: '富御捷境',
+              region: '樂善里'
+            },
+            {
+              id: '503',
+              name: '竹城明治',
+              region: '文青里'
+            }
+          ],
+
+          newNote: {
+            name: '',
+            who: '',
+            community: '',
+            place: '',
+            datetime: '',
+            frequency: '',
+            description: '',
+            strength: '',
+            suggestion: ''
+          }
+        },
+
+        firebase() {
+          notes: db.ref('notes')
+        },
+
+        methods: {
+          communitySelected(community) {
+            this.selectedRegion = community.region
+            this.selectedCommunity = community.name
+            this.newNote.community = community.name
+
+          },
+
+          addNote() {
+            this.$firebaseRefs.notes.push({
+              name: this.newNote.name,
+              who: this.newNote.who,
+              community: this.newNote.community,
+              place: this.newNote.place,
+              datetime: this.newNote.datetime,
+              frequency: this.newNote.frequency,
+              description: this.newNote.description,
+              strength: this.newNote.strength,
+              suggestion: this.newNote.suggestion
+            })
+            this.newNote.name = ''
+            this.newNote.who = ''
+            this.newNote.community = ''
+            this.newNote.place = ''
+            this.newNote.datetime = ''
+            this.newNote.frequency = ''
+            this.newNote.description = ''
+            this.newNote.strength = ''
+            this.newNote.suggestion = ''
+
+          },
+          deleteNote(key) {
+            this.$firebaseRefs.notes.child(key).remove()
+
+          },
+          date(date) {
+            return moment(date).format('MMMM Do YYYY, h:mm:ss a');
+          }
+        }
+      })
+    </script>
+
+  </div>
+  <!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd -->
+
+</html>

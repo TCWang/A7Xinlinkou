@@ -1,0 +1,3252 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   -->
+  <!--  Bootstrap 5 CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>A7新林口 - 行車交通</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+  <style>
+    /* Style the tab */
+    .tab {
+      overflow: hidden;
+      border: 1px solid #ccc;
+      background-color: #f1f1f1;
+    }
+
+    /* Style the buttons inside the tab */
+    .tab button {
+      background-color: inherit;
+      float: left;
+      border: none;
+      outline: none;
+      cursor: pointer;
+      padding: 14px 16px;
+      transition: 0.3s;
+      font-size: 17px;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+      background-color: #AAAAFF;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+      background-color: #7D7DFF;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+      display: none;
+      padding: 6px 12px;
+      border: 1px solid #ccc;
+      border-top: none;
+    }
+  </style>
+
+
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y94XE7PY1L');
+  </script>
+
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand" href="index.html"> A7
+      新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">網站公告</a>
+            <a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a>
+            <a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a>
+            <a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a>
+            <a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>交流 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-51-BulletinBoard.html">A7公告欄</a>
+            <a class="dropdown-item" href="A7XLK-52-VillageRepresentative.html">里長交流</a>
+            <a class="dropdown-item" href="A7XLK-53-CouncileMember.html">議員交流</a>
+            <a class="dropdown-item" href="A7XLK-54-MayorTaoyuan.html">市府交流-桃園</a>
+            <a class="dropdown-item" href="A7XLK-55-MayorNewTaipei.html">市府交流-新北</a>
+            <a class="dropdown-item" href="A7XLK-56-Community.html">社區交流</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a>
+            <a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a>
+            <a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a>
+            <a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a>
+            <a class="dropdown-item" href="A7XLK-25-Covid19.html">新冠肺炎</a>
+            <a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+            <a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a>
+            <a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a>
+            <a class="dropdown-item" href="A7XLK-34-Ordering.html">全省美食</a>
+            <a class="dropdown-item" href="A7XLK-35-HealthyFood.html">飲食健康</a>
+          </div>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>
+            <a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a>
+
+            <!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 
+		-->
+            <a class="dropdown-item" href="A7XLK-43-Housing.html">住屋居家</a>
+
+            <a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a>
+            <a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- InstanceBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg1 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">A7新林口</h5>
+        <p class="text-white">行車與大眾交通資訊</p>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+
+  <!-- InstanceBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- InstanceEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- InstanceBeginEditable name="main_content" -->
+  <article>
+    <div id="app" class="container-fluid mt-1">
+      <div class="row">
+        <div class="col-md-2">
+
+          <div class="list-group" id="MenuList" role="tablist">
+            <a href="#Menu-B8" class="list-group-item list-group-item-action active" data-toggle="list">停車規劃</a>
+            <a href="#Menu-B9" class="list-group-item list-group-item-action" data-toggle="list">行人規劃</a>
+            <a href="#Menu-B1" class="list-group-item list-group-item-action" data-toggle="list">區域公車</a>
+            <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">桃園捷運</a>
+            <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">台北捷運</a>
+            <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">市區公車</a>
+            <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">台鐵高鐵</a>
+            <a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">出租汽車 / UBike</a>
+            <a href="#Menu-B7" class="list-group-item list-group-item-action" data-toggle="list">未來規劃</a>
+            <a href="#Menu-B10" class="list-group-item list-group-item-action" data-toggle="list">林口轉運站</a>
+            <a href="#Menu-B11" class="list-group-item list-group-item-action" data-toggle="list">長庚轉運站</a>
+            <a href="#Menu-B12" class="list-group-item list-group-item-action" data-toggle="list">公共運輸檢討</a>
+            <a href="#Menu-B13" class="list-group-item list-group-item-action" data-toggle="list">北北桃交通網</a>
+            <a href="#Menu-B14" class="list-group-item list-group-item-action" data-toggle="list">新北交通計畫</a>
+          </div>
+          <br>
+        </div>
+        <div class="col-md-10">
+
+          <div class="tab-content">
+
+
+
+            <div class="tab-pane active" id="Menu-B8" role="tabpanel">
+              <!-- Menu B8 -->
+              <div class="row mb-1">
+                <h3>停車規劃</h3>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>停車位需求</h5>
+                  依據 2019年 中華民國統計數據網 車輛數據：
+                  <table class="table table-striped table-sm">
+                    <tr>
+                      <td>項目</td>
+                      <td>桃園市</td>
+                      <td>全台灣</td>
+                      <td>新北市</td>
+                      <td>台北市</td>
+                    </tr>
+                    <tr>
+                      <td>戶量：人/戶</td>
+                      <td>2.72</td>
+                      <td>2.8</td>
+                      <td>2.54</td>
+                      <td>2.49</td>
+                    </tr>
+                    <tr>
+                      <td>汽車數/每千戶</td>
+                      <td>844</td>
+                      <td>821</td>
+                      <td>572</td>
+                      <td>686</td>
+                    </tr>
+                    <tr>
+                      <td>機車數/每千戶</td>
+                      <td>1,495</td>
+                      <td>1,662</td>
+                      <td>1,389</td>
+                      <td>896</td>
+                    </tr>
+                  </table>
+
+                  2019 年合宜住宅 路邊停機車停車位 數量
+                  <table class="table table-striped table-sm">
+                    <tr>
+                      <td>社區</td>
+                      <td>戶數</td>
+                      <td>路邊機車位</td>
+                      <td>比例</td>
+                    </tr>
+                    <tr>
+                      <td>遠雄文青</td>
+                      <td>1,272</td>
+                      <td>125</td>
+                      <td>0.10</td>
+                    </tr>
+                    <tr>
+                      <td>皇翔歡喜城</td>
+                      <td>1,780</td>
+                      <td>377</td>
+                      <td>0.21</td>
+                    </tr>
+                    <tr>
+                      <td>名軒快樂家</td>
+                      <td>514</td>
+                      <td>38</td>
+                      <td>0.07</td>
+                    </tr>
+                    <tr>
+                      <td>麗寶快樂家</td>
+                      <td>897</td>
+                      <td>28</td>
+                      <td>0.03</td>
+                    </tr>
+                    <tr>
+                      <td>合計</td>
+                      <td>4,463</td>
+                      <td>568</td>
+                      <td>0.13</td>
+                    </tr>
+                  </table>
+                  <h5>樂學路 停車規劃</h5>
+                  <ul>
+                    <li>
+                      樂學路 在長慶三街路口目前設置 40個機車停車位，其餘都是汽車停車位。
+                    </li>
+                    <li>
+                      <a
+                        href="https://traffic.tycg.gov.tw/businessD/post/upt.aspx?p0=94271&openExternalBrowser=1">汽車停車</a>
+                      收費時段：自111年1月1日起, 收費時段為週一至週五，每日08：00至18：00。
+                    </li>
+                    <li>
+                      收費費率：每次停車以半小時計費。採戊種費率（20元/每小時）。
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="col-md-6">
+                  <h5>A7 重劃區整體 停車位需求檢討</h5>
+                  <ul>
+                    <li>
+                      依據 汽車整體擁有的統計數據，需求量是小於 戶數:汽車數 １：１的需求。 桃園市全部平均值為 1:0.844。 預估A7 重劃區 在現有約 1:1 的配置下應該滿足需求。
+                      但仍建議針對A7重劃區做實際需求調查。
+                    </li>
+                    <li>
+                      機車停車位 桃園市全區需求為 戶數:機車數 1:1.495。而目前A7重劃區 建商是依據法規 提供 1:1 的配置，顯然遠遠不能滿足實際需求。
+                    </li>
+                    <li>
+                      依據合宜住宅的經驗，2019年 路邊機車停車規劃 是 1:0.13, 彌補社區已有的 1:1.00。仍然遠不能滿足實際需求。
+                    </li>
+                    <li>
+                      市府/議員 應該對 合宜住宅及現有A7重劃區已進住的社區做專案調查機車停車位實際需求量。在目前建商1:1 配置不足的狀況下，做全社區機車停車規劃。以免未來人口遷入後滿街違停機車造成的社區隱患。
+                    </li>
+                    <li>
+                      希望桃園市政府/議員能及早 檢討與規劃A7 機車停車位不足的專案處理，是全區域民眾的主要期望。
+                    </li>
+
+                  </ul>
+                  <h5>機車公共停車規劃</h5>
+                  <ul>
+                    <li>
+                      由市府/里長及議員參與 規劃A7重劃區 公共機車停車辦法，包含哪些街道 如樂學路，樂善二路作為機車主要停車格配置地點。
+                    </li>
+                    <li>
+                      依據建案完工期程，每半年調整一次機車停車位，如年內將完工的建案 每100戶提供至少30個機車停車位。也就是每戶增加0.3個機車配比, 來抒解機車位不足問題。
+                    </li>
+                    <li>
+                      新的區域建案 機車配比不得低於原有建案實際配比的10%。也就是當該區域實際需求為 1: 1.30 時，新增建案至少需要達到 1: 1.17。
+                    </li>
+                    <li>
+                      現有社區需依據實際汽車停車空間儘量開放自身訪客來賓停車位，以減少路邊汽車停車位的需求量。市府儘量讓利給周邊民營停車場。
+                    </li>
+                    <li>
+                      各社區管委會需要配合提供社區對機車停車位需求調查，提供精準的機車停車需求量。減少閒置浪費的車位規劃。
+                    </li>
+                    <li>
+                      如果里長/議員 能徹底解決此一問題，依據大數據推測 你將解決 約40% 居民的公共問題。 為了2022年的選舉 努力吧！
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+              <div class="row mb-1">
+                <div class="col-md-6">
+                  <h5>社區停車空間規劃</h5>
+                  依據 2015/08/31<a href="file/XLK-221-A7開發計畫02.pdf">A7站地區都市設計審議準則</a>, 社區停車空間需求為
+                  <ul>
+                    <li>汽車：各建築基地內法定汽車位數依土地使用分區管制要點中，停車規定辦理。 現有建案的汽車停車位統計如下圖。 平均車位配比為 1: 0.97, 最大配比 1:1.17。 </li>
+                    <li>機車：各建築基地內法定機車停車空間以樓地板面積每200 平方公尺且至少以每戶一部數量設置。</li>
+                    <li>自行車：自行車停車位數以不小於法定機車停車位數之15%為原則。</li>
+                  </ul>
+                  <h5>社區停車格出租案例</h5>
+                  <ul>
+                    <li>
+                      社區不用的停車位出租，社區管委會可能會規定只有社區內部住戶可以租用。是因為社區門禁管制方便的因素。
+                    </li>
+                    <li>
+                      機車位: 租用價格範例 200元/月 + 需要繳交管委會的停車清潔費 100元/月。也就是 3,600元/年。 而出租者實際獲得 2,400元/年。
+
+                    </li>
+                    <li>
+                      汽車位:
+                    </li>
+                  </ul>
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-01.png" class="img-fluid" style="width:400px">
+                  <br>A7 社區汽車位 每戶分配比例
+                  <br><br>
+                  多數社區間保留 5m / 6m 的道路規劃。<br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-02b.png" class="img-fluid"
+                    style="width:400px">
+                  <br>A7 重劃區道路規劃圖 <br><br>
+
+                  <h5>A7 住宅區 公共停車場</h5>
+                  依據 <a href="https://www.facebook.com/18NIUstart/">牛煦庭 </a>: 爭取路外停車場貼文, A7現有公共停車爭取項目包含
+                  <ul>
+                    <li>合宜住宅區：善捷段 269地號 日月亭善捷段停車場
+                      <ul>
+                        <li>臨停: 20元/小時, 未滿30分鐘免費</li>
+                        <li>12小時：最高 80元</li>
+                        <li>月租：2,000元/月, 5,000元/季</li>
+                        <li>電話：03-211-4284, 0800-021-111</li>
+                      </ul>
+                    </li>
+                    <li>樂善國小生活圈： 樂捷段 87地號 長期租用停車位 樂學停車場 - 電話：0932-166-653, 0910-150-108 （已停止服務）</li>
+                    <li>樂善國小生活圈： 停29 停車場預定地 - 位於長慶一街 台北國際村旁 </li>
+                    <li>A7 站前：廣19 廣場停車場 由內政部主責，目前進行到「細部設計」階段； </li>
+
+
+                  </ul>
+
+                  備註: 請使用<a href="https://easymap.land.moi.gov.tw/P02/Index">地籍圖資查詢</a> 上面地號所在位置。
+                  <br><br>
+
+                  <div id="carouselExampleIndicators-03" class="carousel slide img-fluid" style="width:100%"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="01" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="02"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="03"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="04"></li>
+
+
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-51.jpeg" class="d-block w-100"
+                          alt="..."> 合宜住宅區：善捷段 269地號 日月亭善捷段停車場：可長期租用
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-52.jpeg" class="d-block w-100"
+                          alt="..."> 樂善國小生活圈： 樂捷段 87地號 樂學停車場： 可長期租用 （已停止服務）
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-53.jpeg" class="d-block w-100"
+                          alt="..."> 樂善國小生活圈： 停29 停車塲： 這是停車預定地, 何時興建？
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-54.jpeg" class="d-block w-100"
+                          alt="..."> A7 站前：廣19 廣場停車場：已經進入細部規劃
+                      </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-03" role="button"
+                      data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-03" role="button"
+                      data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+
+                </div>
+                <div class="col-md-6">
+                  <h5>區域公共停車檢討</h5>
+                  區域性街道車輛流通問題：
+                  <ul>
+                    <li>5m街道規劃在兩邊停車狀況下就會成單行道。需要區域性整體車流規劃， 應該在5m主幹道畫雙紅線限制路邊停車。保持上下班能有暢通的車流。</li>
+                    <li>５m道路最多只有單邊停車保持雙向能通車為最低要求, 否則將造成區域性交通堵車問題。</li>
+                    <li>劃上紅線還需要確實執法，才有功效。目前交通局不會主動取締違規停車，需要住戶自行舉報維護社區周邊道路的通暢。</li>
+                  </ul>
+
+                  社區停車位不足問題
+                  <ul>
+                    <li>整體區域性停車規劃中, 停車位在汽車與機車住戶配比應該依據實際需求調查建立區域性調節機制。目前法規沒有因地制宜，如A7家庭機車停車位1:1配比明顯不足 </li>
+                    <li>A7重劃區整體區域公共停車問題，市府交通局應改有全盤規劃或保留停車用地。有其在目前社區機車嚴重不足的狀況下，應改預作調查建立公共機車停車位管理機制。</li>
+                    <li>以合宜住宅為例：文青路兩邊設計時就預留免費停車位。而其他地段當住戶進駐後前後街道就會被無停車位的機車所占滿。 在目前建商依據法規設計的固定停車位配比下，就需要區域性解決停車問題。 </li>
+                    <li>合宜住宅區的日月亭善捷段 停車場約有120個汽車停車位，但多數時間實際停車率極低。 是否表示整體區域停車需求需要做精準的大數據分析，以免將有限空間做了錯誤的規劃</li>
+                  </ul>
+
+                  違規停車問題
+                  <ul>
+                    <li>目前A7周邊（如文德舊社區）多數紅線區甚至在交通路口, 人行道上 都有長期性違規停車。增加巷道通行上的風險, 警察局放任不管造成居民違規停車的積習。</li>
+                    <li>許多公園（如文德公園）行人道及公園綠地也有大量機車，汽車違停。許多新建人行道也都停了汽車，迫使兒童老人只能走在快車道。 違規停車會造成交通事故發生的主因之一。</li>
+                    <li>當違規停車在市警局不作為的狀況下，既使已經是相當廉價的停車場也沒人停，而去搶停紅線區。</li>
+
+                  </ul>
+
+                  引用牛煦庭議員的貼文：下圖為輪播圖 請點擊左右邊選擇下一張
+                  <div id="carouselExampleIndicators-01" class="carousel slide img-fluid" style="width:100%"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="11" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="12"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="21"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="22"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="23"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="24"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="25"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="26"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="27"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="28"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-11.jpeg" class="d-block w-100"
+                          alt="..."> 樂學路 主幹道兩邊停車後，也只算是單行道了！
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-12.jpeg" class="d-block w-100"
+                          alt="..."> 長慶二/三街 之前的擁擠狀況。如果要會車就只能憑運氣。
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-21.jpeg" class="d-block w-100"
+                          alt="..."> 長慶三街已經劃了雙紅線，雙向行車好多了！
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-22.jpeg" class="d-block w-100"
+                          alt="..."> 汽機車都移轉到長慶二街
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-23.jpeg" class="d-block w-100"
+                          alt="..."> 長慶一街周遭還沒建案，所以仍然很空！
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-24.jpeg" class="d-block w-100"
+                          alt="..."> 有人專喜歡停行人道，注意看行人道已經被壓的凹凸不平了！
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-25.jpeg" class="d-block w-100"
+                          alt="..."> 合法停車塲一天最高60元每月1800元，但仍是空蕩蕩！
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-26.jpeg" class="d-block w-100"
+                          alt="..."> 停車場外紅線區 很少有空位！這裡免費？
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-27.jpeg" class="d-block w-100"
+                          alt="..."> 文德二路86巷的雙紅線，長期都是長久被佔用。隔壁就是警局！
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-28.jpeg" class="d-block w-100"
+                          alt="..."> 樂學路的公園人行道，是否能讓一部分給機車合法停車？
+                      </div>
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-01" role="button"
+                      data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-01" role="button"
+                      data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <br>
+
+                  <h5>對民意代表的建議作法</h5>
+                  <ul>
+                    <li>對現有A7住戶/已購戶做大數據分析，包含每戶所需的汽車, 機車，自行車 停車位配比需求調查。</li>
+                    <li>依據上面數據，督促市府交通局能擬定整體區域公共停車場建置規劃, 包含原有A7 停29 規劃執行狀況。 包含可用的公有土地可利用資訊調查。</li>
+                    <li>督促警察局對區域 違規停車做嚴格執法。同時檢討停車場對長期停車是否能有市民可接受的優惠措施。避免路邊大量違規停車，而停車場有大量空位的現象。</li>
+                    <li>請建議市府在步道區如樟腦寮步道, 崎頭步道, 大坑桐花步道入口設置UBike站點，鼓勵居民騎自行車前往步道區。 </li>
+                  </ul>
+                  請為社區機車停車位不足預做整體區域機車停車管理規劃：
+                  <div id="carouselExampleIndicators-02" class="carousel slide img-fluid" style="width:100%"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="32" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="33"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="41"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="42"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="43"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="44"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="45"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="46"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="47"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="48"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="49"></li>
+
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-32.jpeg" class="d-block w-100"
+                          alt="..."> 長慶三街已經成為雙紅線區，但仍有許多機車尚未找到歸宿！
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-33.jpeg" class="d-block w-100"
+                          alt="..."> 金捷市前的機車可以顯示社區機車停車不足的問題。
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-49.jpeg" class="d-block w-100"
+                          alt="..."> 金捷市社區機車停車顯然不足
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-41.jpeg" class="d-block w-100"
+                          alt="..."> A7 出口2 有30各機車 23個自行車 免費停車位
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-42.jpeg" class="d-block w-100"
+                          alt="..."> A7 出口1 有54各機車, 4個殘障 停車位, 每次20元 不滿10分鐘免費
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-45.jpeg" class="d-block w-100"
+                          alt="..."> A7站在文化一路上也有機車停車規劃
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-43.jpeg" class="d-block w-100"
+                          alt="..."> 合宜住宅區 日月亭善捷段 停車場也提供機車免費停車位
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-44.jpeg" class="d-block w-100"
+                          alt="..."> 合宜住宅區 日月亭善捷段 停車場 停車率很低，提醒未來停車場需要考慮實際需求的事前調查
+                      </div>
+
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-46.jpeg" class="d-block w-100"
+                          alt="..."> 合宜住宅區 文青路的路邊停車都保留給機車了
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-47.jpeg" class="d-block w-100"
+                          alt="..."> 有規劃的機車停車，井然有序也全然不影響行車動線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-48.jpeg" class="d-block w-100"
+                          alt="..."> 合宜住宅有許多機車停車位，但仍有停在人行道的違規停車
+                      </div>
+
+
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-02" role="button"
+                      data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-02" role="button"
+                      data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <br>
+                  <br><br>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="tab-pane" id="Menu-B9" role="tabpanel">
+              <!-- Menu B9 -->
+              <div class="row mb-1">
+                <h3>行人規劃</h3>
+              </div>
+              <div class="row mb-1">
+                <div class="col-md-6">
+                  <h5 id="CON-23">區域立體連通規劃</h5>
+                  依據 2015/08/31<a href="file/XLK-221-A7開發計畫02.pdf">A7站地區都市設計審議準則</a>, 行人通道規定包含：
+                  <ul>
+                    <li>中心商業區建築基地臨計畫道路部分，除指定建築退縮之外，應於一樓部分留設供公眾通行之連續性前廊。24 小時供公眾通行之連
+                      續性前廊，其淨寬度不得小於4 公尺，淨高不得小於3 公尺。</li>
+                    <li>建築物連續性前廊、迴廊及天橋應設置頂蓋，保持與鄰接之建築室內公共空間相銜接。另各空間亦需符合無障礙設施設計規範。</li>
+                    <li>迴廊、天橋及立體連通空間應提供足夠之夜間照明且納入基地之安全監控系統內。</li>
+                    <li>中心商業區建築應留設15 公尺人行通道, 沿地界側各退縮7.5 公尺，合計15 公尺。</li>
+                    <li>文中小街廓應留設10 公尺人行通道。</li>
+                  </ul>
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-03.png" class="img-fluid" style="width:600px">
+
+                  <br></br>
+                  立體連通空橋 提供行人晴雨通行舒適環境，符合無障礙空間的連續前廊。 讓居民沿商業街的氛圍下由社區前往A7 捷運站。未來整體規劃如下圖。
+                  <br><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1301-Parking-04.png" class="img-fluid" style="width:600px">
+
+                  <br><br>
+
+                </div>
+                <div class="col-md-6">
+                  <h5>基地保水與綠化</h5>
+                  <ul>
+                    <li>為增加雨水貯留能力，充分利用水資源，建築基地內應至少設置一處雨（中）水回收再利用設施，所貯留之回收雨（中）水應可作為庭園植栽澆灌及家戶沖廁等使用。</li>
+                    <li>建築基地法定空間鋪面應以透水性鋪面為原則，並採用排入樹穴、草溝或降低高度等遲滯地表雨水逕流之基地排水設計，避免降水直接排入地區公共排水溝，以利減緩都市洪峰、增加基地之保水能力。</li>
+                  </ul>
+                  <h5>交通違規檢舉</h5>
+                  桃園市交通違規檢舉 QRcode :點擊或掃描
+                  <a href="https://tvrweb.typd.gov.tw:3443/TTPB/D0101">
+                    <img src="fig/XLK-2203-ANC/ANC-20210514-01.png" class="img-fluid" style="width:150px">
+                  </a><br>
+                  桃園市政府警察局: <a href="https://tvrweb.typd.gov.tw:3443/">
+                    交通違規檢舉專區</a> <br>檢舉說明
+                  <ol>
+                    <li>違規車輛號牌: 違規車號清晰可辨及車輛顏色。</li>
+                    <li>違規事實: 應攝入相關標誌、標線或地點；如為標線，顏色須清楚可辨；車輛駕駛人是否在場（以辦識該車屬臨時停車或停車之狀態</li>
+                    <li>違規時之日期及時間。</li>
+                  </ol>
+                  使用含日期地點的照相軟體作為舉證依據: 時間相機App <a
+                    href="https://play.google.com/store/apps/details?id=com.jeyluta.timestampcamerafree&hl=zh_TW&gl=US">Google
+                    Play</a>,
+                  <a href="https://apps.apple.com/tw/app/%E6%99%82%E9%96%93%E7%9B%B8%E6%A9%9F/id840110184">App Store</a>
+
+                  <h5>交通違規檢舉法規修訂</h5>
+                  <ul>
+                    <li>
+                      自由時報 2021/12/08 <a href="https://news.ltn.com.tw/news/life/paper/1488783">交通違規檢舉 限縮為46項</a>
+                    </li>
+                  </ul>
+                  道路交通管理處罰條例修正案 要點:
+                  <ul>
+                    <li>
+                      採正面表列: 限縮民眾可檢舉的四十六種違規態樣，包括特定處違規停車、未戴安全帽、駕車手持行動電話等，<strong>至於一般紅黃線違停未列其中</strong>。
+                    </li>
+                    <li>
+                      動態違規方面:
+                      包括所載貨物滲漏、飛散、脫落、掉落或氣味惡臭；騎機車未戴安全帽；點燃香菸駕駛；在高、快速公路不當行駛及裝載；頻按喇叭、變換燈光等逼車行為；蛇行、違規超車、迴車，闖紅燈、闖平交道；不避讓消防車、救護車等行為。
+                    </li>
+                    <li>
+                      靜態違規部分:
+                      <strong>限縮於在路口、行人穿越道、人行道等嚴重影響交通安全與秩序的違規停車</strong>；包括在交岔路口、公共汽車招呼站十公尺內、消防車出入口五公尺內等特定地點的違規停車，以及不依順行方向、不緊靠道路右側、單行道不緊靠路邊、併排停車，占用身障停車格等。
+                    </li>
+                    <li>
+                      避免連續、惡意性檢舉: 違規時間需相隔六分鐘以上，或行駛經過一個路口以上，才可以檢舉同一違規行為。
+                    </li>
+                  </ul>
+
+                  <img src="fig/XLK-2203-ANC/ANC-20210514-02.jpeg" class="img-fluid" style="width:500px">
+                  <br><br>
+
+
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane" id="Menu-B1" role="tabpanel">
+              <!-- Menu B1 -->
+
+              <div class="row mb-1">
+
+                <div class="col-md-6">
+                  <h3>A7重劃區 區域公車</h3>
+
+                  桃園電子報 <a
+                    href="https://tyenews.com/2023/07/413518/?fbclid=IwAR23a8aJl14ihdke6hXbCGYhe2duRuZXzBwVNMAWyJfD2tvR5V04Ix1ZAlk">2023/07/28</a>
+                  <br><br>
+                  <h5>606大坪頂循環線</h5>
+                  試辦 「606大坪頂循環線」公車來了！
+                  <ul>
+                    <li>日期：112年07月31日起-預計試辦至10月30日</li>
+                    <li>路線圖及時刻表附上給大家參考，尖峰時刻預計就是以20分鐘巡環一直繞，離峰時刻約30分鐘一班車。</li>
+                    <li>試辦過程中，歡迎大家踴躍搭乘！可搭配月票1200使用，如有遇到問題也歡迎提出會再轉至相關單位辦理。</li>
+                  </ul>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1314-區域606-1.jpeg" class="img-fluid"
+                    style="width:800px"><br></br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1314-區域606-2.jpeg" class="img-fluid" style="width:300px">
+                  <br><br>
+                  <h5>國道客運 優惠</h5>
+                  <a href="https://www.ettoday.net/news/20220801/2306470.htm">ETtoday 2022/08/01</a>
+                  長輩福音！今起這5縣市持敬老卡「免費搭國道客運」<br>
+                  國光客運表示， 2022/08/01 日起額度1000元的彰化縣長青幸福卡納入國道長途路線。另<span style="color:red">桃園市</span>
+                  、台中市、新竹縣、南投縣等敬老卡都可全額折抵當地國道客運車資。 桃園市敬老卡每月800元補助, 可不限次數免費搭乘市區公車或以半價搭乘捷運。 由2022/08/01 日起 <span
+                    style="color:red">可全額扣抵行經當地國道客運路線車資。</span>
+                  <br><br>
+                  <h5>607 公車 正式營運 （605B） </h5>
+                  605B 公車 將自8月1日起轉型正式路線607 長庚醫院-迴龍經青山路,
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1305-Bus607.webp" class="img-fluid" style="width:800px">
+                  <br><br>
+
+                  <span style="color:red">陳雅倫議員 2022/08/09</span> <a
+                    href="https://www.facebook.com/groups/a7xinlinkou/permalink/377284284376826/">議會質詢紀錄</a> 爭取事項包含:
+                  <ul>
+                    <li>針對雅倫爭取的605A，希望交通局用心推廣讓他成為正式路線，包含市民卡買一送一、敬老愛心卡800點。</li>
+                    <li>買車增班，讓班次密集，尤其上下班時間。</li>
+                    <li>增加末班車，讓下班的人可以搭回家。</li>
+                    <li>在原先的路線架構上，調整路線至有人潮、有社區大樓（玉子園、台北國際村、奇幻莊園、樂捷市、樂田田等等）的地方。</li>
+                    <li>三重客運公西站在龜山，爭取部分新北市區公車順向繞行至有社區（樂善寺站、合遠新天地、友文化、鉑麗、翡麗等等）的地方後再回公西站。</li>
+                    <li>爭取共享機車GoShare擴大服務。</li>
+                    <li>增加機車停車格。</li>
+                    <li>部分市區公車過於老舊，且衛生不佳有味道，乘客體驗不佳。</li>
+                    <li>增加低地板公車</li>
+                  </ul>
+
+                  605B 試營運
+                  <ul>
+                    <li>路線：605B 長庚-迴龍</li>
+                    <li>日期: 2023/02/13 日起增加兩個班次</li>
+                    <li>
+                      班次: 每日12班次往返，共計24班次 06:10, 07:00, 08:10, 09:30, 10:30, 12:00, 13:00, 14:30, 15:20, 16:20 17:40,
+                      18:40
+                    </li>
+                    <li>票價：全程全票31元、半票16元，持市民卡乘車享有買一送一優惠。 請多利用學生卡/敬老卡的 優惠點數。 </li>
+                    <li>
+                      新聞來源：<a
+                        href="https://tyenews.com/2022/07/212198/?fbclid=IwAR0r-pK5IQYLfzSXg2bD9vfeuy9jdHJ7b7Sm7pyKB-7mhAR-OI1iN0sH2q0">桃園電子報
+                      </a> 2022/07/29
+                    </li>
+                    <li>
+                      北健活力頻道 2022/07/29 <a href="https://www.youtube.com/watch?v=4YDuW4OTMuM">搭 公車|8/1試辦605A公車
+                        盼改善新興社區對外交通</a>
+                    </li>
+                  </ul>
+
+
+
+
+
+
+
+
+                </div>
+                <div class="col-md-6">
+
+
+
+                  <h5>微循環公車 202</h5>
+                  <ul>
+                    <li>
+                      桃園公車資訊 <a href="https://ebus.tycg.gov.tw/ebus/driving-map/2020">202 路線圖及時刻表</a>
+                    </li>
+                  </ul>
+                  <img src="fig/A7XLK-131-Bus202.jpeg" class="img-fluid" Style="width:600px">
+                  <br><br>
+                  202 班車時刻表, 請點選：(時刻是概估時間需稍作提前以免誤班)
+                  <div class="tab">
+                    <button class="tablinks" onclick="openCity(event, 'OPT11')">林口長庚-&#8250;樂善國小</button>
+                    <button class="tablinks" onclick="openCity(event, 'OPT12')">樂善國小-&#8250;林口長庚</button>
+
+                  </div>
+                  <div id="OPT11" class="tabcontent">
+                    <h5>林口長庚-&#8250;樂善國小</h5>
+                    <p>07:09, 08:29, 09:49, 11:09, 12:29, 14:09, 15:29, 16:49, 18:09, 19:29, 21:29 </p>
+
+
+                  </div>
+
+                  <div id="OPT12" class="tabcontent">
+                    <h5>樂善國小-&#8250;林口長庚</h5>
+                    <p>06:16, 07:36, 08:56, 10:16, 11:36, 13:16, 14:36, 15:56, 17:16, 18:36, 20:16</p>
+
+                  </div>
+
+                  <br><br>
+                  公車202時刻表<br>
+                  <img src="fig/A7XLK-132-Transportation-11.jpg" class="img-fluid" style="width:300px">
+
+                  <br><br>
+                  <h5>603 公車 長庚大學 - 捷運丹鳳站</h5>
+                  <ul>
+                    <li>
+                      桃園公車動態資訊系統 <a href="https://ebus.tycg.gov.tw/ebus/driving-map/6030">公車603</a>
+                    </li>
+                    <li>
+                      三重客運 <a href="http://www.transtaipei.idv.tw/r1/r1_t03/zt603.htm"> 桃 603 </a>
+                    </li>
+                  </ul>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1305-Bus603-01.png" class="img-fluid" Style="width:600px">
+                  <br><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1305-Bus603-02.png" class="img-fluid" Style="width:300px">
+                  <br><br>
+                  <h5>桃園樂活巴士</h5>
+                  長庚醫院線 L317, L318, L319。 <a href="fig/XLK-131-Transportation/A7XLK-1310-111年8月時刻表.pdf">111年時刻表</a>
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1310-龜山樂活巴士.jpeg" class="img-fluid" Style="width:1000px">
+                  <br><br>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="tab-pane" id="Menu-B2" role="tabpanel">
+              <!-- Menu B2 -->
+              <div class="row">
+                <h3>桃園捷運 </h3>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <img src="fig/A7XLK-132-Transportation-05.jpg" class="img-fluid" style="width:700px">
+                </div>
+
+                <div class="col-md-6">
+                  <ul>
+                    <li>桃園捷運<a
+                        href="https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/timetable-search.php">官網</a>,&nbsp;
+                      <a href="https://zh.wikipedia.org/zh-tw/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B">Wikipedia</a>，桃園<a
+                        href="https://zh.wikipedia.org/zh-tw/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B%E7%B6%A0%E7%B7%9A">捷運綠線</a>，桃園<a
+                        href="https://zh.wikipedia.org/zh-tw/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B%E6%A3%95%E7%B7%9A">捷運棕線</a>
+                    </li>
+                    <li>A8 長庚醫院站 - A1 台北車站</li>
+                    <ul>
+                      <li>乘車時間：普通車 約30分鐘，直達車 約 22 分鐘</li>
+                      <li>票價： 全票 70 元，優待票 35 元，兒童票 56元</li>
+                      <li>定期票價：1 日票 320元，30 天 2,058元，60天 3,780元，90 天5,292 元，120天 5,880 元</li>
+                    </ul>
+                    <li>A8 長庚醫院站 - A13 第二航廈站</li>
+                    <ul>
+                      <li>乘車時間：普通車 約21分鐘，直達車 約 18 分鐘</li>
+                      <li>票價： 全票 50 元，優待票 25 元，兒童票 40元</li>
+                      <li>定期票價：1 日票 320元，30 天 1,470元，60天 2,700元，90 天3,780 元，120天 4,200 元</li>
+                    </ul>
+                  </ul>
+                  <h4>A8 <a href="https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/A8">長庚醫院站</a></h4>
+                  <div>
+                    <ul>
+                      <li><a href="https://www.tymetro.com.tw/tymetro-new/tw/_pages/travel-guide/A8">轉乘公車</a></li>
+                      <li>林口長庚醫院：<a href="https://www1.cgmh.org.tw/branch/lnk/2016/about.aspx?bid=2&amp;id=31">周邊停車場</a>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <img src="fig/A7XLK-132-Transportation-06.jpg" class="img-fluid" style="width:700px">
+                </div>
+
+              </div>
+              <div class="row">
+                <div>
+                  <h4>捷運先導公車</h4>
+                  <div>
+                    <ul>
+                      <li>維基百科：<a
+                          href="https://zh.wikipedia.org/wiki/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B%E7%B6%A0%E7%B7%9A%E5%85%88%E5%B0%8E%E5%85%AC%E8%BB%8A">捷運先導公車</a>
+                      </li>
+                      <li>桃園公車：<a href="https://ebus.tycg.gov.tw/NewTaoyuan/Dybus.aspx">動態資訊系統</a></li>
+                      <li>綠線先導公車GR -&nbsp;桃園後站 ↔ 捷運坑口站</li>
+                      <ul>
+                        <li>1.桃園後站 - 2.聖保祿醫院 - 3.建國路口 - 4.統領百貨 - 5.桃園郵局 - 6.永和市場 - 7.中正三民路口 - 8.中正商業大樓 - 9.北埔路口 -
+                          10.中正信光街口 -
+                          11.中正慈文路口 - 12.慈文國中 - 13.中正大興西路口 - 14.福安宮 - 15.中正藝文特區 - 16.行政執行處 - 17.同德十一街口 - 18.莊敬路口 -
+                          19.中正莊二街口 -
+                          20.中正橋 - 21.南竹路口 - 22.南順一街口 - 23.奉化忠孝西路口 - 24.麗寶經典 - 25.光明郵局 - 26.光明國小 - 27.光明國中 - 28.錦興國小 -
+                          29.南崁 -
+                          30.台茂購物中心 - 31.下南崁 - 32.南亞/好市多 - 33.溪州 - 34.台灣松下- 35.徐厝 - 36.三商 - 37.水尾 - 38.八股路口 - 39.下水尾 -
+                          40.果林 -
+                          41.崁下 - 42.捷運坑口站</li>
+                      </ul>
+                      <li>綠線先導公車GR2 -&nbsp;桃園後站 ↔ 八德</li>
+                      <ul>
+                        <li>桃園後站(G07) - 統領百貨公司 - 南華街口 - 三民建國路口 - 三民介壽路口 - 陽明公園站(G06) - 桃園監理站 - 利台 - 力行街口 - 無線電台 - 小大湳
+                          -
+                          忠勇西街站(G05) - 介壽大智路口 - 陸光四村 - 大湳站(G04) - 大湳辦事處 - 瑞祥社區 - 鴻昌社區 - 麻園站(G03) - 梅花社區 - 欣桃社區 - 松柏園 -
+                          瑞豐國小 -
+                          瑞發家園 - 更寮腳 - 聯福巷口 - 興豐路口 - 八德國中 - 八德站(G01)</li>
+                      </ul>
+                      <li>橘線先導公車BR</li>
+                      <li>收費方式</li>
+                      <ul>
+                        <li>GR：兩段票收費, 緩衝區：南竹路口—南崁</li>
+                        <li>GR2：一段票收費</li>
+                      </ul>
+                      <li>每段票費用：</li>
+                      <ul>
+                        <li>全票：新台幣18元</li>
+                        <li>半票：新台幣9元</li>
+                      </ul>
+                      <li>班距</li>
+                      <ul>
+                        <li>首班車:6:00</li>
+                        <li>末班車:22:30</li>
+                        <li>尖峰每20分鐘一班，離峰每30分鐘一班。</li>
+                      </ul>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="Menu-B3" role="tabpanel">
+              <!-- Menu B3 -->
+              <div class="row">
+                <h5>台北捷運 </h5>
+                <p>
+                  <a style="margin-left:20px" href="https://tw.piliapp.com/mrt-taiwan/taipei/">台北捷運圖</a> 包含:票價,
+                  早末班車，臨近公車，出口地圖。
+                  <a href="https://mrtexit.com/">捷運出口查詢</a>：輸入地點簡稱, 查詢最近捷運出口。
+
+                </p>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="fig/A7XLK-132-Transportation-03.jpg" class="img-fluid" style="width:1000px">
+                </div>
+
+              </div>
+              <div class="row">
+
+                <h5>台北車站地下街出口</h5>
+              </div>
+              <div class="row ">
+                <div class="col-lg-12">
+                  <img src="fig/A7XLK-132-Transportation-04.png" class="img-fluid" style="width:1000px">
+
+                </div>
+              </div>
+              <div class="row">
+                <h5>台北8橫8縱幹道路廊圖</h5>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="fig/A7XLK-132-Transportation-02.png" class="img-fluid" style="width:1000px">
+                </div>
+              </div>
+            </div>
+
+            <div class="tab-pane" id="Menu-B4" role="tabpanel">
+              <!-- Menu B4 -->
+              <div class="row">
+                <h3>市區公車 </h3>
+              </div>
+
+              <div id="app" class="row">
+                <div class="col-md-6">
+                  <h3>公車資訊</h3>
+                  <a class="mx-1" href="https://ebus.gov.taipei/">大台北公車</a>
+                  <a class="mx-1" href="https://ebus.tycg.gov.tw/NewTaoyuan/Dybus.aspx">桃園公車</a>
+                  <a class="mx-1" href="fig/XLK-131-Transportation/A7XLK-1305-汎航乘車處地點搬遷公告.pdf">汎航乘車地點及時刻表 2022/11
+                    月更新</a>
+                </div>
+                <div class="col-md-6">
+                  <h5>特定地點公車</h5>
+                  <ul>
+                    <li>
+                      機捷A8站到 <a
+                        href="https://zaq0930.pixnet.net/blog/post/364104003](https://l.facebook.com/l.php?u=https%3A%2F%2Fzaq0930.pixnet.net%2Fblog%2Fpost%2F364104003%3Ffbclid%3DIwAR1sOHvuZ3RIxa61uybPuQstq02t0ojDYghqVJQBfr5TcerJb8AXC97qocU&h=AT3U74ysa_S7zFs7pY7N0RuOp4aiTGo52vzjkKG9DF0KXLcxRpS09U-a6FahaEgTkKzHgZP-x3EbdyWBfopKekHFJ1pRJblMeW8j4Js8Ow4iCsMfJrwiVhEk3kHx5SbS9Q&__tn__=-UK-R&c[0]=AT3R8YfEgftwR2Frz4gUHtF90_9i920_XuEW4-7ECc7bx3J3hGlK7lZuiPKBbyc2vy1Wz6M-LI_OAZGRvmtupNPJihq0zRZDb-UYvFMBY8prYAS_7aD7TXbp-Dee-P4KdqRg-JEhjOrIvvsEk7syH72pfSM6FbgA)&fbclid=IwAR3UakM3DFvA36DEj3TZGoDLg6JLD9wiprELKr69tPOwCpeS3rdz3NGA01o">桃園市立圖書館
+                        藝文特區總館</a>:
+                      在林口長庚醫院 / 桃園長庚轉運站 搭乘 <a href="http://www.chunglibus.com.tw/route/702.html">中壢客運 702 桃園長庚轉運站－大溪</a>
+                      班車，在城市大亨站下車; 行車時間約23分鐘, 全票34元半票17元。平日14班, 假日6班。
+                    </li>
+                  </ul>
+
+                </div>
+
+              </div>
+
+              <div class="container-fluid">
+
+                <div class="alert alert-info mt-2" role="alert">
+                  <div class="row">
+                    <div class="col-8">
+                      <div class="form-group">
+                        <select class="form-control" v-model="section" id="exampleFormControlSelect7">
+                          <option v-for="section in sections">{{ section }}</option>
+                        </select>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <h5 class="text-left"> 選擇站牌 </h5>
+                    </div>
+                  </div>
+
+                </div>
+                <div class="row" v-for="posts in results">
+
+                  <table class="table table-striped table-hover table-sm">
+                    <thead>
+                      <tr>
+                        <th>公車</th>
+                        <th>起站</th>
+                        <th>訖站</th>
+                        <th>路線</th>
+                        <th>客運</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr v-bind:bordercolor="post.Color" v-for="post in posts">
+                        <td> <a v-bind:href="post.即時資訊出">{{post.公車}}</a> </td>
+                        <td>{{post.起站}}</td>
+                        <td>{{post.訖站}} </td>
+                        <td>
+                          <a v-bind:href="post.路線圖">路線</a>
+                        </td>
+                        <td>{{post.所屬公司}}</td>
+                      </tr>
+                    </tbody>
+                  </table>
+
+                </div>
+
+              </div>
+
+
+            </div>
+            <div class="tab-pane" id="Menu-B5" role="tabpanel">
+              <!-- Menu B5 -->
+              <div class="row">
+                <h3> 台鐵高鐵 </h3>
+              </div>
+
+              <div class="row">
+                <ul>
+                  <li><a href="https://www.railway.gov.tw/tra-tip-web/tip/tip001/tip112/gobytime">台鐵列車</a>時刻</li>
+                  <li>高鐵列車： <a href="https://www.thsrc.com.tw/tw/timetable/searchresult">時刻查詢</a>， <a
+                      href="https://www.thsrc.com.tw/UploadFiles/TicketFile/5eb3f582-1455-4ca9-8a4a-b1705d7c79af.pdf">高鐵時刻表</a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://47rail.jp/data/routemap_taiwan_202011a.pdf?fbclid=IwAR3NSPmNJVmYnfN3pDSHlBldmdcmiaBTroj_4ZdbDMkiClVKHUIwcvOvQIc">日式台灣鐵路路線圖</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="row">
+                <h3 id="title-2">高鐵南下時刻表 </h3> 2019/7/1 起適用
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <img src="fig/A7XLK-133-高鐵南下1.png" class="img-fluid" style="width:1000px">
+                  <img src="fig/A7XLK-133-高鐵南下2.png" class="img-fluid" style="width:1000px">
+                </div>
+              </div>
+
+
+            </div>
+            <div class="tab-pane" id="Menu-B6" role="tabpanel">
+              <!-- Menu B6 -->
+              <div class="row mb-1">
+                <h3> 出租汽車 / UBike </h3>
+              </div>
+              <div class="row mb-1">
+                <div class="col-md-6">
+                  <div class="row mb-1">
+                    <h3 id="title-2">Taxi 出租汽車</h3>
+                  </div>
+                  <div class="row mb-1">
+                    <ul>
+                      <li>新北市
+                        <ul>
+                          <li><a href="https://www.mtaxi.com.tw/taxi/tel/">大都會</a>衛星計程車：02-4499178/手機直撥55178</li>
+                          <li><a href="https://www.crowntaxi.com.tw/wp/">皇冠</a>大車隊：02-4128333/手機直撥5510</li>
+                          <li><a href="https://www.taiwantaxi.com.tw/">台灣大</a>車隊：02-40588888/手機直撥55688</li>
+                        </ul>
+                      </li>
+                      <li>桃園市
+                        <ul>
+                          <li><a href="https://www.mtaxi.com.tw/taxi/tel/">大都會</a>衛星車隊：03-4499178/手機直撥55178</li>
+                          <li>合作衛星車隊：03-3557700或3558000</li>
+                          <li>新利達衛星車隊：03-3758888</li>
+                          <li><a href="http://www.dwstaxi.com.tw/">大文山</a>衛星派遣車隊：03-2185666、3501666/手機直撥 55106</li>
+                        </ul>
+                      </li>
+                      <li>
+                        龜山區
+                        <ul>
+                          <li>大文山：手機直撥 55106, 0800-501-666, 03-350-1666</li>
+                          <li>台灣大：手機/市話 直撥 55688</li>
+                          <li>新梅：03-363-0033, 03-375-3322</li>
+                        </ul>
+                      </li>
+
+                    </ul>
+                    龜山手機叫車：
+                    <a href="tel:55106"> <button type="button" class="btn btn-info">大文山</button> </a> &nbsp;
+                    <a href="tel:55688"> <button type="button" class="btn btn-info">台灣大</button> </a> &nbsp;
+                    <a href="tel:033630033"> <button type="button" class="btn btn-info">新梅</button> </a>
+
+
+                  </div>
+                  <div class="row">
+                    <h5>租車</h5>
+                  </div>
+                  <div class="row">
+
+                    <ul>
+                      <li>Hello <a href="http://hellocar.weebly.com/">哈囉租車</a>
+                        <ul>
+                          <li>地址：333桃園市龜山區復興二路77號</li>
+                          <li>電話：03-211-5465</li>
+                          <li>營業時間：09:00 - 21:00</li>
+                        </ul>
+                      </li>
+                      <li><a href="http://www.hwayicarrental.com.tw/">華誼租車</a>-林口店
+                        <ul>
+                          <li>地址：333桃園市龜山區文化一路86-27號</li>
+                          <li>電話：03-318-0757</li>
+                          <li>營業時間：09:00 - 21:00</li>
+                        </ul>
+                      </li>
+                    </ul>
+
+                  </div>
+
+                </div>
+                <div class="col-md-6">
+                  <div class="row">
+                    <h3>UBike 公共自行車</h3>
+                  </div>
+                  <div class="row">
+
+                    <ul>
+                      <li>桃園公共自行車網：<a href="https://tycg.youbike.com.tw/home">UBike</a></li>
+                      <li>公共自行車24小時客服專線：03-286-8833</li>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">費率-單次租車：</li>
+                      <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">使用4小時內每30分鐘10元</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">4小時～8小時內每30分鐘20元</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">超過8小時以上每30分鐘40元</li>
+                      </ul>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">費率-會員</li>
+                      <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">使用前30分鐘免費</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">4小時內每30分鐘10元</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">4小時～8小時內每30分鐘20元</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">超過8小時以上每30分鐘40元</li>
+                      </ul>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">付費方式</li>
+                      <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">單次使用：信用卡</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">會員：悠遊卡，一卡通</li>
+                      </ul>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">註冊方式</li>
+                      <ul style="line-height: 1.4; list-style-type: disc; margin: 0.5em 0px; padding: 0px 2.5em;">
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">單次使用：各站點KIOSK申辦</li>
+                        <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">會員：服務中心申辦;<a
+                            href="http://wa.tycg.youbike.com.tw/new_account"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">官方網站申辦</a>，官方APP申辦 (<a
+                            href="https://play.google.com/store/apps/details?id=tw.com.sstc.youbike&amp;hl=zh_TW"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">Google
+                            Play</a>,&nbsp;<a href="https://apps.apple.com/tw/app/youbike-wei-xiao-dan-che/id639534082"
+                            style="color: #468db5; outline: none; text-decoration-line: none;">Apple
+                            Store</a>)，各站點KIOSK申辦</li>
+                      </ul>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">App 下載：<a
+                          href="https://play.google.com/store/apps/details?id=tw.com.sstc.youbike&amp;hl=zh_TW"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">Google Play</a>,&nbsp;<a
+                          href="https://apps.apple.com/tw/app/youbike-wei-xiao-dan-che/id639534082"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">Apple Store</a></li>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">使用說明：<a
+                          href="https://tycg.youbike.com.tw/use/rentway"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">租還方式</a>，<a
+                          href="https://tycg.youbike.com.tw/use/saferide"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">安全騎乘</a></li>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">站點地圖：<a
+                          href="https://tycg.youbike.com.tw/station/map"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">站點即時資訊</a></li>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">YouBike 保險：<a
+                          href="https://www.youtube.com/watch?v=3yV2D77RVhE"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">YouTube</a>,&nbsp;北北桃YouBike<a
+                          href="https://www.youtube.com/watch?v=tDQwBiN5kHw"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">傷害險</a></li>
+                      <li style="line-height: 1.3; margin: 0px 0px 0.25em; padding: 0px;">Youtube:&nbsp;<a
+                          href="https://www.youtube.com/watch?v=V4_4cXwXnM4"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">騎動桃園</a>，<a
+                          href="https://www.youtube.com/watch?v=Hm8jqSxbnFY"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">租借破千萬</a>，<a
+                          href="https://www.youtube.com/watch?v=-2pjPZ9lrkY&amp;t=230s"
+                          style="color: #468db5; outline: none; text-decoration-line: none;">使用教學</a></li>
+                    </ul>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+
+            <div class="tab-pane" id="Menu-B7" role="tabpanel">
+              <!-- Menu B6 -->
+              <div class="row">
+                <h3>區域交通規劃</h3>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>A7 道路</h5>
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-交通規劃-41.png" class="img-fluid" style="width:800px">
+                  <br> A7 街道圖 節錄自 <a href="https://www.openstreetmap.org/#map=15/25.0462/121.3848"> OpenStreetMap</a>
+
+                  <br><br>
+
+                </div>
+                <div class="col-md-6">
+                  <h5>A7道路匯總</h5>
+                  A7 街道包含
+                  <ul>
+                    <li>文化一路, 文化二路延伸, 文工一路, 郵園路, 牛角坡路, 青山路</li>
+                    <li>樂學路, 樂學一路, 樂學二路, 樂學三路, 樂善一路, 樂善二路, </li>
+                    <li>長慶一街, 長慶二街, 長慶斯三街</li>
+                    <li>文禾路, 文達路, 文茂路, 文信路, 文華路, 文桃路, 文吉路, 文樂路, 文學路, 文青路, 文青一路, 文青二路, 文青三路, 文青六路 </li>
+                    <li>Y:長慶一街50巷, Y:樂學路590巷</li>
+                  </ul>
+
+                  <h5>A7 區域道路計畫相關資訊</h5>
+                  <ul>
+                    <li>
+                      FB 林口大家庭社群 <a
+                        href="https://www.facebook.com/groups/401936333733337/permalink/1021277211799243/">林口交通建言</a>
+                    </li>
+                    <li>
+                      台灣好新聞 2022/03/18 <a
+                        href="https://www.taiwanhot.net/news/988498/%E9%BE%9C%E5%B1%B1%E5%8D%97%E6%9E%97%E8%B7%AF%E6%8B%93%E5%AF%AC%E5%B7%A5%E7%A8%8B%E5%8B%95%E5%B7%A5+%E9%A0%90%E8%A8%88112%E5%B9%B4%E8%BE%B2%E6%9B%86%E5%B9%B4%E5%89%8D%E9%80%9A%E8%BB%8A?fbclid=IwAR0RpriOAPibVUlgKgQtfHU5_fSX29Bs-OQh5pXUZnOyAJsHag4kWPevv7Y">龜山南林路拓寬工程動工　預計112年農曆年前通車</a>
+                    </li>
+                    <li>
+                      北健活力頻道 2021/10/06: <a href="https://www.youtube.com/watch?v=Ue7seiHVG9Y">樂善一路延伸 T字道路計畫: 解決
+                        方案|高架道路避開八卦窯</a>
+                    </li>
+                    <li>
+                      自由時報 2021/06/04 <a
+                        href="https://ec.ltn.com.tw/article/breakingnews/3558405?utm_medium=R&utm_campaign=SHARE&utm_source=FACEBOOK&fbclid=IwAR0AXAzdLKlSWeJkECpwSgm1HxNCjks-0Wxz47Wb9hHf1uWLx1_jsAZrFkA">打通A7合宜宅交通任督二脈</a>
+                      桃園市府估經費10億獲補助
+                    </li>
+                    <li>
+                      A7重劃區重大建設整理 <a href="https://www.mobile01.com/topicdetail.php?f=456&t=6108727">2020/11/29更新</a>
+                    </li>
+                    <li>
+                      牛角坡路 延伸 <a href="https://www.facebook.com/100006734769610/videos/3021829674718162/">Facebook
+                        影片</a>
+                    </li>
+                    <li>
+                      龜山區牛角坡路道路興闢工程 2021/11/11 <a href="file/XLK-131-龜山牛角坡路第1場公聽會會議紀錄1202.pdf">第1次公聽會紀錄</a>
+                    </li>
+                    <li>
+                      道路工程組營建署 2019/09/06: <a href="https://www.youtube.com/watch?v=dMIto0xTjUg">長庚新驛站 3D模擬動畫</a>
+                    </li>
+
+                  </ul>
+
+
+                  <br><br>
+
+                </div>
+                <hr>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>A7重劃區 2019年道路規劃案</h5>
+                  依據 龜山戶政事務所 108年6月4日 <a
+                    href="https://www.guishan-hro.tycg.gov.tw/home.jsp?id=154&parentpath=0,10,51&mcustomize=multimessages_view.jsp&dataserno=201906180002&aplistdn=ou=data,ou=Door,ou=HRO_model,ou=HRO,ou=ap_root,o=tycg,c=tw&toolsflag=Y">道路命名生效4條</a>
+                  <ul>
+                    <li>R1 樂善三路：為由北往南向道路，以北端與文化一路交接處為起點，往南至與本次命名為樂善二路之道路交接處為終點，全長約300公尺，寬約15公尺。</li>
+                    <li>R2 文化二路延伸：為由西北往東南，再轉東北向道路，以西北端與文化二路迄點處為延伸起點，往東南再轉東北，至與編號道路RD30-10交接處為終點，全長約598公尺，寬約10公尺。</li>
+                    <li>R3 樂善二路：為由西北往東南，再轉西向道路，以西北端與華亞三路交接處為起點，全長約1325公尺，寬約20至25公尺。</li>
+                    <li>R4 牛角坡路：為由北往南，再轉西向道路，以北端與文桃路交接處為起點，往南再轉西，至與樂善一路交接處為終點，全長約528公尺，寬20公尺</li>
+                  </ul>
+
+                  <img src="fig/A7XLK-134-未來規劃-05.jpeg" class="img-fluid" style="width:800px"><br>
+                  <br><br>
+
+                </div>
+                <div class="col-md-6">
+                  <h5 id="CON-22">文化二路 延伸案修訂</h5>
+                  文化二路延伸到A7捷運站旁, 連通至文青路這部分屬於工五工業區擴大變更計畫內容修訂文化二路延伸規劃。
+                  <img src="fig/A7XLK-134-未來規劃-06.jpeg" class="img-fluid" style="width:400px"><br>
+                  <br><br>
+                </div>
+                <hr>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>A7 主要道路變更規劃</h5> 自由時報 2021/06/04 報導<br>
+                  A7合宜住宅區對外聯外道路文青路塞車情形嚴重，市府規劃下面3案希望能改善當地交通。總計工程及用地經費10.6億元，已獲中央同意補助，目前正在進行用地取得作業，最晚2023年就可動工發包。。<br><br>
+                  <ul>
+                    <li>
+                      進度追蹤 <a href="https://reiso.tycg.gov.tw/governance-progress/12">T字型聯外道路 變一，變二 </a> 經費4.9億 預計
+                      2026/10/31日完成
+                    </li>
+                    <li>
+                      內政部營建屬 2019/02/27 <a
+                        href="https://www.cpami.gov.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E5%8D%B3%E6%99%82%E6%96%B0%E8%81%9E/63-%E5%9F%8E%E9%84%89%E7%99%BC%E5%B1%95%E5%88%86%E7%BD%B2/33635-%E8%BE%A6%E7%90%86%E6%9E%97%E5%8F%A3A7%E7%AB%99%E5%8D%80%E4%BA%8C%E6%9C%9F%E9%83%BD%E5%B8%82%E8%A8%88%E7%95%AB%EF%BC%8C%E8%A3%9C%E8%BE%A6%E5%85%AC%E9%96%8B%E5%B1%95%E8%A6%BD%E5%8F%8A%E8%AA%AA%E6%98%8E%E6%9C%83.html?fbclid=IwAR3MUT6fitdqPyQShgvWSzEdDu1h0rtXFeuKAlSTge7DSDsMpoyDpVguLrI">辦理林口A7站區二期都市計畫，補辦公開展覽及說明會</a>
+                    </li>
+                    <li>
+                      內政部 2019/01/29 <a href="file/XLK-242-A7規劃書-05.pdf">都市計畫委員會第939次會議紀錄</a>
+                    </li>
+                  </ul>
+                  <img src="fig/A7XLK-134-未來規劃-04.jpeg" class="img-fluid" style="width:800px"><br>
+                  圖片來源：<a
+                    href="https://ec.ltn.com.tw/article/breakingnews/3558405?utm_medium=R&utm_campaign=SHARE&utm_source=FACEBOOK&fbclid=IwAR0AXAzdLKlSWeJkECpwSgm1HxNCjks-0Wxz47Wb9hHf1uWLx1_jsAZrFkA">自由時報
+                    2021/06/04</a>
+                  <br><br>
+                  <h5>A7站區二期都市計畫</h5>
+                  依據 <a
+                    href="https://www.cpami.gov.tw/%E6%9C%80%E6%96%B0%E6%B6%88%E6%81%AF/%E5%8D%B3%E6%99%82%E6%96%B0%E8%81%9E/63-%E5%9F%8E%E9%84%89%E7%99%BC%E5%B1%95%E5%88%86%E7%BD%B2/33635-%E8%BE%A6%E7%90%86%E6%9E%97%E5%8F%A3A7%E7%AB%99%E5%8D%80%E4%BA%8C%E6%9C%9F%E9%83%BD%E5%B8%82%E8%A8%88%E7%95%AB%EF%BC%8C%E8%A3%9C%E8%BE%A6%E5%85%AC%E9%96%8B%E5%B1%95%E8%A6%BD%E5%8F%8A%E8%AA%AA%E6%98%8E%E6%9C%83.html?fbclid=IwAR3MUT6fitdqPyQShgvWSzEdDu1h0rtXFeuKAlSTge7DSDsMpoyDpVguLrI">營建署2019/02/27
+                    說明會</a>:
+                  第二期開發區除必要性聯繫道路外 其餘維持現狀不予開發 -
+                  有鑑於A7站區第一期開發施工時，發現部分地區埋有大量廢棄物，經都市計畫程序變更恢復原有分區之經驗，第二期開發區爰比對72年地形圖及100年新測地形圖，將地形變異較大之地區，辦理勘測鑽探，共完成7條地電阻影像剖面探測線，其中5條測線指出遭掩埋廢棄物，另完成5口鑽探井，鑽探結果各井皆有廢棄物掩埋；基於抵價地不足分配且有大量陳年廢棄物（土）違規傾倒情事，如進行開發，恐有公共安全之疑慮等因素，內政部都市計畫委員會會議決議第二期開發區維持現狀（保護區及農業區）不予開發，惟考量A7站區交通路網完整性，必要性聯繫道路宜予闢建。
+                  <br><br>
+
+
+                  <h5 id="CON-13">變一案: 文學路延伸與樂善一路延伸 T字道路計畫</h5>
+                  2022/11/15
+                  桃園電子報:「變一道路」範圍起自文化一路至文學路與樂善一路，延伸形成T字路口，工程經費約為7億元，將保留部分牛角坡煙囪、八卦窯等文資設施，目前正辦理工程發包前置作業，預計興建長424公尺、寬20公尺道路，將能讓交通更加方便。
+                  <br><br>
+                  內政部已於2021/05/26 核定補助經費。
+                  主要是打通文學路連接文化一路，紓解文青路車流，全長389米、將拓寬為20米道路；因用地範圍內含牛角坡煙囪、八卦窯等文化資產設施，目前正依文化資產保存法規定辦理審議程序，於文化資產認定前，同步辦理細部設計作業，預計於2023年發包。
+                  <br>
+                  <a
+                    href="https://www.taiwanhot.net/news/988498/%E9%BE%9C%E5%B1%B1%E5%8D%97%E6%9E%97%E8%B7%AF%E6%8B%93%E5%AF%AC%E5%B7%A5%E7%A8%8B%E5%8B%95%E5%B7%A5+%E9%A0%90%E8%A8%88112%E5%B9%B4%E8%BE%B2%E6%9B%86%E5%B9%B4%E5%89%8D%E9%80%9A%E8%BB%8A?fbclid=IwAR0RpriOAPibVUlgKgQtfHU5_fSX29Bs-OQh5pXUZnOyAJsHag4kWPevv7Y">2022/03/18
+                    新聞</a>:
+                  已克服八卦窯磚窯廠文資保存問題，預計於2022年完成規劃設計；
+                  <br><br>
+
+                  <h5 id="CON-14">變二案: 牛角坡路延伸至文化一路 </h5>
+                  依據<a
+                    href="https://tyenews.com/2022/11/318904/?fbclid=IwAR1XC2bHyy3SAXYu6s957sBRoHNC3ptE9LhOx5qCRLnRo8MhOC97pGDbLpc">桃園電子報</a>
+                  2022/11/15 日 牛角坡路 <a href="https://www.youtube.com/watch?v=AlxrPzM56Ro">開工典禮</a> <br>
+                  變二道路」西起龜山文化一路，向東至牛角坡路與樂善一路口，將新闢全長約170公尺、寬20公尺道路，且配合該路段跨越十八份坑溪及山坡地等需求，將建置1座長約96公尺的景觀橋梁，工程總經費包括用地費5578萬元，總共為2.76億元，由內政部營建署全額補助，預計於113年底竣工通車，將有效紓解A7站周邊的車潮。
+                  <br><br>
+                  「變二道路」跨越十八份坑溪，道路兩端高低差達25公尺，橋墩施作不易，因此工程單位將橋樑規劃為「π型橋梁」，並於橋下設置2座小型滯洪池，以調節邊坡及當地排水功能。未來完工後，也將進行植栽、石溝整治等工程，以提高此地區的防災韌性，而景觀橋梁也將成為A7重劃區的都市亮點。
+                  <br><br>
+
+                  <img src="fig/A7XLK-134-未來規劃-07.jpeg" class="img-fluid" style="width:800px"><br>
+                  資料來源工務局
+
+                  <br><br>
+                  2022/09/01 <a
+                    href="https://www.facebook.com/groups/1951117865015671/permalink/5221445557982869/">臉書留言摘錄</a>
+                  牛煦庭議員回覆: 桃園新工處稱第一次招標無法決標是因為只有一家投標，未達法定3家的門檻，當天再上網招標，等標期7天，會採最有利標，廠商投標後會由評選會評選，若有達標就會決標，並預計於2022年11月開工。
+                  <br><br>
+                  但第二次招標 2022/08/30 <a href="file/XLK-242-變二工程.jpeg"> 已經決標！ </a> 履約期間 2022/11/30 - 2024/12/31, 決標金額
+                  199,906,000元. 承包公司 傑瀚營造
+
+                  <br><br>
+
+
+                  <a
+                    href="https://www.taiwanhot.net/news/988498/%E9%BE%9C%E5%B1%B1%E5%8D%97%E6%9E%97%E8%B7%AF%E6%8B%93%E5%AF%AC%E5%B7%A5%E7%A8%8B%E5%8B%95%E5%B7%A5+%E9%A0%90%E8%A8%88112%E5%B9%B4%E8%BE%B2%E6%9B%86%E5%B9%B4%E5%89%8D%E9%80%9A%E8%BB%8A?fbclid=IwAR0RpriOAPibVUlgKgQtfHU5_fSX29Bs-OQh5pXUZnOyAJsHag4kWPevv7Y">2022/03/18
+                    新聞</a>:
+                  預計2022年動工
+                  <br><br>
+
+                </div>
+                <div class="col-md-6">
+
+                  <h5 id="CON-15">變三案: 文藝街 延伸計畫</h5>
+                  已經於 2023/1月 完工, 聯合新聞網 2023/01/17：<a
+                    href="https://udn.com/news/amp/story/7324/6917649?fbclid=IwAR0SkvK1vrFO96alOFiFRzqWCtoBKFub33tGt9pn_h3QcD1ZROQJwreuPQs">龜山變三道路拓寬2023/01/17日通車</a>
+                  <br><br>
+                  <img src="fig/A7XLK-134-未來規劃-08.jpg" class="img-fluid" style="width:400px">
+                  <br><br>
+                  2022/11/15日 桃園電子報: 「變三道路」拓寬工程範圍起自龜山區文藝街，將改善長80公尺、寬約6至15公尺的道路，工程經費約為3000萬，已於今（111）年3月開工，預計明年1月竣工；
+                  <br><br>
+
+                  內政部已核定工程經費2498萬元。全長70米，將開闢為6到15米寬的道路，市府於2021/04/23
+                  召開協議價購會議，正辦理簽約過戶程序，預計2021下半年將先完成用地取得即可發包。將會是進度最快的變更計畫。
+                  <br>
+                  <a
+                    href="https://www.taiwanhot.net/news/988498/%E9%BE%9C%E5%B1%B1%E5%8D%97%E6%9E%97%E8%B7%AF%E6%8B%93%E5%AF%AC%E5%B7%A5%E7%A8%8B%E5%8B%95%E5%B7%A5+%E9%A0%90%E8%A8%88112%E5%B9%B4%E8%BE%B2%E6%9B%86%E5%B9%B4%E5%89%8D%E9%80%9A%E8%BB%8A?fbclid=IwAR0RpriOAPibVUlgKgQtfHU5_fSX29Bs-OQh5pXUZnOyAJsHag4kWPevv7Y">2022/03/18
+                    新聞</a>:
+                  於 2022/3月底動工。 上面3條道路總經費超過10億元，已獲中央同意補助，完工之後可望打通A7站周邊道路任督二脈，讓交通更順暢。
+                  <br><br>
+
+                  2021/10/05 陳雅倫議員質詢：<br>
+                  A7重劃區文學路、樂善一路等瓶頸道路開通工程，聯外道路已於今年3月獲得內政部同意補助10.3億元的開發經費，希望市府能加速用地取得，早日開工，讓文青里民眾不再飽受塞車之苦。工務局長賴宇亭表示，目前桃園市政府工務局已完成地價查估，正與地主進行協議價購中，不過為了盡快解決文青里聯外交通打結的困境，工務局也已經同步辦理道路開闢的細部設計規畫，年底即可完成，一切只待用地取得，即可施工。而工程範圍內有文化局9月剛通過的歷史建築「龜山樟腦寮協和磚廠」，工務局長則表示設計時就採雙贏方案同步考量避開文化資產，開路不會因此發生延期狀況。
+                  <br><br>
+                  文青里目前只有文青路作為唯一的聯外道路，但文青里建案及遷入人口數不斷成長，原本的車輛加上青山路匯集而來的車潮，加重該區交通負擔。我也建議從青山路就開始作分流，打通一條連接到振興路的引流道，讓青山路的車潮不用再進入文青里的商業區、住宅區，可以直通華亞科技園區，縮短民眾的上下班通勤時間。
+
+                  <br><br>
+
+                  <img src="fig/A7XLK-134-未來規劃-02.jpeg" class="img-fluid" style="width:800px"><br>
+                  樟腦寮磚窯廠遺址：將保留 （圖片來源：
+                  <a href="https://www.facebook.com/groups/1951117865015671">Facebook</a>）
+                  <br><br>
+                </div>
+
+                <hr>
+              </div>
+
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>聯外交通規劃</h5>
+                  <ul>
+
+                    <li>
+                      ETtoday 新聞雲 2021/12/16 <a
+                        href="https://www.ettoday.net/news/20211216/2148024.htm?fbclid=IwAR1ee4EeP7zIyTJbT-R_e5MG4UvXCcH2rqDq_67xjG2YRbYgi2oLWtPUNb0#ixzz7FGr7ijhd">桃園「三箭齊發」強化聯外公車服務</a>
+                    </li>
+                  </ul>
+
+                  <h5 id="CON-17">國道1號 交流道改善工程</h5>
+                  相關資訊
+                  <ul>
+                    <li>
+                      壹蘋新聞網 2022/12/22 <a
+                        href="https://tw.nextapple.com/life/20221222/FE0B40CD25BB92F2F9E663B7761C2AC2?referralCode=30a32ea6&fbclid=IwAR3M9wydXczmjew-_J6MSH5ETgpJpYAM63B0sYo6hy6iL_xQW9VG0a86TY8">終結9次流標！29.5億國1林口交流道改善工程今決標　拼2027年完工</a>
+                    </li>
+                    <li>
+                      中央通訊社 2022/08/10 <a
+                        href="https://www.cna.com.tw/news/ahel/202208100314.aspx?fbclid=IwAR3B7-I4dyIODDIQSQskiNKMLL4aS8Zh9auOHhjwuRmtiyOjdAeiog7TRTU">林口交流道7度流標
+                        高公局將檢討招標條件</a>
+                    </li>
+                    <li>
+                      交通部高速公路局 <a href="https://www.freeway.gov.tw/Publish.aspx?cnid=95&p=22539">國道1號林口交流道改善工程</a>,
+                      &nbsp;
+
+                      <a href="file/XLK-219-林口建設計畫定稿本(全).pdf">林口建設計畫-定稿本</a>
+                    </li>
+                    <li>
+                      聯合新聞網 2021/08/06 <a
+                        href="https://udn.com/news/story/7323/5654995?from=udn-ch1_breaknews-1-cate3-news&fbclid=IwAR0LYk0yPMCqCzX6nVjmWo1xmjyXvMahoves_1gH_jk7jpPycQCCuf6DREg">政院核定國1林口交流道改善工程</a>
+                    </li>
+                  </ul>
+
+
+                  改善示意圖：<br>
+                  <img src="fig/A7XLK-135-林口A交流道改善工程模擬.webp" class="img-fluid" style="width:600px"><br><br>
+                  <img src="fig/A7XLK-135-林口A、B交流道南出南入及北出北入交織改善-規劃示意圖.jpg" class="img-fluid"
+                    style="width:600px"><br><br>
+
+
+
+                </div>
+                <div class="col-md-6">
+                  <h5>計畫緣起</h5>
+                  國道1號林口交流道位於新北市林口區與桃園市龜山區交界，設有林口A(約41K)及林口B(約43K)二個鑽石型交流道，並以集散道串聯。因周邊大型開發持續增加，人口快速成長，交通量大幅增加，囿於匝道出入口受主線長爬坡、匝道縱坡、地方道路號誌延滯及文化一路跨越橋儲車空間不足等影響，導致車輛回堵主線壅塞嚴重，爰辦理本工程。
+                  <br><br>
+                  <h5>計畫內容</h5>
+                  <ol>
+                    <li>新增林口A交流道南出匝道：原林口A南出匝道於外側公有地新增南出左轉高架匝道，跨越文化一路及國1主線後於桃園側各1車道銜接復興街及文化一路內側，並於原南出匝道外側新增1右轉車道。</li>
+                    <li>新增林口A交流道北入匝道：匝道起點為八德路與文化一路三角地帶，終點與林口B北入車道匯集後匯入主線。</li>
+                    <li>林口A、B交流道南出南入及北出北入交織改善：以箱涵立體化改善，避免車輛交織，並考量北出車流大，增設林口A北出匝道銜接文化三路。</li>
+                  </ol>
+                  <h5>計畫期程</h5>
+
+                  依據 <a
+                    href="https://tw.nextapple.com/life/20221222/FE0B40CD25BB92F2F9E663B7761C2AC2?referralCode=30a32ea6&fbclid=IwAR3M9wydXczmjew-_J6MSH5ETgpJpYAM63B0sYo6hy6iL_xQW9VG0a86TY8">壹蘋新聞網
+                    2022/12/22</a>:
+                  歷經9次流標， 2022/12/22 終於以29億5,880萬元決標，預計2027年完工。
+                  <br><br>
+
+                  <del>5年, 2021/7/30日核定，預計2025年完工通車</del>
+                  <br><br>
+                  規劃示意圖：<br>
+                  <img src="fig/A7XLK-135-林口A交流道改善工程-規劃示意圖.jpg" class="img-fluid" style="width:600px"><br><br>
+                </div>
+                <hr>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>桃園捷運棕線規劃</h5>
+                  <ul>
+                    <li>
+                      StockFeel 2023/01/30 <a
+                        href="https://www.stockfeel.com.tw/%E6%A1%83%E5%9C%92%E6%8D%B7%E9%81%8B%E6%A3%95%E7%B7%9A-%E6%8D%B7%E9%81%8B%E6%A3%95%E7%B7%9A-%E9%BE%9C%E5%B1%B1%E6%8D%B7%E9%81%8B-%E9%BE%9C%E5%B1%B1%E6%A3%95%E7%B7%9A/?fbclid=IwAR02i5zqZPxaz4NE-s0-RnMLYbxhOrvKT9JpwtRHNOOlkq91twClyKGzM9U">桃園捷運棕線懶人包</a>
+                      捷運棕線路線？各站房價？龜山捷運何時動工？
+                    </li>
+                    <li>
+                      桃園捷運工程局 <a
+                        href="https://dorts.tycg.gov.tw/business/mrt-brown-line?fbclid=IwAR12qR3Ik06jEmcVripSx4nCrXOxHHeVnIaMtvMi9L3gGBDYOfJ6JvY8jcY">捷運棕線
+                        業務資訊</a>
+                    </li>
+                    <li>
+                      工商時報 2022/10/12 <a href="https://ctee.com.tw/livenews/aj/ctee/A08609002022101216445881">桃園捷運棕線
+                        環評大會過關</a>
+                    </li>
+                    <li>
+                      壹蘋新聞網 2022/09/01 <a
+                        href="https://tw.nextapple.com/local/20220901/0182F91B243DFE31BC2DEC53D062CA08?fbclid=IwAR2lTHzWG-rSVDVPReObodVoZLAuudwCSFpzxt2JNQsyJ1JG7wv8SQtc2uE">桃捷棕線計畫向前邁進　今年可望奉行政院核定</a>
+                    </li>
+                    <li>
+                      自由時報 2022/08/30 <a href="https://news.ltn.com.tw/news/life/paper/1537253">桃園捷運棕線 通過環評初審</a>
+                    </li>
+                    <li>
+                      行政院環保署 2022/06/07 <a
+                        href="https://www.youtube.com/watch?v=FN9HuTbZLP0">桃園都會區大眾捷運系統棕線(桃園-龜山-迴龍段)環境影響說明書(直播存檔)</a>
+                    </li>
+                  </ul>
+
+                  <h5>桃園市 - 桃捷路網2.0</h5>
+                  桃園市政府捷運工程局正在進行桃園捷運第一階段三心六線路網的興建，但在此同時，延續規劃的桃園捷運第二階段路網2.0版本，市府已經完成整體捷運路網規劃，並於111年5月6日通過交通部核備。第二階段捷運路網擴充的原則，是在目字型的第一階段環狀線以外，新增加11條路線122.7公里，擴大捷運服務範圍。
+                  <br><br>
+                  有鑑於桃園人口持續不斷增長，從103年底205萬人，至111年2月底已增長為227萬人，城市交通必須跟著都市發展預先規劃，市府在107年啟動「桃園第二階段都會區捷運系統路網計畫」，依據最新桃園國土計畫治理原則、人口發展、旅運需求、交通瓶頸等考量，以輕軌系統規劃，新增加「桃園中壢平鎮線」、「平鎮龍潭線」、「桃園蘆竹竹圍線」、「桃園航空城線」、「大園觀音線」、「桃園青埔線」、「中壢新屋線」、「內壢宋屋楊梅線」、「<span
+                    style="color:red">桃園長庚線</span>」，另基於系統資源共用原則，「<span
+                    style="color:red">桃園棕線延伸</span>」及「綠線延伸大溪」採中運量系統規劃，共計11條路線。本計畫109年完成後，提送交通部審查，今(111)年5月6日終獲交通部備查，未來可以據此一條一條納入推動。
+                  <br><br>
+                  <a
+                    href="https://tw.nextapple.com/local/20220901/0182F91B243DFE31BC2DEC53D062CA08?fbclid=IwAR2lTHzWG-rSVDVPReObodVoZLAuudwCSFpzxt2JNQsyJ1JG7wv8SQtc2uE">壹蘋新聞網
+                    2022/09/01</a> <br>
+
+                  捷運棕線計畫都市計劃變更草案，已於111年7月完成公展，目前由桃園市都市計畫委員會審議中；環境影響評作業經環保署召開3次小組會議審查，已於111年8月29日審查同意修正後通過，捷運局預計於9月將俢正環說書報環保署提報委員會議確認，可望於10月通過環保署委員會審查；綜合規劃報告書已依交通部110年10月12日委員會議審查意見完成報告書修正，並於111年5月31日報送交通部續審，交通部已安排於明(9/2)日召開會前會議預審，預計可排入10月份交通部委員會議審查通過後，再由交通部轉行政院審核，爭取行政院於111年11月核定綜合規劃，以期於綜合規劃核定後8年全線通車。
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  <img src="fig/XLK-131-Transportation/A7XLK-1304-Future-02.jpeg" class="img-fluid"
+                    style="width:1200px">
+                  <br>桃捷路網2.0通過備查，新增11條輕軌路線。圖：捷運局提供<br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1304-Future-03.jpeg" class="img-fluid" style="width:600px">
+                  <br><br>
+                </div>
+
+                <hr>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5 id="CON-16">林口工十二聯外道路 - 南林路拓寬工程</h5>
+                  <a
+                    href="https://www.taiwanhot.net/news/988498/%E9%BE%9C%E5%B1%B1%E5%8D%97%E6%9E%97%E8%B7%AF%E6%8B%93%E5%AF%AC%E5%B7%A5%E7%A8%8B%E5%8B%95%E5%B7%A5+%E9%A0%90%E8%A8%88112%E5%B9%B4%E8%BE%B2%E6%9B%86%E5%B9%B4%E5%89%8D%E9%80%9A%E8%BB%8A?fbclid=IwAR0RpriOAPibVUlgKgQtfHU5_fSX29Bs-OQh5pXUZnOyAJsHag4kWPevv7Y">2022/03/18
+                    新聞</a>:
+                  南林路林口工十二聯外道路位於新北市及桃園市交接，為工十二工業區出入要道，原道路不足8米，十分狹窄，且路型彎曲、排水不佳，亟需進行改善，市府歷經一番努力，包括都市計畫變更、水土保持設計、爭取經費，道路拓寬工程終於2022/03/18動工，改善路段全長426公尺，工期計270日曆天，預定於112年農曆年前完工通車。
+                  <br><br>
+                  本案總經費共9,490萬5,266元，其中內政部營建署補助約4,342萬，其餘超過5,000萬經費，由南亞塑膠工業股份有限公司捐贈補足。拓寬工程完工後，小路變大路、彎路變直路，工十二工業區交通出入更安全、方便，有助於吸引產業投資，讓企業在此永續經營。
+                  <br><br>
+                  本案完成後將有助於 A7居民步行或騎自行車前往 <a
+                    href="https://tcwang.github.io/A7Xinlinkou/A7XLK-12-ParkTrail.html#Menu-B14">泰山崎頭步道</a>。
+                  目前的道路寬度是行人與車輛共用快車道，對行人/自行車通過會有很大安全威脅！
+                  <br><br>
+
+                </div>
+                <div class="col-md-6">
+                  <img src="fig/XLK-131-Transportation/A7XLK-1304-Future.jpeg" class="img-fluid" style="width:800px">
+                  <br>
+                  南林路拓寬工程 工程範圍。 斥資1億 於 2023年農曆年前完工。
+                  <br><br>
+
+                </div>
+                <hr>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>新莊區壽山路丹鳳橋瓶頸路口改善 </h5>
+                  <ol>
+                    <li>計畫目的:新北市新莊區 #壽山路 為承接新北市及桃園市上下班車流，交通量龐大，為改善壽山路丹鳳橋路口尖峰時段交通繁忙，常發生壅塞回堵至相鄰之新北大道路口，及1K+360至1K+480路段
+                      轉彎處視距不佳之問題，透過本案於工址1新莊區壽山路丹鳳橋路口處拓寬既有道路，北向舒緩直行壽山路車流、南向分流壽山 路南下直行車流，以改善路口段服務水準不足之問題，另於工址
+                      2壽山路1K+360至1K+480路段彎道線型優化，改善轉彎路段之行車安全問題，及留設路肩供緊急停靠，以提升行車環境品質。</li>
+                    <li>計畫範圍:詳如土地使用計畫圖。</li>
+                    <li>計畫進度:預定112年2月開工，112年底完工。</li>
+                    <li>主體工程:本案主要辦理2處路段局部拓寬，工址1位新莊區壽山路丹鳳橋路口處之既有道路拓寬，規劃為雙向4車道，西側新設 懸臂式護岸(長約79公尺，基礎寬4公尺含懸臂板)、北側新設2處
+                      擋土設施(長約12公尺及21公尺)、新設人行道及既有人行道復舊， 工址2位壽山路1K+360至1K+480路段彎道線型優化，西側新設擋 土設施(長約66公尺)及留設路肩供緊急停靠。</li>
+                  </ol>
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-交通規劃-51.jpeg" class="img-fluid mb-1"
+                    style="width:800px"><br>
+
+                </div>
+                <div class="col-md-6">
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-交通規劃-52.jpeg" class="img-fluid mb-1"
+                    style="width:800px"><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-交通規劃-53.jpeg" class="img-fluid mb-1"
+                    style="width:800px"><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-交通規劃-54.jpeg" class="img-fluid mb-1"
+                    style="width:800px"><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-交通規劃-55.jpeg" class="img-fluid mb-1"
+                    style="width:800px"><br>
+
+
+                </div>
+                <hr>
+              </div>
+
+
+            </div>
+
+            <div class="tab-pane" id="Menu-B10" role="tabpanel">
+              <!-- Menu B10 -->
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>林口A9轉運站</h3>
+                  Yahoo! 新聞 2021/11/04 <a
+                    href="https://tw.news.yahoo.com/%E6%9E%97%E5%8F%A3%E5%85%AC%E8%BB%8A%E8%BD%89%E9%81%8B%E7%AB%99%E6%BB%BE%E5%8B%95%E5%BC%8F%E6%AA%A2%E8%A8%8E-%E6%9C%8D%E5%8B%99%E5%86%8D%E6%8F%90%E5%8D%87-183601481.html">林口公車轉運站滾動式檢討
+                    服務再提升</a>
+                  <br>11/05日調整方案：
+                  <ol>
+                    <li>760南勢線尖峰時段班距加密為20分鐘一班，以培養及服務南勢地區客群；</li>
+                    <li>854線公車調整為行駛文化三路、文化二路至轉運站的循環路線公車，擴大服務範圍；</li>
+                    <li>948線公車恢復原行駛路線、不進轉運站，減少繞行；</li>
+                    <li>920、925、936、937、966等5線快速公車於下午尖峰時段返回林口方向班次，恢復行駛龜山地區，讓轉運站運作模式更貼近民眾使用需求，提升大眾運輸服務。</li>
+                  </ol>
+
+
+                  自由時報 2021/10/08 <br>
+                  新北市政府交通局在林口區興闢的林口公車轉運站將於10
+                  月15日起試營運一個月，新闢4條快速公車路線到台北車站、捷運圓山站、北市大安區和板橋捷運府中站，調整4條市區公車路線匯集至林口轉運站，轉乘聯外快速公車及桃園捷運，希望能縮短通勤並解決末端站上不了車的情形。
+                  林口發車快速公車路線
+                  <br><br>
+                  交通局運輸管理科科長林詩欽指出，林口轉運站新闢966副（至台北車站）、937副（至捷運圓山站）、967副（至仁愛敦化路口）、920副（至捷運府中站）共4條快速公車路線，並在既有的5線公車外，再調整854、786、948及新闢南勢線等4線市區公車路線匯集至林口轉運站，減少繞行，約可節省10-20
+                  分鐘通勤，也解決末端站上不了車的情形。
+                  <br><br>
+                  在地市議員蔡淑君指出，增闢的4條快速公車路線，希望能解決末端民眾上不了車的困擾，相關調整也是希望讓分流更到位，試營運的一個月期間，會收集地方反映再與交通局溝通；轉運站的廁所也正興建中，預計11月中啟用。
+                  <br><br>
+                  <ul>
+                    <li><a href="https://ebus.gov.taipei/Route/StopsOfRoute?routeid=0400096610">966副</a> ： 林口 -
+                      台北車站（鄭州街） </li>
+                    <li><a href="https://ebus.gov.taipei/Route/StopsOfRoute?routeid=0400096710">967副</a> ： 林口 - 捷運市政府站
+                    </li>
+                    <li><a href="https://ebus.gov.taipei/Route/StopsOfRoute?routeid=0400093710">937副</a> ： 林口 - 圓山 </li>
+                    <li><a href="https://ebus.gov.taipei/Route/StopsOfRoute?routeid=0400092010">920副</a> ： 林口 - 板橋府中站
+                    </li>
+                  </ul>
+
+                  新北 蔡淑君議員 貼文
+                  <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-01.webp" class="img-fluid my-1" style="width:800px">
+
+                  <h5>位址</h5>
+                  林口公車轉運站占地8,800平方公尺，位於機場捷運A9站北側（文化三路一段39巷對面）。 如下圖
+                  <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-04.png" class="img-fluid my-1" style="width:800px">
+                  <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-51.jpeg" class="img-fluid my-1" style="width:800px">
+
+                </div>
+                <div class="col-md-6">
+                  <h5>相關資料</h5>
+                  <ul>
+                    <li>
+                      遠見35 2021/10/27 <a
+                        href="https://www.gvm.com.tw/article/83543?fbclid=IwAR33hcnltf86jvgWa3KeKk3G3Lcv0RaTw7465WtH2icnfQ8KpXw33ALMet0">林口公車轉運站超前部屬　讓民眾體驗搭公車的幸福感</a>
+                    </li>
+                    <li>
+                      我的新北市 2021/10/20 <a href="https://www.youtube.com/watch?v=MtH93MZvm5k">林口公車轉運站試營運首日 </a>
+                    </li>
+                    <li>
+                      Youtube 2021/10/18 <a href="https://www.youtube.com/watch?v=iyzCVn_Q5Tc">林口轉運站試營運 歡迎鄉親多加利用</a>,
+                      &nbsp; <a href="https://www.youtube.com/watch?v=UOvgIdau9qY">永佳樂新聞</a>
+                    </li>
+                    <li>
+                      Youtube <a href="https://www.youtube.com/watch?v=BUXL6KJKu1I">林口轉運站公車資訊</a>
+                    </li>
+                    <li>
+                      台北捷運 <a href="https://www.metro.taipei/cp.aspx?n=CEF54168B23F73B4&s=BB3631329CC1A297">定期票</a>
+                    </li>
+                    <li>
+                      Cool3C 2021/05/27 <a href="https://www.cool3c.com/article/161922">雙北捷運1280月票</a>
+                    </li>
+                    <li>
+                      Fun中時 2021/10/13 <a href="https://www.youtube.com/watch?v=RO5xj5eGThM">旗開得勝｜通勤族的痛！侯市長聽到啦</a>
+                      林口轉運站讓大家再多睡10分鐘
+                    </li>
+                    <li>
+                      Newtalk 新聞 2021/10/13 <a
+                        href="https://newtalk.tw/news/view/2021-10-13/650327">林口公車轉運站10/15起試營運</a>
+                    </li>
+                    <li>
+                      <a href="https://www.facebook.com/100003586138208/videos/589266755609916">蔡淑君議員直播轉運站</a>
+                    </li>
+                    <li>自由時報 2021/10/08: <a href="https://news.ltn.com.tw/news/life/breakingnews/3697444">林口公車轉運站15日起試營運
+                        通勤多4線快速公車</a> </li>
+                    <li><a href="https://ebus.gov.taipei/">大台北公車查詢</a> </li>
+                  </ul>
+
+                  <h5>轉運站匯總</h5>
+                  <table class="table table-sm table-bordered">
+                    <tr>
+                      <td>月台</td>
+                      <td>路線</td>
+                      <td>備註</td>
+                    </tr>
+                    <tr>
+                      <td>第1月台</td>
+                      <td>786(去）, 854(去) </td>
+                      <td rowspan="2">往林口市區</td>
+                    </tr>
+                    <tr>
+                      <td>第2月台</td>
+                      <td>760, 948(返)</td>
+
+                    </tr>
+                    <tr>
+                      <td>第3月台</td>
+                      <td>786(返）</td>
+                      <td rowspan="2">往桃園市區</td>
+                    </tr>
+                    <tr>
+                      <td>第4月台</td>
+                      <td>854(返）</td>
+
+                    </tr>
+                    <tr>
+                      <td>第5月台</td>
+                      <td>966副, 967副</td>
+                      <td rowspan="2">國道往台北</td>
+                    </tr>
+                    <tr>
+                      <td>第6月台</td>
+                      <td>937副</td>
+
+                    </tr>
+                    <tr>
+                      <td>第7月台</td>
+                      <td>948(去), 920副</td>
+                      <td>國道往板橋</td>
+                    </tr>
+                  </table>
+
+                  轉運站 站牌匯總
+
+                  <div id="carouselExampleIndicators-10a" class="carousel slide img-fluid" style="width:100%"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="01" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="02"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="03"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="04"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="05"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="06"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="07"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="08"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-61.jpeg" class="d-block w-100" alt="..."> 站1 轉運站
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-62.jpeg" class="d-block w-100" alt="..."> 站2
+                        往林口市區：760班車 10/5日已修訂
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-63.jpeg" class="d-block w-100" alt="..."> 站3 往桃園
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-64.jpeg" class="d-block w-100" alt="..."> 站4 往桃園
+                        ：854班車 10/5日已修訂
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-65.jpeg" class="d-block w-100" alt="..."> 站5 往台北市
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-66.jpeg" class="d-block w-100" alt="..."> 站6 往台北市
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-67.jpeg" class="d-block w-100" alt="..."> 760 班車修訂案
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-68.jpeg" class="d-block w-100" alt="..."> 854 班車修訂案
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-10a" role="button"
+                      data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-10a" role="button"
+                      data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+
+                  <br><br>
+                  <h5>林口新增快捷公車路線圖</h5>
+                  點擊照片左右換下一張<br>
+                  <div id="carouselExampleIndicators-10b" class="carousel slide img-fluid" style="width:100%"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="01" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="02"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="03"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="04"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="05"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-41.png" class="d-block w-100" alt="..."> 966副： 林口 -
+                        台北車站（鄭州街）
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-42.png" class="d-block w-100" alt="..."> 967副： 林口 -
+                        捷運市政府站
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-43.png" class="d-block w-100" alt="..."> 937副： 林口 -
+                        圓山
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-44.png" class="d-block w-100" alt="..."> 920副： 林口 -
+                        板橋府中站
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-45.png" class="d-block w-100" alt="..."> 760： 林口 南勢
+                        接駁車
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-10b" role="button"
+                      data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-10b" role="button"
+                      data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <br><br>
+
+                  <h5>龜山可接駁轉運公車路線圖：786, 854</h5>
+                  龜山接駁林口轉運站的公車集中在A8生活圈。A7居民並沒有列入規劃？ 需要交通局/議員深入研究，仿造林口全區域接駁路線規劃。並考量北北桃車票整合方案，才能讓A7居民搭乘機場捷運至A9接駁林口轉運站。
+
+                  點擊照片左右換下一張<br>
+                  <div id="carouselExampleIndicators-10d" class="carousel slide img-fluid" style="width:100%"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="01" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="02"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-71.png" class="d-block w-100" alt="..."> 786 公車可接駁 區域
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-72.png" class="d-block w-100" alt="..."> 854 公車可接駁 區域
+                      </div>
+
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-10d" role="button"
+                      data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-10d" role="button"
+                      data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                  <br>
+
+                  <h5>林口接駁轉運站公車規劃</h5>
+                  主要資料來源：新北市 蔡淑君議員 <br>
+                  林口A7轉運站 配套的八條 林口公車路線規劃 如下面輪播圖： 點擊照片左右換下一張<br>
+
+                  <div id="carouselExampleIndicators-10c" class="carousel slide img-fluid" style="width:100%"
+                    data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleIndicators" data-slide-to="01" class="active"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="02"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="03"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="04"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="05"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="06"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="07"></li>
+                      <li data-target="#carouselExampleIndicators" data-slide-to="08"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-11.jpeg" class="d-block w-100" alt="..."> 文一線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-12.jpeg" class="d-block w-100" alt="..."> 文二線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-13.jpeg" class="d-block w-100" alt="..."> 文三線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-14.jpeg" class="d-block w-100" alt="..."> 民權線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-15.jpeg" class="d-block w-100" alt="..."> 中山線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-16.jpeg" class="d-block w-100" alt="..."> 仁愛線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-17.jpeg" class="d-block w-100" alt="..."> 東湖國宅線
+                      </div>
+                      <div class="carousel-item">
+                        <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-18.jpeg" class="d-block w-100" alt="..."> 南勢線
+                      </div>
+                    </div>
+
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators-10c" role="button"
+                      data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators-10c" role="button"
+                      data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+
+                  <br><br>
+
+
+
+                </div>
+
+              </div>
+
+            </div>
+
+            <div class="tab-pane" id="Menu-B11" role="tabpanel">
+              <!-- Menu B11 -->
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>長庚轉運站 - 相關資訊</h5>
+                  <ul>
+                    <li>
+                      Youtube 2022/12/17 <a
+                        href="https://www.youtube.com/watch?v=Lx7pjPbzSh4">機捷A8-桃園長庚轉運站（林口長庚轉運站）風雨通道版</a>
+                    </li>
+                    <li>
+                      Yahoo! 新聞 2022/12/12 <a
+                        href="https://tw.news.yahoo.com/%E6%9E%97%E5%8F%A3a%E4%BA%A4%E6%B5%81%E9%81%93%E4%BA%A4%E9%80%9A%E5%A3%85%E5%A1%9E%E5%95%8F%E9%A1%8C-%E5%AF%A6%E6%96%BD%E5%88%86%E9%9A%8E%E6%AE%B5%E6%94%B9%E5%96%84-083902335.html">林口A交流道交通壅塞問題
+                        實施分階段改善</a>
+                    </li>
+                    <li>
+                      桃園電子報 2022/12/09 <a
+                        href="https://tyenews.com/2022/12/324790/?fbclid=IwAR0q0Kuy3ZoUGR1JotVX0CfmmgOXoNOkrGqS23OoVJtKA_80o0bQFP0R-i8">桃園客運5116今進駐桃園長庚轉運站</a>
+                    </li>
+                    <li>
+                      痞客邦 2022/12/08 <a
+                        href="https://zaq0930.pixnet.net/blog/post/363958896?fbclid=IwAR1-pmTeunH_owmdEaDVcZImMah0xo1tWeF1fpGoGMZd97oWEf7Hy5ITiaE">美德耐桃園長庚轉運站商場</a>
+                    </li>
+                    <li>桃園長庚轉運站 <a
+                        href="https://www.facebook.com/hashtag/%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99">Facebook
+                        臉書</a> </li>
+                    <li>
+                      Yahoo! 新聞 2022/11/29 <a
+                        href="https://tw.news.yahoo.com/%E5%9C%8B%E9%81%93%E5%AE%A2%E9%81%8B%E5%8F%8A%E5%B8%82%E5%8D%80%E5%AE%A2%E9%81%8B%E7%84%A1%E7%B8%AB%E8%BD%89%E4%B9%98-%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99%E8%A9%A6%E7%87%9F%E9%81%8B-095128482.html">國道客運及市區客運無縫轉乘
+                        桃園長庚轉運站試營運</a>
+                    </li>
+                    <li>
+                      長庚醫院資訊 2022/11/18 <a
+                        href="https://www.cgmh.org.tw/tw/News/Info/A/202211180022">長庚轉運站於2022年11月21日(星期一)起試營運</a>
+                    </li>
+                    <li>
+                      Youtube 2022/12/09 <a href="https://www.facebook.com/groups/1951117865015671">從A8-桃園長庚轉運站，步行所需時間？
+                        地面路線</a>
+
+                    </li>
+                    <li>
+                      Youtube 2022/11/30 <a href="https://www.youtube.com/watch?v=77ue9ua3AvM&t=49s">長庚轉運站地下通道 </a>怎麼走？
+                    </li>
+                  </ul>
+                  <h5>汎航通運 - 2022/11/21 日啟用 14-19 號月台</h5>
+                  依據<a href="https://www.cgmh.org.tw/tw/News/Info/A/202211180022">長庚醫院資訊</a>:
+                  <ul style="list-style:none; padding-left:0ch;">
+                    <li>時間：自11月21日(星期一)凌晨起，汎航暨長庚區間車乘車等候地點遷移至轉運站1樓。</li>
+                    <li>乘車步行動線說明：醫學大樓B1F→商店街福利走廊→餐飲區(伯朗咖啡、SUBWAY旁)→聯通道→轉運站(如 <a
+                        href="fig/XLK-131-Transportation/A7XLK-1312-轉運站-01.pdf">附件一</a> )。</li>
+                    <li>乘車月台及候車排隊動線( 如 <a href="fig/XLK-131-Transportation/A7XLK-1312-轉運站-02.pdf">附件二</a> )
+                      <ul style="list-style:none; padding-left:2ch;">
+                        <li>14號月台：長庚大學校區線、<a href="https://www1.cgmh.org.tw/frms/cgmhline/cgmhline03.html">長庚醫護社區線</a>
+                        </li>
+                        <li>15號月台： <a href="https://www1.cgmh.org.tw/frms/cgmhline/cgmhline01.html">桃園長庚線</a>、養生村護理之家線
+                        </li>
+                        <li>16號月台： <a href="https://www1.cgmh.org.tw/frms/line/2000line_b.html">2000</a> 台北長庚線</li>
+                        <li>17號月台： <a href="https://www1.cgmh.org.tw/frms/line/2001line_b.html">2001</a> 台北車站線</li>
+                        <li>18號月台： <a href="https://www1.cgmh.org.tw/frms/line/2003line_b.html">2003</a> 桃園車站線</li>
+                        <li>19號月台： <a href="https://www1.cgmh.org.tw/frms/line/2004line_b.html">2004</a> 中壢車站線</li>
+                      </ul>
+                    </li>
+                    <li>
+                      配合上述各線行駛動線調整，汎航路線調整如 <a href="fig/XLK-131-Transportation/A7XLK-1312-轉運站-03.pdf">附件三</a>
+                      ，汎航暨長庚區間車時刻表調整如<a href="fig/XLK-131-Transportation/A7XLK-1312-轉運站-04.pdf">附件四</a> 、 <a
+                        href="fig/XLK-131-Transportation/A7XLK-1312-轉運站-05.pdf">​附件五</a>​​​​​​，敬請多加利用搭乘。
+                    </li>
+                  </ul>
+
+                  <h5>國光客運 - 2022/12/01 日啟用 8 號月台</h5>
+                  <a href="http://www.kingbus.com.tw/guideBranchDetail.php?cid=16&pid=9">國光客運 林口站</a> 自12/1(四)起，
+                  改至 桃園長庚轉運站 服務，請至8號月台搭乘，歡迎多加利用。 <br><br>
+                  <ul style="list-style:none; margin-left:0; padding-left:1ch;">
+                    <li>1804 <a href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=110"> 基隆-新竹</a>, &nbsp; <a
+                        href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=111">新竹-基隆</a> </li>
+                    <li>1823A <a href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=151">台北-竹南</a>, &nbsp; <a
+                        href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=152">竹南-台北</a> </li>
+                    <li>1824A <a href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=153">台北-苗栗</a>, &nbsp; <a
+                        href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=154">苗栗-台北</a> </li>
+                    <li>1842A <a href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=202">松山機場-大園</a> </li>
+                    <li>1837 <a href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=183">台北-台南</a>, &nbsp; <a
+                        href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=185">台南-台北</a> </li>
+                    <li>1838 <a href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=187">台北-高雄</a>, &nbsp; <a
+                        href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=189">高雄-台北</a> </li>
+                    <li>1865 林口-新竹, &nbsp; <a href="http://www.kingbus.com.tw/ticketPriceResult.php?sid=217">新竹-林口</a>
+                    </li>
+                  </ul>
+
+                  <h5>統聯客運 - 2022/12/12 日啟用 7 號月台</h5>
+                  自 #111年12月12日起 林口站將遷移至 桃園長庚轉運站
+                  <ul style="list-style:none; margin-left:0; padding-left:1ch;">
+                    <li>地址:桃園市龜山區復興街7號1樓</li>
+                    <li>3 號售票櫃台、7 號乘車月台</li>
+                    <li>電話: (03)318-3520</li>
+                  </ul>
+                  服務路線
+                  <ul style="list-style:none; margin-left:0; padding-left:1ch;">
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/21">1617</a> 台北-豐原-東勢</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/23">1618</a> 台北-嘉義</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/27">1620</a> 台北-台中(經中清路)</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/43">1630</a> 台北-西港</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/45">1632</a> 台北-草屯-竹山</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/47">1633</a> 台北-北港-四湖鄉</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/49">1635</a> 台北-虎尾-四湖鄉</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/82">1636</a> 台北-西螺-四湖鄉</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/51">1637</a> 台北-西螺-林厝寮-四湖鄉</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/55">1638</a> 台北-朴子-東石</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/57">1639</a> 台北-布袋</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/59">1652</a> 台北-鹿港-芳苑</li>
+                    <li> <a href="https://www.ubus.com.tw/Booking/StationInquiry/91">1661</a> 羅東-桃園機場</li>
+                  </ul>
+
+                  <h5>市區客運 - 2022/12/17日啟用</h5>
+                  <ul>
+                    <li>
+                      桃園客運 <a
+                        href="https://www.taiwanbus.tw/eBUSPage/Query/QueryResult.aspx?rno=51160&rn=1615363733124">5116</a>
+                      桃園火車站-松山機場 - 2022/12/09日啟用 10 號月台
+                    </li>
+                    <li>
+                      三重客運 <a
+                        href="https://www.taiwanbus.tw/eBUSPage/Query/QueryResult.aspx?rno=12120&rn=1615361159281">1212</a>華亞園區－龍門路口
+                      2022/12/12日啟用 12號月台
+                    </li>
+                    <li>
+                      統聯客運 <a href="https://www.ubus.com.tw/UrbanBus/TaoyuanBus/159">213</a> 桃花園飯店-長庚醫院 2022/12/17日啟用
+                      原站點保留 並新增 停靠7月台
+                    </li>
+                    <li>
+                      桃園中壢聯營客運 <a href="https://yunbus.tw/lite/route.php?id=TAO7010">701</a> 國軍桃園醫院-長庚醫院, <a
+                        href="https://yunbus.tw/lite/route.php?id=TAO7020">702</a>大溪-林口長庚醫院 2022/12/17日啟用 原站點保留 並新增
+                      停靠10月台
+                    </li>
+                    <li>
+                      桃園客運 <a href="https://yunbus.tw/lite/route.php?id=TAO711">711</a>中壢-林口長庚醫院(經中正藝文特區) 2022/12/17日啟用
+                      10號月台
+                    </li>
+                    <li>
+                      三重客運 <a href="https://yunbus.tw/#!route/TAO708">708</a> 公西站（華亞園區)-羊稠活動中心 2022/12/17日啟用 原站點保留 並新增
+                      停靠12月台
+                    </li>
+                  </ul>
+
+
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+
+                  長庚轉運站 <br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1312-轉運站-16.jpeg" class="img-fluid" style="width:400px">
+                  <br>
+                  搭車路線圖 - 地面路線圖 <br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1312-轉運站-19.webp" class="img-fluid"
+                    style="width:600px"><br>
+                  搭車路線圖 - 地下通道圖: 由醫學大樓 9 號梯 進入地下一樓, 依照標示經過 地下餐飲區後 過地下通道 到達轉運站。 <br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1312-轉運站-17.png" class="img-fluid" style="width:600px">
+                  <img src="fig/XLK-131-Transportation/A7XLK-1312-轉運站-18.png" class="img-fluid" style="width:600px">
+                  <br><br>
+                  <h5>小客車路線改變</h5>
+                  因應桃園長庚轉運站，桃園市交通局進行周邊路口改善。
+                  市府先協調高公局於林口41A北出匝道口與龜山一路、復興街整合為一個路口，讓北出匝道的小型車可直接右轉復興街後匯入文化一路；另在龜山一路（文化二路至湖邊路段）調整車道配置，由原本4個車道增加為5個車道，其中增加右轉專用道，讓車輛可依循專用車道進入轉運站，機車可利用外2車道往復興街方向，減少大小車輛交織情形。
+                  <br><br>
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1312-轉運站-22.png" class="img-fluid" style="width:1000px">
+                  <br><br>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>長庚轉運站商場</h5>
+                  <ul style="list-style:none; margin-left:0; padding-left:0ch;">
+                    <li>輕食： <a href="http://www.krispykreme.com.tw/"> Krispy Kreme甜甜圈</a>、 <a
+                        href="https://www.facebook.com/people/%E8%80%81%E8%94%A1%E6%B0%B4%E7%85%8E%E5%8C%85/100057228829510/">老蔡水煎包</a>、
+                      <a href="https://guan-pei.com.tw/">關北紅豆餅</a> 、 <a href="https://www.weiheart.com/">魏姐包心粉圓</a>、 <a
+                        href="http://www.dung.com.tw/">董師傅手工麻糬</a>、 <a
+                        href="https://www.facebook.com/DelicateBakingHouse/">弄餅家千層餅</a>、 <a
+                        href="https://www.roomy.tw/nl?gclid=Cj0KCQiA-JacBhC0ARIsAIxybyOeXqBKzR_Li1waGJ7hQ2unrOK5ak65GPdegNX1ASk67YQKcpFNXvkaAiHWEALw_wcB">潤米roomy</a>、
+                      <a href="https://www.facebook.com/profile.php?id=100075905026784">50年杏仁茶</a>、 <a
+                        href="https://mydouru.wixsite.com/home">匠心豆乳</a>、 <a
+                        href="https://www.facebook.com/liushotpot/">韓潮料理專門店</a>、 <a
+                        href="https://www.fcrm.com.tw/site/twbeans">鮮豆將軍</a>、 <a
+                        href="https://www.lebonheurlovecake.com/">樂本甜手作甜點</a>、 <a
+                        href="https://ichisatori.com/">一覺生吐司</a>
+                    </li>
+                    <li>熟食：<a href="https://www.facebook.com/foundfood/">小飯桌</a> </li>
+                    <li>主題餐廳： <a href="https://selfishburger.com/">Selfish Burger</a> </li>
+                    <li>麵包店： <a href="https://www.bestbakery.com.tw/">順成蛋糕</a> </li>
+                    <li>咖啡廳： <a href="https://www.cafein.com.tw/">CAFÉ!N</a> </li>
+                    <li>手搖飲品： <a href="https://www.cupfy.co/about">走杯Cupfy</a>、 <a
+                        href="https://www.facebook.com/standcafebar/">STAND cafébar</a>、 <a
+                        href="http://www.the-witches-herb-garden.com.tw/">女巫藥草園</a> </li>
+                    <li>生活健康：<a href="https://www.wellcare.com.tw/wellcare/tw">維康醫療用品</a> </li>
+                    <li>便利商店：<a href="https://www.7-11.com.tw/">統一超商7-11</a> </li>
+                    <li>伴手禮： <a href="https://www.smai.com.tw/">先麥芋頭酥</a>、 <a href="https://lyt-birdsnest.com/">珫元堂</a>、
+                      <a href="http://juelafei.com/">爵拉斐手工餅乾</a>、 <a href="https://www.panpanju.com.tw/"> 胖胖豬</a>
+                    </li>
+                    <li>活瓷茶具：<a href="https://www.acera.tw/"> 乾唐軒ACERA</a></li>
+                    <li>服飾： <a href="https://www.tigershark.com.tw/">Tiger Shark</a> </li>
+                    <li>美妝保養： <a href="https://www.yuancare.com/?lang=zh-TW">阿原YUAN</a>、 <a
+                        href="https://www.meko.com.tw/?lang=zh-TW">MEKO</a>、 <a
+                        href="https://www.maico.com.tw/">MAICO</a> </li>
+                    <li>飾品配件： <a href="https://www.misschu.com.tw/?lang=zh-TW">MISSCHU</a> </li>
+                  </ul>
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  長庚轉運站商場 - 美德耐 2022/11/16日 開幕
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1312-轉運站-13.jpeg" class="img-fluid my-1"
+                    style="width:1000px">
+                  <img src="fig/XLK-131-Transportation/A7XLK-1312-轉運站-20.jpg" class="img-fluid my-1"
+                    style="width:600px">
+                  <br>有咖啡廳 可以欣賞湖景！
+                  <br><br>
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>A8長庚轉運站 簡介</h3>
+                  長庚醫院跨足「桃園長庚轉運站BOT案」2019/12/27日正式動土，這項位於林口長庚醫院北側及林口交流道龜山區內的轉運站設計也正式曝光，將集室內停車場、機場捷運連通道及會展中心於一身，除了提供病患就醫的便利性與安全性之外，還鎖定國際會議功能，整體工程預計2022年11月完工啟用。
+                  <br><br>
+                  轉運站為地上5層、地下1層建築，由蘭陽博物館、故宮南院設計團隊打造長庚湖畔景觀建築，未來將進駐38條路線國道客運業者，每天提供949班往返台北、新竹、台中、嘉義、台南及高雄等地的國道客運，並且整合長庚周邊市區就醫專車。
+                  <br><br>
+                  未來高速公路長途客運將直接到轉運站上下客人，不必再繞經龜山地區，程文俊說，對解決大客車在文化一路、文化二路、復興一路周邊停等上下客造成其他車流干擾，以及紓解龜山地區交流道周邊道路的交通負荷將帶來實質幫助。
+                  <br><br>
+                  <h5>鄭市長 2021/11/10日視察</h5>
+                  鄭文燦指出，桃園長庚轉運站候車大廳將配置19席月台，預計納入58條客運路線，包含國道客運路線34條、本市區客運路線6條、新北市區客運路線10條、長庚自辦免費接駁車4條及本市樂活巴士4條，每天提供約2,774班次的服務；地下1樓及地上2至5樓設置停車空間，共計686席汽車停車格、1,143席機車停車格，完工後國道客運及市區公車進出動線都將更順暢，大幅降低林口交流道負擔。
+                  <br><br>
+                  為配合轉運站工程，市府也在龜山大坪頂地區闢建停18停車場，規劃將近300席停車位；此外，為改善林口交流道動線問題，市府也提出林口交流道立體化方案，經過交通部運輸研究所初部設計後，目前已確立林口交流道北入南出高架化方案，後續將進行優化作業；而文化一路北上部分亦將規劃部分改善工程，市府交通局也會持續與交通部協商，期盼早日完成林口交流道立體化作業，讓龜山大坪頂地區交通更加便利。未來轉運站啟用後，現行轉運站臨時停車場將恢復原有公12公園綠地，作為市民休憩空間。
+                  <br><br>
+                  <h5>位址</h5>
+                  <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-31.jpeg" class="img-fluid my-1" style="width:800px">
+                  <br> 桃園長庚轉運站意象圖。 照片來源-長庚醫院
+                  <br>
+
+                  <br>
+
+                </div>
+                <div class="col-md-6">
+                  <h5>相關資料</h5>
+                  <ul>
+                    <li>
+                      關傳媒 2022/03/31 <a
+                        href="https://www.watchmedia01.com/dnews-20220401060150.html?fbclid=IwAR0_e0Bz_CDdLfFslktfeYE75KogJwCLnEr0QSj51aS1zoafske_Y9h7K8g">桃園長庚轉運站BOT案11月完工
+                        兼具轉乘圖書青創國際會議複合功能</a>
+                    </li>
+                    <li>Yahoo!新聞 2021/11/10: <a
+                        href="https://tw.news.yahoo.com/%E8%A6%96%E5%AF%9F%E6%A1%83%E5%9C%92%E9%95%B7%E5%BA%9A%E8%BD%89%E9%81%8B%E7%AB%99%E5%B7%A5%E7%A8%8B-%E9%84%AD%E6%96%87%E7%87%A6%E7%9B%BC%E4%BB%A5%E6%98%8E%E5%B9%B4%E5%BA%95%E5%AE%8C%E5%B7%A5%E7%82%BA%E7%9B%AE%E6%A8%99%E6%8C%81%E7%BA%8C%E6%8E%A8%E5%8B%95-105326581.html">視察桃園長庚轉運站工程
+                        鄭文燦盼以明年底完工為目標持續推動</a> </li>
+                    <li>中時新聞網 2021/03/16: <a
+                        href="https://www.chinatimes.com/realtimenews/20210316002974-260405?chdtv">新北5公車將不繞行A8長庚醫院站</a>
+                    </li>
+                    <li>匯流新聞網 2019/12/27: <a href="https://cnews.com.tw/003191227a04/">長庚醫院跨足蓋「轉運站」 設計曝光力拚2022年完工</a>
+                    </li>
+                    <li>道路工程組營建署 2019/09/06: <a href="https://www.youtube.com/watch?v=dMIto0xTjUg">長庚新驛站 3D模擬動畫</a>
+                    </li>
+                  </ul>
+
+
+                  <h5>議員質詢</h5>
+                  陳雅倫 桃園電子報 2021/03/16:<br>
+                  桃園市A8轉運站預計收攏38條公車路線，但卻不包含許多往返龜山至台北地區的公車路線，以及國道客運路線，將衝擊龜山地區居民通勤權益，建議市府新闢往返龜山台北地區的公車路線因應。
+                  <br><br>
+                  鄭文燦表示，目前有22條公車路線行經林口長庚醫院，至於陳雅倫所提的5條路線縮減班次，主要是公車到達A9林口站時已滿座，若再繞至A8長庚醫院站乘客也無法上車，無法發揮疏運效果，反而增加行車時間。市府已規劃新闢公車路線，目前交通部公路總局的公車審議會議及專案小組會議皆已審議通過，後續交通部公路總局會依照程序公告路線，通車後將增加龜山地區至台北的班次，讓龜山區的通勤更便利。
+                  <br><br>
+                  <h5>照片集錦 - 未來模型</h5>
+                  <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-33.jpeg" class="img-fluid my-1" style="width:800px">
+
+
+                  <img src="fig/XLK-001-Post/A7XLK-017-林口轉運站-34.jpeg" class="img-fluid my-1" style="width:800px">
+                  <br><br>
+
+
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="tab-pane" id="Menu-B12" role="tabpanel">
+              <!-- Menu B12 -->
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>公共運輸檢討</h3>
+                  林口A9轉運站 網路意見匯總
+                  <ul>
+                    <li>
+                      北捷活力 2022/10/29 <a href="https://www.youtube.com/watch?v=j4u0KJHOB9Q">加強公車路網串聯 盼改善龜山大坪頂交通</a>
+                    </li>
+                    <li>
+                      Yahoo!新聞 2021/10/19 <a
+                        href="https://tw.news.yahoo.com/%E6%9E%97%E5%8F%A3%E8%BD%89%E9%81%8B%E7%AB%99%E8%A9%A6%E7%87%9F%E9%81%8B-%E6%B0%91%E7%9C%BE-%E9%9B%A2%E5%B3%B0%E7%AD%891hr-%E5%A4%AA%E6%97%A9%E6%94%B6%E7%8F%AD-070005362.html">林口轉運站試營運！民眾：離峰等1hr、太早收班</a>
+                    </li>
+                    <li>市議員蔡淑君：交通局在林口轉運站的宣傳上仍不足，不少民眾還不知道相關資訊,搭乘人數不多。</li>
+                    <li>聯合新聞網 2021/10/16 <a
+                        href="https://udn.com/news/story/7323/5820272?fbclid=IwAR1yRhIfLoIM2TwwMNaFqNoXjphRfwFWDqRHKBf2ymt8yxtfeYCPzZzaIks">議員促設公車道</a>
+                    </li>
+                    <li>
+                      新北交通族：<a href="https://www.facebook.com/ntpctraffic/posts/3777523605684462">林口轉運站留言意見</a>
+                    </li>
+                    <li>
+                      林口大家庭：<a href="https://www.facebook.com/groups/401936333733337/posts/929707470956218">林口轉運站試營運
+                        留言意見</a>
+                    </li>
+                  </ul>
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  林口轉運站 經驗分享
+                  <ul>
+                    <li>上班時段, 林口轉運站 搭乘 967副 到 忠孝敦化路口站 需時約1.5小時。 </li>
+                    <li>
+                      Youtube 2021/10/19 <a
+                        href="https://www.youtube.com/watch?app=desktop&v=D5utmztC5rc&feature=youtu.be&fbclid=IwAR3Ijr6i_4r-aq1OLm-C3Fymqi8sLnMBLmK440_wLGFo1fmYhkbXl1rRUuE">937副搭乘紀錄</a>
+                      2021/10/19 下午3點多 民族承德路口到林口轉運站，僅一人搭乘。
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+              <div class="row">
+
+                <div class="col-md-6">
+
+                  <h5>提案1: 體育大學到松山機場路線規劃 </h5>
+                  主題：在林口A9轉運站試營運及龜山A8轉運站建置中的當下，探討A7重劃區對大眾運輸的需求問題。<br>
+                  說明：
+                  <ul>
+                    <li>
+                      林口台地上兩個市的轉運站同時建置，開車族能否接受搭乘公共運輸系統？來減緩因人口快速成長帶來的高速公路林口交流道的壅塞。
+
+                    </li>
+                    <li>
+                      如果自行開車在實際距離上經過高速公路只需25 ~ 35分鐘車程，不經高速公路也只要30 ~ 40分鐘。 希望藉此範例，檢討未來轉運站完成後，採用公共運輸是否能在時間與車資上能被民眾接受？
+                      會有多大的改善空間？
+                    </li>
+                    <li>
+                      網友以A7體育大學站通勤到松山機場為例，依據實際測試完全使用捷運系統來避免上班時段道路交通問題。需要 70
+                      分鐘，花費單程車資66元。而原有967公車需到繞行林口區域，顯然時間上會超過捷運。並且會因路況有不確定性。
+                    </li>
+                  </ul>
+                  初步建議：（草案，需要實際通車族提供更多寶貴意見）<br>
+                  <ul>
+                    <li>A7現有通往松山機場客運為 967 及 967直達車，967需要繞行林口市區對A7居民而言極為浪費時間。目前林口轉運站已啟用，多數林口居民應該會採用967副。
+                      應該儘量將967線班次改為967直達車。尤其在上下班時段 </li>
+                    <li>現有林口轉運站的公車接駁，只考慮A8站生活圈。目前A7重劃區居民 如使用捷運前往A8/A9 在車資方面應該有完整北北桃整合的月票機制。以免造成車資轉接負擔 </li>
+
+                    <li>以松山機場為例:目前捷運系統需多次轉乘且機場捷運到台北捷運需步行10-15分鐘, 都不利於通勤。
+                      因此公車系統的轉運仍應是主要方向。但龜山不同於林口，因為A7站可直接前往三重做轉運，或反向到A8或A9轉運。應該做完整北北桃 接駁系統的整合規劃。 </li>
+                  </ul>
+
+                  <img src="fig/XLK-001-Post/A7XLK-017-區域公車-03.png" class="img-fluid" style="width:800px">
+                  <br> 以A7體育大學到松山機場為例的公共運輸
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  <h5>現有方案檢討</h5>
+                  以A7體育大學站到松山機場為例，現有公共運輸可行的方案有：<br>
+                  方案 1: 原有直達公車路線規劃
+                  <ul>
+                    <li>路徑： A7體育大學 ( 967 直達車 18站 49分鐘 / 967普通車 38站 ？分鐘 ) 松山機場</li>
+                    <li>時程：49 分鐘 / ？分鐘</li>
+                    <li>車費： NT$30</li>
+                  </ul>
+                  方案 2: 使用 林口A9轉運站 的乘車模式。
+                  <ul>
+                    <li>路徑： A7體育大學 (機場捷運 2站 10分鐘）A9林口站 (步行 2分鐘）林口轉運站 ( 客運 967副 7站 30分鐘 ) 松山機場</li>
+                    <li>時程：42分鐘</li>
+                    <li>車費： NT$ 60 = 30 + 30 (2x15)</li>
+                  </ul>
+                  方案 3: 使用 龜山A8轉運站 的乘車模式。
+                  <ul>
+                    <li>路徑： A7體育大學 (客運967 5站 9分鐘）A8長庚醫院站 (步行 2分鐘）林口長庚醫院 ( 客運 945 9 站 33分鐘 ) 松山機場</li>
+                    <li>時程：48 分鐘</li>
+                    <li>車費： NT$45 = 15 + 30(15?) (如使用雙北月票 1280 相當每趟 共NT$29) </li>
+                  </ul>
+                  方案 4: 搭捷運到A2三重站, 再轉公車。往臺北人流先由捷運分流到新北市。
+                  <ul>
+                    <li>路徑： A7體育大學 (機場捷運 5站 20分鐘）A2三重站 (步行 9分鐘）菜寮/重新路 ( 指南客運 801 16站 23分鐘 ) 松山機場</li>
+                    <li>時程：57分鐘</li>
+                    <li>車費： NT$75 = 60 + 15</li>
+                  </ul>
+                  方案 5: 避免公車在上下班時段的公路壅塞，完全採用捷運的方案: 以下採上下班時段 19:00 - 20:00 <a
+                    href="https://zaq0930.pixnet.net/blog/post/362119143?fbclid=IwAR1WU8H3x6ua6aXV5Oqx58clMBZxnhEfD7IegUjDFghaFwh6-TZk7hGoOMU">實際測試值</a>。
+                  <ul>
+                    <li>路徑： A7體育大學 (機場捷運 5站 19分鐘）機捷A2三重站 (步行5分鐘) 北捷三重站 (捷運環狀線 7站 21分鐘） 松江南京站 ( 捷運松山新店線 1站 3分鐘) 南京復興站
+                      (捷運文湖線 2站 8分鐘） 松山機場</li>
+                    <li>時程：70分鐘</li>
+                    <li>車費： NT$66 = 36 + 30</li>
+                  </ul>
+
+                </div>
+
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>提案2: 大林口整合式交通規劃</h5>
+                  主題:在林口及上龜山台地上，建立整合式交通規劃。讓大林口地區能夠資源共享，達到北北桃1小時交通生活圈。
+                  <br>
+
+                  說明:
+                  <ul>
+                    <li>以林口＋上龜山 為整合區域（大林口），做為交通規劃之需求標的，建立北北桃無接縫接軌的交通規劃。</li>
+                    <li>兩市政府應該發揮"開放式政府"的做法，將相關大數據公開。讓民間力量直接參與政府規劃，依據大數據調查做居民需求盤點, 才能精準建構交通規劃。</li>
+                  </ul>
+
+                  初步建議:（草案，需要實際通車族提供更多寶貴意見）
+
+                  <ul>
+                    <li>道路規劃:
+                      <ul>
+                        <li>大林口地區有四條主幹線: 文化一路，文化二路，文化三路，及文化北路＋忠義路 </li>
+                        <li>跨越兩地的行人及自行車, 以文化二路及文化三路為主。文化一路是完全禁止行人及自行車穿越。</li>
+                        <li>區域接駁公車 也以文化二路及文化三路為主, 並做跨兩市環狀區域規劃。</li>
+                        <li>南下及北上汽車以文化一路及 文化北路＋忠義路 為主幹道。</li>
+                      </ul>
+                    </li>
+                    <li> 文化二路及文化三路建立環形 公車, 直接連接林口及龜山兩地。 功能為
+                      <ul>
+                        <li>區域居民接駁 A8&amp;A9轉運站的主要接駁公車 </li>
+                        <li>龜山居民前往林口三井Outlet, 未來影視城, 林口國民運動中心的交通所需 </li>
+                        <li>龜山A7重劃區部分路段，如文化二路 延伸段, 及銜接中心商業區及合宜住宅區需做妥善規劃。</li>
+                        <li>林口居民前往林口長庚醫院，龜山復興一路金融街，及平價小吃商圈的交通工具。</li>
+                      </ul>
+                    </li>
+                    <li>文化一路及 文化北路＋忠義路 建立行人與自行車共用無障礙通道
+                      <ul>
+                        <li>目前部分路段如文化一路林口段，及 龜山忠義路 已經具備 行人與自行車分隔的行人步道</li>
+                        <li>需要在 文化一路龜山段, 建立人車分離的人行道，作為採用自行車前往A8/A9轉運站的選項方案</li>
+                        <li>龜山忠義路的自行車道需能串接 大湖紀念公園，婦幼公園, 桐花步道及 龜山苗圃綠環境生態園區 作為假日休閒自行車路線。</li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                </div>
+                <div class="col-md-6">
+                  <h5>規劃路線圖</h5>
+                  <img src="fig/XLK-001-Post/A7XLK-017-區域公車-04.jpeg" class="img-fluid" style="width:600px">
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="tab-pane" id="Menu-B13" role="tabpanel">
+              <!-- Menu B13 -->
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>北北桃 交通網整合規劃</h3>
+                  <h5>林口台地往雙北 高速公路替代道路</h5>
+                  <ul>
+                    <li><a href="https://www.mobile01.com/topicdetail.php?f=320&t=754503">登 林口台地 七條主要道路 心得 與 落差圖 比較</a>
+                    </li>
+                    <li><a href="https://www.youtube.com/watch?v=i6EL-cfKN-M">開車族福音 在地才知道的山路大公開</a> </li>
+                  </ul>
+                  林口台地山路 包含: 摘錄 <a href="https://www.mobile01.com/topicdetail.php?f=320&t=754503">登 林口台地 七條主要道路 心得 與 落差圖
+                    比較</a>
+                  <ul>
+                    <li>
+                      登林路: 成泰路一段往蘆洲方向過中山高橋下左轉即是 登林路 起點. 可欣賞到林口台地的斷層面, 同樣屬於雙向單線道. 但車輛不多, 又可沿途欣賞台地斷層景觀, 於 險升坡
+                      警示牌前的路段都相當平緩. 因險升坡因素, 算得上是五條路線中最有挑戰性質. 路線起訖點 成泰路一段 - 工五路.
+
+                    </li>
+                    <li>
+                      橫巢雅路, 泰林路: 泰林路直行上林口的第一主要道路. 也是七條路線中最輕鬆的. 出口不遠處即是林口老街. 落差起訖點 黎明技術學院 - 林口加油站。在上下班時段 網友反應在泰山站附近會很塞！
+                    </li>
+                    <li>
+                      大科路: 算是較冷門的路線, 路底最接近林口交流道. 起點位於黎明技術學院斜對面, 泰林路過中山高架橋後左轉. 一路平緩, 直後大轉彎處後, 迅速攀升至台地. 長度不若登林路的險升坡,
+                      但陡的程度不亞於登林路. 僅次於登林路.
+                    </li>
+                    <li>
+                      工專路, 南泰路: 路口在明志路三段, 是七條路線中有幾處有林蔭的道路, 有點類似幾段陽明山的味道. 爬坡終點為 南林路. 屬於台塑範圍 雖是林口台地, 但屬於泰山鄉. 須騎往壽山路方向 接上
+                      文化一路 才算是林口鄉. 落差起訖點 明志大學 - 南林路. 五條路線中最有綠化設計的道路. 車不多. 若華亞廠完工後, 這段路應該會有相當多的車輛
+                    </li>
+                    <li>
+                      青山路; 起點位於 新莊 中山路三段. 由長庚大學旁直登上台地. 道路寬廣安全, 但無聊了點. 屬於相當正規的公路規劃. 風景普通. 算是五條路線中最好騎的. 起訖點為 新莊中山路三段 -
+                      林口文化一路.
+                    </li>
+
+
+                    <li>
+                      壽山路 : 透過網上熱心網友所提供的資訊, 喚起小弟印象中的壽山路. 青山路開設之前由迴龍登林口的主要道路. 起點位於中山路三段 與 壽山路 交叉. 終點接上南林路過來的林口壽山路.
+                      前段路況小有起伏, 如同 登林路 與 大科路 於後段急陡上. 須有心理準備. 因原本常用的小 DC 於上星期爬山時跌倒摔壞, 此次帶著已存封的 Sony R1 類單眼, 直接掛在腰邊.
+                      不知是腰掛著不平衡的重量, 亦或真的太陡了, 感覺上比 登林路 的 險升坡 還要累.
+                    </li>
+                    <li>
+                      黎明路: 會知道這條路線的存在, 起因於 登 瓊子湖 與 山腳頂山 時崚線步道與這條路相會數次. 因而想起這條路線登林口的可能. 起點位於 泰林路不過橋直行自強路, 不遠處遇叉路左轉接上黎明路.
+                      終點與工專路上來的南林路相會. 一路上, 車輛不多, 充滿林蔭, 前段坡道緩, 於福德宮大轉彎處後, 開始陡升. 相較於 壽山路 後段陡升 由過之而不及. 但林蔭多, 不至於受日曬之苦.
+                      可邊騎邊享受這一帶的風景. 寧靜與林蔭程度與 工專路(南泰路) 相似.
+                    </li>
+
+                    <li>
+                      體大一路接萬壽路一段50巷 機車專用路: 此山路僅通機車。由體大一路在接體大四路之前進入此機車專用山路。經金興宮後再經過尊聖宮，到達衛生部樂生療養院後進入迴龍市區。反向是由萬壽路一段50巷
+                      進入山路。部份路段沒路燈，下坡道太陡，常行經的機車都騎很快，要安全走青山路較保險。
+                    </li>
+
+                  </ul>
+
+
+                </div>
+                <div class="col-md-6">
+                  林口路段 高速公路替代道路
+                  <br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-山路-01.jpeg" class="img-fluid" style="width:800px">
+                  <br><br>
+                  網友整理的主要 山路避開高速公路擁塞替代路:
+                  <ul>
+                    <li>前往五股交流道, 可走大科路, 泰林路。 </li>
+                    <li>往迴龍/下新莊/樹林, 可走青山路/壽山路</li>
+                  </ul>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1313-山路-02.jpeg" class="img-fluid" style="width:800px">
+                  <br><br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+
+                  <h5>林口-長庚醫院 輕軌</h5>
+                  相關資訊
+                  <ul>
+                    <li>好房網 2020/07/07 <a
+                        href="https://news.housefun.com.tw/news/article/127289264461.html">林口花100億蓋新輕軌？</a> </li>
+                  </ul>
+                  依據 <a href="https://news.housefun.com.tw/news/article/127289264461.html">好房網 2020/07/07</a>: &nbsp;
+                  新北市捷運局篩選出4
+                  條潛力捷運路廊包括「泰山-板橋」、「公館-中和」、「林口-長庚醫院」及「淡海往北延伸線」，粗估工程經費大約100億元，扣除中央補助款，地方仍需自行付擔七成以上之建設經費，且須歷經6至7年的施工期，因此將林口輕軌推動可列為中長期推動的願景。
+                  <br><br>
+
+                  議員則質疑輕軌會將民眾接駁到機場捷運A8、A9站，然而捷運淡水站與到台北車站及機捷林口站到台北車站都是21公里，票價卻分別為50元、70元，機捷票價硬是貴了20元，因此認為與其花百億來興建新的輕軌，不如將經費用來補助機捷票價。
+                  <br><br>
+
+                  社區網站討論: 是否在目前先依據輕軌路線, 建立 循環公車 作為試營運。當搭配 北北桃 1280 / 1200 方案後，所有通勤族能有 林口-長庚醫院
+                  環狀公車作為最後一哩的交通工具。晚間或假日作為龜山前往林口 Outlet 的便捷運輸。
+
+                  <br><br>
+
+                </div>
+                <div class="col-md-6">
+                  <img src="fig/XLK-131-Transportation/A7XLK-1311-輕軌-02.jpeg" class="img-fluid" style="width:400px">
+                  <br>林口長庚 輕軌路線規劃
+
+                  <br><br><br>
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+
+                  <h5>新北市新莊區壽山路(北118)拓寬</h5>
+                  <ul>
+                    <li>
+                      2022/10/11 新北市新莊區壽山路丹鳳橋瓶頸路口改善工程<a href="file/XLK-243-新北市新莊區壽山路丹鳳橋瓶頸路口改善工程.pdf">徵收土地計畫書</a>
+                    </li>
+                    <li>
+                      <a href="file/XLK-243-北桃合作 壽山路拓寬可行性.jpeg">壽山路拓寬可行性研究</a>
+                    </li>
+                    <li>
+                      自由時報 2019/12/18 <a href="https://news.ltn.com.tw/news/life/paper/1339752">壽山路拓寬 北桃交流平台推動</a>
+                    </li>
+                    <li>
+                      桃園市政府 2020/08/19 <a
+                        href="https://www.tycg.gov.tw/ch/home.jsp?id=10408&parentpath=0&mcustomize=multimessage_view.jsp&dataserno=202008190035&aplistdn=ou=hotnews,ou=chinese,ou=ap_root,o=tycg,c=tw&toolsflag=Y">北桃合作更邁進，攜手共創雙贏局面</a>
+                    </li>
+                    <li>
+                      桃園市政府 2020/09/08 <a
+                        href="https://rdo.tycg.gov.tw/home.jsp?id=222&parentpath=0,22,82&mcustomize=onemessages_view.jsp&dataserno=202007290001&aplistdn=ou=data,ou=rdo2,ou=chrdo,ou=ap_root,o=tycg,c=tw&toolsflag=Y">公開資訊網站</a>:
+                      &nbsp;&nbsp; <a href="file/XLK-243-北桃合作交流平臺合作案辦理情形彙整資訊公開版1111011.pdf">北桃合作交流平臺合作案辦理情形 彙總資訊</a>
+                    </li>
+                  </ul>
+                  依據 <a href="https://news.ltn.com.tw/news/life/paper/1339752">自由時報 2019/12/18</a>:
+                  壽山路是銜接龜山坪頂地區連接新北市新莊區的主要道路，但因部分路段屬新北市管轄尚未拓寬，且有部分路段位處陡坡，還有限高二．七公尺管制車輛進出，市府交通局昨在市議會專案報告時，市議員林正峰不滿指塞車是龜山人在塞不是新北市人，且限高讓客運車無法通行、交通車也不能走，要求交通局應提出改善計畫。<br><br>
+                  <h5>市府：請新北提出可行性評估</h5>
+                  交通局長劉慶豐表示，壽山路於桃園轄內部分，已與A7整體開發拓寬為四十米大道，其餘屬新北市約二．五公里路段，現況為八至十六米寬，未依都市計畫開闢，兩市於十一月中旬已研商拓寬壽山路的可行方案，並請新北市政府儘速提出拓寬的可行性評估，後續將依結果共同向中央爭取補助，也將提列「北桃合作交流平台」雙首長論壇討論合作方式，若可行會請新北市政府儘速進行拓寬。<br><br>
+                  <h5>新北：等桃園提交通需求資料</h5>
+                  新北市政府交通局綜合規劃科長陳建成表示，該路段是四十米寬的計畫道路，已透過兩市交流平台與桃園市政府交通局討論拓寬案，目前仍待桃園市提出該處路段的交通需求等資料，若確定可行，會進一步評估工程界面。<br><br>
+
+                  劉慶豐說，壽山路是連接新北及桃園兩市的重要道路，而龜山坪頂地區有多處工業區，就業民眾以兩市居民為主，現況為民眾多使用自家車通勤，但因未全段拓寬，無法達到其主要連接兩地的功能，仍待新北市政府進行拓寬。<br><br>
+                  <h5>議員：桃園端還有500米未拓寬</h5>
+                  「評估要到什麼時候？結論呢？有沒有期程？」林正峰抨擊，責任不只在新北市，桃園境內也還有五百公尺路段尚未拓寬，還是有責任。林也建議，近年來華亞科技園區、林口長庚醫院及體育大學等吸引外來人口大量湧入，另應對龜山區與新莊區擬定新闢快速道路計畫，且採改高架化，才更能有效解決問題。
+                  <br><br>
+                  依據 <a href="https://www.facebook.com/groups/1951117865015671/permalink/5351207341673356/">Facebook
+                    2022/10/17</a>:<br>
+                  新北市養工處針對壽山路(北118區道)丹鳳橋路口及1K+360~1K+480區間等2處瓶頸局部拓寬改善，內政部營建署已同意補助經費，刻正辦理用地取得相關作業，111年7月14日及7月15日已辦理用地協議價購會議，並請土地所有權人於111年8月10日前提供同意書，另新北市政府農業局於111年7月28日辦理第1次簡易水保計畫審查，目前簡易水保計畫修正中。<br>
+                  更新內容包含:
+                  <ol>
+                    <li>壽山路拓寬部份，位屬桃園市路權部分已依都市計畫路幅闢建完成。</li>
+                    <li>
+                      新北市養工處針對壽山路（北118區道）丹鳳橋路口及1K+360~1K+480區間等2處瓶頸局部拓寬改善，已於110年9月2日辦理第2次設計書圖審查，並邀桃園市政府相關單位與會提供意見；本案內政部營建署已同意補助經費，刻正辦理用地取得相關作業。
+                    </li>
+                  </ol>
+
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  新北市新莊區壽山路丹鳳橋瓶頸路口改善工程 區域圖
+                  <img src="file/XLK-243-新北市新莊區壽山路圖.jpeg" class="img-fluid" style="width:500px">
+
+                  <br><br>
+                  <h5>北桃合作交流平台 資訊 - 林口交流道周邊公共運輸環境優化案</h5>
+                  依據 <a href="https://www.facebook.com/groups/1951117865015671/permalink/5351218321672258/">Facebook
+                    2022/10/17</a>
+                  <ol>
+                    <li>將於文化二路~文化一路路段規劃公車專用道。將由桃園市政府交通局納入長庚轉運站計畫評估辦理，預計111年底前完成。 </li>
+                    <li>新北市轄936、937公車原行駛桃園龜山端部分裁撤改停靠長庚轉運站，裁撤站位部分由桃園市政府交通局另案新闢接駁車往返裁撤站點及長庚轉運站接駁，方案相關細節及實施期程後續將再持續研議。</li>
+                  </ol>
+                  桃園市交通局：
+                  <ul>
+                    <li>經協調新北市政府交通局及三重客運，針對936、945、946及967等路線，於上下午尖峰時段共計增開39班次，上午尖峰時段往台北方向增開13班次，以及下午尖峰時段往龜山、林口方向增開26班次。
+                    </li>
+                    <li>桃園長庚轉運站初步規劃27條國道客運路線及本市市區公車701、702路線進駐。</li>
+                  </ul>
+                  新北市交通局：
+                  <ul>
+                    <li>公車專用道部分：
+                      <ol>
+                        <li>已初步規劃龜山一路公車專用道配置，並於111年1月12日函請交通部高速公路局評估龜山一路湖邊路口三角綠帶退縮並增加一車道可行性。</li>
+                        <li>交通部高速公路局111年1月20日函復三角綠帶退縮無意見，並建議龜山一路由林口 A 北出匝道鼻端至文化一路路段約150公尺(北出匝道與龜山一路號誌輪放運作區)不劃設公車專用道。
+                        </li>
+                        <li>相關意見後續將轉請桃園市交通局納入轉運站規劃案評估辦理。 </li>
+                      </ol>
+                    </li>
+                    <li>
+                      公車路線調整部分：查966副、967副、937副、920副係為快速接駁林口地區乘客往返大臺北地區。林口交流道路段於尖峰時段長期有壅塞情形，公車繞駛龜山地區需增加15至20分鐘車程，考量繞駛將大幅增加運轉時間，現階段為培養民眾前往轉運站搭乘習慣等因素，經評估仍暫宜維持現況。另於110年11月5日調整920、925、936、937、966等5線快速公車於下午尖峰時段返回林口方向班次，恢復行駛龜山地區，並請客運業者持續調查需求與乘車狀況機動加開班次，適時評估路線調整可行性，以優化公車營運效率。
+                    </li>
+                  </ul>
+                  <br><br>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+
+                  <h5>交通整合的需求</h5>
+                  A7 重劃區規劃的緣起是當時網路民調發現雙北房價過高是民怨之首。當機場捷運完成後，北北桃1小時生活圈讓雙北上班族群在桃園享有優質居住環境及低廉房價。因此桃園市近年來吸引大量的年輕族群移入。<br><br>
+                  目前桃園的新移民有很高的比例在雙北上班，需要面臨的是交通問題。原有的高速公路在上下班時間需要2-3倍的通勤時間。而大眾運輸網的規劃尤其是桃園市與雙北的整合就凸顯欠缺！<br><br>
+                  大眾運輸票價的優惠方案，只見雙北的聯合方案缺少 北北桃的整合規劃。當桃園機場捷運轉乘台北捷運需要過長的轉乘時間也凸顯大眾運輸工具在北北桃生活圈未能有效整合與規劃。 同樣在林口高地
+                  林口與龜山各有各的汽車轉運站，已完成的林口轉運站多數時間都在養蚊子！ 民眾只見藍綠鬥爭不見有效的地方合作共同服務選民。
+                  地方選舉候選人都陷入比爛競賽尚未見有任何候選人能端出牛肉？
+                  <br><br>
+                  <h5>林口行, 為何龜山不行 ？ 問題匯總</h5>
+                  <ol>
+                    <li>因應區域交通需求, 建立整合型交通網的調查及規劃。
+                      <ul>
+                        <li>問題: 因應A7人口快速增加與交通需求，應該有數據化需求分析,做出居民交通需求的統計資料。再做全面性跨區域的專業交通規劃。 </li>
+                        <li>
+                          建議：由地區議員招集, 市府交通局, 里長及里民參與。建立有效率的網路全面意見調查。並參考林口區域發展經驗, 構建完整全面性大眾運輸規劃。包含交通路線，北北桃定期票價方案。
+                          除了通往雙北的國道一號公車路線，應包含 603經壽山路 到捷運丹鳳站, 605 經青山路到 捷運迴龍站等路線的需求人數, 最終路線網的調查及規劃。
+                        </li>
+                      </ul>
+                    </li>
+                    <li>同一個高地，相較林口的便捷雙北公車，龜山卻沒有直接上國道到台北的公車。
+                      <ul>
+                        <li>問題: 林口跳蛙公車是讓乘客、公車業者及政府三方透過網路平台交流意見，乘客利用手機 APP就可以提出公車搭乘需求， 公車業者與路線主管機關依照民眾提出的特定
+                          時間，地點，快速規劃並開通公車路線，多條快速、直捷的快速公車路線，讓居民 享受舒適、個人化的公車路線！ 但龜山沒有搜集民眾需求的數字化機制，目前居民需要花費數倍的時間在往台北的公車上！
+                        </li>
+                        <li>
+                          建議：整合區域交通資源，共享大眾運輸工具。建立北北桃 交通整合機制。 讓上班/上學族能使用跳蛙公車理念，讓多樣, 快速, 直捷的大眾運輸在龜山實現！
+                        </li>
+                      </ul>
+                    </li>
+                    <li> 區域接駁公車的建構
+                      <ul>
+                        <li>問題: 目前A9汽車轉運站效能不彰，因為原有社區到台北公車與轉運站高度重疊。未來A8轉運站建構後是否也會遭遇相同問題, 居民對前往轉運站的距離轉乘時間會有疑慮？
+                          或因交通網的規劃不良，造成交通資源浪費。</li>
+                        <li>
+                          建議： 整合並共享所有國道公車資源 讓區域接駁公車/YouBike 能銜接到社區的最後一哩。 建立文化ㄧ, 二, 三, 北路 整合林口及龜山的環形接駁路網。讓區域公車，YouBike
+                          能完成最後一哩的交通路網。來共享 A8+A9 汽車轉運站交通資源。 讓各社區能共享區域公車巴士。<br><br>
+                          <img src="fig/XLK-001-Post/A7XLK-017-區域公車-04.jpeg" class="img-fluid" style="width:400px">
+                          <br>區域接駁路線示意圖（內容待修訂） <br><br>
+                        </li>
+                      </ul>
+                    </li>
+
+                  </ol>
+
+
+
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  <h5>北北桃大眾運輸的整合問題</h5>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1307-Transportation-02.jpeg" class="fig-fluid"
+                    style="width:500px">
+                  <br>機場捷運轉乘台北捷運 目前 需要步行距離過長，影響上班族搭乘意願！
+                  <br><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1307-Transportation-01.jpeg" class="fig-fluid"
+                    style="width:500px">
+                  <br> 現有人員輸送帶太短！ 須延長至 臺北捷運站 以縮短上班時段 所需步行時間。
+                  <br><br>
+                  <ol>
+                    <li> 機場捷運與台北捷運轉乘時間過長
+                      <ul>
+                        <li>問題：桃園機場捷運與台北捷運在台北火車站的轉乘步行時間過長， 大幅減低捷運便利性,降低搭乘意願。 </li>
+                        <li>建議： 建立 機場捷運與 臺北捷運淡水線, 板南線及松山線間的快速人員輸送帶。 轉乘時間希由現有步行 5-7分鐘降低到 3-5分鐘。
+
+                        </li>
+                      </ul>
+                    </li>
+                    <li>雙北公車定期 1280月票, 希望擴大為北北桃整合方案
+                      <ul>
+                        <li>主旨: 將桃園納入台鐵, 雙北捷運,公車及YouBike 吃到飽定期票優惠方案， 大幅提高學生及上班族搭乘大眾運輸的意願, 落實北北桃1小時生活圈。 </li>
+                        <li>
+                          說明: 將網友意見整理在下面說明中<br>
+                          1. 桃園青埔及A7重劃區已成為台北人移居的重鎮，讓雙北上班族能有廉價宜居的桃園住家。 在票價優惠方案是提升搭乘大眾運輸降低高速公路擁塞的最佳方案。
+                          希望達成北北桃 捷運, 公車及YouBike 定期月票吃到飽方案。 並希望能將國道公車比照區域公車方案一併納入。<br>
+                          2. 在北北桃區域/距離增大部分, 可依據實際營運成本合理建立定期票價。 並應該將下列因素列入考量：
+                          <ul>
+                            <li>
+                              桃園捷運現行 120天定期票: 桃園市以A1 台北車站 至A7 體育大學站為例, 每月費用 5,040/4=1,260元 (單程 60元), A1 至 A9 林口站 每月費用
+                              5,880/4=1,470元 (單程 70元)，新北市與桃園市需要共同研擬票價問題。
+                            </li>
+                            <li>
+                              張善政競選政見: 搭乘公車每日 20公里免費, 以A7開車到A1 經國道1號 的距離為 21.5公里計算， 希望能考量 與雙北現有方案整合也許就能實現桃園市民加入1,280方案 。
+                              賴香伶於2022/08/23就已經提出 <a href="https://www.youtube.com/watch?v=LtpwbUlzHdI">1280+ 通勤優惠案</a>
+                              ！
+                            </li>
+                            <li>
+                              北北桃市府應整合並借助大數據分析，實際檢討吃到飽套餐所帶來的整體效益與營運成本相關問題，訂出合理票價
+                              (如雙北現有通勤族的通勤距離，實際使用交通費及桃園市相對使用距離及費用。並須考慮增加搭人數對現行交通容量未必增加成本 ） ！ 市民希望看到可行性方案研究包含不同距離設定
+                              不同區域的票價方案 如1,680是否可行等等。
+                            </li>
+                            <li>
+                              競選期間 希望有區域整合型政見發表，包含北北桃區域合作性交通政策。讓參選人能對區域交通政策多做腦裡激盪。
+                            </li>
+                          </ul>
+
+                        </li>
+                        <li>
+                          辦法: 建立 北北桃 交通整合方案，納入 台鐵, 雙北及桃園捷運, 區域及國道公車,及 YouBike 提供 整合型定期票。 造福北北桃所有居民通勤的優惠方案。將能大幅提升大眾運輸的使用。
+                        </li>
+                      </ul>
+                    </li>
+
+                  </ol>
+
+                  <h5>2022 地方選舉 候選人的 政見 / 績效 </h5>
+                  張善政 <a
+                    href="https://www.taiwanhot.net/news/999452/%E6%9C%AA%E4%BE%86%E7%9A%84%E6%A1%83%E5%9C%92%E9%A1%98%E6%99%AF+%E5%BC%B5%E5%96%84%E6%94%BF%EF%BC%9A%E4%BB%A5MEGA+CITY%E8%A6%96%E9%87%8E%E5%BB%BA%E8%A8%AD%E6%A1%83%E5%9C%92">未來的桃園願景</a>
+                  中說明:<br>
+                  張善政以MEGA CITY來比喻，北北桃或桃北北目前人口初估有900多萬人，若以國際上定義1000萬人屬於超大城市的話，桃北北生活圈就是超大都市的概念。<br><br>
+                  現階段除了要趕快解決上班族通勤的問題，讓桃北北完全沒有隔閡，也希望在桃園打造更多好的學區，提供合宜（物美價廉）的住宅吸引年輕人。所以希望未來4年或8年任內，讓桃園開始改變，讓桃園不是因為房價比雙北便宜而吸引人，而是要讓桃園成為大家一輩子的家，甚至可以讓下一代長大養老、深耕，讓國外旅居多年的人可以落葉歸根的城市，展現不一樣的格局。
+                  <br><br>
+                  牛喣庭議員 2022/07/13:
+                  <button class="btn btn-info"> <a
+                      href="https://docs.google.com/forms/d/e/1FAIpQLScjQbfA5PVLczJ8ibua4oa9DUHicpARK_9Ehg_yKjeuJ6ZSVA/viewform">A7、A8社區公車路線調查</a>
+                  </button>
+                  <br><br>
+                  605公車爭取:
+                  <ul>
+
+                    <li>
+                      龜山議員參選人 陳泓維 FB <a href="https://www.facebook.com/LAG555">605公車方案相關議題</a>
+                    </li>
+                    <li>
+                      陳雅倫議員 <a href="https://www.facebook.com/search/top?q=605%E5%85%AC%E8%BB%8A">605公車</a>
+                    </li>
+
+                  </ul>
+                  158, 159公車爭取:
+                  <ul>
+                    <li>
+                      牛煦庭議員 2021/09/29日 第六會期 交通局、捷工局質詢 <a href="https://fb.watch/8kbkyeKhoQ/">A7市區公車路線建議 </a>
+                    </li>
+                    <li>
+                      牛煦庭議員爭取 公車A7大環線： A7 社區 -> 青山路 -> 迴龍捷運站 -> 縱貫路/省道１號公路 -> 萬壽路 -> 振興路 -> A7 社區
+                    </li>
+
+                  </ul>
+                  <br><br>
+
+
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>新北市 現有交通網</h3>
+                  相關資訊:
+                  <ul>
+                    <li>
+                      新北市蔡淑君議員 網站<a href="http://m12.maxmac.com.tw/front/bin/cglist.phtml?Category=100549">林口 公車路線
+                        匯總</a>
+                    </li>
+                    <li>
+                      醒吾科技大學 <a
+                        href="http://ir.thu.edu.tw/upload/news_upload/%E4%BA%A4%E9%80%9A%E6%96%B9%E5%BC%8F.pdf">林口
+                        搭車指南</a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkouliving.com.tw/%E6%9E%97%E5%8F%A3-%E5%8F%B0%E5%8C%97%E5%A4%A7%E7%9C%BE%E9%81%8B%E8%BC%B8-%E8%B7%B3%E8%9B%99%E5%85%AC%E8%BB%8A%EF%BC%8C%E8%B6%85%E7%9C%81%E6%99%82/">林口-台北大眾運輸
+                        | 跳蛙公車，超省時</a>
+                    </li>
+                    <li>
+                      跳蛙公車 App <a
+                        href="https://apps.apple.com/tw/app/%E8%B7%B3%E8%9B%99%E5%85%AC%E8%BB%8A/id1111082265">iOS</a>,
+                      <a
+                        href="https://play.google.com/store/apps/details?id=com.busunion.ntpc.frog&hl=zh_TW&gl=US">Android</a>
+                    </li>
+                  </ul>
+                  <h5>跳蛙公車</h5>
+                  針對新北市幅員遼闊的特性，新北市交通局開闢類似交通專車的跳蛙公車，民眾在特定時間及地點可以搭乘停站少、路程快、路線直捷的公車服務前往，通勤輕鬆無壓力.
+                  跳蛙公車享有與雙北公車及捷運轉乘優惠，並可使用1280元定期票搭乘。
+                  <br><br>
+                  跳蛙公車讓乘客、公車業者及政府三方透過網路平台交流意見，乘客利用手機 APP就可以提出公車搭乘需求,
+                  如起迄點及希望到達的時間，並募集有相同需求的乘客20人以上，將由新北市公車業者評估新闢路線的可行性；通車後可直接預約訂票，提早預約保留乘車權益。
+                  <br><br>
+                  林口現有跳蛙公車
+                  <table class="table table-responsive table-sm">
+                    <tr>
+                      <td>公車</td>
+                      <td>發車時間</td>
+                      <td>資訊</td>
+                    </tr>
+                    <tr>
+                      <td>林口-捷運府中站</td>
+                      <td>07:00</td>
+                      <td><a href="http://www.transtaipei.idv.tw/r1/mrtandotherbus/zfrog029.htm">臺北客運</a> </td>
+                    </tr>
+                    <tr>
+                      <td>920 林口-板橋</td>
+                      <td>06:45</td>
+                      <td><a href="http://www.transtaipei.idv.tw/r1/mrtandotherbus/z920ex.htm">臺北客運</a> </td>
+                    </tr>
+                    <tr>
+                      <td>林口-捷運新埔站</td>
+                      <td>07:00, 07:30</td>
+                      <td><a href="https://newtalk.tw/news/view/2019-05-23/250512">臺北客運</a> </td>
+                    </tr>
+                    <tr>
+                      <td>936 林口-捷運圓山站</td>
+                      <td>06:30, 06:44, 06:52, 07:00, 17:35, 18:35</td>
+                      <td><a href="http://www.mtcbus.com.tw/index.php?m=Route&a=detail&id=01937">大都會客運</a> </td>
+                    </tr>
+                    <tr>
+                      <td>937 林口(文化三路)-捷運圓山站</td>
+                      <td>06:30, 06:44, 06:52, 07:00, 17:35, 18:35</td>
+                      <td><a href="http://www.transtaipei.idv.tw/r1/mrtandotherbus/z937ex.htm">大都會客運</a> </td>
+                    </tr>
+                    <tr>
+                      <td>946 林口-內湖科技園區</td>
+                      <td>07:05</td>
+                      <td><a href="http://www.transtaipei.idv.tw/r1/mrtandotherbus/z946ex.htm">三重客運</a> </td>
+                    </tr>
+                    <tr>
+                      <td>林口-台北長庚醫院</td>
+                      <td>06:50,07:10</td>
+                      <td><a href="http://www.transtaipei.idv.tw/r1/mrtandotherbus/zfrog011.htm">三重客運</a> </td>
+                    </tr>
+                  </table>
+
+                  <h5>雙北交通定期票</h5>
+                  台北市、新北市「交通定期票」，只要新台幣1280元，30日內可無限次搭乘捷運、雙北公車，以及YouBike前30分鐘免費。
+                  <br><br>
+                  初步試算，動物園站至淡水站持悠遊卡搭乘打8折計算，來回為104元，上班日22天，則要2288元。若改使用交通定期票，可省1008元。
+                  若是以通勤族（上班或學生）來說，1280元分攤一個月22個工作天，一天大約為58元，也就是說，如果通勤族一天來回在在大眾運輸（捷運加公車）會花費「超過」58元，那「交通定期票」的確比較划算。
+
+                  <br><br>
+                  1280 定期票的限制:<br>
+                  依據 <a href="https://www.facebook.com/TransTaipei/posts/3001134756592521/">暢行台北公車客運資訊站</a> 2020/05/17
+                  資訊：
+                  公路客運在五都升格後，大量將公路客運移撥給予地方政府管轄，惟跨多縣市的公路客運與國道客運並無移撥，故在雙北市內仍然會遇到少數無法適用1280定期票的路線，辨明的方法為4位數路線。臺北往瑞芳方向1061、1062、2021、2025；板基縱貫線1032；臺北往萬里、金山1068、1815；林口往臺北1209、1210、1211；公西往三重1212；桃園或中壢往返臺北間的所有國道客運1662、9001、9005、9009、9069、9089等不勝枚舉，這些路線都不適用1280定期票。
+                  <br><br>
+                  桃園市政府闢駛快速公車往返林口、永寧以及一般路線自桃園市龜山區往新北市新莊區等市區路線，以上路線皆屬於桃園市區公車的範疇，無法適用1280定期票，辨明的方式主要以行先上的「桃」字表示，但並沒有所有路線皆使用此方法。舉例來說，林口往南崁708、往桃園5063、5069、5071；永寧往平鎮709、大溪710、龍潭712、大湳八德713、715、716、龍岡717、迴龍往桃園的601、602、BR；丹鳳往龜山體育大學的603，這些路線亦不適用1280定期票。不過，桃園市政府針對桃園市民可辦理桃園市民卡，以上路線皆適用桃園市民的優惠方案。
+                  <br><br>
+                  林口 <a href="https://news.ltn.com.tw/news/politics/breakingnews/2423107">蔡淑君議員 2018/05/11</a> 就已提出
+                  雙北公車捷運1280吃到飽月票 應納入機捷。 新北市政府應該為市民發聲，爭取機捷納入1280元「吃到飽」月票，減輕民眾經濟負擔，提高搭乘意願，另外，交通部公路總局管理的四碼公車路線，應一併納入優惠方案。
+                  <br><br>
+                  <a href="https://www.facebook.com/TransTaipei/posts/3001134756592521/">暢行台北公車客運資訊站</a><br><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1310-1280方案.jpeg" class="img-fluid" style="width:800px">
+                  <br><br>
+
+                  <h5>林口到台北通勤需要多少時間？</h5>
+                  依據 <a href="https://linkou.life/linkou-commute/">林口交通 2021/11/21</a> 資料：
+                  自行開車 無阻塞時
+                  <table class="table table-sm table-striped">
+                    <tr>
+                      <td>地點</td>
+                      <td>平均速度</td>
+                      <td>行車時間</td>
+                    </tr>
+                    <tr>
+                      <td>林口-圓山 </td>
+                      <td> 78公里/小時 </td>
+                      <td> 13分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 林口-行天宮 </td>
+                      <td> ? 公里/小時 </td>
+                      <td> ? 分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 圓山-臺北市政府 </td>
+                      <td> ? 公里/小時 </td>
+                      <td> ? 分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 林口-內湖 </td>
+                      <td> 56公里/小時 </td>
+                      <td> 26分鐘 </td>
+                    </tr>
+                  </table>
+                  搭乘大眾運輸所需時間 - 依據谷歌地圖預估值 （希望有網友提供實際上班時段的時間）
+                  <table class="table table-sm table-striped">
+                    <tr>
+                      <td>目的地</td>
+                      <td>捷運</td>
+                      <td>公車</td>
+                    </tr>
+                    <tr>
+                      <td>林口-圓山轉運站 </td>
+                      <td> ? 分鐘 </td>
+                      <td> 32 分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 林口-行天宮 </td>
+                      <td> ? 分鐘 </td>
+                      <td> 33 分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 林口-臺北市政府 </td>
+                      <td> ? 分鐘 </td>
+                      <td> 51 分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 林口-內湖科學園區 </td>
+                      <td> ? 分鐘 </td>
+                      <td> 43 分鐘 </td>
+                    </tr>
+                  </table>
+
+                </div>
+                <div class="col-md-6">
+                  <h5>上龜山現有交通網</h5>
+                  由A7站 自行開車所需時間 - 依據 谷歌地圖 資料
+                  <table class="table table-sm table-striped">
+                    <tr>
+                      <td>地點</td>
+                      <td>距離</td>
+                      <td>行車時間</td>
+                    </tr>
+                    <tr>
+                      <td>龜山A7站-圓山轉運站 </td>
+                      <td> 20.3公里 </td>
+                      <td> 30分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 林龜山A7站-行天宮 </td>
+                      <td> 22.4 公里 </td>
+                      <td> 34 分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 龜山A7站-臺北市政府 </td>
+                      <td> 29.1 公里 </td>
+                      <td> 42 分鐘 </td>
+                    </tr>
+                    <tr>
+                      <td> 龜山A7站-內湖科學園區 </td>
+                      <td> 26.7公里 </td>
+                      <td> 39分鐘 </td>
+                    </tr>
+                  </table>
+
+                  搭乘大眾運輸所需時間 - （希望有網友提供實際上班時段及非上班時店的通勤時間）
+                  <table class="table table-sm table-striped">
+                    <tr>
+                      <td>目的地</td>
+                      <td>捷運+公車</td>
+                      <td>票價</td>
+                    </tr>
+                    <tr>
+                      <td>龜山A7站-圓山轉運站 </td>
+                      <td> 47 分鐘 機捷＋966公車 </td>
+                      <td> $ 35 </td>
+                    </tr>
+                    <tr>
+                      <td> 龜山A7站-行天宮 </td>
+                      <td> 49 分鐘 機捷＋945公車 </td>
+                      <td> $ 35 </td>
+                    </tr>
+                    <tr>
+                      <td> 龜山A7站-臺北市政府 </td>
+                      <td> 63 分鐘 機捷+212公車 </td>
+                      <td> ? </td>
+                    </tr>
+                    <tr>
+                      <td> 龜山A7站-內湖科學園區 </td>
+                      <td> 74 分鐘 967 + 9005 </td>
+                      <td> ? </td>
+                    </tr>
+                  </table>
+
+                  <h5>桃園市公車優惠方案</h5>
+                  <ul>
+                    <li>
+                      桃園市民 - 一般卡
+                      <ul>
+                        <li>桃園市市民卡提供一般卡之卡別，凡持有一般卡即享有商家消費、公有場館之優惠，亦可持卡繳納332項政府罰鍰規費與停車費。</li>
+                        <li>享有市內客運買一送一(第一趟按核定票價付費，第二趟市府補助基本票價18元)。</li>
+                        <li>
+                          桃園市 沒有公車定期月票優惠方案？
+                        </li>
+                        <li>
+                          桃園捷運定期票:
+                          <table class="table table-sm table-striped">
+                            <tr>
+                              <td>期限</td>
+                              <td>優惠價</td>
+                            </tr>
+                            <tr>
+                              <td>7天定期票</td>
+                              <td>
+                                指定站間全票票價*5天*每天使用2次*約75折</td>
+                            </tr>
+                            <tr>
+                              <td>30天定期票</td>
+                              <td>指定站間全票票價*21天*每天使用2次*7折</td>
+                            </tr>
+                            <tr>
+                              <td>60天定期票</td>
+                              <td>指定站間全票票價*42天*每天使用2次*7折</td>
+                            </tr>
+                            <tr>
+                              <td>90天定期票</td>
+                              <td>指定站間全票票價*63天*每天使用2次*7折</td>
+                            </tr>
+                            <tr>
+                              <td>120天定期票</td>
+                              <td>指定站間全票票價*84天*每天使用2次*7折</td>
+                            </tr>
+                          </table>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      桃園市民 - 學生卡
+                      <ul>
+                        <li>市內客運乘車優惠，國小生享5折優惠；國高中生與大專院校生享75折優惠。</li>
+                        <li>桃園捷運乘車優惠，國小生享4折優惠；國高中生與大專院校生享8折優惠。</li>
+                        <li>公車轉乘優惠，國小生享5元之優惠金額；國高中生與大專院校生享7元之優惠金額。</li>
+                      </ul>
+                    </li>
+                    <li>
+                      桃園市民 - 敬老卡
+                      <br>桃園市市民卡提供敬老卡之卡別，凡持有敬老卡即享有點數補助優惠，復興區補助1000點、其他地區補助800點，可應用在下列情境中：
+                      <ul>
+                        <li>搭乘簽約公車路線(含市區、公路及國道客運)5折。</li>
+                        <li>搭乘桃園機場捷運4折。</li>
+                        <li>搭乘愛心計程車享有100元(含)以下補助36點、101元以上補助72點之優惠。</li>
+                        <li>市立游泳池入場門票、國民運動中心各項運動設施（游泳池、體適能中心）及場地租借（羽球場、桌球場、籃球場等）費用。</li>
+                      </ul>
+
+                    </li>
+                    <li>
+                      桃園市市民 - 敬老卡 跨縣市享有以下優惠:
+                      <ul>
+                        <li>搭乘臺北捷運享有乘車4折(5折*8折)現金優惠。</li>
+                        <li>搭乘高雄捷運享有乘車4.25折(5折*8.5折)現金優惠。</li>
+                        <li>免門票進入桃園各風景區(慈湖園區、小烏來風景特區等)。</li>
+                      </ul>
+                    </li>
+                  </ul>
+
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="tab-pane" id="Menu-B14" role="tabpanel">
+              <!-- Menu B14 -->
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h3>新北交通計畫</h3>
+                  <h5 id="CON-26">林口－八里新高架道路</h5>
+                  相關新聞
+                  <ul>
+                    <li>
+                      鐵道事務局 2022/7/23 <a href="https://www.youtube.com/watch?v=DRTT505hUeE">林口八里新高架道路即將成為台灣新景點</a>
+                    </li>
+                    <li>
+                      Yahoo!新聞 2022/07/15 <a
+                        href="https://tw.news.yahoo.com/%E6%9E%97%E5%8F%A3-%E5%85%AB%E9%87%8C%E6%96%B0%E9%AB%98%E6%9E%B6%E9%81%93%E8%B7%AF%E8%A8%AD%E8%A8%88%E6%9B%9D%E5%85%89-%E7%B6%B2%E5%8F%8B-%E9%80%99%E6%98%AF%E9%9B%B2%E9%9C%84%E9%A3%9B%E8%BB%8A%E5%90%A7-000000135.html">林口－八里新高架道路設計曝光</a>
+                    </li>
+
+                  </ul>
+                  新北市105市道改善計畫,分為三期 包含:
+                  <ul>
+                    <li>
+                      第一期: 林口區A3計畫道路新闢工程
+                    </li>
+                    <li>
+                      第二期: 105市道 改善蜿蜒路段 新闢工程
+                    </li>
+                    <li>
+                      第三期: 八里端平面道路改善
+                    </li>
+                  </ul>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1308-road105-05.jpeg" class="img-fluid"
+                    style="width:600px">
+                  <br>105市道改善計畫<br><br>
+
+                  隨著八里台北港特定區、林口新市鎮發展，新北市政府2019年起規劃拓寬通往兩地的105市道（後湖路），並新闢環型高架橋樑減緩道路坡度。
+                  <br><br>105市道總長2.41公里，直線縱坡落差達15％，隨著將往返林口及八里大型車輛增加，規劃新闢環型高架橋樑以減緩道路坡度，同時拓寬105市道林口端雙向2車道至4車道，增加安全性。
+                  <br><br>105市道總工程預算約42億元（工程費37億6700萬、用地費4億3300萬），部分將爭取中央經費補助，盼最快可於2023年招標，但考量近年缺工缺料、原物料上漲等因素，難以預估完成招標時程，整體工期約4至5年可完工。
+                  <br><br>民眾希望一併拓寬林口端中湖路至後湖路段，避免進入105市道車流壅塞，李方谷表示，該路段沿線商家、工廠密集，拆遷量大，預計新闢一條A3道路達到分流，現已同步進行規劃。
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  <h5>105市道改善照片</h5>
+
+                  <img src="fig/XLK-131-Transportation/A7XLK-1308-road105-03.jpeg" class="img-fluid"
+                    style="width:600px">
+                  <br>105市道聯通地區<br><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1308-road105-06.jpeg" class="img-fluid"
+                    style="width:550px">
+                  <br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1308-road105-04.jpeg" class="img-fluid"
+                    style="width:600px">
+                  <br>第二期工程:環形橋克服高程差並改善狹窄彎繞路段<br><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1308-road105-09.png" class="img-fluid" style="width:600px">
+                  <br>壽山路/青山路 是否也能有如此的設計 4線道 直通新北大道<br><br>
+
+
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6">
+                  <h5>淡江大橋 - 施工中</h5>
+                  相關新聞
+                  <ul>
+                    <li>
+                      新北市施政成果網 2022/07/05 <a href="https://wedid.ntpc.gov.tw/reside/detail/zj6Dd5EPdA1o">淡江大橋</a>
+                    </li>
+                    <li>
+                      交通部公路總局 <a href="https://djbridge.thb.gov.tw/">淡江大橋</a>
+                    </li>
+                  </ul>
+                  依據新北市府資訊：<a href="https://wedid.ntpc.gov.tw/reside/detail/zj6Dd5EPdA1o">淡江大橋</a> <br>
+                  淡江大橋位置位於淡水河口，路線規劃起點為台61甲線(2k+146)，沿臨港大道、北堤濕地邊界跨淡水河後沿沙崙路，終點位於沙崙路1段(8k+165)，全長約6,019公尺，橋面路寬44~55公尺，配置包含雙向4快車道、機車道、人行道及自行車道，並預留大眾運輸(八里輕軌)共構空間，以串聯淡水河兩岸，健全北部交通路網。
+                  <br><br>
+                  建設工程共分3標進行，全案預計於113年底完工通車。
+                  <ul>
+                    <li>第1標臺北港臨港大道段工程已於105年11月2日完工。</li>
+                    <li>第2標八里端引橋至八里連絡道及淡水端隧道段先於110年10月25日通車，整體工程已於111年1月28日完工。</li>
+                    <li>第3標主橋段工程已於108年2月23日開工（交通部公路總局於3月14日舉行動土典禮），預計113年底完工，工程進度：預定進度33.42%，實際進度33.44%(截至111年6月30日)。
+                    </li>
+                  </ul>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1309-Bridge-04.png" class="img-fluid" style="width:600px">
+                  <br>淡江大橋連接區域<br><br>
+                  <br><br>
+                </div>
+                <div class="col-md-6">
+                  <h5>相關照片</h5>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1309-Bridge-01.jpeg" class="img-fluid" style="width:600px">
+                  <br>淡江大橋<br><br>
+                  <img src="fig/XLK-131-Transportation/A7XLK-1309-Bridge-02.jpeg" class="img-fluid" style="width:600px">
+                  <br>淡江大橋<br><br>
+
+                </div>
+              </div>
+            </div>
+
+            <!-- 插入下一項-->
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+  <!-- InstanceEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios@0.9.1/dist/axios.min.js"></script>
+
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+
+  <script>
+    function openCity(evt, cityName) {
+      var i, tabcontent, tablinks;
+      tabcontent = document.getElementsByClassName("tabcontent");
+      for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+      }
+      tablinks = document.getElementsByClassName("tablinks");
+      for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].className = tablinks[i].className.replace(" active", "");
+      }
+      document.getElementById(cityName).style.display = "block";
+      evt.currentTarget.className += " active";
+    }
+  </script>
+
+
+  <script>
+    const posts = []
+    const SECTIONS_TW = "林口轉運站, 林口長庚醫院, 醫學大樓, 公西站（華亞園區）, 桃園酒廠, 高正鋼鐵"
+
+    new Vue({
+      el: '#app',
+      data: {
+        posts,
+        // results: [],
+        sections: SECTIONS_TW.split(', '),
+        section: '林口轉運站'
+      },
+      filter: {
+        formatted(value) {
+          return ' 以下是 ${value} 類別的貼文 '
+        }
+      },
+
+      computed: {
+        results() {
+          let posts = this.posts
+            .slice()
+            .filter(post => post.站名 === this.section)
+          let i, j, chunkedArray = [], chunk = 40;
+          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+            chunkedArray[j] = posts.slice(i, i + chunk);
+          }
+          return chunkedArray
+        }
+      },
+
+      mounted() {
+        axios.get('db/A7XLK-1301-Bus.json').then((response) => {
+          this.posts = response.data;
+          this.getPostsByCategory(this.section)
+        }).catch(error => { console.log(error); });
+      },
+
+    });
+  </script>
+  <!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd -->
+
+</html>

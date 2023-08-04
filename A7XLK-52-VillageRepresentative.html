@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Bootstrap 4 CSS 的 CDN
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   -->
+	<!--  Bootstrap 5 CDN-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+		crossorigin="anonymous"></script>
+
+	<!-- Fontawesom 的 CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- Google Icons CDN  -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- My CSS file -->
+	<link rel="stylesheet" href="css/mycss.css">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>A7新林口 - 里長交流</title>
+	<meta name="description" content="A7 XinLinKou Community Website">
+	<!-- InstanceEndEditable -->
+	<!-- InstanceBeginEditable name="head" -->
+	<!-- InstanceEndEditable -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-Y94XE7PY1L');
+	</script>
+
+</head>
+
+<body>
+	<!-- Vue實例的掛載點 -->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand" href="index.html"> A7
+			新林口 社區網站 </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+				class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="index.html">網站公告</a>
+						<a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a>
+						<a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a>
+						<a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a>
+						<a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a>
+
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-briefcase"></i>交流 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-51-BulletinBoard.html">A7公告欄</a>
+						<a class="dropdown-item" href="A7XLK-52-VillageRepresentative.html">里長交流</a>
+						<a class="dropdown-item" href="A7XLK-53-CouncileMember.html">議員交流</a>
+						<a class="dropdown-item" href="A7XLK-54-MayorTaoyuan.html">市府交流-桃園</a>
+						<a class="dropdown-item" href="A7XLK-55-MayorNewTaipei.html">市府交流-新北</a>
+						<a class="dropdown-item" href="A7XLK-56-Community.html">社區交流</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-briefcase"></i>服務 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a>
+						<a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a>
+						<a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a>
+						<a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a>
+						<a class="dropdown-item" href="A7XLK-25-Covid19.html">新冠肺炎</a>
+						<a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-utensils"></i>餐飲</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+						<a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a>
+						<a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a>
+						<a class="dropdown-item" href="A7XLK-34-Ordering.html">全省美食</a>
+						<a class="dropdown-item" href="A7XLK-35-HealthyFood.html">飲食健康</a>
+					</div>
+				</li>
+
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-shopping-cart"></i>購物</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>
+						<a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a>
+
+						<!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 
+		-->
+						<a class="dropdown-item" href="A7XLK-43-Housing.html">住屋居家</a>
+
+						<a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a>
+						<a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Jumbotron-->
+	<!-- InstanceBeginEditable name="JumbotronRegion" -->
+	<div class="jumbotron jumbotron-fluid jumbotron-bg5 d-flex align-items-end">
+		<div class="container">
+			<div class="bg-lighter p-1" style="width:350px">
+				<h5 class="text-white">A7 行政單位交流管道</h5>
+				<p class="text-white">與市府,里長及民意代表的聯繫管道</p>
+			</div>
+		</div>
+	</div>
+	<!-- InstanceEndEditable -->
+
+	<!-- InstanceBeginEditable name="main_heading" -->
+	<h2 id="main_heading"> </h2>
+	<!-- InstanceEndEditable -->
+
+	<!-- Vue實例的掛載點 -->
+	<!-- InstanceBeginEditable name="main_content" -->
+	<article>
+		<div class="container-fluid">
+			<div class="row ">
+				<h3>A7 交流管道 - 里長交流</h3>
+			</div>
+			<div class="row">
+				<div class="col-md-2">
+					<div class="list-group" id="MenuList" role="tablist">
+						<a href="#Menu-B1" class="list-group-item list-group-item-action active"
+							data-toggle="list">里長通訊錄</a>
+						<a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">里長的承諾</a>
+						<a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">里長公佈欄</a>
+						<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">居民意見匯總</a>
+						<a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">龜山區資訊</a>
+
+
+					</div>
+					<br>
+				</div>
+				<div class="col-md-10">
+
+					<div class="tab-content">
+
+						<!-- Menu B1 -->
+						<div class="tab-pane active" id="Menu-B1" role="tabpanel">
+							<h3> 里長通訊錄 </h3>
+
+							里長聯絡
+							<div id="app1">
+								<div v-show="no" class="alert alert-info mt-2" role="alert">
+									<div class="row">
+										<div class="col-8">
+											<div class="form-group">
+												<select class="form-control" v-model="section"
+													id="exampleFormControlSelect2">
+													<option v-for="section in sections">{{ section }}</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-4">
+											<h5 class="text-center"> 選擇類別 </h5>
+										</div>
+									</div>
+								</div>
+								<div class="row" v-for="posts in results">
+									<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" v-for="post in posts">
+										<div class="card">
+											<div class="card-header">
+												{{post.type}} - <a v-bind:href=" post.link ">{{post.title}} </a>
+											</div>
+											<div class="card-body">
+												<div class="row">
+													<div class="col-12">
+														<img v-bind:src="post.figure" class="img-fluid"
+															style="width:150px; float:left; margin-right:1rem">
+
+														<dl>
+															<dd>
+																服務處: {{post.address}}
+															</dd>
+															<dd>
+																電話: {{post.telephone}}
+															</dd>
+															<dd>
+																<a :href="post.line">LINE</a> : {{post.line}}
+															</dd>
+															<dd>
+																eMail: {{post.mail}}
+															</dd>
+															<dd>
+																Facebook: <a v-bind:href="post.website">{{post.type}} 臉書</a>
+															</dd>
+															<dd>
+																里民活動中心: {{post.address02}}
+															</dd>
+															<dd>
+																<div v-html="post.description"></div>
+															</dd>
+															競選政見：<br>
+															<img v-bind:src="post.publish" class="img-fluid"
+																style="width:600px">
+
+														</dl>
+
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
+						</div>
+
+						<!-- Menu B2 -->
+						<div class="tab-pane" id="Menu-B2" role="tabpanel">
+							<div class="row">
+								<div class="col-md-6">
+									<h5>里長 OKR 關鍵結果</h5>
+									居民票選 期望的 A7里長<a href="https://www.facebook.com/groups/a7xinlinkou/permalink/472009558237631/">2023年 關鍵成果 及 支持比率</a> : 2023/01/08 統計資料
+									<ul>
+										<li>2.1 提升居住品質: 統籌要求市府清潔工作到位, 建立義工團隊維護生活環境的整潔。 讓居民能有一個乾淨的生活環境。 48% </li>
+										<li>3.2 強化社區服務: 建立里民有效溝通社群網站, 提供即時數位化里民資訊平台。並與各A7社區管委會建立直接聯繫溝通管道。 以便強化里民社區服務。 21%</li>
+										<li>3.1 舉辦社團活動: 敦親睦鄰集體旅遊活動的舉辦, 各類社團活動包含 社區舞蹈社團, 兒童才藝, 太極拳, 瑜珈, 棋藝, 繪畫/書法, 網球, 籃球, 桌球, 槌球等等社團。 10% </li>
+										<li>1.3 強化交通建設: 增建自行車車道，建構友善人行道與自行車共用路線。 21%</li>
+									</ul>
+							
+								</div>
+								<div class="col-md-6">
+									目標與關鍵結果 Objectives and Key Reslults, OKR 中的關鍵結果 是衡量績效的重要指標。希望里長能針對競選時的 政見目標訂定年度關鍵結果。 在年度績效考核時才能有良好表現！
+									<br><br>
+								</div>
+							</div>
+
+							<div id="Menu-B2-Top" class="row">
+								<div class="col-12">
+									<h5>里長的承諾 - 2022 地方選舉政見匯總</h5> 
+
+									<ol style="padding-left: 2ch">
+										<li>公共建設的推動
+											<ul  style="list-style:none; Padding-left: 1ch;">
+
+												<li>1.1 爭取地方建設: <a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-11-Community.html#Menu-B5">建設願景</a><br>
+													統籌基層建設規劃與意見匯總, 如區域內機車停車位不足, 郵局/郵筒設置欠缺,
+													各家手機信號都太弱等居民意見能統籌向市府/區域議員反映並尋求改善。<br>
+													<br><span style="color:rgb(217, 141, 41)">林俊源: 5. 爭取長庚里活動中心:
+														活化活動中心,內設里民多元課程托嬰機構、小規模多機能長照機構 親子活動空間;  6. 停車空間: 評估里內可用汽機車位爭取設置停車場及重新活化停車空間 </span>
+													<br><span style="color:red">黃錦芳: 1.
+														111年度建立龜山區樂善里垹坡-樂活新天地（開心農場）。</span>
+													<br><span style="color:blue">黃明助: 5. 持續協助文欣國小、大崗國中與文欣幼兒園; 2. 敦促加速籌建龜山國民運動中心。 </span>
+													<br><span style="color:green">謝嘉仁: 2. 督促興建【多功能里民活動中心】; 7. 採【公開、透明方式】妥善運用政府的基層建設經費與回饋金。</span>
+
+													<br><br>
+												</li>
+												<li>1.2 創建綠色環境:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-21-CommunityService.html#Menu-B9">滯洪池改善</a>
+													&nbsp;
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-21-CommunityService.html#Menu-B10">景觀大道規劃</a>
+													<br> 創造宜居城市設施, 打造綠色生態環境, 如強化區域排水系統, 滯洪池的活化利用，兒童遊戲場及綠化公園的增設。<br>
+													<br><span style="color:rgb(217, 141, 41)">林俊源: 4. 共融公園: 參考林口樂活公園,
+														第一運動公園、共融 遊戲場為借鏡,爭取長樂公園設置共融遊戲空間 </span>
+													<br><span style="color:red">黃錦芳: 4. 實施里內公園樹木花草認養計畫，維護生活環境品質。</span>
+													<br><span style="color:blue">黃明助: 4. 公園增加特色花木、兒童遊具與運動、散步的空間。 </span>
+													<br><span style="color:green">謝嘉仁: 2. 督促興建 廣19用地共融遊戲公園。 </span>
+
+													<br><br>
+												</li>
+												<li>1.3 強化交通建設:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-13-Transportation.html#Menu-B7">交通建設-未來規劃</a>
+													<br> 統籌區域聯外道路的規劃, 區域公車路線及班次的意見調查與統籌向市府爭取。<br>
+													<br><span style="color:rgb(217, 141, 41)">林俊源: 1. U-bike:
+														爭取長庚國小站長慶二街站 YouBike; 7. 爭取跳蛙公車停靠站及聯外公車系統: 1.
+														台北市跳蛙公車平台已建置多年,直捷的快速公車路線,享受舒適、個人化的公車路線,台北新北公車路網密集,長庚里需要更多交通路線匯集長庚;
+														2.爭取聯外公車路線到達台北市及新北市 </span>
+													<br><span style="color:red">黃錦芳: 3. 積極推動市民公車。 </span>
+													<br><span style="color:blue">黃明助: 6. 推動人行步道改善，以行人安全為重。 </span>
+													<br><span style="color:green">謝嘉仁: 4.
+														全力爭取里民所需【對外便捷交通網絡】：爭取公車路線、協調里內社區巴士運行、極力促成文學路接文化一路之開通。 </span>
+
+													<br><br>
+												</li>
+											</ul>
+										</li>
+										<li>生活環境及安全的維護
+											<ul style="list-style:none; Padding-left: 1ch;">
+												<li>2.1 提升居住品質:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-21-CommunityService.html#Menu-B5">環境衛生管控</a>
+													<br> 里內環境清潔的維護與協助，維護居民的宜居環境。包含協助統籌要求市府清潔工作到位, 建立義工團隊維護生活環境的整潔。<br>
+			
+
+													<br><span style="color:blue">黃明助: 1. 建議籌建文化高中規劃操場跑道與社區共用。 </span>
+													<br><span style="color:green">謝嘉仁: 5.
+														積極推動里內【綠美化】，主動聯繫相關單位除草；保持里內水溝暢通、路面平整乾淨、路燈明亮；並成立環保志工隊協助里內資源回收與環境清潔消毒。
+													</span>
+													<br><br>
+												</li>
+												<li>2.2 促進地方發展:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-32-RestaurantA7.html">社區小吃</a>
+													&nbsp;
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-41-OnlineShopping.html#Menu-B5">社區團購</a>
+
+													<br> 舉辦市集活動, 促進店家進駐, 舉辦鄰里內物品/衣物交換義賣活動。<br>
+													<br><span style="color:red">黃錦芳:7. 推動里內產業，提升就業機會; 8. 建立樂善里『特約商店』合作，爭取特約優惠。 </span>
+
+
+													<br><br>
+												</li>
+
+												<li>2.3 維護社區安全:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-21-CommunityService.html#Menu-B1-Top">提案改善</a>
+													- 提供民眾對社區的提案改善 平台
+													<br> 各類隱藏風險的排除，如違規紅線停車, 人行道停放及行駛機車等交通安全隱患的排除。統籌向市府舉報並組成義工團隊維護。<br>
+													<br><span style="color:rgb(217, 141, 41)">林俊源: 3. 爭取天羅地網:
+														針對治安死角、交通問題, 極力爭取天羅地網 </span>
+
+													<br><span style="color:green">謝嘉仁: 6.
+														成立社區巡守隊並打造文青里內【天羅地網監視系統】，確保鄰里及婦幼安全。 </span>
+
+													<br><br>
+												</li>
+											</ul>
+
+										</li>
+										<li>社團活動與急難救濟
+											<ul style="list-style:none; Padding-left: 1ch;">
+												<li>3.1 舉辦社團活動:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-51-BulletinBoard.html">A7公告欄</a>
+													- 希望未來有許多社團招生 公告
+													<br> 敦親睦鄰集體旅遊活動的舉辦, 各類社團活動包含 社區舞蹈社團, 兒童才藝, 太極拳, 瑜珈, 棋藝, 繪畫/書法, 網球,
+													籃球, 桌球, 槌球等等社團。 <br>
+
+													<br><span style="color:red">黃錦芳: 2. 推動『銀髮族共餐據點』，增加休閒交流機會; 6. 持續推動任內舉辦之活動及建設：里民一日遊、一日志工、健走活動、健康守護站、里內佳節活動、U-Bike</span>
+													<br><span style="color:blue">黃明助: 7. 推廣多元活動與各類課程。 </span>
+													<br><span style="color:green">謝嘉仁: 8.
+														舉辦【平假日里民自強活動及藝文課程】，促成多樣社團，如：舞蹈、運動、桌遊...等社團成立。 </span>
+
+													<br><br>
+												</li>
+
+												<li>3.2 強化社區服務:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-52-VillageRepresentative.html">里長交流</a>
+													- 選舉後將回歸成為與里長 交流的管道
+													<br> 社會福利及急難救濟作業, 建立緊急病患就醫等警急作業辦法，在疫情期間建立獨居被隔離人員的生活照顧及藥品傳送。<br>
+													<br><span style="color:rgb(217, 141, 41)">林俊源: 2. 生活資訊平台:
+														透過LINE官方外掛生活資訊網提供保母訊息、水電維修、課後輔導 , 、二手交流、便民系统、食物銀行 </span>
+													<br><span style="color:red">黃錦芳: 5.
+														創辦『樂善里FB粉絲專頁』及『樂善里LINE@』，增加里內資訊流通。</span>
+													<br><span style="color:blue">黃明助: 3. 建議坪頂地區增設龜山第二行政中心。 </span>
+													<br><span style="color:green">謝嘉仁: 1.
+														爭取設立【文青里便民工作站】，涵蓋地政、戶政、稅務等業務之聯合服務; 9. 提供里民【免費法律諮詢】; 10. 建立【里長專屬LINE@帳號】並即時公佈里內工作、活動及里民反應事項處理進度。
+													</span>
+													<br><br>
+												</li>
+
+												<li>3.3 協助弱勢團體:
+													<a class="btn btn-info"
+														href="https://tcwang.github.io/A7Xinlinkou/A7XLK-52-VillageRepresentative.html">里長交流</a>
+													- 選舉後將回歸成為與里長 交流的管道
+													<br> 受虐兒童, 婦女及獨居老人的通報, 訪視及救助. <br>
+													<br><span style="color:rgb(217, 141, 41)">林俊源: 5. 爭取長庚里活動中心:
+														活化活動中心,內設里民多元課程托嬰機構、小規模多機能長照機構 親子活動空間 </span>
+													<br><span style="color:green">謝嘉仁: 3.
+														服務【老、中、青三代需求】：老人照護、推動食物銀行、媒合華亞園區就業機會、促進幼兒園增設。 </span>
+													<br><br>
+												</li>
+											</ul>
+										</li>
+									</ol>
+
+								</div>
+							</div>
+
+							
+
+
+						</div>
+						<!-- Menu B3 -->
+						<div class="tab-pane" id="Menu-B3" role="tabpanel">
+							<div class="row">
+								<div id="app2" class="col-md-12">
+									<h3>里長公佈欄</h3>
+
+									<div v-show="true" class="alert alert-info mt-2" role="alert">
+										<div class="row">
+											<div class="col-8">
+												<div class="form-group">
+													<select class="form-control" v-model="section"
+														id="exampleFormControlSelect3">
+														<option v-for="section in sections">{{ section }}</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-4">
+												<h5 class="text-center"> 選擇類別 </h5>
+											</div>
+										</div>
+									</div>
+									<div class="row" v-for="posts in results">
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" v-for="post in posts">
+											<div class="card">
+												<div class="card-header">
+													{{post.Type}} -
+													<a v-bind:href=" post.Link ">{{post.Title}} </a>
+												</div>
+												<div class="card-body">
+													<div class="row">
+														<div class="col-12">
+	
+															<dl>
+																<dd> 類別: {{post.Category1}}: {{post.Category2}} </dd>
+																<dd> 活動日期: {{post.Date}} </dd>
+																<dd>
+																	<div v-html="post.Description"></div>
+																</dd>
+															</dl>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br><br>
+	
+
+									<br><br>
+								</div>
+
+							</div>
+
+						</div>
+
+
+						<!-- Menu B4 -->
+						<div class="tab-pane" id="Menu-B4" role="tabpanel">
+							<div class="row">
+								<div id="app3" class="col-md-12">
+									<h3>居民意見匯總</h3>
+
+									<div v-show="false" class="alert alert-info mt-2" role="alert">
+										<div class="row">
+											<div class="col-8">
+												<div class="form-group">
+													<select class="form-control" v-model="section"
+														id="exampleFormControlSelect3">
+														<option v-for="section in sections">{{ section }}</option>
+													</select>
+												</div>
+											</div>
+											<div class="col-4">
+												<h5 class="text-center"> 選擇類別 </h5>
+											</div>
+										</div>
+									</div>
+									
+									<div class="row" v-for="posts in results">
+										<div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6" v-for="post in posts">
+											<div class="card">
+												<div class="card-header">
+													主旨: {{post.Type}} -
+													<a v-bind:href=" post.Link ">{{post.Title}} </a>
+												</div>
+												<div class="card-body">
+													<div class="row">
+														<div class="col-12">
+	
+															<dl>
+																<dd> 編號: {{post.No}} </dd>
+																<dd> 類別: {{post.Category1}}: {{post.Category2}} </dd>
+																<dd> 日期: {{post.Date}} </dd>
+																<dd>
+																	說明: <div v-html="post.Description"></div>
+																</dd>
+																<dd>
+																	辦法/建議: <div v-html="post.Suggestion"></div>
+																</dd>
+																<dd>
+																	執行: <div v-html="post.Follow"></div>
+																</dd>
+															</dl>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+									<br><br>
+
+								</div>
+							</div>
+						</div>
+
+						<!-- Menu B5 -->
+						<div class="tab-pane" id="Menu-B5" role="tabpanel">
+							<div class="row">
+
+								<div class="col-md-6">
+
+									<h5>龜山區行政資訊</h5>
+									<ul>
+										<li> 2018 年里長選舉： <a href="fig/A7XLK-214-里長選舉.png">里長選舉結果</a></li>
+										<li> 龜山區 106年 <a href="file/XLK-217-106年度統計應用分析桃園市龜山區人口概況分析.pdf">人口概況分析</a>
+										</li>
+										<li> 維基百科 <a
+												href="https://zh.wikipedia.org/zh-tw/%E9%BE%9C%E5%B1%B1%E5%8D%80">龜山區</a>
+										</li>
+										<li>
+											凱文數據秀 <a href="https://www.youtube.com/watch?v=D1hLsA2eXbs">桃園排名前80的各里人口</a>
+										</li>
+										<li>
+											BN 單身狗 2022/11/02 <a
+												href="https://www.youtube.com/watch?v=dHFxWgkGs9o">我看到的A7缺點</a> -
+											在地居住三年體感分享
+										</li>
+									</ul>
+									A7 重劃區涵蓋的龜山行政里
+									<ul>
+										<li>文青里 5個建案 1,450戶: 竹城宇治, 竹城明治, 富宇天匯, 新未來1, 櫻花澍</li>
+										<li>文化里 4個建案 1,159戶: 友文化, 文華天際, 合遠新天地, 富宇悅峰</li>
+										<li>樂善里 30個建案 12,023戶: 其他 <a
+												href="https://tcwang.github.io/A7Xinlinkou/A7XLK-11-Community.html#Menu-B1">30餘
+												建案</a> </li>
+										<li>長庚里 6個建案 1,350戶: 玉子園, 和發大境, 奇幻莊園, 樂田田, 樂捷市, 台北國際村</li>
+									</ul>
+									龜山區所有里的人口比例
+									<img src="fig/A7XLK-115-Park/A7XLK-1155-人口分析-04.png" class="img-fluid"
+										style="width:600px"><br><br>
+									<a
+										href="https://www.google.com.tw/maps/place/333%E6%A1%83%E5%9C%92%E5%B8%82%E9%BE%9C%E5%B1%B1%E5%8D%80/@25.0307859,121.2936051,12.27z/data=!4m5!3m4!1s0x34681e083fb747d1:0xdb337ae9b37986ab!8m2!3d25.0199092!4d121.3655989?hl=zh-TW&authuser=0">龜山區</a>
+									各行政里區域圖
+									<img src="fig/A7XLK-111-CommunityMap-03.jpeg" class="img-fluid"
+										style="width:1000px"><br><br>
+									桃園四大行政區人口成長: 龜山區是人口成長最快的區域<br>
+									<img src="fig/A7XLK-111-CommunityMap-13.webp" class="img-fluid"
+										style="width:400px"><br><br>
+									居民平均所得方面, 長庚里及文化里分別為 全龜山第一及第二高的區域。
+									<img src="fig/XLK-211-Environment/XLK-223-人口-02.jpeg" class="img-fluid"
+										style="width:600px">
+									<br><br>
+
+								</div>
+								<div class="col-md-6">
+
+									A7 重劃區人口成長趨勢圖 及相關4個里的相對人口成長: 其中樂善里佔A7重劃區最主要的行政里。在110年起人口快速成長。110年6月較去年同期成長 42%.
+									每戶平均人數比例上由原有2.6轉變為2.2，表示住戶為新婚夫妻的為主要族群 <br><br>
+									<img src="fig/A7XLK-115-Park/A7XLK-1155-人口分析-01.png" class="img-fluid"
+										style="width:600px"><br><br>
+									<img src="fig/A7XLK-115-Park/A7XLK-1155-人口分析-02.png" class="img-fluid"
+										style="width:300px">
+									<img src="fig/A7XLK-115-Park/A7XLK-1155-人口分析-03.png" class="img-fluid"
+										style="width:300px"><br><br>
+									<img src="fig/A7XLK-115-Park/A7XLK-1155-人口分析-11.png" class="img-fluid"
+										style="width:500px">
+									<br><br>
+									2020年 台灣人口首次進入負成長。每戶人口也逐年減少到 2020年的 每戶 2.64 人。
+
+									<img src="fig/A7XLK-115-Park/A7XLK-1155-人口分析-12.jpeg" class="img-fluid"
+										style="width:600px">
+									<br><br>
+									<img src="fig/XLK-211-Environment/XLK-223-人口-01.png" class="img-fluid"
+										style="width:800px">
+									<br>A7重劃區 四個里人口數在全桃園的排名
+									<br><br>
+
+								</div>
+							</div>
+
+						</div>
+
+
+						<!-- 插入下一項 -->
+
+
+
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+	</article>
+	<!-- InstanceEndEditable -->
+	<footer id="main_footer">
+		<p> A7 新林口 社區網站 2021</p>
+	</footer>
+
+	<!-- Vue 的 CDN -->
+	<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+
+	<!-- Bootstrap 4 JavaScript 的 CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+	<!-- Axios 的 CDN -->
+	<script src="https://unpkg.com/axios@0.9.1/dist/axios.min.js"></script>
+	<!-- My Goto Tab JavaScript -->
+	<script>
+		// Javascript to enable link to tab
+		var url = document.location.toString();
+		if (url.match('#')) {
+			$('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+		}
+
+		// Change hash for page-reload
+		$('.list-group a').on('shown.bs.tab', function (e) {
+			window.location.hash = e.target.hash;
+		})
+	</script>
+
+	<!-- Jump to tab  -->
+
+	<!-- InstanceBeginEditable name="JavaScriptRegion" -->
+
+	<!-- Google Form Embedded in Bootstrap CSS Web Site via  Formfacade -->
+	<script async defer
+		src="https://formfacade.com/include/102093894428003512314/form/1FAIpQLSf0_fU0ei3I2A-oWhp8TWuL6YmLICPfeMiZ_Fsstmj8ODMq4A/bootstrap.js?div=ff-compose"></script>
+
+	<script type="text/javascript">
+		google.charts.load("current", { packages: ["corechart"] });
+		google.charts.setOnLoadCallback(drawChart);
+		function drawChart() {
+			var data = google.visualization.arrayToDataTable([
+				["Element", "Density", { role: "style" }],
+				["Copper", 8.94, "#b87333"],
+				["Silver", 10.49, "silver"],
+				["Gold", 19.30, "gold"],
+				["Platinum", 21.45, "color: #e5e4e2"]
+			]);
+
+			var view = new google.visualization.DataView(data);
+			view.setColumns([0, 1,
+				{
+					calc: "stringify",
+					sourceColumn: 1,
+					type: "string",
+					role: "annotation"
+				},
+				2]);
+
+			var options = {
+				title: "Density of Precious Metals, in g/cm^3",
+				width: 600,
+				height: 400,
+				bar: { groupWidth: "95%" },
+				legend: { position: "none" },
+			};
+			var chart = new google.visualization.BarChart(document.getElementById("barchart_values"));
+			chart.draw(view, options);
+		}
+	</script>
+
+	<script>
+		const posts = []
+		const SECTIONS_01 = "里長"
+		const SECTIONS_02 = "長庚里, 樂善里, 文化里, 文青里"
+		const SECTIONS_03 = "Suggestion里長"
+
+		new Vue({
+			el: '#app1',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_01.split(', '),
+				section: '里長'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.category === this.section)
+					let i, j, chunkedArray = [], chunk = 50;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-2201-CommunityService.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			}
+		});
+
+		new Vue({
+			el: '#app2',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_02.split(', '),
+				section: '長庚里'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 22;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-2106-Announcement.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			}
+		});
+
+		new Vue({
+			el: '#app3',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_03.split(', '),
+				section: 'Suggestion里長'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 100;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-2109-Suggestion.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			}
+		});
+
+	</script>
+
+
+	<!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd -->
+
+</html>

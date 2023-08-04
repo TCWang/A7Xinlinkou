@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   -->
+  <!--  Bootstrap 5 CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+	<!-- Fontawesom 的 CDN -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+		integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- Google Icons CDN  -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+	<!-- My CSS file -->
+	<link rel="stylesheet" href="css/mycss.css">
+	<!-- InstanceBeginEditable name="doctitle" -->
+	<title>A7新林口 - 網路郵購</title>
+	<meta name="description" content="A7 XinLinKou Community Website">
+	<!-- InstanceEndEditable -->
+	<!-- InstanceBeginEditable name="head" -->
+	<!-- InstanceEndEditable -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag() { dataLayer.push(arguments); }
+		gtag('js', new Date());
+
+		gtag('config', 'G-Y94XE7PY1L');
+	</script>
+
+</head>
+
+<body>
+	<!-- Vue實例的掛載點 -->
+
+	<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand" href="index.html"> A7
+			新林口 社區網站 </a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+				class="navbar-toggler-icon"></span> </button>
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="index.html">網站公告</a>
+						<a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a>
+						<a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a>
+						<a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a>
+						<a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a>
+
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-briefcase"></i>交流 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-51-BulletinBoard.html">A7公告欄</a>
+						<a class="dropdown-item" href="A7XLK-52-VillageRepresentative.html">里長交流</a>
+						<a class="dropdown-item" href="A7XLK-53-CouncileMember.html">議員交流</a>
+						<a class="dropdown-item" href="A7XLK-54-MayorTaoyuan.html">市府交流-桃園</a>
+						<a class="dropdown-item" href="A7XLK-55-MayorNewTaipei.html">市府交流-新北</a>
+						<a class="dropdown-item" href="A7XLK-56-Community.html">社區交流</a>
+					</div>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-briefcase"></i>服務 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a>
+						<a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a>
+						<a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a>
+						<a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a>
+						<a class="dropdown-item" href="A7XLK-25-Covid19.html">新冠肺炎</a>
+						<a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a>
+					</div>
+				</li>
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-utensils"></i>餐飲</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+						<a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a>
+						<a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a>
+			  <a class="dropdown-item" href="A7XLK-34-Ordering.html">全省美食</a> 
+			  <a class="dropdown-item" href="A7XLK-35-HealthyFood.html">飲食健康</a> 
+					</div>
+				</li>
+
+
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-shopping-cart"></i>購物</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>
+						<a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a>
+
+<!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 
+		-->			  
+			  <a class="dropdown-item" href="A7XLK-43-Housing.html">住屋居家</a> 
+
+						<a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a>
+						<a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+	</nav>
+
+	<!-- Jumbotron-->
+	<!-- InstanceBeginEditable name="JumbotronRegion" -->
+	<div class="jumbotron jumbotron-fluid jumbotron-bg41 d-flex align-items-end">
+		<div class="container">
+			<div class="bg-lighter p-1" style="width:300px">
+				<h5 class="text-white">網路郵購</h5>
+				<p class="text-white">生鮮食品如何買的安心？</p>
+			</div>
+		</div>
+	</div>
+	<!-- InstanceEndEditable -->
+
+	<!-- InstanceBeginEditable name="main_heading" -->
+	<h2 id="main_heading"> </h2>
+	<!-- InstanceEndEditable -->
+
+	<!-- Vue實例的掛載點 -->
+	<!-- InstanceBeginEditable name="main_content" -->
+	<article>
+		<div class="row mx-0 ">
+			<div class="col-12 col-sm-12 col-md-3 col-lg-2">
+				<div class="list-group" id="MenuList" role="tablist">
+					<a href="#Menu-B1" class="list-group-item list-group-item-action active"
+						data-toggle="list">生鮮箱宅配</a>
+					<a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">防疫專頁</a>
+					<a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">郵購匯總</a>
+					<a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">精品首飾</a>
+					<a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">社區團購</a>
+					<a href="#Menu-B6" class="list-group-item list-group-item-action" data-toggle="list">團購平台</a>
+				</div>
+				<br>
+			</div>
+			<div class="col-12 col-sm-12 col-md-9 col-lg-10">
+				<div class="tab-content">
+
+					<div class="tab-pane active" id="Menu-B1" role="tabpanel">
+						<article>
+							<h3>生鮮箱宅配</h3>
+
+							<div id="app1" >
+								<h3>生活郵購</h3> <br />
+
+
+								<div v-show="no" class="alert alert-info" role="alert">
+
+									<div class="row">
+										<div class="col-8">
+											<div class="form-group">
+												<select class="form-control" v-model="section"
+													id="exampleFormControlSelect1">
+													<option v-for="section in sections">{{ section }}</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-4">
+											<h5 class="text-center"> 選擇類別 </h5>
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="row" v-for="posts in results">
+									<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+										<div class="card">
+											<div class="card-header">
+												<a v-bind:href="post.link">
+													{{ post.title }}
+												</a>
+											</div>
+											<div class="card-body">
+												<p class="card-text">
+												<div class="row">
+													<div class="col-5">
+														<a v-bind:href="post.link"><img v-bind:src="post.figure"
+																class="img-fluid" style="width:400px"></a>
+													</div>
+													<div class="col-7">
+														<dl>
+															<dd>{{post.address}}</dd>
+															<dd>客服：{{post.telphone}}</dd>
+														</dl>
+													</div>
+												</div>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</article>
+					</div>
+
+					<div class="tab-pane" id="Menu-B2" role="tabpanel">
+						<!-- Menu B2 -->
+
+						<article>
+
+							<div id="app2" >
+								<h3>防疫專頁</h3> <br />
+								<div class="row">
+									<div class="col-md-6">
+										防疫採購資訊
+										<ul>
+											<li>
+												Elle 2021/07/08 <a href="https://www.elle.com/tw/life/foodie/g36580067/vegetable-box-delivery/">全台防疫蔬菜箱、食材箱最強懶人包，不斷更新</a>
+											</li>
+											<li>
+												WolkerLand 2021/06/05  <a href="https://www.walkerland.com.tw/subject/view/300720">在家線上訂「73個蔬菜箱、防疫物資箱」</a> - 販售通路總整理
+											</li>
+											<li>商業周刊 2021/05/26: <a
+													href="https://www.businessweekly.com.tw/business/blog/3006599?utm_source=Line&utm_medium=social&utm_content=bw&utm_campaign=content&fbclid=IwAR1M7HlE8cpnZQo3ksQlGw1cjaeZhR_U54MD9_YYgRgza8gOhcJ3gMiCLEk">免運的防疫蔬菜箱哪裡買？</a>
+											</li>
+											<li>ELLE 2021/05/31: <a
+													href="https://www.elle.com/tw/life/foodie/g36565991/veg-fruits-box/">線上買菜推薦</a>
+												- 5大通路、10大網路生鮮平台懶人包，蔬果箱、新鮮肉品、防疫物資一次購齊 </li>
+										</ul>
+									</div>
+									<div class="col-md-6">
+										防疫隔離後，所有生活需求就只能 網購, 避免外出採購。 需要什麼買什麼 也不要囤積事後沒有用到的物品。<br><br>
+										<h5>生鮮箱 供應商</h5>
+										<ul>
+											<li>
+												<a href="https://www.superbuy.com.tw/collection_fast.php?main_cate=608">SuperBuy 市集</a> - 自由配蔬果箱
+											</li>
+											<li>
+												<a href="https://www.green-n-safe.com/Foodbox/Intro">Green &amp; Safe</a> - 百寶箱組合
+											</li>
+											<li>
+												<a href="https://www.facebook.com/rshhfreshshop/">人生海海蔬果專車</a> 
+											</li>
+											<li>
+												<a href="https://ohler.cyberbiz.co/?fbclid=IwAR3xBeXlgQ6wYAni8LPKePX2uHLJMvCLZn8X0F5nVt5OmelhU7liX0fgwz0">純淨農產合作社</a> - 在地友善食材
+											</li>
+										</ul>
+									<h5>防疫用品供應商</h5>
+									<ul>
+										<li>
+											<a href="https://www.bb-homecare.com/">雙寶居家保健生活館</a>
+										</li>
+									</ul>
+
+									</div>
+								</div>
+
+
+								<div class="alert alert-info" role="alert">
+
+									<div class="row">
+										<div class="col-8">
+											<div class="form-group">
+												<select class="form-control" v-model="section"
+													id="exampleFormControlSelect1">
+													<option v-for="section in sections">{{ section }}</option>
+												</select>
+											</div>
+										</div>
+										<div class="col-4">
+											<h5 class="text-center"> 選擇類別 </h5>
+										</div>
+									</div>
+								</div>
+
+
+
+								<div class="row" v-for="posts in results">
+									<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+										<div class="card">
+											<div class="card-header">
+												<a v-bind:href="post.link">
+													{{ post.title }}
+												</a>
+											</div>
+											<div class="card-body">
+												<p class="card-text">
+												<div class="row">
+													<div class="col-5">
+														<a v-bind:href="post.link"><img v-bind:src="post.figure"
+																class="img-fluid" style="width:400px"></a>
+													</div>
+													<div class="col-7">
+														<dl>
+															<dd>{{post.address}}</dd>
+															<dd>客服：{{post.telphone}}</dd>
+														</dl>
+													</div>
+												</div>
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+						</article>
+
+					</div>
+
+					<div class="tab-pane" id="Menu-B3" role="tabpanel">
+						<!-- Menu B3 -->
+						<h3>郵購匯總</h3>
+						<div  id="app3">
+							<div v-show="false" class="alert alert-info mt-2" role="alert">
+								<div class="row">
+									<div class="col">
+										<div class="form-group">
+											<select class="form-control" v-model="section"
+												id="exampleFormControlSelect3">
+												<option v-for="section in sections">{{ section }}</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-4">
+										<h5 class="text-center">選擇類別</h5>
+									</div>
+								</div>
+							</div>
+
+							<div class="row" v-for="posts in results">
+								<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+									<div class="card mx-0 px-0">
+										<div class="card-header">
+											<a v-bind:href="post.Link"> {{ post.Information }} </a>
+										</div>
+										<div class="card-body">
+											<p class="card-text">
+												<a v-bind:href="post.Link">
+													<img v-bind:src="post.Figure" class="img-fluid" style="width:180px">
+												</a>
+
+											</p>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+
+					<div class="tab-pane" id="Menu-B4" role="tabpanel">
+						<!-- Menu B4 -->
+						<h3>精品首飾</h3>
+						<div  id="app4">
+							<div v-show="false" class="alert alert-info mt-2" role="alert">
+								<div class="row">
+									<div class="col">
+										<div class="form-group">
+											<select class="form-control" v-model="section"
+												id="exampleFormControlSelect3">
+												<option v-for="section in sections">{{ section }}</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-4">
+										<h5 class="text-center">選擇類別</h5>
+									</div>
+								</div>
+							</div>
+
+							<div class="row" v-for="posts in results">
+								<div class="col-6 col-sm-6 col-md-4 col-lg-3 col-xl-2" v-for="post in posts">
+									<div class="card mx-0 px-0">
+										<div class="card-header">
+											<a v-bind:href="post.Link"> {{ post.Information }} </a>
+										</div>
+										<div class="card-body">
+											<p class="card-text">
+												<a v-bind:href="post.Link">
+													<img v-bind:src="post.Figure" class="img-fluid" style="width:180px">
+												</a>
+
+											</p>
+										</div>
+									</div>
+
+								</div>
+
+							</div>
+
+						</div>
+
+
+					</div>
+
+
+
+					<div class="tab-pane" id="Menu-B5" role="tabpanel">
+						<!-- Menu B5 -->
+
+						<h3>社區團購</h3>
+
+						<div id="app5" >
+							<div v-show="no" class="alert alert-info" role="alert">
+
+								<div class="row">
+									<div class="col-8">
+										<div class="form-group">
+											<select class="form-control" v-model="section"
+												id="exampleFormControlSelect1">
+												<option v-for="section in sections">{{ section }}</option>
+											</select>
+										</div>
+									</div>
+									<div class="col-4">
+										<h5 class="text-center"> 選擇類別 </h5>
+									</div>
+								</div>
+							</div>
+
+
+
+							<div class="row" v-for="posts in results">
+								<div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+									<div class="card">
+										<div class="card-header">
+											<a v-bind:href="post.link">
+												{{ post.title }}
+											</a>
+										</div>
+										<div class="card-body">
+											<p class="card-text">
+											<div class="row">
+												<div class="col-5">
+													<a v-bind:href="post.link"><img v-bind:src="post.figure"
+															class="img-fluid" style="width:400px"></a>
+												</div>
+												<div class="col-7">
+													<dl>
+														<dd>成立日期：{{post.build}}</dd>
+														<dd>交貨點：{{post.address}}</dd>
+														<dd>會員數：{{post.member}} </dd>
+													</dl>
+												</div>
+											</div>
+											<span v-html="post.notice"></span> <br>
+											<span v-html="post.description"></span>
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+					</div>
+
+					<div class="tab-pane" id="Menu-B6" role="tabpanel">
+						<!-- Menu B6 -->
+						<div class="row">
+							<div class="col-md-6">
+								<h3>電商團購平台</h3>
+								<h5>超級好賣 平台</h5>
+								<ul>
+									<li>數位時代 2022/07/27 <a href="https://www.bnext.com.tw/article/70839/familymart-famishop-2022">全家推「超級好賣」平台</a> - 免手續費、推團購功能，搶攻小賣家商機 </li>
+									<li>全家FamilyMart <a href="https://www.family.com.tw/Web_EnterPrise/page/NewsContent.aspx?ID=696">「全家」創分眾化電商開店平台 助攻小賣家升級</a>  </li>
+								</ul>
+
+								<h5>超級好賣 主要網址</h5>
+								<ul>
+									<li>超級好賣 <a href="https://supersell.fami.life/">官方網站</a>, <a href="https://supersell.fami.life/profile/order-management">買家專區</a>, <a href="https://supersell.fami.life/middle">賣家專區</a>  </li>
+									<li>全家FamiPort 店到店 <a href="https://www.famiport.com.tw/Web_Famiport/page/service_caption.aspx?MN=5&CN=1141">寄件</a> </li>
+									<li>Facebook: <a href="https://www.facebook.com/Supersell.fami/">超級好賣</a> </li>
+									<li>
+										手機APP: <a href="https://lihi2.cc/qCt7b">iOS</a>, <a href="https://lihi2.cc/3dQhy">Android</a>
+									</li>
+									<li>2022/08/05  <a href="https://www.youtube.com/watch?v=a0MFGTuvOn8">賣場管理</a> 新增功能 黑名單封鎖、團購商品、多元金物流、即時聊聊對話等 </li>
+								</ul>
+
+								<h5>超級好賣 平台簡介</h5>
+								全家便利商店 2022/07/25 推出旗下電商新服務 <a href="https://supersell.fami.life/">「超級好賣」</a> ，讓賣家可以將商品上架、並將購買連結轉貼到Facebook、Instagram或是LINE等等社群中，買家透過購買連結下訂後，買賣方就可以使用店到店取貨付款功能，是一個完整整合金流、物流、資訊流的電商服務。<br><br>
+								超級好賣平台 具有免成交手續費、免貨到付款手續費的優勢， 全家電商平台爭取常溫運費60元、冷凍運費180元的店到店物流作業商機，並持續推出針對電商賣家的相關服務。會給競爭激烈的便利店帶來另類商機。
+								<br><br>
+							</div>
+							<div class="col-md-6">
+								<h5>全家 店到店 使用教學 </h5>
+								<ul>
+									<li>2020/01/09 全家 好賣+ <a href="https://www.youtube.com/watch?v=j3Rbu9Jg9yI">如何編輯賣場？</a> </li>
+									<li>2021/07/27 全家 好賣+ <a href="https://www.youtube.com/watch?v=CsEkfLeC96E">賣家出貨教學</a> 全家店到店好Easy｜超商寄送哪些限制告訴你</li>
+									<li>2021/06/20 全家 好賣+ <a href="https://www.youtube.com/watch?v=rOh3moeuEeM">好賣家賣場設定教學</a> </li>
+									<li>2020/01/09 全家 好賣+ <a href="https://www.youtube.com/watch?v=1sbiAeH3MMc">如何取得寄件編號？</a> </li>
+									<li>2020/01/20 全家 好賣+ <a href="https://www.youtube.com/watch?v=TObaUzu0cyA">如何至 FamiPort 機台寄件？</a> </li>
+									<li>全家店到店 <a href="https://www.youtube.com/watch?v=UrFZyVgm7j8">取貨付款</a> </li>
+								</ul>
+								<h5>全家店到店 電商平台</h5>
+								依據 <a href="https://www.inside.com.tw/feature/familymart-ec/20243-familymart-ec-compare">全家開店平台比一比</a>, 
+								全家提供的電商平台包含: 「<a href="https://famistore.famiport.com.tw/famistore/">好賣＋</a>」、「<a href="https://famishop.fami.life/">好開店</a>」、「<a href="https://haostore.fami.life/haostore/">好店＋</a>」和生鮮商店街「<a href="https://haofresh.fami.life/haofresh/">好生凍</a>」。 
+								<ul>
+									<li>「<a href="https://famistore.famiport.com.tw/famistore/">好賣＋</a>」: 是全家提供的一款簡易創業平台，商品可以即時上架並分享至社群，買賣雙方註冊全家會員後，即可下單購物，並使用全家的物流與金流服務。 </li>
+									<li>「<a href="https://famishop.fami.life/">好開店</a>」: 是「好賣＋」再更進階的工具, 兩者最大的不同是，「好賣＋」並沒有屬於自已的店面，僅是單純的商品上架銷售；而使用「好開店」，則可以經營屬於自己的電商品牌，簡單三步驟即可迅速架設電商官網，讓賣場可以被搜尋、增加買家曝光度。除了同樣享有全家物流／金流服務外，「好開店」也具備基本的會員經營功能，並提供促銷組合工具，讓賣家在行銷上省了不少心力。 </li>
+									<li>「<a href="https://haostore.fami.life/haostore/">好店＋</a>」: 是全家三款平台工具中的旗艦款，擁有最多元的實用工具。除了享有與「好開店」相同的基本配備之外，還多了會員分級管理功能、多元行銷模組工具、營銷報表分析。要特別注意的是，賣家必須要有營利事業登記證才能註冊「好店＋」；如果只是個人電商業者要在網路上經營品牌，可以先使用「好開店」作為入門。</li>
+								</ul>
+								
+							</div>
+						</div>
+					</div>					
+
+					<!-- 插入下一項 -->
+
+
+				</div>
+
+			</div>
+
+		</div>
+
+
+
+
+	</article>
+	<!-- InstanceEndEditable -->
+	<footer id="main_footer">
+		<p> A7 新林口 社區網站 2021</p>
+	</footer>
+
+	<!-- Vue 的 CDN 
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.12/vue.js"></script>
+	<script src="https://unpkg.com/vue@2.6.9/dist/vue.js"></script>
+		-->
+		<script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+
+
+
+	<!-- Bootstrap 4 JavaScript 的 CDN -->
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+		crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+		integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+		crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+		integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+		crossorigin="anonymous"></script>
+	<!-- Axios 的 CDN -->
+	<script src="https://unpkg.com/axios@0.9.1/dist/axios.min.js"></script>
+	<!-- My Goto Tab JavaScript -->
+	<script>
+		// Javascript to enable link to tab
+		var url = document.location.toString();
+		if (url.match('#')) {
+			$('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+		}
+
+		// Change hash for page-reload
+		$('.list-group a').on('shown.bs.tab', function (e) {
+			window.location.hash = e.target.hash;
+		})
+	</script>
+
+	<!-- Jump to tab  -->
+
+	<!-- InstanceBeginEditable name="JavaScriptRegion" -->
+	<script>
+
+
+		const posts = []
+		const SECTIONS_01 = "防疫採購"
+		const SECTIONS_02 = "生鮮食材, 防疫藥品"
+		const SECTIONS_03 = "網路購物"
+		const SECTIONS_04 = "精品首飾"
+		const SECTIONS_05 = "社區團購"
+
+		new Vue({
+			el: '#app1',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_01.split(', '),
+				section: '防疫採購'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.category === this.section)
+					let i, j, chunkedArray = [], chunk = 20;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-4101-EpidemicShopping.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+		});
+
+		new Vue({
+			el: '#app2',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_02.split(', '),
+				section: '生鮮食材'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.category === this.section)
+					let i, j, chunkedArray = [], chunk = 20;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+			mounted() {
+				axios.get('db/A7XLK-4107-AntiEpidemic.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+		});
+
+		new Vue({
+			el: '#app3',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_03.split(', '),
+				section: '網路購物'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 50;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+
+			mounted() {
+				axios.get('db/A7XLK-4103-OnlineShopping.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
+
+
+		new Vue({
+			el: '#app4',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_04.split(', '),
+				section: '精品首飾'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.Category === this.section)
+					let i, j, chunkedArray = [], chunk = 50;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+
+			mounted() {
+				axios.get('db/A7XLK-4104-Jewelry.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
+
+
+		new Vue({
+			el: '#app5',
+			data: {
+				posts,
+				// results: [],
+				sections: SECTIONS_05.split(', '),
+				section: '社區團購'
+			},
+			filter: {
+				formatted(value) {
+					return ' 以下是 ${value} 類別的貼文 '
+				}
+			},
+
+			computed: {
+				results() {
+					let posts = this.posts
+						.slice()
+						.filter(post => post.category === this.section)
+					let i, j, chunkedArray = [], chunk = 50;
+					for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+						chunkedArray[j] = posts.slice(i, i + chunk);
+					}
+					return chunkedArray
+				}
+			},
+
+
+			mounted() {
+				axios.get('db/A7XLK-4106-GroupShopping.json').then((response) => {
+					this.posts = response.data;
+					this.getPostsByCategory(this.section)
+				}).catch(error => { console.log(error); });
+			},
+
+		});
+
+	</script>
+	<!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd -->
+
+</html>

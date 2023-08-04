@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- InstanceBegin template="/Templates/A7xinlinkou-01-Template01.dwt" codeOutsideHTMLIsLocked="false" -->
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N3XPF8S8JY"></script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+  <!-- Bootstrap 4 CSS 的 CDN
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+   -->
+  <!--  Bootstrap 5 CDN-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+
+  <!-- Fontawesom 的 CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+  <!-- Google Icons CDN  -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- My CSS file -->
+  <link rel="stylesheet" href="css/mycss.css">
+  <!-- InstanceBeginEditable name="doctitle" -->
+  <title>A7新林口 - 百貨購物</title>
+  <meta name="description" content="A7 XinLinKou Community Website">
+  <!-- InstanceEndEditable -->
+  <!-- InstanceBeginEditable name="head" -->
+  <!-- InstanceEndEditable -->
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-Y94XE7PY1L"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-Y94XE7PY1L');
+  </script>
+
+</head>
+
+<body>
+  <!-- Vue實例的掛載點 -->
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top"> <a class="navbar-brand" href="index.html"> A7
+      新林口 社區網站 </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
+        class="navbar-toggler-icon"></span> </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-home"></i>環境 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="index.html">網站公告</a>
+            <a class="dropdown-item" href="A7XLK-11-Community.html">社區建案</a>
+            <a class="dropdown-item" href="A7XLK-12-ParkTrail.html">公園步道</a>
+            <a class="dropdown-item" href="A7XLK-13-Transportation.html">行車交通</a>
+            <a class="dropdown-item" href="A7XLK-14-InformationQuery.html">網路資訊</a>
+
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown5" role="button"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i
+							class="fas fa-briefcase"></i>交流 </a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<a class="dropdown-item" href="A7XLK-51-BulletinBoard.html">A7公告欄</a>
+						<a class="dropdown-item" href="A7XLK-52-VillageRepresentative.html">里長交流</a>
+						<a class="dropdown-item" href="A7XLK-53-CouncileMember.html">議員交流</a>
+						<a class="dropdown-item" href="A7XLK-54-MayorTaoyuan.html">市府交流-桃園</a>
+						<a class="dropdown-item" href="A7XLK-55-MayorNewTaipei.html">市府交流-新北</a>
+						<a class="dropdown-item" href="A7XLK-56-Community.html">社區交流</a>
+					</div>
+				</li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-briefcase"></i>服務 </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-21-CommunityService.html">社區服務</a>
+            <a class="dropdown-item" href="A7XLK-22-PublicService.html">公用事業</a>
+            <a class="dropdown-item" href="A7XLK-23-EnvironmentalProtection.html">環境保護</a>
+            <a class="dropdown-item" href="A7XLK-24-FloodPrevention.html">防汛抗災</a>
+            <a class="dropdown-item" href="A7XLK-25-Covid19.html">新冠肺炎</a>
+            <a class="dropdown-item" href="A7XLK-26-MedicalService.html">醫療保健</a>
+          </div>
+        </li>
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown3" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-utensils"></i>餐飲</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-31-Restaurant.html">餐廳推薦</a>
+            <a class="dropdown-item" href="A7XLK-32-RestaurantA7.html">社區小吃</a>
+            <a class="dropdown-item" href="A7XLK-33-Cooking.html">廚藝教室</a>
+            <a class="dropdown-item" href="A7XLK-34-Ordering.html">全省美食</a>
+            <a class="dropdown-item" href="A7XLK-35-HealthyFood.html">飲食健康</a>
+          </div>
+        </li>
+
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown4" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false"> <i class="fas fa-shopping-cart"></i>購物</a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="A7XLK-41-OnlineShopping.html">網路郵購</a>
+            <a class="dropdown-item" href="A7XLK-44-DepartmentStore.html">百貨購物</a>
+
+            <!--			  
+			  <a class="dropdown-item" href="../A7XLK-42-Clothing.html">衣著配件</a> 
+		-->
+            <a class="dropdown-item" href="A7XLK-43-Housing.html">住屋居家</a>
+
+            <a class="dropdown-item" href="A7XLK-45-HousholdAppliance.html">家用電器</a>
+            <a class="dropdown-item" href="A7XLK-46-EnvironmentProtection.html">優質生活</a>
+          </div>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Jumbotron-->
+  <!-- InstanceBeginEditable name="JumbotronRegion" -->
+  <div class="jumbotron jumbotron-fluid jumbotron-bg44 d-flex align-items-end">
+    <div class="container">
+      <div class="bg-lighter p-1" style="width:300px">
+        <h5 class="text-white">生活黃頁</h5>
+        <p class="text-white">A7 重劃區的購物資訊匯總</p>
+      </div>
+    </div>
+  </div>
+  <!-- InstanceEndEditable -->
+
+  <!-- InstanceBeginEditable name="main_heading" -->
+  <h2 id="main_heading"> </h2>
+  <!-- InstanceEndEditable -->
+
+  <!-- Vue實例的掛載點 -->
+  <!-- InstanceBeginEditable name="main_content" -->
+  <article>
+
+    <div class="container-fluid">
+      <div class="row ">
+        <h3>生活黃頁</h3>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="list-group" id="MenuList" role="tablist">
+            <a href="#Menu-B1" class="list-group-item list-group-item-action active" data-toggle="list">1.生活消費</a>
+            <a href="#Menu-B2" class="list-group-item list-group-item-action" data-toggle="list">2.休閒文化</a>
+            <a href="#Menu-B3" class="list-group-item list-group-item-action" data-toggle="list">3.工商服務</a>
+            <a href="#Menu-B4" class="list-group-item list-group-item-action" data-toggle="list">4.社會服務</a>
+            <a href="#Menu-B5" class="list-group-item list-group-item-action" data-toggle="list">3.1 汽車維修</a>
+          </div>
+          <br>
+        </div>
+        <div class="col-md-10">
+
+          <div class="tab-content">
+
+            <!-- Menu B1 -->
+            <div class="tab-pane active" id="Menu-B1" role="tabpanel">
+
+              <h3> 1.生活消費 </h3>
+
+              <div class="alert alert-info" role="alert">
+
+                <div class="row">
+                  <div class="col-8">
+                    <div class="form-group">
+                      <select class="form-control" v-model="section" id="exampleFormControlSelect1">
+                        <option v-for="section in sections">{{ section }}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <h5 class="text-center"> 選擇類別 </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" v-for="posts in results">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-4" v-for="post in posts">
+                  <div class="card">
+                    <div class="card-header">
+                      {{post.directory3}}: <a v-bind:href="post.link">
+                        {{ post.title }}
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                      <div class="row">
+                        <div class="col-6">
+                          <img v-bind:src="post.figure" class="img-fluid" style="width:600px">
+                        </div>
+                        <div class="col-6">
+                          <dl>
+                            <dd>{{post.address}}</dd>
+                            <dd>{{post.telphone}}</dd>
+                            <dd>時間: {{post.hours}}</dd>
+                          </dl>
+                        </div>
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <!-- Menu B2 -->
+            <div class="tab-pane" id="Menu-B2" role="tabpanel">
+
+              <h3> 2.休閒文化 </h3>
+              <div class="alert alert-info" role="alert">
+
+                <div class="row">
+                  <div class="col-8">
+                    <div class="form-group">
+                      <select class="form-control" v-model="section" id="exampleFormControlSelect1">
+                        <option v-for="section in sections">{{ section }}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <h5 class="text-center"> 選擇類別 </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" v-for="posts in results">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+                  <div class="card">
+                    <div class="card-header">
+                      {{post.directory3}}: <a v-bind:href="post.link">
+                        {{ post.title }}
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                      <div class="row">
+                        <div class="col-4">
+                          <img v-bind:src="post.figure" class="img-fluid" style="width:150px">
+                        </div>
+                        <div class="col-8">
+                          <dl>
+                            <dd>{{post.address}}</dd>
+                            <dd>{{post.telphone}}</dd>
+                            <dd>營業 {{post.hours}}</dd>
+                          </dl>
+                        </div>
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+
+            <!-- Menu B3 -->
+            <div class="tab-pane" id="Menu-B3" role="tabpanel">
+
+              <h3> 3.工商服務 </h3>
+              <div class="alert alert-info" role="alert">
+
+                <div class="row">
+                  <div class="col-8">
+                    <div class="form-group">
+                      <select class="form-control" v-model="section" id="exampleFormControlSelect1">
+                        <option v-for="section in sections">{{ section }}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <h5 class="text-center"> 選擇類別 </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" v-for="posts in results">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+                  <div class="card">
+                    <div class="card-header">
+                      {{post.directory3}}: <a v-bind:href="post.link">
+                        {{ post.title }}
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                      <div class="row">
+                        <div class="col-4">
+                          <img v-bind:src="post.figure" class="img-fluid" style="width:150px">
+                        </div>
+                        <div class="col-8">
+                          <dl>
+                            <dd>{{post.address}}</dd>
+                            <dd>{{post.telphone}}</dd>
+                            <dd>營業 {{post.hours}}</dd>
+                          </dl>
+                        </div>
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Menu B4 -->
+            <div class="tab-pane" id="Menu-B4" role="tabpanel">
+
+              <h3> 4.社會服務 </h3>
+              <div class="alert alert-info" role="alert">
+
+                <div class="row">
+                  <div class="col-8">
+                    <div class="form-group">
+                      <select class="form-control" v-model="section" id="exampleFormControlSelect1">
+                        <option v-for="section in sections">{{ section }}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <h5 class="text-center"> 選擇類別 </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" v-for="posts in results">
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+                  <div class="card">
+                    <div class="card-header">
+                      {{post.directory3}}: <a v-bind:href="post.link">
+                        {{ post.title }}
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                      <div class="row">
+                        <div class="col-4">
+                          <img v-bind:src="post.figure" class="img-fluid" style="width:150px">
+                        </div>
+                        <div class="col-8">
+                          <dl>
+                            <dd>{{post.address}}</dd>
+                            <dd>{{post.telphone}}</dd>
+                            <dd>營業 {{post.hours}}</dd>
+                          </dl>
+                        </div>
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Menu B5 -->
+            <div class="tab-pane" id="Menu-B5" role="tabpanel">
+
+              <div class="row">
+                <div class="col-md-6">
+                  <h3> 3.1 汽車維修 </h3>
+                  <ul>
+                    <li>車勢網 <a href="https://www.carce.cc/garage/city/13/42">新北市 林口區</a>, <a
+                        href="https://www.carce.cc/garage/city/16/82">桃園市 龜山區</a> - 近400家修車廠上架，幫車主依照品牌與車況找到專業車廠。</li>
+                    <li>HOT大聯盟 <a href="https://www.hotcar.com.tw/CWA/CWA180.html">HOT 保修大聯盟</a> - 提供全方位專業保修平台</li>
+                    <li>UUCAR <a href="https://uucar.in/">救援小英雄</a> - 汽車 維修救援 手機定位搜尋， 快速找到可靠維修廠，讓你輕鬆獲救！ </li>
+                    <li>Carcargo <a href="https://www.carcargo.com/">車評網</a> - 全站集結300+間優質保養廠 您可以依照地點及車輛品牌來查詢 </li>
+                  </ul>
+
+                  <h5>汽車維修/保養廠</h5>
+
+                  汽車維修相關廠商請查詢 本網站 購物 / 百貨購物 / 3. 工商服務 / <a
+                    href="https://tcwang.github.io/A7Xinlinkou/A7XLK-44-DepartmentStore.html#Menu-B3">3.1 行車運輸 </a>
+                  <br><br>
+
+                  <h5>輪胎品牌推薦 </h5>
+                  舒適耐磨型
+                  <ul>
+                    <li>
+                      Bridgestone 普利司通 ER33: 215/55/17
+                    </li>
+                    <li>
+                      Goodyear 固特異 ATM2: 205/55R16
+                    </li>
+                    <li>
+                      Michelin 米其林 Primacy 4: 205/55 R16
+                    </li>
+                    <li>
+                      Yokohama 橫濱
+                    </li>
+                    <li>
+                      Maxxis 瑪吉斯
+                    </li>
+                    <li>
+                      Pirelli 倍耐力
+                    </li>
+                  </ul>
+                  高速性能型
+                  <ul>
+                    <li>
+                      Continental 德國馬牌 PC6: 215/55R17 94V
+                    </li>
+                    <li>
+                      Goodyear 固特異 EGP2: 215/55R17 94W
+                    </li>
+                  </ul>
+                  <h5>輪胎參數</h5>
+                  <img src="fig/XLK-469-Car/XLK-4609-CarRepair-00.png" class="img-fluid" style="width:800px">
+                  <br><br>
+
+                </div>
+                <div class="col-md-6">
+                  <h5>道路救援</h5>
+                  在A7重劃區 附近需要道路救援，可聯繫下面 地區保養廠具有道路救援”Ｙ“標示的廠商, 尋求就近警急維修。
+                  <ul>
+                    <li>高速公路 拖救服務 <a href="https://www.freeway.gov.tw/Publish.aspx?cnid=518">1968 拖救專線</a> </li>
+                    <li>全鋒事業 <a href="https://www.24tms.com.tw/rodaside.php">道路救援</a> 市占率高達 70% 道路救援第一品牌 </li>
+                    <li>全省24H 拖救服務 <a href="https://carbus.com.tw/">全國通 汽車道路救援網</a> - 包含 道路救援, 機車救援, 地下室拖吊 </li>
+                  </ul>
+
+
+
+                  <h5>輪胎評比</h5>
+                  <ul>
+                    <li><a href="https://www.carcar.io/tire/1855/bridgestone-turanza-er33/">輪胎性能比較</a> </li>
+                    <li><a href="https://www.youtube.com/watch?v=fxnhpOiqiMc">輪胎那麼多到底怎麼選？</a> </li>
+                    <li>良品工研所 2022/04/12 <a
+                        href="https://www.ezneering.com/%E6%B1%BD%E8%BB%8A%E8%BC%AA%E8%83%8E%E5%B0%88%E6%A5%AD%E6%8E%A8%E8%96%A6/">2022
+                        最新10款熱門汽車輪胎專業推薦</a> </li>
+                    <li>汽車頻道 2021/03/07 <a href="https://auto.ltn.com.tw/news/17237/3">2021 輪胎品牌實測排行榜</a> </li>
+                    <li>MyBest <a href="https://my-best.tw/116506">2022 十大SUV用輪胎推薦排行榜</a> </li>
+                    <li>刷報 2022/09/11 <a href="https://tw.buy.yahoo.com/shopdaily/chart/%E8%BC%AA%E8%83%8E">十大 輪胎
+                        好口碑榜單</a> </li>
+                    <li>琪積輪胎 <a href="https://www.optwonder.com.tw/news-detail-2281105.html">輪胎品牌介紹</a> </li>
+                  </ul>
+                  <h5>機車品牌</h5>
+                  主要機車品牌包含: 三陽機車(SYM), 光陽機車(KYMCO), 台灣山葉機車(YAMAHA), 台灣鈴木機車(SUZUKI), 台灣本田機車(HONDA) <br>
+                  主要電動機車: Gogoro, ionex 光陽機車的電動車。
+                  <br><br>
+                </div>
+              </div>
+
+
+              <div v-show="true" class="alert alert-info" role="alert">
+
+                <div class="row">
+                  <div class="col-8">
+                    <div class="form-group">
+                      <select class="form-control" v-model="section" id="exampleFormControlSelect1">
+                        <option v-for="section in sections">{{ section }}</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="col-4">
+                    <h5 class="text-center"> 選擇類別 </h5>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row" v-for="posts in results">
+                <span style="color:blue">下面廠商是依據 車勢網 提供的 廠商資訊：</span>
+                <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4" v-for="post in posts">
+                  <div class="card">
+                    <div class="card-header">
+                      <a v-bind:href="post.Link">
+                        {{ post.Name }}
+                      </a>
+                    </div>
+                    <div class="card-body">
+                      <p class="card-text">
+                      <div class="row">
+                        <div class="col-12">
+                          <a v-bind:href="post.Link">
+                            <img v-bind:src="post.Figure" class="img-fluid" style="width:300px;">
+                          </a>
+                          <br><br>
+                          <dl>
+                            <dd>地址:<a v-bind:href="post.Map"> {{post.Address}} </a> </dd>
+                            <dd>電話: {{post.Phone}}</dd>
+                            <dd>營業: {{post.Hours}}</dd>
+                            <dd>評分: {{post.Score}} </dd>
+                            <dd>主修: {{post.Maker1}} </dd>
+                            <dd>道路救援: {{post.Help}} </dd>
+                          </dl>
+                        </div>
+                      </div>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- 插入下一項 -->
+
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </article>
+  <!-- InstanceEndEditable -->
+  <footer id="main_footer">
+    <p> A7 新林口 社區網站 2021</p>
+  </footer>
+
+  <!-- Vue 的 CDN -->
+  <script src="https://unpkg.com/vue@2/dist/vue.js"></script>
+
+  <!-- Bootstrap 4 JavaScript 的 CDN -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+    integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+    integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <!-- Axios 的 CDN -->
+  <script src="https://unpkg.com/axios@0.9.1/dist/axios.min.js"></script>
+  <!-- My Goto Tab JavaScript -->
+  <script>
+    // Javascript to enable link to tab
+    var url = document.location.toString();
+    if (url.match('#')) {
+      $('.list-group a[href="#' + url.split('#')[1] + '"]').tab('show');
+    }
+
+    // Change hash for page-reload
+    $('.list-group a').on('shown.bs.tab', function (e) {
+      window.location.hash = e.target.hash;
+    })
+  </script>
+
+  <!-- Jump to tab  -->
+
+  <!-- InstanceBeginEditable name="JavaScriptRegion" -->
+  <script>
+    const posts = []
+    const SECTIONS_21 = "1.1食品餐飲, 1.2衣著配件, 1.3住屋居家, 1.4百貨購物, 1.5家用電器"
+    const SECTIONS_22 = "2.1育才學術, 2.2休閒運動, 2.3新聞文化"
+    const SECTIONS_23 = "3.1行車運輸, 3.2環境保護, 3.3廣告印刷, 3.4金融工商, 3.5事務文具, 3.6聲光影視, 3.7資訊通信, 3.8包裝服務"
+    const SECTIONS_24 = "4.1醫療保健, 4.2社會服務, 4.3公用事業"
+    const SECTIONS_25 = "汽車保養維修, 汽車輪胎, 機車維修 "
+
+    new Vue({
+      el: '#Menu-B1',
+      data: {
+        posts,
+        // results: [],
+        sections: SECTIONS_21.split(', '),
+        section: '1.1食品餐飲'
+      },
+      filter: {
+        formatted(value) {
+          return ' 以下是 ${value} 類別的貼文 '
+        }
+      },
+
+      computed: {
+        results() {
+          let posts = this.posts
+            .slice()
+            .filter(post => post.directory2 === this.section)
+          let i, j, chunkedArray = [], chunk = 150;
+          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+            chunkedArray[j] = posts.slice(i, i + chunk);
+          }
+          return chunkedArray
+        }
+      },
+
+      mounted() {
+        axios.get('db/A7XLK-4401-DepartmentStore.json').then((response) => {
+          this.posts = response.data;
+          this.getPostsByCategory(this.section)
+        }).catch(error => { console.log(error); });
+      },
+    });
+
+
+    new Vue({
+      el: '#Menu-B2',
+      data: {
+        posts,
+        // results: [],
+        sections: SECTIONS_22.split(', '),
+        section: '2.2休閒運動'
+      },
+      filter: {
+        formatted(value) {
+          return ' 以下是 ${value} 類別的貼文 '
+        }
+      },
+
+      computed: {
+        results() {
+          let posts = this.posts
+            .slice()
+            .filter(post => post.directory2 === this.section)
+          let i, j, chunkedArray = [], chunk = 150;
+          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+            chunkedArray[j] = posts.slice(i, i + chunk);
+          }
+          return chunkedArray
+        }
+      },
+
+      mounted() {
+        axios.get('db/A7XLK-4401-DepartmentStore.json').then((response) => {
+          this.posts = response.data;
+          this.getPostsByCategory(this.section)
+        }).catch(error => { console.log(error); });
+      },
+    });
+
+
+    new Vue({
+      el: '#Menu-B3',
+      data: {
+        posts,
+        // results: [],
+        sections: SECTIONS_23.split(', '),
+        section: '3.1行車運輸'
+      },
+      filter: {
+        formatted(value) {
+          return ' 以下是 ${value} 類別的貼文 '
+        }
+      },
+
+      computed: {
+        results() {
+          let posts = this.posts
+            .slice()
+            .filter(post => post.directory2 === this.section)
+          let i, j, chunkedArray = [], chunk = 150;
+          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+            chunkedArray[j] = posts.slice(i, i + chunk);
+          }
+          return chunkedArray
+        }
+      },
+
+      mounted() {
+        axios.get('db/A7XLK-4401-DepartmentStore.json').then((response) => {
+          this.posts = response.data;
+          this.getPostsByCategory(this.section)
+        }).catch(error => { console.log(error); });
+      },
+    });
+
+
+    new Vue({
+      el: '#Menu-B4',
+      data: {
+        posts,
+        // results: [],
+        sections: SECTIONS_24.split(', '),
+        section: '4.1醫療保健'
+      },
+      filter: {
+        formatted(value) {
+          return ' 以下是 ${value} 類別的貼文 '
+        }
+      },
+
+      computed: {
+        results() {
+          let posts = this.posts
+            .slice()
+            .filter(post => post.directory2 === this.section)
+          let i, j, chunkedArray = [], chunk = 150;
+          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+            chunkedArray[j] = posts.slice(i, i + chunk);
+          }
+          return chunkedArray
+        }
+      },
+
+      mounted() {
+        axios.get('db/A7XLK-4401-DepartmentStore.json').then((response) => {
+          this.posts = response.data;
+          this.getPostsByCategory(this.section)
+        }).catch(error => { console.log(error); });
+      },
+    });
+
+    new Vue({
+      el: '#Menu-B5',
+      data: {
+        posts,
+        // results: [],
+        sections: SECTIONS_25.split(', '),
+        section: '汽車保養維修'
+      },
+      filter: {
+        formatted(value) {
+          return ' 以下是 ${value} 類別的貼文 '
+        }
+      },
+
+      computed: {
+        results() {
+          let posts = this.posts
+            .slice()
+            .filter(post => post.directory3 === this.section)
+          let i, j, chunkedArray = [], chunk = 150;
+          for (i = 0, j = 0; i < posts.length; i += chunk, j++) {
+            chunkedArray[j] = posts.slice(i, i + chunk);
+          }
+          return chunkedArray
+        }
+      },
+
+      mounted() {
+        axios.get('db/A7XLK-4405-CarRepair.json').then((response) => {
+          this.posts = response.data;
+          this.getPostsByCategory(this.section)
+        }).catch(error => { console.log(error); });
+      },
+    });
+
+  </script>
+  <!-- InstanceEndEditable -->
+
+</body>
+
+<!-- InstanceEnd -->
+
+</html>
