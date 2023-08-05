@@ -1,0 +1,35 @@
+/*
+Theme Name:Child Theme for Divi
+Theme URI: https://wp-ninja.net
+Description: Child Theme For Divi
+Author: Eduard Ungureanu
+Author URI: https://wp-ninja.net
+Template: Divi
+*/
+
+/* Start your custom CSS bellow this comment
+============================================ */
+
+/*-----------------Menu Icons to Replace Text---------------- */
+ 
+.menu-cart a {
+    font-family: 'ETmodules';
+    font-size: 15px!important;
+}
+
+.menu-account a {
+    font-family: 'ETmodules';
+    font-size: 15px!important;
+}
+ 
+.et-cart-info {
+   display: none;
+}
+
+div.nsl-container-block .nsl-container-buttons a {
+ flex: 1 1 auto;
+ display: block;
+ margin: 0 auto;
+ max-width: 280px;
+ width: 100%;
+}

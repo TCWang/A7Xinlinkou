@@ -1,0 +1,1 @@
+$(function(){var t=$("#tp-blog .tp-blog-hot-item-title"),i=function(){var i=0;t.height("auto").each(function(){var t=$(this).height();t&&i<t&&(i=t)}).height(i)};i(),$(window).on("resize",i)});
